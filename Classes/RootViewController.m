@@ -2,7 +2,7 @@
 //  RootViewController.m
 //  Lavaman
 //
-//  Created by Todd Wanke on 10-10-29.
+//  Created by Jakub Dlugosz
 //  Copyright 2010 OHHI Ventures. All rights reserved.
 //
 
