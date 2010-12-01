@@ -29,7 +29,7 @@
 
 
 
--(void)addToCallendar:(RaceEventDetailsViewController*)redvc;
+-(void)HandleDetailWindow:(RaceEventDetailsViewController*)redvc;
 
 -(id)initWithRaceInfo:(NSArray*)ri;
 

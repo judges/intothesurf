@@ -18,7 +18,7 @@
 @synthesize Time;
 @synthesize Title;
 
-
+@synthesize success;
 @synthesize raceDay;
 @synthesize raceEvent;
 
@@ -40,6 +40,12 @@
 
 -(IBAction) AddToCallendar:(id)sender
 {
+	success=YES;
+	[owner performSelector:selector withObject:self];
+}
+-(IBAction) CloseWindow:(id)sender
+{
+	success=NO;
 	[owner performSelector:selector withObject:self];
 }
 /*

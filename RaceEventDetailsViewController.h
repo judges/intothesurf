@@ -25,7 +25,10 @@
 	SEL selector;
 	
 	NSDateFormatter* dateFormatter;
+	
+	BOOL success;
 }
+@property BOOL success;
 @property(nonatomic,readonly)	RaceDay *raceDay;
 @property(nonatomic,readonly)	RaceEvent *raceEvent;
 
@@ -38,5 +41,7 @@
 
 -(id)initWithRaceEvent:(RaceEvent*)re InRaceDay:(RaceDay*)rd  Owner:(id)own Selector:(SEL)sel;
 
+
+-(IBAction) CloseWindow:(id)sender;
 -(IBAction) AddToCallendar:(id)sender;
 @end

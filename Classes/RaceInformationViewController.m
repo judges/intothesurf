@@ -247,12 +247,20 @@
 	
 }
 
--(void)addToCallendar:(RaceEventDetailsViewController*)redvc
+-(void)HandleDetailWindow:(RaceEventDetailsViewController*)redvc
 {
-	UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@"Save Race Event in iCal?" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Save",nil];
-	
-	[actionSheet showInView:self.view];
-	singleEvent =YES;
+	if(redvc.success)
+	{
+		UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@"Save Race Event in iCal?" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Save",nil];
+		singleEvent =YES;
+		[actionSheet showInView:self.view];
+		
+	}
+	else
+	{
+		[self disposeCurrentDetails];
+	}
+
 }
 
 
@@ -267,7 +275,7 @@
 										   initWithRaceEvent:revc.raceEvent
 										   InRaceDay:revc.raceDay
 										   Owner:self 
-										   Selector:@selector(addToCallendar:)];
+										   Selector:@selector(HandleDetailWindow:)];
 	
 	
 		
