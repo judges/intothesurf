@@ -197,7 +197,48 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>6AE4EFF712A8267B00997657</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>RaceInformationCreator.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>6AE4EFF812A8267B00997657</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>RaceInformationCreator.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>6AE4F00012A82E1800997657</string>
+						<key>history</key>
+						<array>
+							<string>6AE4EFF212A8267400997657</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1220, 613}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>15 119 1220 654 0 0 1280 778 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -267,15 +308,14 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>6EF7888E129406D60089BEC6</string>
-								<string>6EF78892129406EF0089BEC6</string>
 								<string>6EF78890129406E20089BEC6</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>19</integer>
-									<integer>2</integer>
+									<integer>10</integer>
+									<integer>4</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -328,12 +368,12 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>6AE4EFEB12A765DA00997657</string>
+										<string>6AE4EFFF12A82E1800997657</string>
 										<key>history</key>
 										<array>
 											<string>6AE4EFBF12A75E0600997657</string>
 											<string>6AE4EFC012A75E0600997657</string>
-											<string>6AE4EFC212A75E0600997657</string>
+											<string>6AE4EFF312A8267B00997657</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -345,14 +385,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {463, 232}}</string>
+								<string>{{0, 0}, {463, 222}}</string>
 								<key>RubberWindowFrame</key>
 								<string>101 158 788 504 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>232pt</string>
+							<string>222pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -365,14 +405,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 237}, {463, 226}}</string>
+								<string>{{0, 227}, {463, 236}}</string>
 								<key>RubberWindowFrame</key>
 								<string>101 158 788 504 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>226pt</string>
+							<string>236pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -391,9 +431,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>6AE4EFD612A7643800997657</string>
+				<string>6AE4EFF512A8267B00997657</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>6AE4EFD712A7643800997657</string>
+				<string>6AE4EFF612A8267B00997657</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -535,6 +575,7 @@
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>6A96907C12A4460A00B93867</string>
 		<string>/Users/t2mann/Desktop/iPhone Applications/Lavaman/Lavaman.xcodeproj</string>
+		<string>6AE4EFF712A8267B00997657</string>
 	</array>
 	<key>WindowString</key>
 	<string>101 158 788 504 0 0 1280 778 </string>
@@ -614,7 +655,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>6A96907C12A4460A00B93867</string>
-				<string>6AE4EFD812A7643800997657</string>
+				<string>6AE4EFFA12A8267B00997657</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -736,13 +777,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>6AE4EFD912A7643800997657</string>
+				<string>6AE4F00112A82E1800997657</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>6AE4EFDA12A7643800997657</string>
-				<string>6AE4EFDB12A7643800997657</string>
-				<string>6AE4EFDC12A7643800997657</string>
-				<string>6AE4EFDD12A7643800997657</string>
-				<string>6AE4EFDE12A7643800997657</string>
+				<string>6AE4F00212A82E1800997657</string>
+				<string>6AE4F00312A82E1800997657</string>
+				<string>6AE4F00412A82E1800997657</string>
+				<string>6AE4F00512A82E1800997657</string>
+				<string>6AE4F00612A82E1800997657</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -904,7 +945,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>6AE4EFDF12A7643800997657</string>
+				<string>6AE4F00712A82E1800997657</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

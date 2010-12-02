@@ -32,7 +32,7 @@
 	dayArray =[[[NSMutableArray alloc]init] autorelease];
 	
 	eventArray=[[[NSMutableArray alloc]init] autorelease];
-	[eventArray addObject:[RaceEvent RaceEventWithTitle:@"Bike check-in" Location:@"HQ" TimeFrom:[dateFormatter dateFromString:@"2011-04-03 07:00:00"] TimeTo:[dateFormatter dateFromString:@"2011-04-03 8:00:00"]]];
+	[eventArray addObject:[RaceEvent RaceEventWithTitle:@"Bike check-in at the hotel to see all the other people doing the race" Location:@"HQ" TimeFrom:[dateFormatter dateFromString:@"2011-04-03 07:00:00"] TimeTo:[dateFormatter dateFromString:@"2011-04-03 8:00:00"]]];
 	[eventArray addObject:[RaceEvent RaceEventWithTitle:@"Mandatory Meeting" Location:@"Beach" TimeFrom:[dateFormatter dateFromString:@"2011-04-03 10:00:00"] TimeTo:[dateFormatter dateFromString:@"2011-04-03 11:15:00"]]];
 	[eventArray addObject:[RaceEvent RaceEventWithTitle:@"Eat something" Location:nil TimeFrom:[dateFormatter dateFromString:@"2011-04-03 13:00:00"] TimeTo:nil]];
 	
