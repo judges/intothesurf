@@ -13,6 +13,32 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		6AE4F02912A8333900997657 /* bike.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F01912A8333900997657 /* bike.png */; };
+		6AE4F02A12A8333900997657 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F01A12A8333900997657 /* camera.png */; };
+		6AE4F02D12A8333900997657 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F01D12A8333900997657 /* gear.png */; };
+		6AE4F02E12A8333900997657 /* hotel_bed.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F01E12A8333900997657 /* hotel_bed.png */; };
+		6AE4F02F12A8333900997657 /* ical.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F01F12A8333900997657 /* ical.png */; };
+		6AE4F03012A8333900997657 /* Lavaman1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F02012A8333900997657 /* Lavaman1.jpg */; };
+		6AE4F03112A8333900997657 /* list-add.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F02112A8333900997657 /* list-add.png */; };
+		6AE4F03212A8333900997657 /* places.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F02212A8333900997657 /* places.png */; };
+		6AE4F03512A8333900997657 /* RESULTS.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F02512A8333900997657 /* RESULTS.png */; };
+		6AE4F03612A8333900997657 /* stop-watch.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F02612A8333900997657 /* stop-watch.png */; };
+		6AE4F04B12A8336300997657 /* Lavaman.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F04012A8336300997657 /* Lavaman.png */; };
+		6AE4F04C12A8336300997657 /* oomph.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F04112A8336300997657 /* oomph.PNG */; };
+		6AE4F04D12A8336300997657 /* RaceDirector.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F04212A8336300997657 /* RaceDirector.png */; };
+		6AE4F06312A8338700997657 /* coca_cola.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F05412A8338700997657 /* coca_cola.jpg */; };
+		6AE4F06412A8338700997657 /* hammer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F05512A8338700997657 /* hammer.jpg */; };
+		6AE4F06512A8338700997657 /* hawaiiphotoman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F05612A8338700997657 /* hawaiiphotoman.jpg */; };
+		6AE4F06612A8338700997657 /* hilton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F05712A8338700997657 /* hilton.jpg */; };
+		6AE4F06812A8338700997657 /* HolidayInn.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F05912A8338700997657 /* HolidayInn.JPG */; };
+		6AE4F06A12A8338700997657 /* konabrew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F05B12A8338700997657 /* konabrew.jpg */; };
+		6AE4F06C12A8338700997657 /* mcdonalds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F05D12A8338700997657 /* mcdonalds.jpg */; };
+		6AE4F06E12A8338700997657 /* starbucks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F05F12A8338700997657 /* starbucks.jpg */; };
+		6AE4F07012A8338700997657 /* xterra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F06112A8338700997657 /* xterra.jpg */; };
+		6AE4F08612A833DA00997657 /* black_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F08212A833DA00997657 /* black_button.png */; };
+		6AE4F08712A833DA00997657 /* But_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F08312A833DA00997657 /* But_5.png */; };
+		6AE4F08812A833DA00997657 /* button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F08412A833DA00997657 /* button_down.png */; };
+		6AE4F08912A833DA00997657 /* button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F08512A833DA00997657 /* button_up.png */; };
 		6E154358127B5B4F00C97C88 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E154356127B5B4F00C97C88 /* RootViewController.m */; };
 		6E154359127B5B4F00C97C88 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E154357127B5B4F00C97C88 /* RootViewController.xib */; };
 		6E154377127B5E6300C97C88 /* RegistrationResultsPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E154375127B5E6300C97C88 /* RegistrationResultsPhotos.m */; };
@@ -22,8 +48,6 @@
 		6E4B3BB01289A7A2003658B1 /* lavamanbackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B3BAE1289A7A2003658B1 /* lavamanbackground.jpg */; };
 		6E4B3D3B1289E2E2003658B1 /* lavaman_title.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B3D3A1289E2E2003658B1 /* lavaman_title.png */; };
 		6E4B3D971289E733003658B1 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4B3D961289E733003658B1 /* EventKit.framework */; };
-		6E4B3F57128B3577003658B1 /* button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B3F55128B3577003658B1 /* button_down.png */; };
-		6E4B3F58128B3577003658B1 /* button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B3F56128B3577003658B1 /* button_up.png */; };
 		6E4B3FBD128B3F66003658B1 /* ical_38.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B3FBC128B3F66003658B1 /* ical_38.png */; };
 		6E4B3FD1128B408E003658B1 /* ical_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B3FD0128B408E003658B1 /* ical_30.png */; };
 		6E4B3FD4128B4108003658B1 /* ical_26.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B3FD3128B4108003658B1 /* ical_26.png */; };
@@ -37,17 +61,6 @@
 		6E507EB91281D9DE004D3212 /* TrainingToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E507EB71281D9DE004D3212 /* TrainingToolsViewController.m */; };
 		6E507EBA1281D9DE004D3212 /* TrainingToolsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E507EB81281D9DE004D3212 /* TrainingToolsViewController.xib */; };
 		6E507F081281DECD004D3212 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E507F071281DECD004D3212 /* mail.png */; };
-		6E67B65712A7870C00704F98 /* bikeworks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B64D12A7870C00704F98 /* bikeworks.jpg */; };
-		6E67B65812A7870C00704F98 /* hammer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B64E12A7870C00704F98 /* hammer.jpg */; };
-		6E67B65912A7870C00704F98 /* hawaiiphotoman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B64F12A7870C00704F98 /* hawaiiphotoman.jpg */; };
-		6E67B65A12A7870C00704F98 /* hilton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B65012A7870C00704F98 /* hilton.jpg */; };
-		6E67B65B12A7870C00704F98 /* karolina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B65112A7870C00704F98 /* karolina.jpg */; };
-		6E67B65C12A7870C00704F98 /* konabrew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B65212A7870C00704F98 /* konabrew.jpg */; };
-		6E67B65D12A7870C00704F98 /* luis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B65312A7870C00704F98 /* luis.jpg */; };
-		6E67B65E12A7870C00704F98 /* starbucks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B65412A7870C00704F98 /* starbucks.jpg */; };
-		6E67B65F12A7870C00704F98 /* todd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B65512A7870C00704F98 /* todd.jpg */; };
-		6E67B66012A7870C00704F98 /* xterra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B65612A7870C00704F98 /* xterra.jpg */; };
-		6E9A97FD1299094000E3BB4B /* black_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E9A97FC1299094000E3BB4B /* black_button.png */; };
 		6E9A98411299116400E3BB4B /* white_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E9A98401299116400E3BB4B /* white_button.png */; };
 		6E9A98A512993EEC00E3BB4B /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9A98A412993EEC00E3BB4B /* iAd.framework */; };
 		6EB8E01D127DDB1A00469C33 /* MessageList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8E01B127DDB1A00469C33 /* MessageList.m */; };
@@ -61,18 +74,10 @@
 		6EB8E2D51280758A00469C33 /* TravelActivitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8E2D31280758A00469C33 /* TravelActivitiesViewController.m */; };
 		6EB8E2D61280758A00469C33 /* TravelActivitiesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EB8E2D41280758A00469C33 /* TravelActivitiesViewController.xib */; };
 		6EB8E307128078C900469C33 /* TravelActivitiesCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8E306128078C900469C33 /* TravelActivitiesCreator.m */; };
-		6EB8E32412807AB300469C33 /* bicycle.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EB8E32112807AB300469C33 /* bicycle.png */; };
-		6EB8E32512807AB300469C33 /* cart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EB8E32212807AB300469C33 /* cart.jpg */; };
-		6EB8E32612807AB300469C33 /* food.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6EB8E32312807AB300469C33 /* food.jpeg */; };
 		6EB8E37B12807E0B00469C33 /* ItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8E37912807E0B00469C33 /* ItemViewController.m */; };
 		6EB8E37C12807E0B00469C33 /* ItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EB8E37A12807E0B00469C33 /* ItemViewController.xib */; };
 		6EB8E3BA128083ED00469C33 /* ItemsToDoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8E3B8128083ED00469C33 /* ItemsToDoViewController.m */; };
 		6EB8E3BB128083ED00469C33 /* ItemsToDoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EB8E3B9128083ED00469C33 /* ItemsToDoViewController.xib */; };
-		6EB8E3F41280871A00469C33 /* coca_cola.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EB8E3EF1280871A00469C33 /* coca_cola.jpg */; };
-		6EB8E3F51280871A00469C33 /* hilton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EB8E3F01280871A00469C33 /* hilton.jpg */; };
-		6EB8E3F61280871A00469C33 /* Holiday_Inn_1_square.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6EB8E3F11280871A00469C33 /* Holiday_Inn_1_square.JPG */; };
-		6EB8E3F71280871A00469C33 /* nat_mcdonalds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EB8E3F21280871A00469C33 /* nat_mcdonalds.jpg */; };
-		6EB8E3F81280871A00469C33 /* starbucks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EB8E3F31280871A00469C33 /* starbucks.jpg */; };
 		6EB8E4471281BC2700469C33 /* RaceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8E4461281BC2700469C33 /* RaceInfo.m */; };
 		6EB8E44A1281BC8500469C33 /* RaceDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8E4491281BC8500469C33 /* RaceDay.m */; };
 		6EB8E44D1281BCB900469C33 /* RaceEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8E44C1281BCB900469C33 /* RaceEvent.m */; };
@@ -80,7 +85,6 @@
 		6EB8E46C1281C23300469C33 /* RaceInformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EB8E46A1281C23300469C33 /* RaceInformationViewController.xib */; };
 		6EB8E46F1281C2AA00469C33 /* RaceInformationCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8E46E1281C2AA00469C33 /* RaceInformationCreator.m */; };
 		6EF784EA1291B2910089BEC6 /* calc.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EF784E71291B2910089BEC6 /* calc.png */; };
-		6EF784EB1291B2910089BEC6 /* cam.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EF784E81291B2910089BEC6 /* cam.png */; };
 		6EF784EC1291B2910089BEC6 /* watch.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EF784E91291B2910089BEC6 /* watch.png */; };
 		6EF784FE1291B3B70089BEC6 /* CustomButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF784FC1291B3B70089BEC6 /* CustomButtonViewController.m */; };
 		6EF784FF1291B3B70089BEC6 /* CustomButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EF784FD1291B3B70089BEC6 /* CustomButtonViewController.xib */; };
@@ -90,9 +94,7 @@
 		6EF7872C12932CE00089BEC6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF7872B12932CE00089BEC6 /* MapKit.framework */; };
 		6EF7873512932DD60089BEC6 /* AddressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF7873412932DD60089BEC6 /* AddressAnnotation.m */; };
 		6EF788761293FE0F0089BEC6 /* activities_category.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EF788721293FE0F0089BEC6 /* activities_category.png */; };
-		6EF788771293FE0F0089BEC6 /* food_category.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EF788731293FE0F0089BEC6 /* food_category.png */; };
 		6EF788781293FE0F0089BEC6 /* places_category.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EF788741293FE0F0089BEC6 /* places_category.png */; };
-		6EF788791293FE0F0089BEC6 /* shopping_category.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EF788751293FE0F0089BEC6 /* shopping_category.png */; };
 		6EF7890512940F870089BEC6 /* CustomButtonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF7890412940F870089BEC6 /* CustomButtonData.m */; };
 		6EF78D9212983FD60089BEC6 /* RaceEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF78D9012983FD60089BEC6 /* RaceEventViewController.m */; };
 		6EF78D9312983FD60089BEC6 /* RaceEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EF78D9112983FD60089BEC6 /* RaceEventViewController.xib */; };
@@ -110,6 +112,32 @@
 		28A0AAE50D9B0CCF005BE974 /* Lavaman_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lavaman_Prefix.pch; sourceTree = "<group>"; };
 		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6AE4F01912A8333900997657 /* bike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bike.png; path = images/bike.png; sourceTree = "<group>"; };
+		6AE4F01A12A8333900997657 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camera.png; path = images/camera.png; sourceTree = "<group>"; };
+		6AE4F01D12A8333900997657 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gear.png; path = images/gear.png; sourceTree = "<group>"; };
+		6AE4F01E12A8333900997657 /* hotel_bed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hotel_bed.png; path = images/hotel_bed.png; sourceTree = "<group>"; };
+		6AE4F01F12A8333900997657 /* ical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ical.png; path = images/ical.png; sourceTree = "<group>"; };
+		6AE4F02012A8333900997657 /* Lavaman1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Lavaman1.jpg; path = images/Lavaman1.jpg; sourceTree = "<group>"; };
+		6AE4F02112A8333900997657 /* list-add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list-add.png"; path = "images/list-add.png"; sourceTree = "<group>"; };
+		6AE4F02212A8333900997657 /* places.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = places.png; path = images/places.png; sourceTree = "<group>"; };
+		6AE4F02512A8333900997657 /* RESULTS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RESULTS.png; path = images/RESULTS.png; sourceTree = "<group>"; };
+		6AE4F02612A8333900997657 /* stop-watch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "stop-watch.png"; path = "images/stop-watch.png"; sourceTree = "<group>"; };
+		6AE4F04012A8336300997657 /* Lavaman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Lavaman.png; path = logo/Lavaman.png; sourceTree = "<group>"; };
+		6AE4F04112A8336300997657 /* oomph.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oomph.PNG; path = ../../logo/oomph.PNG; sourceTree = "<group>"; };
+		6AE4F04212A8336300997657 /* RaceDirector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RaceDirector.png; path = logo/RaceDirector.png; sourceTree = "<group>"; };
+		6AE4F05412A8338700997657 /* coca_cola.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coca_cola.jpg; sourceTree = "<group>"; };
+		6AE4F05512A8338700997657 /* hammer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hammer.jpg; sourceTree = "<group>"; };
+		6AE4F05612A8338700997657 /* hawaiiphotoman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hawaiiphotoman.jpg; sourceTree = "<group>"; };
+		6AE4F05712A8338700997657 /* hilton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hilton.jpg; sourceTree = "<group>"; };
+		6AE4F05912A8338700997657 /* HolidayInn.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HolidayInn.JPG; sourceTree = "<group>"; };
+		6AE4F05B12A8338700997657 /* konabrew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = konabrew.jpg; sourceTree = "<group>"; };
+		6AE4F05D12A8338700997657 /* mcdonalds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mcdonalds.jpg; sourceTree = "<group>"; };
+		6AE4F05F12A8338700997657 /* starbucks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starbucks.jpg; sourceTree = "<group>"; };
+		6AE4F06112A8338700997657 /* xterra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xterra.jpg; sourceTree = "<group>"; };
+		6AE4F08212A833DA00997657 /* black_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black_button.png; sourceTree = "<group>"; };
+		6AE4F08312A833DA00997657 /* But_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = But_5.png; sourceTree = "<group>"; };
+		6AE4F08412A833DA00997657 /* button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_down.png; sourceTree = "<group>"; };
+		6AE4F08512A833DA00997657 /* button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_up.png; sourceTree = "<group>"; };
 		6E154355127B5B4F00C97C88 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = Classes/RootViewController.h; sourceTree = "<group>"; };
 		6E154356127B5B4F00C97C88 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = Classes/RootViewController.m; sourceTree = "<group>"; };
 		6E154357127B5B4F00C97C88 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RootViewController.xib; path = Classes/RootViewController.xib; sourceTree = "<group>"; };
@@ -121,8 +149,6 @@
 		6E4B3BAE1289A7A2003658B1 /* lavamanbackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lavamanbackground.jpg; path = images/lavamanbackground.jpg; sourceTree = "<group>"; };
 		6E4B3D3A1289E2E2003658B1 /* lavaman_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lavaman_title.png; path = images/lavaman_title.png; sourceTree = "<group>"; };
 		6E4B3D961289E733003658B1 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
-		6E4B3F55128B3577003658B1 /* button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_down.png; path = images/button_down.png; sourceTree = "<group>"; };
-		6E4B3F56128B3577003658B1 /* button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_up.png; path = images/button_up.png; sourceTree = "<group>"; };
 		6E4B3FBC128B3F66003658B1 /* ical_38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ical_38.png; path = images/ical_38.png; sourceTree = "<group>"; };
 		6E4B3FD0128B408E003658B1 /* ical_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ical_30.png; path = images/ical_30.png; sourceTree = "<group>"; };
 		6E4B3FD3128B4108003658B1 /* ical_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ical_26.png; path = images/ical_26.png; sourceTree = "<group>"; };
@@ -141,18 +167,7 @@
 		6E507EB71281D9DE004D3212 /* TrainingToolsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrainingToolsViewController.m; path = Classes/TrainingToolsViewController.m; sourceTree = "<group>"; };
 		6E507EB81281D9DE004D3212 /* TrainingToolsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TrainingToolsViewController.xib; path = Classes/TrainingToolsViewController.xib; sourceTree = "<group>"; };
 		6E507F071281DECD004D3212 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mail.png; path = images/mail.png; sourceTree = "<group>"; };
-		6E67B64D12A7870C00704F98 /* bikeworks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bikeworks.jpg; path = Sponsors/Sponsors/bikeworks.jpg; sourceTree = "<group>"; };
-		6E67B64E12A7870C00704F98 /* hammer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hammer.jpg; path = Sponsors/Sponsors/hammer.jpg; sourceTree = "<group>"; };
-		6E67B64F12A7870C00704F98 /* hawaiiphotoman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hawaiiphotoman.jpg; path = Sponsors/Sponsors/hawaiiphotoman.jpg; sourceTree = "<group>"; };
-		6E67B65012A7870C00704F98 /* hilton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hilton.jpg; path = Sponsors/Sponsors/hilton.jpg; sourceTree = "<group>"; };
-		6E67B65112A7870C00704F98 /* karolina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = karolina.jpg; path = Sponsors/Sponsors/karolina.jpg; sourceTree = "<group>"; };
-		6E67B65212A7870C00704F98 /* konabrew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = konabrew.jpg; path = Sponsors/Sponsors/konabrew.jpg; sourceTree = "<group>"; };
-		6E67B65312A7870C00704F98 /* luis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = luis.jpg; path = Sponsors/Sponsors/luis.jpg; sourceTree = "<group>"; };
-		6E67B65412A7870C00704F98 /* starbucks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = starbucks.jpg; path = Sponsors/Sponsors/starbucks.jpg; sourceTree = "<group>"; };
-		6E67B65512A7870C00704F98 /* todd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = todd.jpg; path = Sponsors/Sponsors/todd.jpg; sourceTree = "<group>"; };
-		6E67B65612A7870C00704F98 /* xterra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = xterra.jpg; path = Sponsors/Sponsors/xterra.jpg; sourceTree = "<group>"; };
-		6E9A97FC1299094000E3BB4B /* black_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black_button.png; path = images/black_button.png; sourceTree = "<group>"; };
-		6E9A98401299116400E3BB4B /* white_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_button.png; path = images/white_button.png; sourceTree = "<group>"; };
+		6E9A98401299116400E3BB4B /* white_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_button.png; path = ../images/white_button.png; sourceTree = "<group>"; };
 		6E9A98A412993EEC00E3BB4B /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		6EB8E01A127DDB1A00469C33 /* MessageList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageList.h; path = Classes/MessageList.h; sourceTree = "<group>"; };
 		6EB8E01B127DDB1A00469C33 /* MessageList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageList.m; path = Classes/MessageList.m; sourceTree = "<group>"; };
@@ -173,20 +188,12 @@
 		6EB8E2D41280758A00469C33 /* TravelActivitiesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TravelActivitiesViewController.xib; path = Classes/TravelActivitiesViewController.xib; sourceTree = "<group>"; };
 		6EB8E305128078C900469C33 /* TravelActivitiesCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelActivitiesCreator.h; sourceTree = "<group>"; };
 		6EB8E306128078C900469C33 /* TravelActivitiesCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelActivitiesCreator.m; sourceTree = "<group>"; };
-		6EB8E32112807AB300469C33 /* bicycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bicycle.png; path = images/bicycle.png; sourceTree = "<group>"; };
-		6EB8E32212807AB300469C33 /* cart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cart.jpg; path = images/cart.jpg; sourceTree = "<group>"; };
-		6EB8E32312807AB300469C33 /* food.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = food.jpeg; path = images/food.jpeg; sourceTree = "<group>"; };
 		6EB8E37812807E0B00469C33 /* ItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemViewController.h; path = Classes/ItemViewController.h; sourceTree = "<group>"; };
 		6EB8E37912807E0B00469C33 /* ItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemViewController.m; path = Classes/ItemViewController.m; sourceTree = "<group>"; };
 		6EB8E37A12807E0B00469C33 /* ItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ItemViewController.xib; path = Classes/ItemViewController.xib; sourceTree = "<group>"; };
 		6EB8E3B7128083ED00469C33 /* ItemsToDoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemsToDoViewController.h; path = Classes/ItemsToDoViewController.h; sourceTree = "<group>"; };
 		6EB8E3B8128083ED00469C33 /* ItemsToDoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemsToDoViewController.m; path = Classes/ItemsToDoViewController.m; sourceTree = "<group>"; };
 		6EB8E3B9128083ED00469C33 /* ItemsToDoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ItemsToDoViewController.xib; path = Classes/ItemsToDoViewController.xib; sourceTree = "<group>"; };
-		6EB8E3EF1280871A00469C33 /* coca_cola.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = coca_cola.jpg; path = images/coca_cola.jpg; sourceTree = "<group>"; };
-		6EB8E3F01280871A00469C33 /* hilton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hilton.jpg; path = images/hilton.jpg; sourceTree = "<group>"; };
-		6EB8E3F11280871A00469C33 /* Holiday_Inn_1_square.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Holiday_Inn_1_square.JPG; path = images/Holiday_Inn_1_square.JPG; sourceTree = "<group>"; };
-		6EB8E3F21280871A00469C33 /* nat_mcdonalds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nat_mcdonalds.jpg; path = images/nat_mcdonalds.jpg; sourceTree = "<group>"; };
-		6EB8E3F31280871A00469C33 /* starbucks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = starbucks.jpg; path = images/starbucks.jpg; sourceTree = "<group>"; };
 		6EB8E4451281BC2700469C33 /* RaceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaceInfo.h; sourceTree = "<group>"; };
 		6EB8E4461281BC2700469C33 /* RaceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaceInfo.m; sourceTree = "<group>"; };
 		6EB8E4481281BC8500469C33 /* RaceDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaceDay.h; sourceTree = "<group>"; };
@@ -199,7 +206,6 @@
 		6EB8E46D1281C2AA00469C33 /* RaceInformationCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaceInformationCreator.h; sourceTree = "<group>"; };
 		6EB8E46E1281C2AA00469C33 /* RaceInformationCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaceInformationCreator.m; sourceTree = "<group>"; };
 		6EF784E71291B2910089BEC6 /* calc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calc.png; path = images/calc.png; sourceTree = "<group>"; };
-		6EF784E81291B2910089BEC6 /* cam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cam.png; path = images/cam.png; sourceTree = "<group>"; };
 		6EF784E91291B2910089BEC6 /* watch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = watch.png; path = images/watch.png; sourceTree = "<group>"; };
 		6EF784FB1291B3B70089BEC6 /* CustomButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomButtonViewController.h; path = Classes/CustomButtonViewController.h; sourceTree = "<group>"; };
 		6EF784FC1291B3B70089BEC6 /* CustomButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomButtonViewController.m; path = Classes/CustomButtonViewController.m; sourceTree = "<group>"; };
@@ -212,9 +218,7 @@
 		6EF7873312932DD60089BEC6 /* AddressAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressAnnotation.h; sourceTree = "<group>"; };
 		6EF7873412932DD60089BEC6 /* AddressAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressAnnotation.m; sourceTree = "<group>"; };
 		6EF788721293FE0F0089BEC6 /* activities_category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = activities_category.png; path = images/activities_category.png; sourceTree = "<group>"; };
-		6EF788731293FE0F0089BEC6 /* food_category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = food_category.png; path = images/food_category.png; sourceTree = "<group>"; };
 		6EF788741293FE0F0089BEC6 /* places_category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = places_category.png; path = images/places_category.png; sourceTree = "<group>"; };
-		6EF788751293FE0F0089BEC6 /* shopping_category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shopping_category.png; path = images/shopping_category.png; sourceTree = "<group>"; };
 		6EF7890312940F870089BEC6 /* CustomButtonData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButtonData.h; sourceTree = "<group>"; };
 		6EF7890412940F870089BEC6 /* CustomButtonData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButtonData.m; sourceTree = "<group>"; };
 		6EF78D8F12983FD60089BEC6 /* RaceEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaceEventViewController.h; sourceTree = "<group>"; };
@@ -277,6 +281,14 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6AE4F04012A8336300997657 /* Lavaman.png */,
+				6AE4F04212A8336300997657 /* RaceDirector.png */,
+				6AE4F02012A8333900997657 /* Lavaman1.jpg */,
+				6E4B3D3A1289E2E2003658B1 /* lavaman_title.png */,
+				6E4B3BAE1289A7A2003658B1 /* lavamanbackground.jpg */,
+				6E4B3B6D128329B8003658B1 /* main_logo.jpg */,
+				6AE4F08112A833DA00997657 /* buttons */,
+				6AE4F05212A8338700997657 /* Sponsors */,
 				6EF7888D129406CF0089BEC6 /* Xml */,
 				6EB8E32012807AA300469C33 /* Images */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
@@ -298,46 +310,57 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6AE4F05212A8338700997657 /* Sponsors */ = {
+			isa = PBXGroup;
+			children = (
+				6AE4F04112A8336300997657 /* oomph.PNG */,
+				6AE4F05412A8338700997657 /* coca_cola.jpg */,
+				6AE4F05512A8338700997657 /* hammer.jpg */,
+				6AE4F05612A8338700997657 /* hawaiiphotoman.jpg */,
+				6AE4F05712A8338700997657 /* hilton.jpg */,
+				6AE4F05912A8338700997657 /* HolidayInn.JPG */,
+				6AE4F05B12A8338700997657 /* konabrew.jpg */,
+				6AE4F05D12A8338700997657 /* mcdonalds.jpg */,
+				6AE4F05F12A8338700997657 /* starbucks.jpg */,
+				6AE4F06112A8338700997657 /* xterra.jpg */,
+			);
+			name = Sponsors;
+			path = Sponsors/Sponsors;
+			sourceTree = "<group>";
+		};
+		6AE4F08112A833DA00997657 /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				6E9A98401299116400E3BB4B /* white_button.png */,
+				6AE4F08212A833DA00997657 /* black_button.png */,
+				6AE4F08312A833DA00997657 /* But_5.png */,
+				6AE4F08412A833DA00997657 /* button_down.png */,
+				6AE4F08512A833DA00997657 /* button_up.png */,
+			);
+			path = buttons;
+			sourceTree = "<group>";
+		};
 		6EB8E32012807AA300469C33 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				6E67B64D12A7870C00704F98 /* bikeworks.jpg */,
-				6E67B64E12A7870C00704F98 /* hammer.jpg */,
-				6E67B64F12A7870C00704F98 /* hawaiiphotoman.jpg */,
-				6E67B65012A7870C00704F98 /* hilton.jpg */,
-				6E67B65112A7870C00704F98 /* karolina.jpg */,
-				6E67B65212A7870C00704F98 /* konabrew.jpg */,
-				6E67B65312A7870C00704F98 /* luis.jpg */,
-				6E67B65412A7870C00704F98 /* starbucks.jpg */,
-				6E67B65512A7870C00704F98 /* todd.jpg */,
-				6E67B65612A7870C00704F98 /* xterra.jpg */,
-				6E9A98401299116400E3BB4B /* white_button.png */,
-				6E9A97FC1299094000E3BB4B /* black_button.png */,
+				6AE4F01912A8333900997657 /* bike.png */,
+				6AE4F01A12A8333900997657 /* camera.png */,
+				6AE4F01F12A8333900997657 /* ical.png */,
+				6AE4F01D12A8333900997657 /* gear.png */,
+				6AE4F01E12A8333900997657 /* hotel_bed.png */,
+				6AE4F02112A8333900997657 /* list-add.png */,
+				6AE4F02212A8333900997657 /* places.png */,
+				6AE4F02512A8333900997657 /* RESULTS.png */,
+				6AE4F02612A8333900997657 /* stop-watch.png */,
 				6EF788721293FE0F0089BEC6 /* activities_category.png */,
-				6EF788731293FE0F0089BEC6 /* food_category.png */,
 				6EF788741293FE0F0089BEC6 /* places_category.png */,
-				6EF788751293FE0F0089BEC6 /* shopping_category.png */,
 				6EF786631291C8C30089BEC6 /* mail_new.png */,
 				6EF784E71291B2910089BEC6 /* calc.png */,
-				6EF784E81291B2910089BEC6 /* cam.png */,
 				6EF784E91291B2910089BEC6 /* watch.png */,
 				6E4B3FD3128B4108003658B1 /* ical_26.png */,
 				6E4B3FD0128B408E003658B1 /* ical_30.png */,
 				6E4B3FBC128B3F66003658B1 /* ical_38.png */,
-				6E4B3F55128B3577003658B1 /* button_down.png */,
-				6E4B3F56128B3577003658B1 /* button_up.png */,
-				6E4B3D3A1289E2E2003658B1 /* lavaman_title.png */,
-				6E4B3BAE1289A7A2003658B1 /* lavamanbackground.jpg */,
-				6E4B3B6D128329B8003658B1 /* main_logo.jpg */,
 				6E507F071281DECD004D3212 /* mail.png */,
-				6EB8E3EF1280871A00469C33 /* coca_cola.jpg */,
-				6EB8E3F01280871A00469C33 /* hilton.jpg */,
-				6EB8E3F11280871A00469C33 /* Holiday_Inn_1_square.JPG */,
-				6EB8E3F21280871A00469C33 /* nat_mcdonalds.jpg */,
-				6EB8E3F31280871A00469C33 /* starbucks.jpg */,
-				6EB8E32112807AB300469C33 /* bicycle.png */,
-				6EB8E32212807AB300469C33 /* cart.jpg */,
-				6EB8E32312807AB300469C33 /* food.jpeg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -516,24 +539,14 @@
 				6EB8E01E127DDB1A00469C33 /* MessageList.xib in Resources */,
 				6EB8E27A12806BBA00469C33 /* CategoryViewController.xib in Resources */,
 				6EB8E2D61280758A00469C33 /* TravelActivitiesViewController.xib in Resources */,
-				6EB8E32412807AB300469C33 /* bicycle.png in Resources */,
-				6EB8E32512807AB300469C33 /* cart.jpg in Resources */,
-				6EB8E32612807AB300469C33 /* food.jpeg in Resources */,
 				6EB8E37C12807E0B00469C33 /* ItemViewController.xib in Resources */,
 				6EB8E3BB128083ED00469C33 /* ItemsToDoViewController.xib in Resources */,
-				6EB8E3F41280871A00469C33 /* coca_cola.jpg in Resources */,
-				6EB8E3F51280871A00469C33 /* hilton.jpg in Resources */,
-				6EB8E3F61280871A00469C33 /* Holiday_Inn_1_square.JPG in Resources */,
-				6EB8E3F71280871A00469C33 /* nat_mcdonalds.jpg in Resources */,
-				6EB8E3F81280871A00469C33 /* starbucks.jpg in Resources */,
 				6EB8E46C1281C23300469C33 /* RaceInformationViewController.xib in Resources */,
 				6E507EBA1281D9DE004D3212 /* TrainingToolsViewController.xib in Resources */,
 				6E507F081281DECD004D3212 /* mail.png in Resources */,
 				6E4B3B6E128329B8003658B1 /* main_logo.jpg in Resources */,
 				6E4B3BB01289A7A2003658B1 /* lavamanbackground.jpg in Resources */,
 				6E4B3D3B1289E2E2003658B1 /* lavaman_title.png in Resources */,
-				6E4B3F57128B3577003658B1 /* button_down.png in Resources */,
-				6E4B3F58128B3577003658B1 /* button_up.png in Resources */,
 				6E4B3FBD128B3F66003658B1 /* ical_38.png in Resources */,
 				6E4B3FD1128B408E003658B1 /* ical_30.png in Resources */,
 				6E4B3FD4128B4108003658B1 /* ical_26.png in Resources */,
@@ -541,29 +554,41 @@
 				6E4B4193128C0EF4003658B1 /* NewsDetailViewController.xib in Resources */,
 				6E4B4220128C23D4003658B1 /* PasteCalculatorViewController.xib in Resources */,
 				6EF784EA1291B2910089BEC6 /* calc.png in Resources */,
-				6EF784EB1291B2910089BEC6 /* cam.png in Resources */,
 				6EF784EC1291B2910089BEC6 /* watch.png in Resources */,
 				6EF784FF1291B3B70089BEC6 /* CustomButtonViewController.xib in Resources */,
 				6EF786641291C8C30089BEC6 /* mail_new.png in Resources */,
 				6EF7870A12932A430089BEC6 /* ItemMapViewController.xib in Resources */,
 				6EF788761293FE0F0089BEC6 /* activities_category.png in Resources */,
-				6EF788771293FE0F0089BEC6 /* food_category.png in Resources */,
 				6EF788781293FE0F0089BEC6 /* places_category.png in Resources */,
-				6EF788791293FE0F0089BEC6 /* shopping_category.png in Resources */,
 				6EF78D9312983FD60089BEC6 /* RaceEventViewController.xib in Resources */,
 				6EF78E1612984DF30089BEC6 /* RaceEventDetailsViewController.xib in Resources */,
-				6E9A97FD1299094000E3BB4B /* black_button.png in Resources */,
 				6E9A98411299116400E3BB4B /* white_button.png in Resources */,
-				6E67B65712A7870C00704F98 /* bikeworks.jpg in Resources */,
-				6E67B65812A7870C00704F98 /* hammer.jpg in Resources */,
-				6E67B65912A7870C00704F98 /* hawaiiphotoman.jpg in Resources */,
-				6E67B65A12A7870C00704F98 /* hilton.jpg in Resources */,
-				6E67B65B12A7870C00704F98 /* karolina.jpg in Resources */,
-				6E67B65C12A7870C00704F98 /* konabrew.jpg in Resources */,
-				6E67B65D12A7870C00704F98 /* luis.jpg in Resources */,
-				6E67B65E12A7870C00704F98 /* starbucks.jpg in Resources */,
-				6E67B65F12A7870C00704F98 /* todd.jpg in Resources */,
-				6E67B66012A7870C00704F98 /* xterra.jpg in Resources */,
+				6AE4F02912A8333900997657 /* bike.png in Resources */,
+				6AE4F02A12A8333900997657 /* camera.png in Resources */,
+				6AE4F02D12A8333900997657 /* gear.png in Resources */,
+				6AE4F02E12A8333900997657 /* hotel_bed.png in Resources */,
+				6AE4F02F12A8333900997657 /* ical.png in Resources */,
+				6AE4F03012A8333900997657 /* Lavaman1.jpg in Resources */,
+				6AE4F03112A8333900997657 /* list-add.png in Resources */,
+				6AE4F03212A8333900997657 /* places.png in Resources */,
+				6AE4F03512A8333900997657 /* RESULTS.png in Resources */,
+				6AE4F03612A8333900997657 /* stop-watch.png in Resources */,
+				6AE4F04B12A8336300997657 /* Lavaman.png in Resources */,
+				6AE4F04C12A8336300997657 /* oomph.PNG in Resources */,
+				6AE4F04D12A8336300997657 /* RaceDirector.png in Resources */,
+				6AE4F06312A8338700997657 /* coca_cola.jpg in Resources */,
+				6AE4F06412A8338700997657 /* hammer.jpg in Resources */,
+				6AE4F06512A8338700997657 /* hawaiiphotoman.jpg in Resources */,
+				6AE4F06612A8338700997657 /* hilton.jpg in Resources */,
+				6AE4F06812A8338700997657 /* HolidayInn.JPG in Resources */,
+				6AE4F06A12A8338700997657 /* konabrew.jpg in Resources */,
+				6AE4F06C12A8338700997657 /* mcdonalds.jpg in Resources */,
+				6AE4F06E12A8338700997657 /* starbucks.jpg in Resources */,
+				6AE4F07012A8338700997657 /* xterra.jpg in Resources */,
+				6AE4F08612A833DA00997657 /* black_button.png in Resources */,
+				6AE4F08712A833DA00997657 /* But_5.png in Resources */,
+				6AE4F08812A833DA00997657 /* button_down.png in Resources */,
+				6AE4F08912A833DA00997657 /* button_up.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
