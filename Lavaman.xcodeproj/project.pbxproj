@@ -39,6 +39,10 @@
 		6AE4F08712A833DA00997657 /* But_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F08312A833DA00997657 /* But_5.png */; };
 		6AE4F08812A833DA00997657 /* button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F08412A833DA00997657 /* button_down.png */; };
 		6AE4F08912A833DA00997657 /* button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F08512A833DA00997657 /* button_up.png */; };
+		6AE4F0E712A8395D00997657 /* karolina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F0E612A8395D00997657 /* karolina.jpg */; };
+		6AE4F0E912A8397D00997657 /* bikeworks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F0E812A8397D00997657 /* bikeworks.jpg */; };
+		6AE4F0EB12A8399500997657 /* todd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F0EA12A8399500997657 /* todd.jpg */; };
+		6AE4F0ED12A839B800997657 /* luis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F0EC12A839B800997657 /* luis.jpg */; };
 		6E154358127B5B4F00C97C88 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E154356127B5B4F00C97C88 /* RootViewController.m */; };
 		6E154359127B5B4F00C97C88 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E154357127B5B4F00C97C88 /* RootViewController.xib */; };
 		6E154377127B5E6300C97C88 /* RegistrationResultsPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E154375127B5E6300C97C88 /* RegistrationResultsPhotos.m */; };
@@ -138,6 +142,10 @@
 		6AE4F08312A833DA00997657 /* But_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = But_5.png; sourceTree = "<group>"; };
 		6AE4F08412A833DA00997657 /* button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_down.png; sourceTree = "<group>"; };
 		6AE4F08512A833DA00997657 /* button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_up.png; sourceTree = "<group>"; };
+		6AE4F0E612A8395D00997657 /* karolina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = karolina.jpg; sourceTree = "<group>"; };
+		6AE4F0E812A8397D00997657 /* bikeworks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bikeworks.jpg; sourceTree = "<group>"; };
+		6AE4F0EA12A8399500997657 /* todd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = todd.jpg; sourceTree = "<group>"; };
+		6AE4F0EC12A839B800997657 /* luis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = luis.jpg; sourceTree = "<group>"; };
 		6E154355127B5B4F00C97C88 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = Classes/RootViewController.h; sourceTree = "<group>"; };
 		6E154356127B5B4F00C97C88 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = Classes/RootViewController.m; sourceTree = "<group>"; };
 		6E154357127B5B4F00C97C88 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RootViewController.xib; path = Classes/RootViewController.xib; sourceTree = "<group>"; };
@@ -313,6 +321,10 @@
 		6AE4F05212A8338700997657 /* Sponsors */ = {
 			isa = PBXGroup;
 			children = (
+				6AE4F0EC12A839B800997657 /* luis.jpg */,
+				6AE4F0EA12A8399500997657 /* todd.jpg */,
+				6AE4F0E812A8397D00997657 /* bikeworks.jpg */,
+				6AE4F0E612A8395D00997657 /* karolina.jpg */,
 				6AE4F04112A8336300997657 /* oomph.PNG */,
 				6AE4F05412A8338700997657 /* coca_cola.jpg */,
 				6AE4F05512A8338700997657 /* hammer.jpg */,
@@ -589,6 +601,10 @@
 				6AE4F08712A833DA00997657 /* But_5.png in Resources */,
 				6AE4F08812A833DA00997657 /* button_down.png in Resources */,
 				6AE4F08912A833DA00997657 /* button_up.png in Resources */,
+				6AE4F0E712A8395D00997657 /* karolina.jpg in Resources */,
+				6AE4F0E912A8397D00997657 /* bikeworks.jpg in Resources */,
+				6AE4F0EB12A8399500997657 /* todd.jpg in Resources */,
+				6AE4F0ED12A839B800997657 /* luis.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
