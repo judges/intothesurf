@@ -22,7 +22,7 @@
 					20,
 					341,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -37,8 +37,12 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 312764425;
-			PBXWorkspaceStateSaveDate = 312764425;
+			PBXPerProjectTemplateStateSaveDate = 312955226;
+			PBXWorkspaceStateSaveDate = 312955226;
+		};
+		perUserProjectItems = {
+			6AE4EF9612A751B700997657 /* PBXBookmark */ = 6AE4EF9612A751B700997657 /* PBXBookmark */;
+			6AE4EF9712A751B700997657 /* PBXTextBookmark */ = 6AE4EF9712A751B700997657 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 6A96908512A4460A00B93867 /* Source Control */;
 		userBuildSettings = {
@@ -85,5 +89,34 @@
 	6A96908612A4460A00B93867 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	6AE4EF9612A751B700997657 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6E507EA21281D7FE004D3212 /* SponsorsCreator.h */;
+	};
+	6AE4EF9712A751B700997657 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E507EA21281D7FE004D3212 /* SponsorsCreator.h */;
+		name = "SponsorsCreator.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 253;
+		vrLoc = 0;
+	};
+	6E507EA21281D7FE004D3212 /* SponsorsCreator.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 247}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 253}";
+		};
+	};
+	6E507EA31281D7FE004D3212 /* SponsorsCreator.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1161, 582}}";
+			sepNavSelRange = "{1348, 0}";
+			sepNavVisRange = "{0, 1378}";
+			sepNavWindowFrame = "{{15, 63}, {1220, 710}}";
+		};
 	};
 }
