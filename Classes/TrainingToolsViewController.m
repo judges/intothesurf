@@ -50,7 +50,7 @@
 			   initWithTitle:@"Nutritionist" 
 			   SmallText:@"www.nutritionisthere.com" 
 			   BigText:@"Lavaman Promo: 1 month free" 
-			   ImageName:@"carolina.png"];
+			   ImageName:@"karolina.jpg"];
 		nutri =[[CustomButtonViewController alloc]initWithOwner:self Selector:@selector(nutritioninstTouchUp) ButtonData:cbd];
 		[cbd release];
 		s = nutri.view.frame.size;

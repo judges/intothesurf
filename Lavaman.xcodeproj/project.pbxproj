@@ -37,6 +37,16 @@
 		6E507EB91281D9DE004D3212 /* TrainingToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E507EB71281D9DE004D3212 /* TrainingToolsViewController.m */; };
 		6E507EBA1281D9DE004D3212 /* TrainingToolsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E507EB81281D9DE004D3212 /* TrainingToolsViewController.xib */; };
 		6E507F081281DECD004D3212 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E507F071281DECD004D3212 /* mail.png */; };
+		6E67B65712A7870C00704F98 /* bikeworks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B64D12A7870C00704F98 /* bikeworks.jpg */; };
+		6E67B65812A7870C00704F98 /* hammer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B64E12A7870C00704F98 /* hammer.jpg */; };
+		6E67B65912A7870C00704F98 /* hawaiiphotoman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B64F12A7870C00704F98 /* hawaiiphotoman.jpg */; };
+		6E67B65A12A7870C00704F98 /* hilton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B65012A7870C00704F98 /* hilton.jpg */; };
+		6E67B65B12A7870C00704F98 /* karolina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B65112A7870C00704F98 /* karolina.jpg */; };
+		6E67B65C12A7870C00704F98 /* konabrew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B65212A7870C00704F98 /* konabrew.jpg */; };
+		6E67B65D12A7870C00704F98 /* luis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B65312A7870C00704F98 /* luis.jpg */; };
+		6E67B65E12A7870C00704F98 /* starbucks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B65412A7870C00704F98 /* starbucks.jpg */; };
+		6E67B65F12A7870C00704F98 /* todd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B65512A7870C00704F98 /* todd.jpg */; };
+		6E67B66012A7870C00704F98 /* xterra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E67B65612A7870C00704F98 /* xterra.jpg */; };
 		6E9A97FD1299094000E3BB4B /* black_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E9A97FC1299094000E3BB4B /* black_button.png */; };
 		6E9A98411299116400E3BB4B /* white_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E9A98401299116400E3BB4B /* white_button.png */; };
 		6E9A98A512993EEC00E3BB4B /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9A98A412993EEC00E3BB4B /* iAd.framework */; };
@@ -131,6 +141,16 @@
 		6E507EB71281D9DE004D3212 /* TrainingToolsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrainingToolsViewController.m; path = Classes/TrainingToolsViewController.m; sourceTree = "<group>"; };
 		6E507EB81281D9DE004D3212 /* TrainingToolsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TrainingToolsViewController.xib; path = Classes/TrainingToolsViewController.xib; sourceTree = "<group>"; };
 		6E507F071281DECD004D3212 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mail.png; path = images/mail.png; sourceTree = "<group>"; };
+		6E67B64D12A7870C00704F98 /* bikeworks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bikeworks.jpg; path = Sponsors/Sponsors/bikeworks.jpg; sourceTree = "<group>"; };
+		6E67B64E12A7870C00704F98 /* hammer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hammer.jpg; path = Sponsors/Sponsors/hammer.jpg; sourceTree = "<group>"; };
+		6E67B64F12A7870C00704F98 /* hawaiiphotoman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hawaiiphotoman.jpg; path = Sponsors/Sponsors/hawaiiphotoman.jpg; sourceTree = "<group>"; };
+		6E67B65012A7870C00704F98 /* hilton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hilton.jpg; path = Sponsors/Sponsors/hilton.jpg; sourceTree = "<group>"; };
+		6E67B65112A7870C00704F98 /* karolina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = karolina.jpg; path = Sponsors/Sponsors/karolina.jpg; sourceTree = "<group>"; };
+		6E67B65212A7870C00704F98 /* konabrew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = konabrew.jpg; path = Sponsors/Sponsors/konabrew.jpg; sourceTree = "<group>"; };
+		6E67B65312A7870C00704F98 /* luis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = luis.jpg; path = Sponsors/Sponsors/luis.jpg; sourceTree = "<group>"; };
+		6E67B65412A7870C00704F98 /* starbucks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = starbucks.jpg; path = Sponsors/Sponsors/starbucks.jpg; sourceTree = "<group>"; };
+		6E67B65512A7870C00704F98 /* todd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = todd.jpg; path = Sponsors/Sponsors/todd.jpg; sourceTree = "<group>"; };
+		6E67B65612A7870C00704F98 /* xterra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = xterra.jpg; path = Sponsors/Sponsors/xterra.jpg; sourceTree = "<group>"; };
 		6E9A97FC1299094000E3BB4B /* black_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black_button.png; path = images/black_button.png; sourceTree = "<group>"; };
 		6E9A98401299116400E3BB4B /* white_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_button.png; path = images/white_button.png; sourceTree = "<group>"; };
 		6E9A98A412993EEC00E3BB4B /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
@@ -281,6 +301,16 @@
 		6EB8E32012807AA300469C33 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6E67B64D12A7870C00704F98 /* bikeworks.jpg */,
+				6E67B64E12A7870C00704F98 /* hammer.jpg */,
+				6E67B64F12A7870C00704F98 /* hawaiiphotoman.jpg */,
+				6E67B65012A7870C00704F98 /* hilton.jpg */,
+				6E67B65112A7870C00704F98 /* karolina.jpg */,
+				6E67B65212A7870C00704F98 /* konabrew.jpg */,
+				6E67B65312A7870C00704F98 /* luis.jpg */,
+				6E67B65412A7870C00704F98 /* starbucks.jpg */,
+				6E67B65512A7870C00704F98 /* todd.jpg */,
+				6E67B65612A7870C00704F98 /* xterra.jpg */,
 				6E9A98401299116400E3BB4B /* white_button.png */,
 				6E9A97FC1299094000E3BB4B /* black_button.png */,
 				6EF788721293FE0F0089BEC6 /* activities_category.png */,
@@ -524,6 +554,16 @@
 				6EF78E1612984DF30089BEC6 /* RaceEventDetailsViewController.xib in Resources */,
 				6E9A97FD1299094000E3BB4B /* black_button.png in Resources */,
 				6E9A98411299116400E3BB4B /* white_button.png in Resources */,
+				6E67B65712A7870C00704F98 /* bikeworks.jpg in Resources */,
+				6E67B65812A7870C00704F98 /* hammer.jpg in Resources */,
+				6E67B65912A7870C00704F98 /* hawaiiphotoman.jpg in Resources */,
+				6E67B65A12A7870C00704F98 /* hilton.jpg in Resources */,
+				6E67B65B12A7870C00704F98 /* karolina.jpg in Resources */,
+				6E67B65C12A7870C00704F98 /* konabrew.jpg in Resources */,
+				6E67B65D12A7870C00704F98 /* luis.jpg in Resources */,
+				6E67B65E12A7870C00704F98 /* starbucks.jpg in Resources */,
+				6E67B65F12A7870C00704F98 /* todd.jpg in Resources */,
+				6E67B66012A7870C00704F98 /* xterra.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
