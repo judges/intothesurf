@@ -58,7 +58,7 @@
 	self.view = sv;
 	[sv release];
 	
-	[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"lavamanbackground.jpg"]]];
+	[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]]];
 	[self.navigationController setNavigationBarHidden:NO animated:YES];
 	
 	for (int i=0; i<[viewControllers count]; i++) 

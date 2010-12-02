@@ -301,7 +301,7 @@
     [super viewDidLoad];
 	[self.navigationController setNavigationBarHidden:NO animated:YES];
 	self.navigationItem.rightBarButtonItem = self.barButton;
-	[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"lavamanbackground.jpg"]]];
+	[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]]];
 	int offset= 10;
 	
 	for (int i=0; i < [raceInfoArray count]; i++) 

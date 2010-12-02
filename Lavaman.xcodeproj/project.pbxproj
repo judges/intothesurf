@@ -18,7 +18,6 @@
 		6AE4F02D12A8333900997657 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F01D12A8333900997657 /* gear.png */; };
 		6AE4F02E12A8333900997657 /* hotel_bed.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F01E12A8333900997657 /* hotel_bed.png */; };
 		6AE4F02F12A8333900997657 /* ical.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F01F12A8333900997657 /* ical.png */; };
-		6AE4F03012A8333900997657 /* Lavaman1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F02012A8333900997657 /* Lavaman1.jpg */; };
 		6AE4F03112A8333900997657 /* list-add.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F02112A8333900997657 /* list-add.png */; };
 		6AE4F03212A8333900997657 /* places.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F02212A8333900997657 /* places.png */; };
 		6AE4F03512A8333900997657 /* RESULTS.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F02512A8333900997657 /* RESULTS.png */; };
@@ -48,9 +47,9 @@
 		6E154377127B5E6300C97C88 /* RegistrationResultsPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E154375127B5E6300C97C88 /* RegistrationResultsPhotos.m */; };
 		6E154378127B5E6300C97C88 /* RegistrationResultsPhotos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E154376127B5E6300C97C88 /* RegistrationResultsPhotos.xib */; };
 		6E392CE81299B06E00F4EDF1 /* untitled.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E392CE71299B06E00F4EDF1 /* untitled.m */; };
-		6E4B3B6E128329B8003658B1 /* main_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B3B6D128329B8003658B1 /* main_logo.jpg */; };
-		6E4B3BB01289A7A2003658B1 /* lavamanbackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B3BAE1289A7A2003658B1 /* lavamanbackground.jpg */; };
-		6E4B3D3B1289E2E2003658B1 /* lavaman_title.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B3D3A1289E2E2003658B1 /* lavaman_title.png */; };
+		6E4B3B6E128329B8003658B1 /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B3B6D128329B8003658B1 /* icon.jpg */; };
+		6E4B3BB01289A7A2003658B1 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B3BAE1289A7A2003658B1 /* background.jpg */; };
+		6E4B3D3B1289E2E2003658B1 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B3D3A1289E2E2003658B1 /* logo.png */; };
 		6E4B3D971289E733003658B1 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4B3D961289E733003658B1 /* EventKit.framework */; };
 		6E4B3FBD128B3F66003658B1 /* ical_38.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B3FBC128B3F66003658B1 /* ical_38.png */; };
 		6E4B3FD1128B408E003658B1 /* ical_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B3FD0128B408E003658B1 /* ical_30.png */; };
@@ -121,7 +120,6 @@
 		6AE4F01D12A8333900997657 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gear.png; path = images/gear.png; sourceTree = "<group>"; };
 		6AE4F01E12A8333900997657 /* hotel_bed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hotel_bed.png; path = images/hotel_bed.png; sourceTree = "<group>"; };
 		6AE4F01F12A8333900997657 /* ical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ical.png; path = images/ical.png; sourceTree = "<group>"; };
-		6AE4F02012A8333900997657 /* Lavaman1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Lavaman1.jpg; path = images/Lavaman1.jpg; sourceTree = "<group>"; };
 		6AE4F02112A8333900997657 /* list-add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list-add.png"; path = "images/list-add.png"; sourceTree = "<group>"; };
 		6AE4F02212A8333900997657 /* places.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = places.png; path = images/places.png; sourceTree = "<group>"; };
 		6AE4F02512A8333900997657 /* RESULTS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RESULTS.png; path = images/RESULTS.png; sourceTree = "<group>"; };
@@ -153,9 +151,9 @@
 		6E154375127B5E6300C97C88 /* RegistrationResultsPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegistrationResultsPhotos.m; path = Classes/RegistrationResultsPhotos.m; sourceTree = "<group>"; };
 		6E154376127B5E6300C97C88 /* RegistrationResultsPhotos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RegistrationResultsPhotos.xib; path = Classes/RegistrationResultsPhotos.xib; sourceTree = "<group>"; };
 		6E392CE71299B06E00F4EDF1 /* untitled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = untitled.m; sourceTree = "<group>"; };
-		6E4B3B6D128329B8003658B1 /* main_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = main_logo.jpg; path = images/main_logo.jpg; sourceTree = "<group>"; };
-		6E4B3BAE1289A7A2003658B1 /* lavamanbackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lavamanbackground.jpg; path = images/lavamanbackground.jpg; sourceTree = "<group>"; };
-		6E4B3D3A1289E2E2003658B1 /* lavaman_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lavaman_title.png; path = images/lavaman_title.png; sourceTree = "<group>"; };
+		6E4B3B6D128329B8003658B1 /* icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = icon.jpg; path = images/icon.jpg; sourceTree = "<group>"; };
+		6E4B3BAE1289A7A2003658B1 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = images/background.jpg; sourceTree = "<group>"; };
+		6E4B3D3A1289E2E2003658B1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = images/logo.png; sourceTree = "<group>"; };
 		6E4B3D961289E733003658B1 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		6E4B3FBC128B3F66003658B1 /* ical_38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ical_38.png; path = images/ical_38.png; sourceTree = "<group>"; };
 		6E4B3FD0128B408E003658B1 /* ical_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ical_30.png; path = images/ical_30.png; sourceTree = "<group>"; };
@@ -291,10 +289,9 @@
 			children = (
 				6AE4F04012A8336300997657 /* Lavaman.png */,
 				6AE4F04212A8336300997657 /* RaceDirector.png */,
-				6AE4F02012A8333900997657 /* Lavaman1.jpg */,
-				6E4B3D3A1289E2E2003658B1 /* lavaman_title.png */,
-				6E4B3BAE1289A7A2003658B1 /* lavamanbackground.jpg */,
-				6E4B3B6D128329B8003658B1 /* main_logo.jpg */,
+				6E4B3D3A1289E2E2003658B1 /* logo.png */,
+				6E4B3BAE1289A7A2003658B1 /* background.jpg */,
+				6E4B3B6D128329B8003658B1 /* icon.jpg */,
 				6AE4F08112A833DA00997657 /* buttons */,
 				6AE4F05212A8338700997657 /* Sponsors */,
 				6EF7888D129406CF0089BEC6 /* Xml */,
@@ -556,9 +553,9 @@
 				6EB8E46C1281C23300469C33 /* RaceInformationViewController.xib in Resources */,
 				6E507EBA1281D9DE004D3212 /* TrainingToolsViewController.xib in Resources */,
 				6E507F081281DECD004D3212 /* mail.png in Resources */,
-				6E4B3B6E128329B8003658B1 /* main_logo.jpg in Resources */,
-				6E4B3BB01289A7A2003658B1 /* lavamanbackground.jpg in Resources */,
-				6E4B3D3B1289E2E2003658B1 /* lavaman_title.png in Resources */,
+				6E4B3B6E128329B8003658B1 /* icon.jpg in Resources */,
+				6E4B3BB01289A7A2003658B1 /* background.jpg in Resources */,
+				6E4B3D3B1289E2E2003658B1 /* logo.png in Resources */,
 				6E4B3FBD128B3F66003658B1 /* ical_38.png in Resources */,
 				6E4B3FD1128B408E003658B1 /* ical_30.png in Resources */,
 				6E4B3FD4128B4108003658B1 /* ical_26.png in Resources */,
@@ -580,7 +577,6 @@
 				6AE4F02D12A8333900997657 /* gear.png in Resources */,
 				6AE4F02E12A8333900997657 /* hotel_bed.png in Resources */,
 				6AE4F02F12A8333900997657 /* ical.png in Resources */,
-				6AE4F03012A8333900997657 /* Lavaman1.jpg in Resources */,
 				6AE4F03112A8333900997657 /* list-add.png in Resources */,
 				6AE4F03212A8333900997657 /* places.png in Resources */,
 				6AE4F03512A8333900997657 /* RESULTS.png in Resources */,
