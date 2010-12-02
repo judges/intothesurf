@@ -20,7 +20,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					341,
+					275,
 					20,
 					48,
 					43,
@@ -37,12 +37,14 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 312957854;
-			PBXWorkspaceStateSaveDate = 312957854;
+			PBXPerProjectTemplateStateSaveDate = 312958284;
+			PBXWorkspaceStateSaveDate = 312958284;
 		};
 		perUserProjectItems = {
-			6AE4EF9712A751B700997657 /* PBXTextBookmark */ = 6AE4EF9712A751B700997657 /* PBXTextBookmark */;
-			6AE4EFB612A75BB900997657 /* PBXTextBookmark */ = 6AE4EFB612A75BB900997657 /* PBXTextBookmark */;
+			6AE4EFBF12A75E0600997657 /* PBXTextBookmark */ = 6AE4EFBF12A75E0600997657 /* PBXTextBookmark */;
+			6AE4EFC012A75E0600997657 /* PBXTextBookmark */ = 6AE4EFC012A75E0600997657 /* PBXTextBookmark */;
+			6AE4EFC112A75E0600997657 /* PBXBookmark */ = 6AE4EFC112A75E0600997657 /* PBXBookmark */;
+			6AE4EFC212A75E0600997657 /* PBXTextBookmark */ = 6AE4EFC212A75E0600997657 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 6A96908512A4460A00B93867 /* Source Control */;
 		userBuildSettings = {
@@ -90,17 +92,7 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	6AE4EF9712A751B700997657 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 6E507EA21281D7FE004D3212 /* SponsorsCreator.h */;
-		name = "SponsorsCreator.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 253;
-		vrLoc = 0;
-	};
-	6AE4EFB612A75BB900997657 /* PBXTextBookmark */ = {
+	6AE4EFBF12A75E0600997657 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 6E507EA21281D7FE004D3212 /* SponsorsCreator.h */;
 		name = "SponsorsCreator.h: 1";
@@ -109,6 +101,30 @@
 		rType = 0;
 		vrLen = 248;
 		vrLoc = 0;
+	};
+	6AE4EFC012A75E0600997657 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E507EA31281D7FE004D3212 /* SponsorsCreator.m */;
+		name = "SponsorsCreator.m: 26";
+		rLen = 0;
+		rLoc = 1348;
+		rType = 0;
+		vrLen = 1160;
+		vrLoc = 218;
+	};
+	6AE4EFC112A75E0600997657 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6EB8E46E1281C2AA00469C33 /* RaceInformationCreator.m */;
+	};
+	6AE4EFC212A75E0600997657 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6EB8E46E1281C2AA00469C33 /* RaceInformationCreator.m */;
+		name = "RaceInformationCreator.m: 56";
+		rLen = 0;
+		rLoc = 2138;
+		rType = 0;
+		vrLen = 998;
+		vrLoc = 1133;
 	};
 	6E507EA21281D7FE004D3212 /* SponsorsCreator.h */ = {
 		uiCtxt = {
@@ -119,10 +135,17 @@
 	};
 	6E507EA31281D7FE004D3212 /* SponsorsCreator.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1161, 582}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 403}}";
 			sepNavSelRange = "{1348, 0}";
-			sepNavVisRange = "{0, 1378}";
+			sepNavVisRange = "{218, 1160}";
 			sepNavWindowFrame = "{{15, 63}, {1220, 710}}";
+		};
+	};
+	6EB8E46E1281C2AA00469C33 /* RaceInformationCreator.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1573, 689}}";
+			sepNavSelRange = "{2138, 0}";
+			sepNavVisRange = "{1133, 998}";
 		};
 	};
 }
