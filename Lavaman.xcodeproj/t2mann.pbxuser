@@ -268,7 +268,7 @@
 	};
 	6AE4F0BC12A836C300997657 /* PBXBookmark */ = {
 		isa = PBXBookmark;
-		fRef = 6AE4F02512A8333900997657 /* RESULTS.png */;
+		fRef = 6AE4F02512A8333900997657 /* results.png */;
 	};
 	6AE4F0BD12A836C300997657 /* PBXBookmark */ = {
 		isa = PBXBookmark;

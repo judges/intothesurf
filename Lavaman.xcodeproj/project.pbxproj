@@ -20,7 +20,7 @@
 		6AE4F02F12A8333900997657 /* ical.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F01F12A8333900997657 /* ical.png */; };
 		6AE4F03112A8333900997657 /* list-add.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F02112A8333900997657 /* list-add.png */; };
 		6AE4F03212A8333900997657 /* places.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F02212A8333900997657 /* places.png */; };
-		6AE4F03512A8333900997657 /* RESULTS.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F02512A8333900997657 /* RESULTS.png */; };
+		6AE4F03512A8333900997657 /* results.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F02512A8333900997657 /* results.png */; };
 		6AE4F03612A8333900997657 /* stop-watch.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F02612A8333900997657 /* stop-watch.png */; };
 		6AE4F04B12A8336300997657 /* Lavaman.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F04012A8336300997657 /* Lavaman.png */; };
 		6AE4F04D12A8336300997657 /* RaceDirector.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F04212A8336300997657 /* RaceDirector.png */; };
@@ -120,7 +120,7 @@
 		6AE4F01F12A8333900997657 /* ical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ical.png; path = images/ical.png; sourceTree = "<group>"; };
 		6AE4F02112A8333900997657 /* list-add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list-add.png"; path = "images/list-add.png"; sourceTree = "<group>"; };
 		6AE4F02212A8333900997657 /* places.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = places.png; path = images/places.png; sourceTree = "<group>"; };
-		6AE4F02512A8333900997657 /* RESULTS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RESULTS.png; path = images/RESULTS.png; sourceTree = "<group>"; };
+		6AE4F02512A8333900997657 /* results.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = results.png; path = images/results.png; sourceTree = "<group>"; };
 		6AE4F02612A8333900997657 /* stop-watch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "stop-watch.png"; path = "images/stop-watch.png"; sourceTree = "<group>"; };
 		6AE4F04012A8336300997657 /* Lavaman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Lavaman.png; path = logo/Lavaman.png; sourceTree = "<group>"; };
 		6AE4F04212A8336300997657 /* RaceDirector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RaceDirector.png; path = logo/RaceDirector.png; sourceTree = "<group>"; };
@@ -354,7 +354,7 @@
 				6AE4F01E12A8333900997657 /* hotel_bed.png */,
 				6AE4F02112A8333900997657 /* list-add.png */,
 				6AE4F02212A8333900997657 /* places.png */,
-				6AE4F02512A8333900997657 /* RESULTS.png */,
+				6AE4F02512A8333900997657 /* results.png */,
 				6AE4F02612A8333900997657 /* stop-watch.png */,
 				6EF788721293FE0F0089BEC6 /* activities_category.png */,
 				6EF786631291C8C30089BEC6 /* mail_new.png */,
@@ -572,7 +572,7 @@
 				6AE4F02F12A8333900997657 /* ical.png in Resources */,
 				6AE4F03112A8333900997657 /* list-add.png in Resources */,
 				6AE4F03212A8333900997657 /* places.png in Resources */,
-				6AE4F03512A8333900997657 /* RESULTS.png in Resources */,
+				6AE4F03512A8333900997657 /* results.png in Resources */,
 				6AE4F03612A8333900997657 /* stop-watch.png in Resources */,
 				6AE4F04B12A8336300997657 /* Lavaman.png in Resources */,
 				6AE4F04D12A8336300997657 /* RaceDirector.png in Resources */,

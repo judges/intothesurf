@@ -19,7 +19,7 @@
         
 		CustomButtonData *cbd = [[CustomButtonData alloc]
 								 initWithTitle:@"Registration" 
-								 SmallText:@"Sunday, April 03, 2011 7:30" 
+								 SmallText:@"Race is currently sold out, currently accepting applications for the waitlist" 
 								 BigText:@"Status: Sold Out" 
 								 ImageName:@"calc.png"];
 		
@@ -30,9 +30,9 @@
 		
 		cbd = [[CustomButtonData alloc]
 			   initWithTitle:@"Photos" 
-			   SmallText:@"www.hawaiiphotoman.com" 
-			   BigText:@"Lavaman Promo: 10% off" 
-			   ImageName:@"cam.png"];
+			   SmallText:@"Check yourself and your friends out here" 
+			   BigText:@"Promotion: 10% off" 
+			   ImageName:@"hawaiiphotoman.jpg"];
 		
 		photo =[[CustomButtonViewController alloc]initWithOwner:self Selector:@selector(photosTouchUpInside:)ButtonData:cbd ];
 		[cbd release];
@@ -40,13 +40,13 @@
 		photo.view.frame = CGRectMake(10, 140, s.width, s.height);
 		
 		cbd = [[CustomButtonData alloc]
-			   initWithTitle:@"Results" 
-			   SmallText:@"www.result.com" 
-			   BigText:@"" 
-			   ImageName:@"watch.png"];
+			   initWithTitle:@"Results " 
+			   SmallText:@"View all results for the current and past events" 
+			   BigText:@"Racer's Hub Results" 
+			   ImageName:@"results.png"];
 		
 		
-		res =[[CustomButtonViewController alloc]initWithOwner:self Selector:@selector(photosTouchUpInside:)ButtonData:cbd ];
+		res =[[CustomButtonViewController alloc]initWithOwner:self Selector:@selector(resultsTouchUpInside:)ButtonData:cbd ];
 		[cbd release];
 		s = res.view.frame.size;
 		res.view.frame = CGRectMake(10, 240, s.width, s.height);
@@ -57,7 +57,7 @@
 
 -(void)registrationTouchUpInside:(id)sender
 {
-	 //[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"http://www.active.com"]];
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"http://www.lavamantriathlon.com"]];
 }
 -(void)resultsTouchUpInside:(id)sender
 {

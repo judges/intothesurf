@@ -78,7 +78,7 @@
 							<object class="IBUIImageView" id="616713134">
 								<reference key="NSNextResponder" ref="229740880"/>
 								<int key="NSvFlags">274</int>
-								<string key="NSFrame">{{5, 9}, {70, 70}}</string>
+								<string key="NSFrame">{{8, 20}, {50, 50}}</string>
 								<reference key="NSSuperview" ref="229740880"/>
 								<int key="IBUIContentMode">1</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -228,8 +228,8 @@
 						<reference key="object" ref="229740880"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="616713134"/>
 							<reference ref="117149915"/>
+							<reference ref="616713134"/>
 						</object>
 						<reference key="parent" ref="191373211"/>
 					</object>
@@ -268,7 +268,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>ItemMapViewController</string>
 					<string>UIResponder</string>
-					<string>{{501, 324}, {320, 480}}</string>
+					<string>{{501, 276}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -593,7 +593,7 @@
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
 			<string key="NS.key.0">starbucks.jpg</string>
-			<string key="NS.object.0">{75, 75}</string>
+			<string key="NS.object.0">{50, 50}</string>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">117</string>
 	</data>
