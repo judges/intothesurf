@@ -40,20 +40,14 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 313014987;
-			PBXWorkspaceStateSaveDate = 313014987;
+			PBXPerProjectTemplateStateSaveDate = 313031755;
+			PBXWorkspaceStateSaveDate = 313031755;
 		};
 		perUserProjectItems = {
 			6AE4EFBF12A75E0600997657 = 6AE4EFBF12A75E0600997657 /* PBXTextBookmark */;
 			6AE4F00C12A8327B00997657 = 6AE4F00C12A8327B00997657 /* PBXTextBookmark */;
 			6AE4F0A012A836C300997657 = 6AE4F0A012A836C300997657 /* PBXTextBookmark */;
 			6AE4F0A112A836C300997657 = 6AE4F0A112A836C300997657 /* PBXTextBookmark */;
-			6AE4F0A212A836C300997657 = 6AE4F0A212A836C300997657 /* PBXBookmark */;
-			6AE4F0A312A836C300997657 = 6AE4F0A312A836C300997657 /* PBXBookmark */;
-			6AE4F0A412A836C300997657 = 6AE4F0A412A836C300997657 /* PBXBookmark */;
-			6AE4F0A512A836C300997657 = 6AE4F0A512A836C300997657 /* PBXBookmark */;
-			6AE4F0A612A836C300997657 = 6AE4F0A612A836C300997657 /* PBXBookmark */;
-			6AE4F0A712A836C300997657 = 6AE4F0A712A836C300997657 /* PBXBookmark */;
 			6AE4F0A812A836C300997657 = 6AE4F0A812A836C300997657 /* PBXBookmark */;
 			6AE4F0A912A836C300997657 = 6AE4F0A912A836C300997657 /* PBXBookmark */;
 			6AE4F0AA12A836C300997657 = 6AE4F0AA12A836C300997657 /* PBXBookmark */;
@@ -91,8 +85,13 @@
 			6AE4F0F212A839D900997657 = 6AE4F0F212A839D900997657 /* PBXBookmark */;
 			6AE4F0F312A839D900997657 = 6AE4F0F312A839D900997657 /* PBXBookmark */;
 			6AE4F0F412A839D900997657 = 6AE4F0F412A839D900997657 /* PBXBookmark */;
-			6AE4F0F512A839D900997657 = 6AE4F0F512A839D900997657 /* PBXBookmark */;
-			6AE4F0F612A839D900997657 = 6AE4F0F612A839D900997657 /* PBXBookmark */;
+			6AE4F11312A87C1200997657 = 6AE4F11312A87C1200997657 /* PBXBookmark */;
+			6AE4F11412A87C1200997657 = 6AE4F11412A87C1200997657 /* PBXBookmark */;
+			6AE4F11512A87C1200997657 = 6AE4F11512A87C1200997657 /* PBXBookmark */;
+			6AE4F11612A87C1200997657 = 6AE4F11612A87C1200997657 /* PBXBookmark */;
+			6AE4F11712A87C1200997657 = 6AE4F11712A87C1200997657 /* PBXBookmark */;
+			6AE4F11812A87C1200997657 = 6AE4F11812A87C1200997657 /* PBXBookmark */;
+			6AE4F11912A87C1200997657 = 6AE4F11912A87C1200997657 /* PlistBookmark */;
 		};
 		sourceControlManager = 6A96908512A4460A00B93867 /* Source Control */;
 		userBuildSettings = {
@@ -160,11 +159,11 @@
 		vrLen = 1375;
 		vrLoc = 703;
 	};
-	6AE4F02012A8333900997657 /* Lavaman1.jpg */ = {
+	6AE4F04112A8336300997657 /* oomph.PNG */ = {
 		isa = PBXFileReference;
-		lastKnownFileType = image.jpeg;
-		name = Lavaman1.jpg;
-		path = "/Users/t2mann/Desktop/iPhone Applications/Lavaman/images/Lavaman1.jpg";
+		lastKnownFileType = image.png;
+		name = oomph.PNG;
+		path = "/Users/t2mann/Desktop/iPhone Applications/Lavaman/logo/oomph.PNG";
 		sourceTree = "<absolute>";
 	};
 	6AE4F0A012A836C300997657 /* PBXTextBookmark */ = {
@@ -186,30 +185,6 @@
 		rType = 0;
 		vrLen = 421;
 		vrLoc = 0;
-	};
-	6AE4F0A212A836C300997657 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 6AE4F04012A8336300997657 /* Lavaman.png */;
-	};
-	6AE4F0A312A836C300997657 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 6AE4F04212A8336300997657 /* RaceDirector.png */;
-	};
-	6AE4F0A412A836C300997657 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 6AE4F02012A8333900997657 /* Lavaman1.jpg */;
-	};
-	6AE4F0A512A836C300997657 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 6E4B3D3A1289E2E2003658B1 /* logo.png */;
-	};
-	6AE4F0A612A836C300997657 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 6E4B3BAE1289A7A2003658B1 /* background.jpg */;
-	};
-	6AE4F0A712A836C300997657 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 6E4B3B6D128329B8003658B1 /* icon.jpg */;
 	};
 	6AE4F0A812A836C300997657 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -372,13 +347,40 @@
 		isa = PBXBookmark;
 		fRef = 6AE4F0EA12A8399500997657 /* todd.jpg */;
 	};
-	6AE4F0F512A839D900997657 /* PBXBookmark */ = {
+	6AE4F11312A87C1200997657 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 6AE4F0EC12A839B800997657 /* luis.jpg */;
 	};
-	6AE4F0F612A839D900997657 /* PBXBookmark */ = {
+	6AE4F11412A87C1200997657 /* PBXBookmark */ = {
 		isa = PBXBookmark;
-		fRef = 6AE4F0EC12A839B800997657 /* luis.jpg */;
+		fRef = 6AE4F04012A8336300997657 /* Lavaman.png */;
+	};
+	6AE4F11512A87C1200997657 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6AE4F04212A8336300997657 /* RaceDirector.png */;
+	};
+	6AE4F11612A87C1200997657 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6E4B3D3A1289E2E2003658B1 /* logo.png */;
+	};
+	6AE4F11712A87C1200997657 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6E4B3BAE1289A7A2003658B1 /* background.jpg */;
+	};
+	6AE4F11812A87C1200997657 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6E4B3B6D128329B8003658B1 /* icon.jpg */;
+	};
+	6AE4F11912A87C1200997657 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Lavaman-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/t2mann/Desktop/iPhone Applications/Lavaman/Lavaman-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
 	};
 	6E392CE71299B06E00F4EDF1 /* untitled.m */ = {
 		uiCtxt = {
@@ -430,6 +432,13 @@
 			sepNavVisRange = "{703, 1375}";
 			sepNavWindowFrame = "{{15, 63}, {1220, 710}}";
 		};
+	};
+	6EF788741293FE0F0089BEC6 /* places_category.png */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.png;
+		name = places_category.png;
+		path = "/Users/t2mann/Desktop/iPhone Applications/Lavaman/images/places_category.png";
+		sourceTree = "<absolute>";
 	};
 	8D1107310486CEB800E47090 /* Lavaman-Info.plist */ = {
 		uiCtxt = {

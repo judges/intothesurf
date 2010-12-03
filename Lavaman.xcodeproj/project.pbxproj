@@ -23,7 +23,6 @@
 		6AE4F03512A8333900997657 /* RESULTS.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F02512A8333900997657 /* RESULTS.png */; };
 		6AE4F03612A8333900997657 /* stop-watch.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F02612A8333900997657 /* stop-watch.png */; };
 		6AE4F04B12A8336300997657 /* Lavaman.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F04012A8336300997657 /* Lavaman.png */; };
-		6AE4F04C12A8336300997657 /* oomph.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F04112A8336300997657 /* oomph.PNG */; };
 		6AE4F04D12A8336300997657 /* RaceDirector.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F04212A8336300997657 /* RaceDirector.png */; };
 		6AE4F06312A8338700997657 /* coca_cola.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F05412A8338700997657 /* coca_cola.jpg */; };
 		6AE4F06412A8338700997657 /* hammer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F05512A8338700997657 /* hammer.jpg */; };
@@ -97,7 +96,6 @@
 		6EF7872C12932CE00089BEC6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF7872B12932CE00089BEC6 /* MapKit.framework */; };
 		6EF7873512932DD60089BEC6 /* AddressAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF7873412932DD60089BEC6 /* AddressAnnotation.m */; };
 		6EF788761293FE0F0089BEC6 /* activities_category.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EF788721293FE0F0089BEC6 /* activities_category.png */; };
-		6EF788781293FE0F0089BEC6 /* places_category.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EF788741293FE0F0089BEC6 /* places_category.png */; };
 		6EF7890512940F870089BEC6 /* CustomButtonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF7890412940F870089BEC6 /* CustomButtonData.m */; };
 		6EF78D9212983FD60089BEC6 /* RaceEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF78D9012983FD60089BEC6 /* RaceEventViewController.m */; };
 		6EF78D9312983FD60089BEC6 /* RaceEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EF78D9112983FD60089BEC6 /* RaceEventViewController.xib */; };
@@ -125,7 +123,6 @@
 		6AE4F02512A8333900997657 /* RESULTS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RESULTS.png; path = images/RESULTS.png; sourceTree = "<group>"; };
 		6AE4F02612A8333900997657 /* stop-watch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "stop-watch.png"; path = "images/stop-watch.png"; sourceTree = "<group>"; };
 		6AE4F04012A8336300997657 /* Lavaman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Lavaman.png; path = logo/Lavaman.png; sourceTree = "<group>"; };
-		6AE4F04112A8336300997657 /* oomph.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oomph.PNG; path = ../../logo/oomph.PNG; sourceTree = "<group>"; };
 		6AE4F04212A8336300997657 /* RaceDirector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RaceDirector.png; path = logo/RaceDirector.png; sourceTree = "<group>"; };
 		6AE4F05412A8338700997657 /* coca_cola.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coca_cola.jpg; sourceTree = "<group>"; };
 		6AE4F05512A8338700997657 /* hammer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hammer.jpg; sourceTree = "<group>"; };
@@ -224,7 +221,6 @@
 		6EF7873312932DD60089BEC6 /* AddressAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressAnnotation.h; sourceTree = "<group>"; };
 		6EF7873412932DD60089BEC6 /* AddressAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressAnnotation.m; sourceTree = "<group>"; };
 		6EF788721293FE0F0089BEC6 /* activities_category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = activities_category.png; path = images/activities_category.png; sourceTree = "<group>"; };
-		6EF788741293FE0F0089BEC6 /* places_category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = places_category.png; path = images/places_category.png; sourceTree = "<group>"; };
 		6EF7890312940F870089BEC6 /* CustomButtonData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButtonData.h; sourceTree = "<group>"; };
 		6EF7890412940F870089BEC6 /* CustomButtonData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButtonData.m; sourceTree = "<group>"; };
 		6EF78D8F12983FD60089BEC6 /* RaceEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaceEventViewController.h; sourceTree = "<group>"; };
@@ -322,7 +318,6 @@
 				6AE4F0EA12A8399500997657 /* todd.jpg */,
 				6AE4F0E812A8397D00997657 /* bikeworks.jpg */,
 				6AE4F0E612A8395D00997657 /* karolina.jpg */,
-				6AE4F04112A8336300997657 /* oomph.PNG */,
 				6AE4F05412A8338700997657 /* coca_cola.jpg */,
 				6AE4F05512A8338700997657 /* hammer.jpg */,
 				6AE4F05612A8338700997657 /* hawaiiphotoman.jpg */,
@@ -362,7 +357,6 @@
 				6AE4F02512A8333900997657 /* RESULTS.png */,
 				6AE4F02612A8333900997657 /* stop-watch.png */,
 				6EF788721293FE0F0089BEC6 /* activities_category.png */,
-				6EF788741293FE0F0089BEC6 /* places_category.png */,
 				6EF786631291C8C30089BEC6 /* mail_new.png */,
 				6EF784E71291B2910089BEC6 /* calc.png */,
 				6EF784E91291B2910089BEC6 /* watch.png */,
@@ -568,7 +562,6 @@
 				6EF786641291C8C30089BEC6 /* mail_new.png in Resources */,
 				6EF7870A12932A430089BEC6 /* ItemMapViewController.xib in Resources */,
 				6EF788761293FE0F0089BEC6 /* activities_category.png in Resources */,
-				6EF788781293FE0F0089BEC6 /* places_category.png in Resources */,
 				6EF78D9312983FD60089BEC6 /* RaceEventViewController.xib in Resources */,
 				6EF78E1612984DF30089BEC6 /* RaceEventDetailsViewController.xib in Resources */,
 				6E9A98411299116400E3BB4B /* white_button.png in Resources */,
@@ -582,7 +575,6 @@
 				6AE4F03512A8333900997657 /* RESULTS.png in Resources */,
 				6AE4F03612A8333900997657 /* stop-watch.png in Resources */,
 				6AE4F04B12A8336300997657 /* Lavaman.png in Resources */,
-				6AE4F04C12A8336300997657 /* oomph.PNG in Resources */,
 				6AE4F04D12A8336300997657 /* RaceDirector.png in Resources */,
 				6AE4F06312A8338700997657 /* coca_cola.jpg in Resources */,
 				6AE4F06412A8338700997657 /* hammer.jpg in Resources */,
