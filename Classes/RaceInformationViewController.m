@@ -197,7 +197,7 @@
 {
 	UILabel* lbl = [[UILabel alloc] initWithFrame:CGRectMake(4, of, 200, s)];
 	[dateFormatter setDateFormat:@"MMM dd"];
-	lbl.text = [NSString stringWithFormat:@"%@ - %@",rd.Title,  [dateFormatter stringFromDate:rd.Date] ];
+	lbl.text = [NSString stringWithFormat:@"%@ - %@",[dateFormatter stringFromDate:rd.Date],rd.Title ];
 	lbl.font = [UIFont fontWithName:@"Arial-BoldMT" size:s];
 	lbl.backgroundColor = [UIColor colorWithRed:1 green:1 blue:1 alpha:0];
 	[self.view addSubview:lbl];

@@ -20,13 +20,17 @@
 	IBOutlet UIImageView *imageView;
 	IBOutlet UIBarButtonItem *barButton;
 	
+	IBOutlet UIButton  *link;
+	
 }
 @property(nonatomic,retain)	IBOutlet MKMapView* mapView;
 @property(nonatomic,retain) IBOutlet UILabel *titleLabel;
 @property(nonatomic,retain) IBOutlet UIView* backgroundView;
 @property(nonatomic,retain) IBOutlet UIImageView *imageView;
 @property(nonatomic,retain) IBOutlet UIBarButtonItem *barButton;
+@property(nonatomic,retain) IBOutlet UIButton  *link;
 -(id)initWithItem:(Item*)i;
 
 -(IBAction) linkPressed:(id)sender;
+-(IBAction) link:(id)sender;
 @end

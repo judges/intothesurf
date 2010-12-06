@@ -18,7 +18,7 @@
 @synthesize backgroundView;
 @synthesize imageView;
 @synthesize barButton;
-
+@synthesize link;
 
 -(id)initWithItem:(Item*)i
 {
@@ -43,8 +43,18 @@
 -(CLLocationCoordinate2D) addressLocation
 {
 	CLLocationCoordinate2D location;
-	location.latitude = 19.660694;
-	location.longitude = -155.99556;
+	if(mItem.Ll1 == -1 && mItem.Ll2==-1)
+	{
+		
+		location.latitude = 19.660694;
+		location.longitude = -155.99556;
+	
+	}
+	else
+	{
+		location.latitude = mItem.Ll1;
+		location.longitude = mItem.Ll2;
+	}
 	return location;
 }
 
@@ -53,9 +63,11 @@
 	NSString * Title = [mItem.Title stringByReplacingOccurrencesOfString:@" " withString:@"+"];
 	NSString * Address = [mItem.Address stringByReplacingOccurrencesOfString:@" " withString:@"+"];
 	
+	CLLocationCoordinate2D loc =[self addressLocation];
+	
 	[[UIApplication sharedApplication]openURL:
 	 [NSURL URLWithString:
-	  [NSString stringWithFormat:@"http://maps.google.com/maps?hl=en&ll=19.660694,-155.99556&z=8&daddr=%@+%@",Title,Address]]];
+	  [NSString stringWithFormat:@"http://maps.google.com/maps?hl=en&ll=%f,%f&z=8&daddr=%@+%@",loc.latitude,loc.longitude,Title,Address]]];
 }
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -77,7 +89,13 @@
 	titleLabel.text = mItem.Title;
 	imageView.image = [UIImage imageNamed:mItem.Image];
 	
+	if(mItem.AddressLink)
+	{
+		[link setTitle:mItem.AddressLink forState:UIControlStateNormal];
+
+	}
 	
+
 	
 	MKCoordinateRegion region;
 	MKCoordinateSpan span;
@@ -113,7 +131,14 @@
 	return annView;
 }
 
-
+-(IBAction) link:(id)sender
+{
+	if(mItem.AddressLink)
+	{
+	[[UIApplication sharedApplication]openURL:
+	 [NSURL URLWithString:mItem.AddressLink ] ];
+	}
+}
 
 /*
 // Override to allow orientations other than the default portrait orientation.
