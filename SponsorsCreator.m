@@ -24,8 +24,8 @@
 	[itemArray addObject:[Item initWithTitle:@"Oomph!" Image:@"oomph.png" Address:@"23 str, Kailua-Kona" Info:@"Promotion: 5% off" Link:@""]];
 	[itemArray addObject:[Item initWithTitle:@"Coca-Cola" Image:@"coca_cola.jpg" Address:@"23 str, Kailua-Kona" Info:@"Promotion: 5% off" Link:@""]];
 	[itemArray addObject:[Item initWithTitle:@"Hammer" Image:@"hammer.jpg" Address:@"23 str, Kailua-Kona" Info:@"Promotion: 5% off" Link:@""]];
-	[itemArray addObject:[Item initWithTitle:@"HawaiiPhotoman" Image:@"hawaiiphotoman.jpg" Address:@"23 str, Kailua-Kona" Info:@"Promotion: 5% off" Link:@""]];
-	[itemArray addObject:[Item initWithTitle:@"Kona Brewery" Image:@"konabrew.jpg" Address:@"23 str, Kailua-Kona" Info:@"Promotion: 5% off" Link:@""]];
+	[itemArray addObject:[Item initWithTitle:@"HawaiiPhotoman" Image:@"hawaiiphotoman.jpg" Address:@"Dayton, Ohio" Info:@"Promotion: 5% off" Link:@""]];
+	[itemArray addObject:[Item initWithTitle:@"Kona Brewery" Image:@"konabrew.jpg" Address:@"75-5629 Kuakini Highway, Kailua-Kona, Hi 96740" Info:@"Promotion: 5% off" Link:@"http://konabrewingco.com"]];
 	[itemArray addObject:[Item initWithTitle:@"XTerra" Image:@"xterra.jpg" Address:@"23 str, Kailua-Kona" Info:@"Promotion: 5% off" Link:@""]];
 	
 	
