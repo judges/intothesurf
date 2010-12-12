@@ -252,7 +252,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>446</real>
+								<real>46</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -278,14 +278,14 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>75</integer>
-									<integer>63</integer>
+									<integer>60</integer>
+									<integer>54</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 768}, {446, 712}}</string>
+							<string>{{0, 563}, {46, 712}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -297,19 +297,19 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {463, 730}}</string>
+						<string>{{0, 0}, {63, 730}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>446</real>
+							<real>46</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>0 107 1600 771 0 0 1600 878 </string>
+						<string>800 107 800 771 0 0 1600 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
 					<key>Proportion</key>
-					<string>463pt</string>
+					<string>63pt</string>
 				</dict>
 				<dict>
 					<key>Dock</key>
@@ -322,7 +322,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>RaceEvent.m</string>
+								<string>RaceInformationCreator.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -330,11 +330,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>RaceEvent.m</string>
+										<string>RaceInformationCreator.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>6EA6AB7412AEE0E7006DDC11</string>
+										<string>6EA6AB8A12B52CF1006DDC11</string>
 										<key>history</key>
 										<array>
 											<string>6E4B3DB21289E82D003658B1</string>
@@ -431,13 +431,13 @@
 											<string>6EA6AB0612AD93E1006DDC11</string>
 											<string>6EA6AB3212AD956B006DDC11</string>
 											<string>6EA6AB3B12AD960E006DDC11</string>
-											<string>6EA6AB3C12AD960E006DDC11</string>
 											<string>6EA6AB4712AEDF51006DDC11</string>
 											<string>6EA6AB6112AEE041006DDC11</string>
 											<string>6EA6AB6C12AEE093006DDC11</string>
 											<string>6EA6AB7212AEE0E7006DDC11</string>
-											<string>6EA6AB7312AEE0E7006DDC11</string>
-											<string>6E4B3E53128AF420003658B1</string>
+											<string>6EA6AB8312B52C84006DDC11</string>
+											<string>6EA6AB8412B52C84006DDC11</string>
+											<string>6EA6AB8512B52C84006DDC11</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -449,14 +449,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1132, 448}}</string>
+								<string>{{0, 0}, {732, 432}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 107 1600 771 0 0 1600 878 </string>
+								<string>800 107 800 771 0 0 1600 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>448pt</string>
+							<string>432pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -469,18 +469,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 453}, {1132, 277}}</string>
+								<string>{{0, 437}, {732, 293}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 107 1600 771 0 0 1600 878 </string>
+								<string>800 107 800 771 0 0 1600 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>277pt</string>
+							<string>293pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>1132pt</string>
+					<string>732pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -495,9 +495,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>6EA6AB4A12AEDF51006DDC11</string>
+				<string>6EA6AB8712B52C84006DDC11</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>6EA6AB4B12AEDF51006DDC11</string>
+				<string>6EA6AB8812B52C84006DDC11</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -635,15 +635,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>6EA6AB5912AEDF86006DDC11</string>
-		<string>6EA6AB5512AEDF51006DDC11</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>6E154348127B5A1800C97C88</string>
 		<string>/Users/intothesurf/Development/GitHub/Lavaman/intothesurf/Lavaman.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>0 107 1600 771 0 0 1600 878 </string>
+	<string>800 107 800 771 0 0 1600 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -720,7 +716,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>6E154348127B5A1800C97C88</string>
-				<string>6EA6AB4C12AEDF51006DDC11</string>
+				<string>6EA6AB8912B52C84006DDC11</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
