@@ -121,11 +121,16 @@
 		[cell BackgroundView].backgroundColor =[UIColor whiteColor];
 		cell.Title.font = [UIFont fontWithName:@"Helvetica" size:17];
 		cell.Date.font = [UIFont fontWithName:@"Helvetica" size:13];
+		cell.Star.hidden=YES;
 	}
 	else 
 	{
 		cell.Title.font = [UIFont boldSystemFontOfSize:17];//  [UIFont fontWithName:@"Helvetica Bold" size:17];
 		cell.Date.font = [UIFont boldSystemFontOfSize:13];
+			cell.Star.hidden=NO;
+		CGSize s = [ msg.Title sizeWithFont:cell.Title.font];
+		cell.Star.frame = CGRectMake(cell.Title.frame.origin.x + s.width +2, cell.Star.frame.origin.y, cell.Star.frame.size.width, cell.Star.frame.size.height);
+		
 		//[cell BackgroundView].backgroundColor = [UIColor colorWithRed:1 green:1 blue:0.33 alpha:1];
 	}
 

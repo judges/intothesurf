@@ -66,6 +66,7 @@
 		6E507F081281DECD004D3212 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E507F071281DECD004D3212 /* mail.png */; };
 		6E9A98411299116400E3BB4B /* white_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E9A98401299116400E3BB4B /* white_button.png */; };
 		6E9A98A512993EEC00E3BB4B /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9A98A412993EEC00E3BB4B /* iAd.framework */; };
+		6EA6AC0512B6991B006DDC11 /* FilledStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EA6AC0412B6991B006DDC11 /* FilledStar.png */; };
 		6EB8E01D127DDB1A00469C33 /* MessageList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8E01B127DDB1A00469C33 /* MessageList.m */; };
 		6EB8E01E127DDB1A00469C33 /* MessageList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EB8E01C127DDB1A00469C33 /* MessageList.xib */; };
 		6EB8E02D127DDBDA00469C33 /* MessageContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8E02C127DDBDA00469C33 /* MessageContainer.m */; };
@@ -174,6 +175,7 @@
 		6E507F071281DECD004D3212 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mail.png; path = images/mail.png; sourceTree = "<group>"; };
 		6E9A98401299116400E3BB4B /* white_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_button.png; path = ../images/white_button.png; sourceTree = "<group>"; };
 		6E9A98A412993EEC00E3BB4B /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		6EA6AC0412B6991B006DDC11 /* FilledStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FilledStar.png; sourceTree = "<group>"; };
 		6EB8E01A127DDB1A00469C33 /* MessageList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageList.h; path = Classes/MessageList.h; sourceTree = "<group>"; };
 		6EB8E01B127DDB1A00469C33 /* MessageList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageList.m; path = Classes/MessageList.m; sourceTree = "<group>"; };
 		6EB8E01C127DDB1A00469C33 /* MessageList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MessageList.xib; path = Classes/MessageList.xib; sourceTree = "<group>"; };
@@ -350,6 +352,7 @@
 		6EB8E32012807AA300469C33 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6EA6AC0412B6991B006DDC11 /* FilledStar.png */,
 				6AE4F01912A8333900997657 /* bike.png */,
 				6AE4F01A12A8333900997657 /* camera.png */,
 				6AE4F01F12A8333900997657 /* ical.png */,
@@ -600,6 +603,7 @@
 				6AE4F0EB12A8399500997657 /* todd.jpg in Resources */,
 				6AE4F0ED12A839B800997657 /* luis.jpg in Resources */,
 				6A2BBA6812AEC79200EECC62 /* water.jpg in Resources */,
+				6EA6AC0512B6991B006DDC11 /* FilledStar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

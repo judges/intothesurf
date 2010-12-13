@@ -14,10 +14,12 @@
 	IBOutlet UILabel* Date;
 	IBOutlet UIImageView* Image;
 	IBOutlet UIView *BackgroundView;
+	IBOutlet UIImageView* Star;
 }
 
 @property(nonatomic,retain) IBOutlet UILabel* Title;
 @property(nonatomic,retain) IBOutlet UILabel* Date;
 @property(nonatomic,retain) IBOutlet UIImageView* Image;
 @property(nonatomic,retain) IBOutlet UIView *BackgroundView;
+@property(nonatomic,retain)	IBOutlet UIImageView* Star;
 @end

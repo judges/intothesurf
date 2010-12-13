@@ -15,7 +15,7 @@
 @synthesize Date;
 @synthesize Image;
 @synthesize BackgroundView;
-
+@synthesize Star;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     if ((self = [super initWithStyle:style reuseIdentifier:reuseIdentifier])) {
@@ -34,6 +34,12 @@
 
 
 - (void)dealloc {
+	[Title release];
+	[Date release];
+	[Image release];
+	[BackgroundView release];
+	[Star release];
+
     [super dealloc];
 }
 
