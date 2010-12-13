@@ -56,13 +56,14 @@
 
 -(void)travelActivitiesUpInside:(id)sender
 {
+	if(!_tavc)
+	{
+		NSArray*arr = [TravelActivitiesCreator CreateTravelActivities];
+		_tavc = [[TravelActivitiesViewController alloc]initWithCategoryArray:arr NavController:self.navigationController];
+		[arr release];
+	}
 	
-	NSArray*arr = [TravelActivitiesCreator CreateTravelActivities];
-	TravelActivitiesViewController *tsad = [[TravelActivitiesViewController alloc]initWithCategoryArray:arr NavController:self.navigationController];
-	[arr release];
-	
-	[self.navigationController pushViewController:tsad animated:YES];
-	[tsad release];
+	[self.navigationController pushViewController:_tavc animated:YES];
 	
 }
 
@@ -215,6 +216,11 @@
 	{
 		[_rrp release];
 	}
+	if(_tavc)
+	{
+		[_tavc release];
+	}
+	
 	[messageContainer release];
 	[MessagesButton release];
 	[MessagesLabel release];

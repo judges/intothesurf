@@ -26,7 +26,7 @@
 	if(self)
 	{
 		item = cat;
-		[item retain];
+
 		navControl = nav;
 	}
 	return self;
@@ -125,6 +125,12 @@
 
 - (void)dealloc {
 	[item release];
+	[imgView release];
+	[titleLbl release];
+	[addressLbl release];
+	[infoLbl release];
+	[detailsBtn release];
+	
     [super dealloc];
 }
 

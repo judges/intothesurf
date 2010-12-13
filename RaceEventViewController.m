@@ -25,10 +25,10 @@
 	if(self)
 	{
 		dateFormatter = [[NSDateFormatter alloc]init];
-		raceEvent = re;
-		[raceEvent retain];
-		raceDay =rd;
-		[raceDay retain];
+		self.raceEvent = re;
+		
+		self.raceDay =rd;
+		
 		
 		owner = own;
 		selector = sel;

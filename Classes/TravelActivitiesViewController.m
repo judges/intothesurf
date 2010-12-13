@@ -83,13 +83,18 @@
 */
 
 
+-(void) viewWillAppear:(BOOL)animated
+{
+	[self.navigationController setNavigationBarHidden:NO animated:YES];
+}
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
 
 	[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]]];
-	[self.navigationController setNavigationBarHidden:NO animated:YES];
+	
 
 	self.title=@"Travel / Activities";
 	for (int i=0; i<[viewControllers count]; i++) 

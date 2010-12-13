@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 @class MessageContainer;
 @class RegistrationResultsPhotos;
-
+@class TravelActivitiesViewController;
 @interface RootViewController : UIViewController {
 
 	UIButton *MessagesButton;
@@ -23,6 +23,7 @@
 	BOOL errorDisplayed;
 	
 	RegistrationResultsPhotos* _rrp;
+	TravelActivitiesViewController * _tavc;
 }
 
 

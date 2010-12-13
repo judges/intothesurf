@@ -18,9 +18,9 @@
 
 -(id)initWithTitle:(NSString*)title SmallText:(NSString*)smallTest BigText:(NSString*)bigText ImageName:(NSString*)imageName;
 
-@property(nonatomic,readonly) NSString *Title;
-@property(nonatomic,readonly) NSString *SmallText;
-@property(nonatomic,readonly) NSString *BigText;
-@property(nonatomic,readonly) NSString *ImageName;
+@property(nonatomic,retain) NSString *Title;
+@property(nonatomic,retain) NSString *SmallText;
+@property(nonatomic,retain) NSString *BigText;
+@property(nonatomic,retain) NSString *ImageName;
 
 @end

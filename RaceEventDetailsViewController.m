@@ -32,8 +32,8 @@
 
 		owner = own;
 		selector = sel;
-		raceDay = rd;
-		raceEvent = re;
+		self.raceDay = rd;
+		self.raceEvent = re;
 	}
 	return self;
 }
@@ -113,6 +113,17 @@
 
 
 - (void)dealloc {
+	
+	[ AddToCallendarButton release];
+	[ Location release];
+	[ Time release];
+	[ Title release];
+	
+
+	[ raceDay release];
+	[ raceEvent release];
+	
+	
     [super dealloc];
 }
 

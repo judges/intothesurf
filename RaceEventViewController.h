@@ -28,8 +28,8 @@
 	
 }
 
-@property(nonatomic,readonly) RaceEvent* raceEvent;
-@property(nonatomic,readonly) RaceDay* raceDay;
+@property(nonatomic,retain) RaceEvent* raceEvent;
+@property(nonatomic,retain) RaceDay* raceDay;
 
 @property(nonatomic,retain) IBOutlet UILabel* TimeLabel;
 @property(nonatomic,retain) IBOutlet UILabel* TextLabel;

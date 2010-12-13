@@ -29,8 +29,8 @@
 	BOOL success;
 }
 @property BOOL success;
-@property(nonatomic,readonly)	RaceDay *raceDay;
-@property(nonatomic,readonly)	RaceEvent *raceEvent;
+@property(nonatomic,retain)	RaceDay *raceDay;
+@property(nonatomic,retain)	RaceEvent *raceEvent;
 
 @property(nonatomic,retain) IBOutlet UIButton *AddToCallendarButton;
 

@@ -20,14 +20,14 @@
 	self= [super init];
 	if(self)
 	{
-		Title =title;
-		[Title retain];
-		BigText = bigText;
-		[BigText retain];
-		SmallText = smallTest;
-		[SmallText retain];
-		ImageName = imageName;
-		[ImageName retain];
+		self.Title =title;
+
+		self.BigText = bigText;
+		
+		self.SmallText = smallTest;
+		
+		self.ImageName = imageName;
+		
 	}
 	return self;
 }
