@@ -2,9 +2,9 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="7.10">
 	<data>
 		<int key="IBDocument.SystemTarget">1024</int>
-		<string key="IBDocument.SystemVersion">10F569</string>
+		<string key="IBDocument.SystemVersion">10H574</string>
 		<string key="IBDocument.InterfaceBuilderVersion">788</string>
-		<string key="IBDocument.AppKitVersion">1038.29</string>
+		<string key="IBDocument.AppKitVersion">1038.35</string>
 		<string key="IBDocument.HIToolboxVersion">461.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -73,14 +73,14 @@
 					<object class="IBUILabel" id="794886729">
 						<reference key="NSNextResponder" ref="560275383"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{2, 1}, {69, 28}}</string>
+						<string key="NSFrame">{{2, 1}, {69, 39}}</string>
 						<reference key="NSSuperview" ref="560275383"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">10:00 am</string>
+						<string key="IBUIText">0:00 am 2:00 pm</string>
 						<object class="NSFont" key="IBUIFont">
 							<string key="NSName">Helvetica</string>
 							<double key="NSSize">13</double>
@@ -93,12 +93,12 @@
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">13</float>
-						<int key="IBUITextAlignment">1</int>
+						<int key="IBUINumberOfLines">2</int>
 					</object>
 					<object class="IBUILabel" id="124978637">
 						<reference key="NSNextResponder" ref="560275383"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{62, 3}, {175, 22}}</string>
+						<string key="NSFrame">{{62, 3}, {220, 37}}</string>
 						<reference key="NSSuperview" ref="560275383"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -266,10 +266,10 @@ LhA</string>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="411293617"/>
-							<reference ref="518740045"/>
 							<reference ref="541727965"/>
 							<reference ref="124978637"/>
 							<reference ref="794886729"/>
+							<reference ref="518740045"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -323,7 +323,7 @@ LhA</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>{{531, 562}, {302, 130}}</string>
+					<string>{{417, 562}, {302, 130}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				</object>
 			</object>

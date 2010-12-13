@@ -209,12 +209,12 @@
 	UILabel* lbl = [[UILabel alloc] initWithFrame:CGRectMake(8, of, 100, s)];
 	if(re.Ending)
 	{
-		[dateFormatter setDateFormat:@"HH:mm"];
+		[dateFormatter setDateFormat:@"H:mm"];
 		lbl.text =[NSString stringWithFormat:@"%@ - %@", [dateFormatter stringFromDate:re.Begining], [dateFormatter stringFromDate:re.Ending]];
 	}
 	else
 	{
-		[dateFormatter setDateFormat:@"HH:mm"];
+		[dateFormatter setDateFormat:@"H:mm"];
 		lbl.text = [dateFormatter stringFromDate:re.Begining];
 	}
 	lbl.font = [UIFont fontWithName:@"Arial-BoldMT" size:s];

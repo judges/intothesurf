@@ -25,7 +25,7 @@
 	self = [super init];
 	if(self)
 	{
-		item = cat;
+		self.item = cat;
 
 		navControl = nav;
 	}

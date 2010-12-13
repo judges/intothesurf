@@ -56,7 +56,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	[dateFormatter setDateFormat:@"hh:mm a"];
+	[dateFormatter setDateFormat:@"h:mm a"];
 	[dateFormatter setAMSymbol:@"am"];
 	[dateFormatter setPMSymbol:@"pm"];
 	
@@ -67,8 +67,17 @@
 	//}
 	//else
 	//{
+		//if (!raceEvent.Ending) 
+		//{
+			TimeLabel.text = [dateFormatter stringFromDate:raceEvent.Begining];
+		//}
+		//else 
+		//{
+		//	TimeLabel.text =[NSString stringWithFormat:@"%@ - %@",[dateFormatter stringFromDate:raceEvent.Begining],[dateFormatter stringFromDate:raceEvent.Ending]];
+		//	
+		//}
 
-		TimeLabel.text = [dateFormatter stringFromDate:raceEvent.Begining];
+		
 	//}
 		TextLabel.text = raceEvent.Title;
 	/*

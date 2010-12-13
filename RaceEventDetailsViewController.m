@@ -73,8 +73,15 @@
 	//}
 	//else
 	//{
-
+	if(!raceEvent.Ending)
+	{
 		Time.text = [dateFormatter stringFromDate:raceEvent.Begining];
+	}
+	else
+	{
+
+		Time.text =[NSString stringWithFormat:@"%@ - %@",[dateFormatter stringFromDate:raceEvent.Begining],[dateFormatter stringFromDate:raceEvent.Ending]];
+	}
 	//}
 	
 	Location.text = raceEvent.Location;
