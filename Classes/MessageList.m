@@ -111,17 +111,22 @@
 
 	
 	[[cell Title]setText:msg.Title];
+	
+	
 	[[cell Date] setText: [dateFormatter stringFromDate:msg.Date]];
 	[[cell Image] setImage:[UIImage imageNamed:msg.Sponsor]];
 	if(msg.Read)
 	{
 		
 		[cell BackgroundView].backgroundColor =[UIColor whiteColor];
+		cell.Title.font = [UIFont fontWithName:@"Helvetica" size:17];
+		cell.Date.font = [UIFont fontWithName:@"Helvetica" size:13];
 	}
 	else 
 	{
-		
-		[cell BackgroundView].backgroundColor = [UIColor colorWithRed:1 green:1 blue:0.33 alpha:1];
+		cell.Title.font = [UIFont boldSystemFontOfSize:17];//  [UIFont fontWithName:@"Helvetica Bold" size:17];
+		cell.Date.font = [UIFont boldSystemFontOfSize:13];
+		//[cell BackgroundView].backgroundColor = [UIColor colorWithRed:1 green:1 blue:0.33 alpha:1];
 	}
 
    return cell;

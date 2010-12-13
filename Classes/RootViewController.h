@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 @class MessageContainer;
+@class RegistrationResultsPhotos;
 
 @interface RootViewController : UIViewController {
 
@@ -20,6 +21,8 @@
 	
 	MessageContainer *messageContainer;
 	BOOL errorDisplayed;
+	
+	RegistrationResultsPhotos* _rrp;
 }
 
 

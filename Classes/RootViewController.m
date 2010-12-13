@@ -46,10 +46,12 @@
 -(void)registrationTouchUpInside:(id)sender
 {
 	//[self.navigationController pushViewController:_registrationresultsPhotos animated:YES];
-	RegistrationResultsPhotos* r = 	[[RegistrationResultsPhotos alloc]init];
+	if(!_rrp)
+	{
+		_rrp = 	[[RegistrationResultsPhotos alloc]init];
+	}
 
-	[self.navigationController pushViewController:r animated:YES];
-	[r release];
+	[self.navigationController pushViewController:_rrp animated:YES];
 }
 
 -(void)travelActivitiesUpInside:(id)sender
@@ -209,6 +211,10 @@
 
 
 - (void)dealloc {
+	if(_rrp)
+	{
+		[_rrp release];
+	}
 	[messageContainer release];
 	[MessagesButton release];
 	[MessagesLabel release];

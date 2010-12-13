@@ -68,11 +68,16 @@
 	[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"http://www.photoman.com"]];
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+	[self.navigationController setNavigationBarHidden:NO animated:NO];
+	
+}
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]]];
-	[self.navigationController setNavigationBarHidden:NO animated:NO];
+	
 	self.title = @"Registration";
 
 	[self.view addSubview:reg.view];
