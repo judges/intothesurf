@@ -17,17 +17,17 @@
 	NSMutableArray *itemArray = [[NSMutableArray alloc]init];
 	NSMutableArray *array =[[NSMutableArray alloc]init];
 		
-	// food
-	[itemArray addObject:[Item initWithTitle:@"Kona Brewery" Image:@"konabrew.jpg"   Address:@"23 str, Kailua-Kona" Info:@"Promotion: coming soon" Link:@"www.konabrewery.com"]];	
-	[itemArray addObject:[Item initWithTitle:@"Jackie Reys"  Image:@"jackiereys.jpg" Address:@"75-5995 Kuakini Highway, Kailua-Kona, HI" Info:@"Promotion: coming soon" Link:@"www.jackiereys.com"]];	
-	[itemArray addObject:[Item initWithTitle:@"Starbucks"    Image:@"starbucks.jpg"  Address:@"23 str, Kailua-Kona" Info:@"Promotion: coming soon" Link:@"www.starbucks.com"]];	
+	// food    
+	[itemArray addObject:[Item initWithTitle:@"Kona Brewery" Image:@"konabrew.jpg"   Address:@"23 str, Kailua-Kona"                      Info:@"Promotion: coming soon" Link:@"www.konabrewery.com"  ll1:19.641961 ll2:-155.99646]];	
+	[itemArray addObject:[Item initWithTitle:@"Jackie Reys"  Image:@"jackiereys.jpg" Address:@"75-5995 Kuakini Highway, Kailua-Kona, HI" Info:@"Promotion: coming soon" Link:@"www.jackiereys.com"   ll1:19.62707  ll2:-155.98135]];	
+	[itemArray addObject:[Item initWithTitle:@"Starbucks"    Image:@"starbucks.jpg"  Address:@"23 str, Kailua-Kona"                      Info:@"Promotion: coming soon" Link:@"www.starbucks.com"    ll1:19.91370  ll2:-155.87999]];	
 	[array addObject:[Category categoryWithImageName:@"food_category.png" Label:@"Food" Items:itemArray]];
 	[itemArray release];
 	
 	//activities
 	itemArray =[[NSMutableArray alloc]init];
-	[itemArray addObject:[Item initWithTitle:@"Fair Wind Cruises" Image:@"fairwind.jpg" Address:@"78-7130 Kaleiopapa Street, Kailua-Kona" Info:@"Promotion: coming soon" Link:@"www.fair-wind.com"]];	
-	[itemArray addObject:[Item initWithTitle:@"Ocean Sports"      Image:@"fairwind.jpg" Address:@"69-275 Waikoloa Beach Drive HI 96738" Info:@"Promotion: coming soon" Link:@"hawaiioceansports.com"]];		
+	[itemArray addObject:[Item initWithTitle:@"Fair Wind Cruises" Image:@"fairwind.jpg"    Address:@"78-7130 Kaleiopapa Street, Kailua-Kona" Info:@"Promotion: coming soon" Link:@"www.fair-wind.com"     ll1:19.56177  ll2:-155.96215]];	
+	[itemArray addObject:[Item initWithTitle:@"Ocean Sports"      Image:@"oceansports.jpg" Address:@"69-275 Waikoloa Beach Drive HI 96738" Info:@"Promotion: coming soon"   Link:@"hawaiioceansports.com" ll1:19.91697  ll2:-155.88473]];		
 	[array addObject:[Category categoryWithImageName:@"activities_category.png" Label:@"Activities" Items:itemArray]];
 	[itemArray release];
 	
