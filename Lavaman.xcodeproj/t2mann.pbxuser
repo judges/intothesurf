@@ -70,6 +70,21 @@
 			6A258A1512B7DFB5009FD9B6 /* PBXTextBookmark */ = 6A258A1512B7DFB5009FD9B6 /* PBXTextBookmark */;
 			6A258A1812B7DFB5009FD9B6 /* PBXTextBookmark */ = 6A258A1812B7DFB5009FD9B6 /* PBXTextBookmark */;
 			6A258A1912B7DFB5009FD9B6 /* PBXTextBookmark */ = 6A258A1912B7DFB5009FD9B6 /* PBXTextBookmark */;
+			6A258A3112B80DC4009FD9B6 /* PBXBookmark */ = 6A258A3112B80DC4009FD9B6 /* PBXBookmark */;
+			6A258A3412B80DE9009FD9B6 /* PBXTextBookmark */ = 6A258A3412B80DE9009FD9B6 /* PBXTextBookmark */;
+			6A258A3512B80DE9009FD9B6 /* PBXTextBookmark */ = 6A258A3512B80DE9009FD9B6 /* PBXTextBookmark */;
+			6A258A3612B80DE9009FD9B6 /* PBXTextBookmark */ = 6A258A3612B80DE9009FD9B6 /* PBXTextBookmark */;
+			6A258A3912B80DE9009FD9B6 /* PBXTextBookmark */ = 6A258A3912B80DE9009FD9B6 /* PBXTextBookmark */;
+			6A258A3A12B80E1C009FD9B6 /* PBXBookmark */ = 6A258A3A12B80E1C009FD9B6 /* PBXBookmark */;
+			6A258A3D12B80ED2009FD9B6 /* PBXTextBookmark */ = 6A258A3D12B80ED2009FD9B6 /* PBXTextBookmark */;
+			6A258A4012B80ED2009FD9B6 /* PBXTextBookmark */ = 6A258A4012B80ED2009FD9B6 /* PBXTextBookmark */;
+			6A258A4312B80F13009FD9B6 /* PBXTextBookmark */ = 6A258A4312B80F13009FD9B6 /* PBXTextBookmark */;
+			6A258A4412B80F13009FD9B6 /* PBXTextBookmark */ = 6A258A4412B80F13009FD9B6 /* PBXTextBookmark */;
+			6A258A4F12B80F6A009FD9B6 /* PBXBookmark */ = 6A258A4F12B80F6A009FD9B6 /* PBXBookmark */;
+			6A258A5212B80F8D009FD9B6 /* PBXTextBookmark */ = 6A258A5212B80F8D009FD9B6 /* PBXTextBookmark */;
+			6A258A5312B80F8D009FD9B6 /* PBXTextBookmark */ = 6A258A5312B80F8D009FD9B6 /* PBXTextBookmark */;
+			6A258A5412B80F8D009FD9B6 /* PBXTextBookmark */ = 6A258A5412B80F8D009FD9B6 /* PBXTextBookmark */;
+			6A258A5712B80F8D009FD9B6 /* PBXTextBookmark */ = 6A258A5712B80F8D009FD9B6 /* PBXTextBookmark */;
 			6A2BBA2B12AEC2CB00EECC62 = 6A2BBA2B12AEC2CB00EECC62 /* PBXTextBookmark */;
 			6A2BBA6A12AEC7B900EECC62 = 6A2BBA6A12AEC7B900EECC62 /* PBXBookmark */;
 			6AB62A2A12B6CDD900D94E12 = 6AB62A2A12B6CDD900D94E12 /* PBXTextBookmark */;
@@ -162,7 +177,7 @@
 		fRef = 6EB8E306128078C900469C33 /* TravelActivitiesCreator.m */;
 		name = "TravelActivitiesCreator.m: 63";
 		rLen = 0;
-		rLoc = 4008;
+		rLoc = 4079;
 		rType = 0;
 		vrLen = 705;
 		vrLoc = 3493;
@@ -180,7 +195,7 @@
 		fRef = 6E507EA31281D7FE004D3212 /* SponsorsCreator.m */;
 		name = "SponsorsCreator.m: 35";
 		rLen = 0;
-		rLoc = 2968;
+		rLoc = 3025;
 		rType = 0;
 		vrLen = 1402;
 		vrLoc = 309;
@@ -190,7 +205,7 @@
 		fRef = 6EB8E306128078C900469C33 /* TravelActivitiesCreator.m */;
 		name = "TravelActivitiesCreator.m: 63";
 		rLen = 0;
-		rLoc = 4008;
+		rLoc = 4079;
 		rType = 0;
 		vrLen = 362;
 		vrLoc = 4024;
@@ -200,7 +215,7 @@
 		fRef = 6E507EA31281D7FE004D3212 /* SponsorsCreator.m */;
 		name = "SponsorsCreator.m: 35";
 		rLen = 0;
-		rLoc = 2968;
+		rLoc = 3025;
 		rType = 0;
 		vrLen = 1401;
 		vrLoc = 309;
@@ -210,7 +225,7 @@
 		fRef = 6E507EA31281D7FE004D3212 /* SponsorsCreator.m */;
 		name = "SponsorsCreator.m: 35";
 		rLen = 0;
-		rLoc = 2968;
+		rLoc = 3025;
 		rType = 0;
 		vrLen = 1161;
 		vrLoc = 309;
@@ -220,7 +235,7 @@
 		fRef = 6EB8E306128078C900469C33 /* TravelActivitiesCreator.m */;
 		name = "TravelActivitiesCreator.m: 29";
 		rLen = 0;
-		rLoc = 1383;
+		rLoc = 1384;
 		rType = 0;
 		vrLen = 3437;
 		vrLoc = 223;
@@ -230,7 +245,7 @@
 		fRef = 6EB8E306128078C900469C33 /* TravelActivitiesCreator.m */;
 		name = "TravelActivitiesCreator.m: 30";
 		rLen = 0;
-		rLoc = 1754;
+		rLoc = 1756;
 		rType = 0;
 		vrLen = 3348;
 		vrLoc = 223;
@@ -240,7 +255,7 @@
 		fRef = 6E507EA31281D7FE004D3212 /* SponsorsCreator.m */;
 		name = "SponsorsCreator.m: 32";
 		rLen = 28;
-		rLoc = 2682;
+		rLoc = 2739;
 		rType = 0;
 		vrLen = 2993;
 		vrLoc = 0;
@@ -250,9 +265,141 @@
 		fRef = 6E507EA31281D7FE004D3212 /* SponsorsCreator.m */;
 		name = "SponsorsCreator.m: 33";
 		rLen = 28;
-		rLoc = 2933;
+		rLoc = 2990;
 		rType = 0;
 		vrLen = 2993;
+		vrLoc = 0;
+	};
+	6A258A3112B80DC4009FD9B6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6EB8E306128078C900469C33 /* TravelActivitiesCreator.m */;
+	};
+	6A258A3412B80DE9009FD9B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E507EA31281D7FE004D3212 /* SponsorsCreator.m */;
+		name = "SponsorsCreator.m: 35";
+		rLen = 0;
+		rLoc = 3025;
+		rType = 0;
+		vrLen = 1439;
+		vrLoc = 309;
+	};
+	6A258A3512B80DE9009FD9B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6EB8E306128078C900469C33 /* TravelActivitiesCreator.m */;
+		name = "TravelActivitiesCreator.m: 64";
+		rLen = 0;
+		rLoc = 4079;
+		rType = 0;
+		vrLen = 362;
+		vrLoc = 4209;
+	};
+	6A258A3612B80DE9009FD9B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6EB8E306128078C900469C33 /* TravelActivitiesCreator.m */;
+		name = "TravelActivitiesCreator.m: 64";
+		rLen = 0;
+		rLoc = 4079;
+		rType = 0;
+		vrLen = 522;
+		vrLoc = 3251;
+	};
+	6A258A3912B80DE9009FD9B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6EB8E306128078C900469C33 /* TravelActivitiesCreator.m */;
+		name = "TravelActivitiesCreator.m: 57";
+		rLen = 0;
+		rLoc = 3579;
+		rType = 0;
+		vrLen = 3413;
+		vrLoc = 360;
+	};
+	6A258A3A12B80E1C009FD9B6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6E507EA31281D7FE004D3212 /* SponsorsCreator.m */;
+	};
+	6A258A3D12B80ED2009FD9B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6EB8E306128078C900469C33 /* TravelActivitiesCreator.m */;
+		name = "TravelActivitiesCreator.m: 64";
+		rLen = 0;
+		rLoc = 4079;
+		rType = 0;
+		vrLen = 522;
+		vrLoc = 3251;
+	};
+	6A258A4012B80ED2009FD9B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E507EA31281D7FE004D3212 /* SponsorsCreator.m */;
+		name = "SponsorsCreator.m: 19";
+		rLen = 0;
+		rLoc = 454;
+		rType = 0;
+		vrLen = 3163;
+		vrLoc = 0;
+	};
+	6A258A4312B80F13009FD9B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6EB8E306128078C900469C33 /* TravelActivitiesCreator.m */;
+		name = "TravelActivitiesCreator.m: 64";
+		rLen = 0;
+		rLoc = 4079;
+		rType = 0;
+		vrLen = 522;
+		vrLoc = 3251;
+	};
+	6A258A4412B80F13009FD9B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E507EA31281D7FE004D3212 /* SponsorsCreator.m */;
+		name = "SponsorsCreator.m: 32";
+		rLen = 12;
+		rLoc = 2662;
+		rType = 0;
+		vrLen = 3049;
+		vrLoc = 0;
+	};
+	6A258A4F12B80F6A009FD9B6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6E507EA31281D7FE004D3212 /* SponsorsCreator.m */;
+	};
+	6A258A5212B80F8D009FD9B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6EB8E306128078C900469C33 /* TravelActivitiesCreator.m */;
+		name = "TravelActivitiesCreator.m: 64";
+		rLen = 0;
+		rLoc = 4079;
+		rType = 0;
+		vrLen = 522;
+		vrLoc = 3251;
+	};
+	6A258A5312B80F8D009FD9B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E507EA31281D7FE004D3212 /* SponsorsCreator.m */;
+		name = "SponsorsCreator.m: 35";
+		rLen = 0;
+		rLoc = 3025;
+		rType = 0;
+		vrLen = 971;
+		vrLoc = 791;
+	};
+	6A258A5412B80F8D009FD9B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E507EA31281D7FE004D3212 /* SponsorsCreator.m */;
+		name = "SponsorsCreator.m: 35";
+		rLen = 0;
+		rLoc = 3025;
+		rType = 0;
+		vrLen = 971;
+		vrLoc = 791;
+	};
+	6A258A5712B80F8D009FD9B6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E507EA31281D7FE004D3212 /* SponsorsCreator.m */;
+		name = "SponsorsCreator.m: 32";
+		rLen = 0;
+		rLoc = 2597;
+		rType = 0;
+		vrLen = 3050;
 		vrLoc = 0;
 	};
 	6A2BBA2B12AEC2CB00EECC62 /* PBXTextBookmark */ = {
@@ -620,9 +767,9 @@
 	6E507EA31281D7FE004D3212 /* SponsorsCreator.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1832, 564}}";
-			sepNavSelRange = "{2933, 28}";
-			sepNavVisRange = "{0, 2993}";
-			sepNavWindowFrame = "{{4, 43}, {1276, 729}}";
+			sepNavSelRange = "{2597, 0}";
+			sepNavVisRange = "{0, 3050}";
+			sepNavWindowFrame = "{{4, 63}, {1276, 715}}";
 		};
 	};
 	6EB8E01A127DDB1A00469C33 /* MessageList.h */ = {
@@ -674,10 +821,10 @@
 	};
 	6EB8E306128078C900469C33 /* TravelActivitiesCreator.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1692, 988}}";
-			sepNavSelRange = "{1754, 0}";
-			sepNavVisRange = "{223, 3348}";
-			sepNavWindowFrame = "{{18, 68}, {1220, 710}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 1014}}";
+			sepNavSelRange = "{4079, 0}";
+			sepNavVisRange = "{3251, 522}";
+			sepNavWindowFrame = "{{39, 63}, {1220, 710}}";
 		};
 	};
 	6EB8E3B7128083ED00469C33 /* ItemsToDoViewController.h */ = {
