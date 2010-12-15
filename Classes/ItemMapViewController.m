@@ -135,8 +135,17 @@
 {
 	if(mItem.AddressLink)
 	{
-	[[UIApplication sharedApplication]openURL:
-	 [NSURL URLWithString:mItem.AddressLink ] ];
+		NSString *beginning = [mItem.AddressLink substringToIndex:7];
+		if(![beginning isEqualToString:@"http://"])
+		{
+			[[UIApplication sharedApplication]openURL:	 [NSURL URLWithString:[NSString stringWithFormat:@"http://%@",  mItem.AddressLink ]] ];
+		}
+		else 
+		{
+			[[UIApplication sharedApplication]openURL:	 [NSURL URLWithString:mItem.AddressLink ] ];
+		}
+
+	
 	}
 }
 

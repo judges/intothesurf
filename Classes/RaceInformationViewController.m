@@ -301,6 +301,22 @@
     [super viewDidLoad];
 	[self.navigationController setNavigationBarHidden:NO animated:YES];
 	self.navigationItem.rightBarButtonItem = self.barButton;
+	
+	
+	UIScrollView* scrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, 320, 440)];
+	
+	scrollView.indicatorStyle = UIScrollViewIndicatorStyleWhite;
+	scrollView.clipsToBounds = YES;        // default is NO, we want to restrict drawing within our scrollview
+	scrollView.scrollEnabled = YES;
+	scrollView.canCancelContentTouches = YES;
+	
+		
+	
+	self.view =scrollView;
+
+	[scrollView release];
+	//self.view = [[ alloc] ]
+	
 	[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]]];
 	int offset= 10;
 	
@@ -345,6 +361,8 @@
 			offset+=8;
 		}
 	}
+	[scrollView setContentSize: CGSizeMake(320, offset)];
+	
 }
 
 

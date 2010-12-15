@@ -64,7 +64,7 @@
 									<object class="IBUILabel" id="617460448">
 										<reference key="NSNextResponder" ref="987274300"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{60, 2}, {234, 21}}</string>
+										<string key="NSFrame">{{79, 2}, {215, 21}}</string>
 										<reference key="NSSuperview" ref="987274300"/>
 										<bool key="IBUIOpaque">NO</bool>
 										<bool key="IBUIClipsSubviews">YES</bool>
@@ -127,10 +127,10 @@
 										<float key="IBUIMinimumFontSize">10</float>
 										<int key="IBUILineBreakMode">1</int>
 									</object>
-									<object class="IBUIImageView" id="988905464">
+									<object class="IBUIImageView" id="276144871">
 										<reference key="NSNextResponder" ref="987274300"/>
 										<int key="NSvFlags">292</int>
-										<string key="NSFrame">{{104, 4}, {16, 16}}</string>
+										<string key="NSFrame">{{60, 4}, {16, 16}}</string>
 										<reference key="NSSuperview" ref="987274300"/>
 										<object class="NSColor" key="IBUIBackgroundColor">
 											<int key="NSColorSpace">3</int>
@@ -222,7 +222,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">Star</string>
 						<reference key="source" ref="978201685"/>
-						<reference key="destination" ref="988905464"/>
+						<reference key="destination" ref="276144871"/>
 					</object>
 					<int key="connectionID">16</int>
 				</object>
@@ -264,7 +264,7 @@
 							<reference ref="947368519"/>
 							<reference ref="617460448"/>
 							<reference ref="597683884"/>
-							<reference ref="988905464"/>
+							<reference ref="276144871"/>
 							<reference ref="759344021"/>
 						</object>
 						<reference key="parent" ref="978201685"/>
@@ -291,7 +291,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">15</int>
-						<reference key="object" ref="988905464"/>
+						<reference key="object" ref="276144871"/>
 						<reference key="parent" ref="987274300"/>
 					</object>
 				</object>
@@ -319,7 +319,7 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>NewsHeaderTableViewCell</string>
-					<string>{{395, 504}, {320, 60}}</string>
+					<string>{{216, 482}, {320, 60}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
