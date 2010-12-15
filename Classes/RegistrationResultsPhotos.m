@@ -19,7 +19,7 @@
         
 		CustomButtonData *cbd = [[CustomButtonData alloc]
 								 initWithTitle:@"Registration" 
-								 SmallText:@"Race is currently sold out, currently accepting applications for the waitlist" 
+								 SmallText:@"Race is currently sold out, please add yourself to the waitlist" 
 								 BigText:@"Status: Sold Out" 
 								 ImageName:@"calc.png"];
 		
@@ -65,7 +65,7 @@
 }
 -(void)photosTouchUpInside:(id)sender
 {
-	[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"http://www.photoman.com"]];
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"http://www.hawaiiphotoman.com"]];
 }
 
 -(void)viewWillAppear:(BOOL)animated
