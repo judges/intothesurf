@@ -37,7 +37,6 @@
 	[array addObject:[Category categoryWithImageName:@"shopping_category.png" Label:@"Shopping" Items:itemArray]];
 	[itemArray release];
 	
-	
 	//places
 	itemArray =[[NSMutableArray alloc]init];
 	[itemArray addObject:[Item initWithTitle:@"Coming Soon"     Image:@"comingsoon.jpg" Address:@"lavamantriathlon.com" Info:@"Promotion: " Link:@"www.lavamantriathlon.com"]];	
@@ -60,8 +59,8 @@
 	
 	//coaching
 	itemArray =[[NSMutableArray alloc]init];
-	[itemArray addObject:[Item initWithTitle:@"Eric Neilsen"    Image:@"eric.jpg"     Address:@"Kailua-Kona, HI" Info:@"" Link:@"www.coachericneilsen.com"]];	
-	[itemArray addObject:[Item initWithTitle:@"Luis DeLa Torre" Image:@"luis.jpg"     Address:@"Kailua-Kona, HI" Info:@"" Link:@"www.luisdelatorre.com"]];	
+	[itemArray addObject:[Item initWithTitle:@"Eric Neilsen"     Image:@"eric.jpg"     Address:@"Kailua-Kona, HI" Info:@"" Link:@"www.coachericneilsen.com"]];	
+	[itemArray addObject:[Item initWithTitle:@"Luis De La Torre" Image:@"luis.jpg"     Address:@"Kailua-Kona, HI" Info:@"" Link:@"www.luisdelatorre.com"]];	
 	[array addObject:[Category categoryWithImageName:@"karolina.jpg" Label:@"Coaching" Items:itemArray]];
 	[itemArray release];
 	

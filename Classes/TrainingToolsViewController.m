@@ -46,28 +46,16 @@
 		CGSize s = pace.view.frame.size;
 		pace.view.frame = CGRectMake(10, 40, s.width, s.height);
 		
-		cbd = [[CustomButtonData alloc] 
-			   initWithTitle:@"Nutritionist" 
-			   SmallText:@"www.nutritionisthere.com" 
-			   BigText:@"Lavaman Promo: 1 month free" 
-			   ImageName:@"karolina.jpg"];
-		nutri =[[CustomButtonViewController alloc]initWithOwner:self Selector:@selector(nutritioninstTouchUp) ButtonData:cbd];
-		[cbd release];
-		s = nutri.view.frame.size;
-		nutri.view.frame = CGRectMake(10, 140, s.width, s.height);
+//		cbd = [[CustomButtonData alloc] 
+//			   initWithTitle:@"Nutritionist" 
+//			   SmallText:@"www.nutritionisthere.com" 
+//			   BigText:@"Lavaman Promo: 1 month free" 
+//			   ImageName:@"karolina.jpg"];
+		//nutri =[[CustomButtonViewController alloc]initWithOwner:self Selector:@selector(nutritioninstTouchUp) ButtonData:cbd];
+		//[cbd release];
+		//s = nutri.view.frame.size;
+		//nutri.view.frame = CGRectMake(10, 140, s.width, s.height);
 		
-		
-		cbd = [[CustomButtonData alloc] 
-			   initWithTitle:@"Trathlon Coach" 
-			   SmallText:@"www.tricoachwebsite.com" 
-			   BigText:@"Lavaman Promo: 1 month free" 
-			   ImageName:@"neil.png"];
-		
-		coach =[[CustomButtonViewController alloc]initWithOwner:self Selector:@selector(TriathlonCoachTouchUp) ButtonData:cbd];
-		[cbd release];
-		
-		s = coach.view.frame.size;
-		coach.view.frame = CGRectMake(10, 240, s.width, s.height);
 			
     }
     return self;

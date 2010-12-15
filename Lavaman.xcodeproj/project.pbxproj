@@ -18,6 +18,7 @@
 		6A258A4C12B80F44009FD9B6 /* queens.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A258A4912B80F44009FD9B6 /* queens.jpg */; };
 		6A2BBA6812AEC79200EECC62 /* water.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A2BBA6712AEC79200EECC62 /* water.jpg */; };
 		6AB62A0712B6CAEA00D94E12 /* FilledStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AB62A0612B6CAEA00D94E12 /* FilledStar.png */; };
+		6AB8B40A12B936FB00B87E0D /* oceansports.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AB8B40912B936FB00B87E0D /* oceansports.jpg */; };
 		6AE4F02912A8333900997657 /* bike.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F01912A8333900997657 /* bike.png */; };
 		6AE4F02A12A8333900997657 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F01A12A8333900997657 /* camera.png */; };
 		6AE4F02D12A8333900997657 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F01D12A8333900997657 /* gear.png */; };
@@ -124,6 +125,7 @@
 		6A258A4912B80F44009FD9B6 /* queens.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = queens.jpg; sourceTree = "<group>"; };
 		6A2BBA6712AEC79200EECC62 /* water.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = water.jpg; sourceTree = "<group>"; };
 		6AB62A0612B6CAEA00D94E12 /* FilledStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FilledStar.png; sourceTree = "<group>"; };
+		6AB8B40912B936FB00B87E0D /* oceansports.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oceansports.jpg; sourceTree = "<group>"; };
 		6AE4F01912A8333900997657 /* bike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bike.png; path = images/bike.png; sourceTree = "<group>"; };
 		6AE4F01A12A8333900997657 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = camera.png; path = images/camera.png; sourceTree = "<group>"; };
 		6AE4F01D12A8333900997657 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gear.png; path = images/gear.png; sourceTree = "<group>"; };
@@ -328,6 +330,7 @@
 		6AE4F05212A8338700997657 /* Sponsors */ = {
 			isa = PBXGroup;
 			children = (
+				6AB8B40912B936FB00B87E0D /* oceansports.jpg */,
 				6A258A4712B80F44009FD9B6 /* fairwinds.jpg */,
 				6A258A4812B80F44009FD9B6 /* jackiereys.jpg */,
 				6A258A4912B80F44009FD9B6 /* queens.jpg */,
@@ -620,6 +623,7 @@
 				6A258A4A12B80F44009FD9B6 /* fairwinds.jpg in Resources */,
 				6A258A4B12B80F44009FD9B6 /* jackiereys.jpg in Resources */,
 				6A258A4C12B80F44009FD9B6 /* queens.jpg in Resources */,
+				6AB8B40A12B936FB00B87E0D /* oceansports.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
