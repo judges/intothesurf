@@ -1,5 +1,12 @@
 // !$*UTF8*$!
 {
+	1D3623250D0F684500981E51 /* LavamanAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1265, 1664}}";
+			sepNavSelRange = "{1180, 0}";
+			sepNavVisRange = "{1178, 98}";
+		};
+	};
 	1D6058900D05DD3D006BFB54 /* Lavaman */ = {
 		activeExec = 0;
 		executables = (
@@ -7,9 +14,9 @@
 		);
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeBuildConfigurationName = Distribution;
 		activeExecutable = 6A96906712A445FF00B93867 /* Lavaman */;
-		activeSDKPreference = iphonesimulator4.0;
+		activeSDKPreference = iphoneos4.0;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Lavaman */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* Lavaman */,
@@ -53,8 +60,8 @@
 					PBXFindDataSource_LocationID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 314127870;
-			PBXWorkspaceStateSaveDate = 314127870;
+			PBXPerProjectTemplateStateSaveDate = 314161111;
+			PBXWorkspaceStateSaveDate = 314161111;
 		};
 		perUserProjectItems = {
 			6A2589F112B757FE009FD9B6 = 6A2589F112B757FE009FD9B6 /* PBXTextBookmark */;
@@ -69,14 +76,18 @@
 			6AB62A2E12B6CDD900D94E12 = 6AB62A2E12B6CDD900D94E12 /* PBXTextBookmark */;
 			6AB62A2F12B6CDD900D94E12 = 6AB62A2F12B6CDD900D94E12 /* PBXTextBookmark */;
 			6AB62A3E12B6E47C00D94E12 = 6AB62A3E12B6E47C00D94E12 /* PBXTextBookmark */;
-			6AB8B3FD12B9360200B87E0D /* PBXBookmark */ = 6AB8B3FD12B9360200B87E0D /* PBXBookmark */;
-			6AB8B3FE12B9360200B87E0D /* PBXTextBookmark */ = 6AB8B3FE12B9360200B87E0D /* PBXTextBookmark */;
+			6AB8B44B12B9B76100B87E0D = 6AB8B44B12B9B76100B87E0D /* PBXTextBookmark */;
+			6AB8B44C12B9B76100B87E0D = 6AB8B44C12B9B76100B87E0D /* PBXBookmark */;
+			6AB8B44D12B9B76100B87E0D = 6AB8B44D12B9B76100B87E0D /* PBXTextBookmark */;
+			6AB8B44E12B9B76100B87E0D = 6AB8B44E12B9B76100B87E0D /* PlistBookmark */;
+			6AB8B44F12B9B76100B87E0D = 6AB8B44F12B9B76100B87E0D /* PBXTextBookmark */;
+			6AB8B45012B9B76100B87E0D = 6AB8B45012B9B76100B87E0D /* PBXBookmark */;
+			6AB8B45112B9B76100B87E0D = 6AB8B45112B9B76100B87E0D /* PBXBookmark */;
 			6AD65BEF12B6F8CE00866699 = 6AD65BEF12B6F8CE00866699 /* PBXBookmark */;
 			6AE4F16012A9696300997657 = 6AE4F16012A9696300997657 /* PBXTextBookmark */;
 			6AE4F17712AA32B900997657 = 6AE4F17712AA32B900997657 /* PBXBookmark */;
 			6AE4F17812AA32B900997657 = 6AE4F17812AA32B900997657 /* PBXBookmark */;
 			6AE4F17912AA32B900997657 = 6AE4F17912AA32B900997657 /* PBXBookmark */;
-			6AE4F17A12AA32B900997657 = 6AE4F17A12AA32B900997657 /* PBXBookmark */;
 			6AE4F17B12AA32B900997657 = 6AE4F17B12AA32B900997657 /* PBXBookmark */;
 			6AE4F17C12AA32B900997657 = 6AE4F17C12AA32B900997657 /* PBXBookmark */;
 			6AE4F17D12AA32B900997657 = 6AE4F17D12AA32B900997657 /* PBXBookmark */;
@@ -277,11 +288,7 @@
 		vrLen = 491;
 		vrLoc = 3429;
 	};
-	6AB8B3FD12B9360200B87E0D /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 6E507EA31281D7FE004D3212 /* SponsorsCreator.m */;
-	};
-	6AB8B3FE12B9360200B87E0D /* PBXTextBookmark */ = {
+	6AB8B44B12B9B76100B87E0D /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 6E507EA31281D7FE004D3212 /* SponsorsCreator.m */;
 		name = "SponsorsCreator.m: 35";
@@ -290,6 +297,49 @@
 		rType = 0;
 		vrLen = 502;
 		vrLoc = 309;
+	};
+	6AB8B44C12B9B76100B87E0D /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6AB8B40912B936FB00B87E0D /* oceansports.jpg */;
+	};
+	6AB8B44D12B9B76100B87E0D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6EB8E2D31280758A00469C33 /* TravelActivitiesViewController.m */;
+		name = "TravelActivitiesViewController.m: 52";
+		rLen = 0;
+		rLoc = 1168;
+		rType = 0;
+		vrLen = 128;
+		vrLoc = 1168;
+	};
+	6AB8B44E12B9B76100B87E0D /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 6AB8B44612B9B6E900B87E0D /* Entitlements.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/t2mann/Desktop/iPhone Applications/Lavaman/Entitlements.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	6AB8B44F12B9B76100B87E0D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LavamanAppDelegate.m */;
+		name = "LavamanAppDelegate.m: 51";
+		rLen = 0;
+		rLoc = 1180;
+		rType = 0;
+		vrLen = 120;
+		vrLoc = 1178;
+	};
+	6AB8B45012B9B76100B87E0D /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6E4B3B6D128329B8003658B1 /* icon.jpg */;
+	};
+	6AB8B45112B9B76100B87E0D /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6E4B3B6D128329B8003658B1 /* icon.jpg */;
 	};
 	6AD65BEF12B6F8CE00866699 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -316,10 +366,6 @@
 	6AE4F17912AA32B900997657 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 6E4B3BAE1289A7A2003658B1 /* background.jpg */;
-	};
-	6AE4F17A12AA32B900997657 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 6E4B3B6D128329B8003658B1 /* icon.jpg */;
 	};
 	6AE4F17B12AA32B900997657 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -513,6 +559,13 @@
 			sepNavVisRange = "{0, 405}";
 		};
 	};
+	6E4B3B6D128329B8003658B1 /* icon.jpg */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.jpeg;
+		name = icon.jpg;
+		path = "/Users/t2mann/Desktop/iPhone Applications/Lavaman/images/icon.jpg";
+		sourceTree = "<absolute>";
+	};
 	6E4B3D3A1289E2E2003658B1 /* logo.png */ = {
 		uiCtxt = {
 			sepNavWindowFrame = "{{15, 63}, {1220, 710}}";
@@ -527,10 +580,10 @@
 	};
 	6E507EA31281D7FE004D3212 /* SponsorsCreator.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1860, 546}}";
-			sepNavSelRange = "{3124, 0}";
-			sepNavVisRange = "{309, 502}";
-			sepNavWindowFrame = "{{4, 63}, {1276, 715}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1860, 536}}";
+			sepNavSelRange = "{1277, 28}";
+			sepNavVisRange = "{0, 3149}";
+			sepNavWindowFrame = "{{4, 91}, {1117, 687}}";
 		};
 	};
 	6E507EB71281D9DE004D3212 /* TrainingToolsViewController.m */ = {
@@ -567,9 +620,9 @@
 	};
 	6EB8E02C127DDBDA00469C33 /* MessageContainer.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {725, 4875}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{3383, 421}";
+			sepNavIntBoundsRect = "{{0, 0}, {929, 4914}}";
+			sepNavSelRange = "{3383, 0}";
+			sepNavVisRange = "{3209, 740}";
 			sepNavWindowFrame = "{{60, 64}, {1220, 710}}";
 		};
 	};
@@ -582,18 +635,18 @@
 	};
 	6EB8E2D31280758A00469C33 /* TravelActivitiesViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1221, 1833}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 927}";
+			sepNavIntBoundsRect = "{{0, 0}, {725, 1911}}";
+			sepNavSelRange = "{1168, 0}";
+			sepNavVisRange = "{1168, 128}";
 			sepNavWindowFrame = "{{0, 64}, {1280, 714}}";
 		};
 	};
 	6EB8E306128078C900469C33 /* TravelActivitiesCreator.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1692, 988}}";
-			sepNavSelRange = "{4079, 0}";
-			sepNavVisRange = "{3249, 508}";
-			sepNavWindowFrame = "{{39, 63}, {1220, 710}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1748, 962}}";
+			sepNavSelRange = "{1955, 1}";
+			sepNavVisRange = "{414, 4058}";
+			sepNavWindowFrame = "{{119, 46}, {1220, 710}}";
 		};
 	};
 	6EB8E3B7128083ED00469C33 /* ItemsToDoViewController.h */ = {

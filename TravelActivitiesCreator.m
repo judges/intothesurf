@@ -33,7 +33,7 @@
 		
 	//shopping
 	itemArray =[[NSMutableArray alloc]init];
-	[itemArray addObject:[Item initWithTitle:@"Queens Marketplace" Image:@"queens.jpg"      Address:@"201 Waikoloa Beach Drive, Waikoloa, HI" Info:@"Promotion: "       Link:@"www.queensmarketplace.net"]];	
+	[itemArray addObject:[Item initWithTitle:@"Queens Marketplace" Image:@"queens.jpg"      Address:@"201 Waikoloa Beach Drive, Waikoloa, HI" Info:@"Promotion: coming soon "       Link:@"www.queensmarketplace.net" ll1:19.91360  ll2:-155.87997]];	
 	[array addObject:[Category categoryWithImageName:@"shopping_category.png" Label:@"Shopping" Items:itemArray]];
 	[itemArray release];
 	
@@ -45,28 +45,28 @@
 	
 	//hotels
 	itemArray =[[NSMutableArray alloc]init];
-	[itemArray addObject:[Item initWithTitle:@"Hilton"          Image:@"hilton.jpg"     Address:@"425 Waikoloa Beach Drive, Waikoloa, HI" Info:@"Promotion: " Link:@"www.hilton.com"]];	
+	[itemArray addObject:[Item initWithTitle:@"Hilton"          Image:@"hilton.jpg"     Address:@"425 Waikoloa Beach Drive, Waikoloa, HI" Info:@"Promotion: coming soon" Link:@"www.hilton.com" ll1:19.92353  ll2:-155.88728]];	
 	[array addObject:[Category categoryWithImageName:@"cart.jpg" Label:@"Lodging" Items:itemArray]];
 	[itemArray release];
 	
 	//gear
 	itemArray =[[NSMutableArray alloc]init];
-	[itemArray addObject:[Item initWithTitle:@"Bike Works"      Image:@"bikeworks.jpg" Address:@"201 Waikoloa Beach Dr, Waikoloa, HI"          Info:@"Promotion: " Link:@"www.bikeworks.com"]];	
-	[itemArray addObject:[Item initWithTitle:@"Hammer"          Image:@"hammer.jpg"    Address:@"4952 Whitefish Stage Rd, Whitefish, MT 59937" Info:@"Promotion: " Link:@"www.hammernutrition.com"]];	
-	[itemArray addObject:[Item initWithTitle:@"XTerra Wetsuits" Image:@"xterra.jpg"    Address:@"8380 Miramar Mall, San Diego, CA 92121"       Info:@"Promotion: " Link:@"www.xterrawetsuits.com"]];	
+	[itemArray addObject:[Item initWithTitle:@"Bike Works"      Image:@"bikeworks.jpg" Address:@"201 Waikoloa Beach Dr, Waikoloa, HI"          Info:@"Promotion: coming soon" Link:@"www.bikeworks.com" ll1:19.91360  ll2:-155.87997]];	
+	[itemArray addObject:[Item initWithTitle:@"Hammer"          Image:@"hammer.jpg"    Address:@"4952 Whitefish Stage Rd, Whitefish, MT 59937" Info:@"Promotion: coming soon" Link:@"www.hammernutrition.com" ll1:19.64273  ll2:-155.99721]];	
+	[itemArray addObject:[Item initWithTitle:@"XTerra Wetsuits" Image:@"xterra.jpg"    Address:@"8380 Miramar Mall, San Diego, CA 92121"       Info:@"Promotion: coming soon" Link:@"www.xterrawetsuits.com" ll1:32.88040  ll2:-117.18359]];	
 	[array addObject:[Category categoryWithImageName:@"cart.jpg" Label:@"Gear" Items:itemArray]];
 	[itemArray release];
 	
 	//coaching
 	itemArray =[[NSMutableArray alloc]init];
-	[itemArray addObject:[Item initWithTitle:@"Eric Neilsen"     Image:@"eric.jpg"     Address:@"Kailua-Kona, HI" Info:@"" Link:@"www.coachericneilsen.com"]];	
-	[itemArray addObject:[Item initWithTitle:@"Luis De La Torre" Image:@"luis.jpg"     Address:@"Kailua-Kona, HI" Info:@"" Link:@"www.luisdelatorre.com"]];	
+	[itemArray addObject:[Item initWithTitle:@"Eric Neilsen"     Image:@"eric.jpg"     Address:@"Kailua-Kona, HI" Info:@"Promotion: coming soon" Link:@"www.coachericneilsen.com"]];	
+	[itemArray addObject:[Item initWithTitle:@"Luis De La Torre" Image:@"luis.jpg"     Address:@"Kailua-Kona, HI" Info:@"Promotion: coming soon" Link:@"www.luisdelatorre.com"]];	
 	[array addObject:[Category categoryWithImageName:@"karolina.jpg" Label:@"Coaching" Items:itemArray]];
 	[itemArray release];
 	
 	//nightlife
 	itemArray =[[NSMutableArray alloc]init];
-	[itemArray addObject:[Item initWithTitle:@"Coming Soon" Image:@"comingsoon.jpg"   Address:@"lavamantriathlon.com" Info:@"Promotion: " Link:@"www.lavamantriathlon.com"]];	
+	[itemArray addObject:[Item initWithTitle:@"Coming Soon" Image:@"comingsoon.jpg"   Address:@"lavamantriathlon.com" Info:@"Promotion: coming soon" Link:@"www.lavamantriathlon.com"]];	
 	[array addObject:[Category categoryWithImageName:@"" Label:@"Nightlife" Items:itemArray]];
 	[itemArray release];
 		
