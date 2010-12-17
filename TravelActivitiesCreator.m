@@ -26,20 +26,20 @@
 	
 	//activities
 	itemArray =[[NSMutableArray alloc]init];
-	[itemArray addObject:[Item initWithTitle:@"Fair Wind Cruises" Image:@"fairwinds.jpg"    Address:@"78-7130 Kaleiopapa Street, Kailua-Kona" Info:@"Promotion: coming soon" Link:@"www.fair-wind.com"     ll1:19.56177  ll2:-155.96215]];	
+	[itemArray addObject:[Item initWithTitle:@"Fair Wind Cruises" Image:@"fairwinds.jpg"    Address:@"78-7130 Kaleiopapa Street, Kailua-Kona, HI" Info:@"Promotion: coming soon" Link:@"www.fair-wind.com"     ll1:19.56177  ll2:-155.96215]];	
 	[itemArray addObject:[Item initWithTitle:@"Ocean Sports"      Image:@"oceansports.jpg"  Address:@"69-275 Waikoloa Beach Drive HI 96738"   Info:@"Promotion: coming soon" Link:@"hawaiioceansports.com" ll1:19.91697  ll2:-155.88473]];		
 	[array addObject:[Category categoryWithImageName:@"activities_category.png" Label:@"Activities" Items:itemArray]];
 	[itemArray release];
 		
 	//shopping
 	itemArray =[[NSMutableArray alloc]init];
-	[itemArray addObject:[Item initWithTitle:@"Queens Marketplace" Image:@"queens.jpg"      Address:@"201 Waikoloa Beach Drive, Waikoloa, HI" Info:@"Promotion: coming soon "       Link:@"www.queensmarketplace.net" ll1:19.91360  ll2:-155.87997]];	
+	[itemArray addObject:[Item initWithTitle:@"Queens Marketplace" Image:@"queens.jpg"  Address:@"201 Waikoloa Beach Drive, Waikoloa, HI" Info:@"Promotion: coming soon "       Link:@"www.queensmarketplace.net" ll1:19.91360  ll2:-155.87997]];	
 	[array addObject:[Category categoryWithImageName:@"shopping_category.png" Label:@"Shopping" Items:itemArray]];
 	[itemArray release];
 	
 	//places
 	itemArray =[[NSMutableArray alloc]init];
-	[itemArray addObject:[Item initWithTitle:@"Coming Soon"     Image:@"comingsoon.jpg" Address:@"lavamantriathlon.com" Info:@"Promotion: " Link:@"www.lavamantriathlon.com"]];	
+	[itemArray addObject:[Item initWithTitle:@"Coming Soon"     Image:@"comingsoon.jpg" Address:@"lavamantriathlon.com"                   Info:@"Promotion: coming soon" Link:@"www.lavamantriathlon.com"]];	
 	[array addObject:[Category categoryWithImageName:@"places_category.png" Label:@"Sites" Items:itemArray]];
 	[itemArray release];
 	
@@ -51,15 +51,15 @@
 	
 	//gear
 	itemArray =[[NSMutableArray alloc]init];
-	[itemArray addObject:[Item initWithTitle:@"Bike Works"      Image:@"bikeworks.jpg" Address:@"201 Waikoloa Beach Dr, Waikoloa, HI"          Info:@"Promotion: coming soon" Link:@"www.bikeworks.com" ll1:19.91360  ll2:-155.87997]];	
-	[itemArray addObject:[Item initWithTitle:@"Hammer"          Image:@"hammer.jpg"    Address:@"4952 Whitefish Stage Rd, Whitefish, MT 59937" Info:@"Promotion: coming soon" Link:@"www.hammernutrition.com" ll1:19.64273  ll2:-155.99721]];	
-	[itemArray addObject:[Item initWithTitle:@"XTerra Wetsuits" Image:@"xterra.jpg"    Address:@"8380 Miramar Mall, San Diego, CA 92121"       Info:@"Promotion: coming soon" Link:@"www.xterrawetsuits.com" ll1:32.88040  ll2:-117.18359]];	
+	[itemArray addObject:[Item initWithTitle:@"Bike Works"      Image:@"bikeworks.jpg" Address:@"201 Waikoloa Beach Dr, Waikoloa, HI"    Info:@"Promotion: coming soon" Link:@"www.bikeworks.com" ll1:19.91360  ll2:-155.87997]];	
+	[itemArray addObject:[Item initWithTitle:@"Hammer"          Image:@"hammer.jpg"    Address:@"4952 Whitefish Stage Rd, Whitefish, MT" Info:@"Promotion: coming soon" Link:@"www.hammernutrition.com" ll1:19.64273  ll2:-155.99721]];	
+	[itemArray addObject:[Item initWithTitle:@"XTerra Wetsuits" Image:@"xterra.jpg"    Address:@"8380 Miramar Mall, San Diego, CA"       Info:@"Promotion: coming soon" Link:@"www.xterrawetsuits.com" ll1:32.88040  ll2:-117.18359]];	
 	[array addObject:[Category categoryWithImageName:@"cart.jpg" Label:@"Gear" Items:itemArray]];
 	[itemArray release];
 	
 	//coaching
 	itemArray =[[NSMutableArray alloc]init];
-	[itemArray addObject:[Item initWithTitle:@"Eric Neilsen"     Image:@"eric.jpg"     Address:@"Kailua-Kona, HI" Info:@"Promotion: coming soon" Link:@"www.coachericneilsen.com"]];	
+	[itemArray addObject:[Item initWithTitle:@"Eric Neilsen"     Image:@"eric.png"     Address:@"Kailua-Kona, HI" Info:@"Promotion: coming soon" Link:@"www.coachericneilsen.com"]];	
 	[itemArray addObject:[Item initWithTitle:@"Luis De La Torre" Image:@"luis.jpg"     Address:@"Kailua-Kona, HI" Info:@"Promotion: coming soon" Link:@"www.luisdelatorre.com"]];	
 	[array addObject:[Category categoryWithImageName:@"karolina.jpg" Label:@"Coaching" Items:itemArray]];
 	[itemArray release];

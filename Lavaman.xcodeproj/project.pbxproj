@@ -17,6 +17,11 @@
 		6A258A4B12B80F44009FD9B6 /* jackiereys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A258A4812B80F44009FD9B6 /* jackiereys.jpg */; };
 		6A258A4C12B80F44009FD9B6 /* queens.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A258A4912B80F44009FD9B6 /* queens.jpg */; };
 		6A2BBA6812AEC79200EECC62 /* water.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A2BBA6712AEC79200EECC62 /* water.jpg */; };
+		6A9B11DA12BAE92100C09E0C /* clarkrealty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B11D512BAE92100C09E0C /* clarkrealty.jpg */; };
+		6A9B11DB12BAE92100C09E0C /* eric.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B11D612BAE92100C09E0C /* eric.png */; };
+		6A9B11DC12BAE92100C09E0C /* ironman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B11D712BAE92100C09E0C /* ironman.jpg */; };
+		6A9B11DD12BAE92100C09E0C /* planetsun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B11D812BAE92100C09E0C /* planetsun.jpg */; };
+		6A9B11DE12BAE92100C09E0C /* tribiketransport.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B11D912BAE92100C09E0C /* tribiketransport.jpg */; };
 		6AB62A0712B6CAEA00D94E12 /* FilledStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AB62A0612B6CAEA00D94E12 /* FilledStar.png */; };
 		6AB8B40A12B936FB00B87E0D /* oceansports.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AB8B40912B936FB00B87E0D /* oceansports.jpg */; };
 		6AB8B45B12B9B7F000B87E0D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AB8B45A12B9B7F000B87E0D /* icon.png */; };
@@ -124,6 +129,11 @@
 		6A258A4812B80F44009FD9B6 /* jackiereys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jackiereys.jpg; sourceTree = "<group>"; };
 		6A258A4912B80F44009FD9B6 /* queens.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = queens.jpg; sourceTree = "<group>"; };
 		6A2BBA6712AEC79200EECC62 /* water.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = water.jpg; sourceTree = "<group>"; };
+		6A9B11D512BAE92100C09E0C /* clarkrealty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clarkrealty.jpg; sourceTree = "<group>"; };
+		6A9B11D612BAE92100C09E0C /* eric.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eric.png; sourceTree = "<group>"; };
+		6A9B11D712BAE92100C09E0C /* ironman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ironman.jpg; sourceTree = "<group>"; };
+		6A9B11D812BAE92100C09E0C /* planetsun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = planetsun.jpg; sourceTree = "<group>"; };
+		6A9B11D912BAE92100C09E0C /* tribiketransport.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tribiketransport.jpg; sourceTree = "<group>"; };
 		6AB62A0612B6CAEA00D94E12 /* FilledStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FilledStar.png; sourceTree = "<group>"; };
 		6AB8B40912B936FB00B87E0D /* oceansports.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oceansports.jpg; sourceTree = "<group>"; };
 		6AB8B44612B9B6E900B87E0D /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
@@ -332,6 +342,11 @@
 		6AE4F05212A8338700997657 /* Sponsors */ = {
 			isa = PBXGroup;
 			children = (
+				6A9B11D512BAE92100C09E0C /* clarkrealty.jpg */,
+				6A9B11D612BAE92100C09E0C /* eric.png */,
+				6A9B11D712BAE92100C09E0C /* ironman.jpg */,
+				6A9B11D812BAE92100C09E0C /* planetsun.jpg */,
+				6A9B11D912BAE92100C09E0C /* tribiketransport.jpg */,
 				6AB8B40912B936FB00B87E0D /* oceansports.jpg */,
 				6A258A4712B80F44009FD9B6 /* fairwinds.jpg */,
 				6A258A4812B80F44009FD9B6 /* jackiereys.jpg */,
@@ -626,6 +641,11 @@
 				6A258A4C12B80F44009FD9B6 /* queens.jpg in Resources */,
 				6AB8B40A12B936FB00B87E0D /* oceansports.jpg in Resources */,
 				6AB8B45B12B9B7F000B87E0D /* icon.png in Resources */,
+				6A9B11DA12BAE92100C09E0C /* clarkrealty.jpg in Resources */,
+				6A9B11DB12BAE92100C09E0C /* eric.png in Resources */,
+				6A9B11DC12BAE92100C09E0C /* ironman.jpg in Resources */,
+				6A9B11DD12BAE92100C09E0C /* planetsun.jpg in Resources */,
+				6A9B11DE12BAE92100C09E0C /* tribiketransport.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -706,14 +726,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Todd Wanke (H59K65GK8C)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: intothesurf llc.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: intothesurf llc.";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "6D983ADD-04BD-4E6B-B1CE-063CCFE6AA6F";
+				PROVISIONING_PROFILE = "073851F3-F28F-4C7E-9BB8-606D801A98CA";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "073851F3-F28F-4C7E-9BB8-606D801A98CA";
 				SDKROOT = iphoneos4.0;
 			};
@@ -737,13 +757,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Todd Wanke (H59K65GK8C)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: intothesurf llc.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: intothesurf llc.";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "6D983ADD-04BD-4E6B-B1CE-063CCFE6AA6F";
+				PROVISIONING_PROFILE = "073851F3-F28F-4C7E-9BB8-606D801A98CA";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "073851F3-F28F-4C7E-9BB8-606D801A98CA";
 				SDKROOT = iphoneos4.0;
 			};
@@ -753,14 +773,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Todd Wanke (H59K65GK8C)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: intothesurf llc.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: intothesurf llc.";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "6D983ADD-04BD-4E6B-B1CE-063CCFE6AA6F";
+				PROVISIONING_PROFILE = "073851F3-F28F-4C7E-9BB8-606D801A98CA";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "073851F3-F28F-4C7E-9BB8-606D801A98CA";
 				SDKROOT = iphoneos4.0;
 			};
