@@ -85,6 +85,8 @@
 		6EA6B17012BD1BFB006DDC11 /* triCalcDataSelect.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EA6B16E12BD1BFB006DDC11 /* triCalcDataSelect.xib */; };
 		6EA6B28012BD473F006DDC11 /* triCalcPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */; };
 		6EA6B2EE12BD5252006DDC11 /* triCalcTriathlonTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA6B2ED12BD5252006DDC11 /* triCalcTriathlonTime.m */; };
+		6EA6B67012BE37D8006DDC11 /* triCalcTemplateDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA6B66E12BE37D8006DDC11 /* triCalcTemplateDistance.m */; };
+		6EA6B67112BE37D8006DDC11 /* triCalcTemplateDistance.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EA6B66F12BE37D8006DDC11 /* triCalcTemplateDistance.xib */; };
 		6EB8E01D127DDB1A00469C33 /* MessageList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8E01B127DDB1A00469C33 /* MessageList.m */; };
 		6EB8E01E127DDB1A00469C33 /* MessageList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EB8E01C127DDB1A00469C33 /* MessageList.xib */; };
 		6EB8E02D127DDBDA00469C33 /* MessageContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8E02C127DDBDA00469C33 /* MessageContainer.m */; };
@@ -219,6 +221,9 @@
 		6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = triCalcPickerController.m; sourceTree = "<group>"; };
 		6EA6B2EC12BD5252006DDC11 /* triCalcTriathlonTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triCalcTriathlonTime.h; sourceTree = "<group>"; };
 		6EA6B2ED12BD5252006DDC11 /* triCalcTriathlonTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = triCalcTriathlonTime.m; sourceTree = "<group>"; };
+		6EA6B66D12BE37D8006DDC11 /* triCalcTemplateDistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triCalcTemplateDistance.h; sourceTree = "<group>"; };
+		6EA6B66E12BE37D8006DDC11 /* triCalcTemplateDistance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = triCalcTemplateDistance.m; sourceTree = "<group>"; };
+		6EA6B66F12BE37D8006DDC11 /* triCalcTemplateDistance.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = triCalcTemplateDistance.xib; sourceTree = "<group>"; };
 		6EB8E01A127DDB1A00469C33 /* MessageList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageList.h; path = Classes/MessageList.h; sourceTree = "<group>"; };
 		6EB8E01B127DDB1A00469C33 /* MessageList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageList.m; path = Classes/MessageList.m; sourceTree = "<group>"; };
 		6EB8E01C127DDB1A00469C33 /* MessageList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MessageList.xib; path = Classes/MessageList.xib; sourceTree = "<group>"; };
@@ -419,6 +424,9 @@
 				6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */,
 				6EA6B2EC12BD5252006DDC11 /* triCalcTriathlonTime.h */,
 				6EA6B2ED12BD5252006DDC11 /* triCalcTriathlonTime.m */,
+				6EA6B66D12BE37D8006DDC11 /* triCalcTemplateDistance.h */,
+				6EA6B66E12BE37D8006DDC11 /* triCalcTemplateDistance.m */,
+				6EA6B66F12BE37D8006DDC11 /* triCalcTemplateDistance.xib */,
 			);
 			name = triCalc;
 			sourceTree = "<group>";
@@ -693,6 +701,7 @@
 				6EA6AF7312BCF87B006DDC11 /* triCalcRootController.xib in Resources */,
 				6EA6AF9812BCFB2C006DDC11 /* ChildNavigationControllerHost.xib in Resources */,
 				6EA6B17012BD1BFB006DDC11 /* triCalcDataSelect.xib in Resources */,
+				6EA6B67112BE37D8006DDC11 /* triCalcTemplateDistance.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -739,6 +748,7 @@
 				6EA6B16F12BD1BFB006DDC11 /* triCalcDataSelect.m in Sources */,
 				6EA6B28012BD473F006DDC11 /* triCalcPickerController.m in Sources */,
 				6EA6B2EE12BD5252006DDC11 /* triCalcTriathlonTime.m in Sources */,
+				6EA6B67012BE37D8006DDC11 /* triCalcTemplateDistance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

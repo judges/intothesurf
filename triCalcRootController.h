@@ -69,4 +69,8 @@
 -(void)fromTransition;
 
 -(void)edit:(id)sender;
+
+-(void)selectDistance:(id)sender;
+-(void)distanceSelected:(NSNumber*)newDistance;
+
 @end

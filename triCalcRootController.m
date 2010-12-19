@@ -11,6 +11,7 @@
 #import "triCalcDataSelect.h"
 #import "triCalcPickerController.h"
 #import "triCalcTriathlonTime.h"
+#import "triCalcTemplateDistance.h"
 
 @implementation triCalcRootController
 @synthesize toolBar;
@@ -33,6 +34,7 @@
 		[Time setOwner:self delegate:@selector(edit:)];
 		Distance=[[triCalcDataSelect alloc] initWithTitle:@"Distance" Value:@"0" Metrics:@"meters" ButtonVisible:YES];
 		[Distance setOwner:self delegate:@selector(edit:)];
+		
 		Paste=[[triCalcDataSelect alloc] initWithTitle:@"Pace" Value:@"0:00:00" Metrics:@"kpm" ButtonVisible:NO];
 		[Paste setOwner:self delegate:@selector(edit:)];
 		RaceTime=[[triCalcDataSelect alloc] initWithTitle:@"Race time" Value:@"0:00:00" Metrics:@"" ButtonVisible:NO];
@@ -160,6 +162,11 @@
 
 -(void)pickerChanged:(id)sender;
 {
+	if(currentEdit==-1)
+	{
+		return;	
+	}
+	
 	float value;
 	if(currentScreen == 3)
 	{
@@ -405,7 +412,6 @@
     [super viewDidLoad];
 	
 	
-	
 	[self.navigationController.navigationBar setTintColor:settings.TintColor];
 	
 	UIBarButtonItem *bbiR = [[UIBarButtonItem alloc] initWithCustomView:topRightSegmentControl];
@@ -454,6 +460,9 @@
 	[self.view addSubview:RaceTime.view];
 	[self.view addSubview:T1.view];
 	[self.view addSubview:T2.view];
+	
+	[Distance.DetailsButton addTarget:self action:@selector(selectDistance:) forControlEvents:UIControlEventTouchUpInside];
+
 	
 	Distance.view.frame= CGRectMake(10, first, 300, 35);
 	Paste.view.frame= CGRectMake(10, second, 300, 35);
@@ -541,6 +550,30 @@
     // e.g. self.myOutlet = nil;
 }
 
+-(void)selectDistance:(id)sender
+{
+	if(currentMode == 1)
+	{
+		return ;
+	}
+	currentEdit = 1;
+	triCalcTemplateDistance * tmp = [[triCalcTemplateDistance alloc] initWithBackground:self.view.backgroundColor 
+																				  owner:self 
+																			   selector:@selector(distanceSelected:)
+																				 Screen:currentScreen];
+	
+	[self.navigationController pushViewController:tmp animated:YES];
+	[tmp release];
+}
+
+-(void)distanceSelected:(NSNumber*)newDistance
+{
+	
+	[pickerController SetDistance:triathlonTime.useMile Current:[newDistance floatValue]];
+	[triathlonTime updateValue:[newDistance floatValue] InEdit:currentEdit InScreen:currentScreen InMode:currentMode];
+
+	[self updateScreen];
+}
 
 - (void)dealloc {
 	[T1 release];

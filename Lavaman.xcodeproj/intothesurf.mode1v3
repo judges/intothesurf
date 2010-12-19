@@ -276,9 +276,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>56</integer>
-									<integer>36</integer>
-									<integer>14</integer>
+									<integer>15</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -302,7 +301,7 @@
 							<real>446</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>6 107 1600 771 0 0 1600 878 </string>
+						<string>0 107 1600 771 0 0 1600 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -320,7 +319,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TrainingToolsViewController.m</string>
+								<string>triCalcTemplateDistance.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -328,11 +327,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TrainingToolsViewController.m</string>
+										<string>triCalcTemplateDistance.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>6EA6B66612BE316E006DDC11</string>
+										<string>6EA6B6F312BE42BB006DDC11</string>
 										<key>history</key>
 										<array>
 											<string>6E4B3DB21289E82D003658B1</string>
@@ -446,14 +445,16 @@
 											<string>6EA6B54712BE1136006DDC11</string>
 											<string>6EA6B5D212BE2BE1006DDC11</string>
 											<string>6EA6B5D312BE2BE1006DDC11</string>
-											<string>6EA6B5E812BE2C96006DDC11</string>
-											<string>6EA6B5F912BE2D1F006DDC11</string>
-											<string>6EA6B60D12BE2DCA006DDC11</string>
-											<string>6EA6B61312BE2E02006DDC11</string>
 											<string>6EA6B61412BE2E02006DDC11</string>
 											<string>6EA6B61512BE2E02006DDC11</string>
 											<string>6EA6B63512BE3038006DDC11</string>
-											<string>6EA6B65812BE30E9006DDC11</string>
+											<string>6EA6B6A112BE3F10006DDC11</string>
+											<string>6EA6B6B312BE3FC7006DDC11</string>
+											<string>6EA6B6B512BE3FC7006DDC11</string>
+											<string>6EA6B6E312BE41BD006DDC11</string>
+											<string>6EA6B6E412BE41BD006DDC11</string>
+											<string>6EA6B6F112BE42BB006DDC11</string>
+											<string>6EA6B6F212BE42BB006DDC11</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -465,14 +466,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1132, 484}}</string>
+								<string>{{0, 0}, {1132, 483}}</string>
 								<key>RubberWindowFrame</key>
-								<string>6 107 1600 771 0 0 1600 878 </string>
+								<string>0 107 1600 771 0 0 1600 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>484pt</string>
+							<string>483pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -485,14 +486,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 489}, {1132, 241}}</string>
+								<string>{{0, 488}, {1132, 242}}</string>
 								<key>RubberWindowFrame</key>
-								<string>6 107 1600 771 0 0 1600 878 </string>
+								<string>0 107 1600 771 0 0 1600 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>241pt</string>
+							<string>242pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -660,7 +661,7 @@
 		<string>/Users/intothesurf/Development/GitHub/Lavaman/intothesurf/Lavaman.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>6 107 1600 771 0 0 1600 878 </string>
+	<string>0 107 1600 771 0 0 1600 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
