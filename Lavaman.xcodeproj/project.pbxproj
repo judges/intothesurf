@@ -54,10 +54,8 @@
 		6AE4F0EB12A8399500997657 /* todd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F0EA12A8399500997657 /* todd.jpg */; };
 		6AE4F0ED12A839B800997657 /* luis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AE4F0EC12A839B800997657 /* luis.jpg */; };
 		6E154358127B5B4F00C97C88 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E154356127B5B4F00C97C88 /* RootViewController.m */; };
-		6E154359127B5B4F00C97C88 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E154357127B5B4F00C97C88 /* RootViewController.xib */; };
 		6E154377127B5E6300C97C88 /* RegistrationResultsPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E154375127B5E6300C97C88 /* RegistrationResultsPhotos.m */; };
 		6E154378127B5E6300C97C88 /* RegistrationResultsPhotos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E154376127B5E6300C97C88 /* RegistrationResultsPhotos.xib */; };
-		6E392CE81299B06E00F4EDF1 /* untitled.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E392CE71299B06E00F4EDF1 /* untitled.m */; };
 		6E4B3BB01289A7A2003658B1 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B3BAE1289A7A2003658B1 /* background.jpg */; };
 		6E4B3D3B1289E2E2003658B1 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B3D3A1289E2E2003658B1 /* logo.png */; };
 		6E4B3D971289E733003658B1 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4B3D961289E733003658B1 /* EventKit.framework */; };
@@ -77,6 +75,16 @@
 		6E9A98411299116400E3BB4B /* white_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E9A98401299116400E3BB4B /* white_button.png */; };
 		6E9A98A512993EEC00E3BB4B /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9A98A412993EEC00E3BB4B /* iAd.framework */; };
 		6EA6AC0512B6991B006DDC11 /* FilledStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EA6AC0412B6991B006DDC11 /* FilledStar.png */; };
+		6EA6AF5512BCF6F9006DDC11 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E154357127B5B4F00C97C88 /* RootViewController.xib */; };
+		6EA6AF7212BCF87B006DDC11 /* triCalcRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */; };
+		6EA6AF7312BCF87B006DDC11 /* triCalcRootController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EA6AF7112BCF87B006DDC11 /* triCalcRootController.xib */; };
+		6EA6AF9712BCFB2C006DDC11 /* ChildNavigationControllerHost.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA6AF9512BCFB2C006DDC11 /* ChildNavigationControllerHost.m */; };
+		6EA6AF9812BCFB2C006DDC11 /* ChildNavigationControllerHost.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EA6AF9612BCFB2C006DDC11 /* ChildNavigationControllerHost.xib */; };
+		6EA6B01F12BD0123006DDC11 /* triCalcSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA6B01E12BD0123006DDC11 /* triCalcSettings.m */; };
+		6EA6B16F12BD1BFB006DDC11 /* triCalcDataSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA6B16D12BD1BFB006DDC11 /* triCalcDataSelect.m */; };
+		6EA6B17012BD1BFB006DDC11 /* triCalcDataSelect.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EA6B16E12BD1BFB006DDC11 /* triCalcDataSelect.xib */; };
+		6EA6B28012BD473F006DDC11 /* triCalcPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */; };
+		6EA6B2EE12BD5252006DDC11 /* triCalcTriathlonTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA6B2ED12BD5252006DDC11 /* triCalcTriathlonTime.m */; };
 		6EB8E01D127DDB1A00469C33 /* MessageList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8E01B127DDB1A00469C33 /* MessageList.m */; };
 		6EB8E01E127DDB1A00469C33 /* MessageList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EB8E01C127DDB1A00469C33 /* MessageList.xib */; };
 		6EB8E02D127DDBDA00469C33 /* MessageContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8E02C127DDBDA00469C33 /* MessageContainer.m */; };
@@ -172,7 +180,6 @@
 		6E154374127B5E6300C97C88 /* RegistrationResultsPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegistrationResultsPhotos.h; path = Classes/RegistrationResultsPhotos.h; sourceTree = "<group>"; };
 		6E154375127B5E6300C97C88 /* RegistrationResultsPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegistrationResultsPhotos.m; path = Classes/RegistrationResultsPhotos.m; sourceTree = "<group>"; };
 		6E154376127B5E6300C97C88 /* RegistrationResultsPhotos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RegistrationResultsPhotos.xib; path = Classes/RegistrationResultsPhotos.xib; sourceTree = "<group>"; };
-		6E392CE71299B06E00F4EDF1 /* untitled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = untitled.m; sourceTree = "<group>"; };
 		6E4B3BAE1289A7A2003658B1 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = images/background.jpg; sourceTree = "<group>"; };
 		6E4B3D3A1289E2E2003658B1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = images/logo.png; sourceTree = "<group>"; };
 		6E4B3D961289E733003658B1 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
@@ -197,6 +204,21 @@
 		6E9A98401299116400E3BB4B /* white_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_button.png; path = ../images/white_button.png; sourceTree = "<group>"; };
 		6E9A98A412993EEC00E3BB4B /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		6EA6AC0412B6991B006DDC11 /* FilledStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FilledStar.png; sourceTree = "<group>"; };
+		6EA6AF6F12BCF87B006DDC11 /* triCalcRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triCalcRootController.h; sourceTree = "<group>"; };
+		6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = triCalcRootController.m; sourceTree = "<group>"; };
+		6EA6AF7112BCF87B006DDC11 /* triCalcRootController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = triCalcRootController.xib; sourceTree = "<group>"; };
+		6EA6AF9412BCFB2C006DDC11 /* ChildNavigationControllerHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildNavigationControllerHost.h; sourceTree = "<group>"; };
+		6EA6AF9512BCFB2C006DDC11 /* ChildNavigationControllerHost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildNavigationControllerHost.m; sourceTree = "<group>"; };
+		6EA6AF9612BCFB2C006DDC11 /* ChildNavigationControllerHost.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChildNavigationControllerHost.xib; sourceTree = "<group>"; };
+		6EA6B01D12BD0123006DDC11 /* triCalcSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triCalcSettings.h; sourceTree = "<group>"; };
+		6EA6B01E12BD0123006DDC11 /* triCalcSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = triCalcSettings.m; sourceTree = "<group>"; };
+		6EA6B16C12BD1BFB006DDC11 /* triCalcDataSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triCalcDataSelect.h; sourceTree = "<group>"; };
+		6EA6B16D12BD1BFB006DDC11 /* triCalcDataSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = triCalcDataSelect.m; sourceTree = "<group>"; };
+		6EA6B16E12BD1BFB006DDC11 /* triCalcDataSelect.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = triCalcDataSelect.xib; sourceTree = "<group>"; };
+		6EA6B27E12BD473F006DDC11 /* triCalcPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triCalcPickerController.h; sourceTree = "<group>"; };
+		6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = triCalcPickerController.m; sourceTree = "<group>"; };
+		6EA6B2EC12BD5252006DDC11 /* triCalcTriathlonTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triCalcTriathlonTime.h; sourceTree = "<group>"; };
+		6EA6B2ED12BD5252006DDC11 /* triCalcTriathlonTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = triCalcTriathlonTime.m; sourceTree = "<group>"; };
 		6EB8E01A127DDB1A00469C33 /* MessageList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageList.h; path = Classes/MessageList.h; sourceTree = "<group>"; };
 		6EB8E01B127DDB1A00469C33 /* MessageList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageList.m; path = Classes/MessageList.m; sourceTree = "<group>"; };
 		6EB8E01C127DDB1A00469C33 /* MessageList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MessageList.xib; path = Classes/MessageList.xib; sourceTree = "<group>"; };
@@ -285,6 +307,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				6EA6AF6D12BCF834006DDC11 /* triCalc */,
 				6EF7888E129406D60089BEC6 /* Code */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -381,6 +404,25 @@
 			path = buttons;
 			sourceTree = "<group>";
 		};
+		6EA6AF6D12BCF834006DDC11 /* triCalc */ = {
+			isa = PBXGroup;
+			children = (
+				6EA6AF6F12BCF87B006DDC11 /* triCalcRootController.h */,
+				6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */,
+				6EA6AF7112BCF87B006DDC11 /* triCalcRootController.xib */,
+				6EA6B01D12BD0123006DDC11 /* triCalcSettings.h */,
+				6EA6B01E12BD0123006DDC11 /* triCalcSettings.m */,
+				6EA6B16C12BD1BFB006DDC11 /* triCalcDataSelect.h */,
+				6EA6B16D12BD1BFB006DDC11 /* triCalcDataSelect.m */,
+				6EA6B16E12BD1BFB006DDC11 /* triCalcDataSelect.xib */,
+				6EA6B27E12BD473F006DDC11 /* triCalcPickerController.h */,
+				6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */,
+				6EA6B2EC12BD5252006DDC11 /* triCalcTriathlonTime.h */,
+				6EA6B2ED12BD5252006DDC11 /* triCalcTriathlonTime.m */,
+			);
+			name = triCalc;
+			sourceTree = "<group>";
+		};
 		6EB8E32012807AA300469C33 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -420,7 +462,6 @@
 				6EF78891129406EA0089BEC6 /* Pages */,
 				6EF78890129406E20089BEC6 /* Utilities */,
 				6EF7888F129406DD0089BEC6 /* Model */,
-				6E392CE71299B06E00F4EDF1 /* untitled.m */,
 			);
 			name = Code;
 			sourceTree = "<group>";
@@ -494,6 +535,9 @@
 				6E4B421C128C23D4003658B1 /* PasteCalculatorViewController.h */,
 				6E4B421D128C23D4003658B1 /* PasteCalculatorViewController.m */,
 				6E4B421E128C23D4003658B1 /* PasteCalculatorViewController.xib */,
+				6EA6AF9412BCFB2C006DDC11 /* ChildNavigationControllerHost.h */,
+				6EA6AF9512BCFB2C006DDC11 /* ChildNavigationControllerHost.m */,
+				6EA6AF9612BCFB2C006DDC11 /* ChildNavigationControllerHost.xib */,
 			);
 			name = Pages;
 			sourceTree = "<group>";
@@ -578,7 +622,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
-				6E154359127B5B4F00C97C88 /* RootViewController.xib in Resources */,
 				6E154378127B5E6300C97C88 /* RegistrationResultsPhotos.xib in Resources */,
 				6EB8E01E127DDB1A00469C33 /* MessageList.xib in Resources */,
 				6EB8E27A12806BBA00469C33 /* CategoryViewController.xib in Resources */,
@@ -646,6 +689,10 @@
 				6A9B11DC12BAE92100C09E0C /* ironman.jpg in Resources */,
 				6A9B11DD12BAE92100C09E0C /* planetsun.jpg in Resources */,
 				6A9B11DE12BAE92100C09E0C /* tribiketransport.jpg in Resources */,
+				6EA6AF5512BCF6F9006DDC11 /* RootViewController.xib in Resources */,
+				6EA6AF7312BCF87B006DDC11 /* triCalcRootController.xib in Resources */,
+				6EA6AF9812BCFB2C006DDC11 /* ChildNavigationControllerHost.xib in Resources */,
+				6EA6B17012BD1BFB006DDC11 /* triCalcDataSelect.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,7 +733,12 @@
 				6EF7890512940F870089BEC6 /* CustomButtonData.m in Sources */,
 				6EF78D9212983FD60089BEC6 /* RaceEventViewController.m in Sources */,
 				6EF78E1512984DF30089BEC6 /* RaceEventDetailsViewController.m in Sources */,
-				6E392CE81299B06E00F4EDF1 /* untitled.m in Sources */,
+				6EA6AF7212BCF87B006DDC11 /* triCalcRootController.m in Sources */,
+				6EA6AF9712BCFB2C006DDC11 /* ChildNavigationControllerHost.m in Sources */,
+				6EA6B01F12BD0123006DDC11 /* triCalcSettings.m in Sources */,
+				6EA6B16F12BD1BFB006DDC11 /* triCalcDataSelect.m in Sources */,
+				6EA6B28012BD473F006DDC11 /* triCalcPickerController.m in Sources */,
+				6EA6B2EE12BD5252006DDC11 /* triCalcTriathlonTime.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

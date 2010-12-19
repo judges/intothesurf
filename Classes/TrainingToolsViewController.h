@@ -13,6 +13,7 @@
 	CustomButtonViewController* pace;
 	CustomButtonViewController* nutri;
 	CustomButtonViewController* coach;
+	CustomButtonViewController* triCalc;
 }
 
 -(void) paceCalculatorTouchUp;

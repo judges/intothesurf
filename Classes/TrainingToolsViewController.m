@@ -10,15 +10,19 @@
 #import "PasteCalculatorViewController.h"
 #import "CustomButtonViewController.h"
 #import "CustomButtonData.h"
-
+#import "triCalcRootController.h"
+#import "ChildNavigationControllerHost.h"
 @implementation TrainingToolsViewController
 
 
 -(void) paceCalculatorTouchUp
 {
+
 	PasteCalculatorViewController *pcvc = [[PasteCalculatorViewController alloc]init];
 	[self.navigationController pushViewController:pcvc animated:YES];
 	[pcvc release];
+	
+
 }
 
 -(void) nutritioninstTouchUp
@@ -27,6 +31,31 @@
 }
 -(void) TriathlonCoachTouchUp
 {
+	
+}
+
+-(void) TriCalcTouchUp
+{
+	int runs = 15;
+	if([[NSUserDefaults standardUserDefaults]  objectForKey:@"PaceCalcRuns"])
+	{
+		runs = [[NSUserDefaults standardUserDefaults]  integerForKey:@"PaceCalcRuns"];
+	}
+	
+	if(runs>0)
+	{
+		ChildNavigationControllerHost * childHost = [[ChildNavigationControllerHost alloc]init];
+	
+		[self.navigationController pushViewController:childHost animated:YES];
+		[childHost release];	
+		runs--;
+		[[NSUserDefaults standardUserDefaults] setInteger:runs forKey:@"PaceCalcRuns"];
+	}
+	else
+	{
+		UIAlertView *tmp = [[UIAlertView alloc] initWithTitle:@"temp" message:@"redirection here" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil];
+		[tmp show];
+	}
 	
 }
 
@@ -46,15 +75,17 @@
 		CGSize s = pace.view.frame.size;
 		pace.view.frame = CGRectMake(10, 40, s.width, s.height);
 		
-//		cbd = [[CustomButtonData alloc] 
-//			   initWithTitle:@"Nutritionist" 
-//			   SmallText:@"www.nutritionisthere.com" 
-//			   BigText:@"Lavaman Promo: 1 month free" 
-//			   ImageName:@"karolina.jpg"];
-		//nutri =[[CustomButtonViewController alloc]initWithOwner:self Selector:@selector(nutritioninstTouchUp) ButtonData:cbd];
-		//[cbd release];
-		//s = nutri.view.frame.size;
-		//nutri.view.frame = CGRectMake(10, 140, s.width, s.height);
+		
+			
+		cbd = [[CustomButtonData alloc] 
+			   initWithTitle:@"Triathlon Calculator" 
+			   SmallText:@"created by: Intothesurf.com" 
+			   BigText:@""
+			   ImageName:@"calc.png"];
+		triCalc =[[CustomButtonViewController alloc]initWithOwner:self Selector:@selector(TriCalcTouchUp) ButtonData:cbd];
+		[cbd release];
+		s = triCalc.view.frame.size;
+		triCalc.view.frame = CGRectMake(10, 140, s.width, s.height);
 		
 			
     }
@@ -73,11 +104,32 @@
 	[self.view addSubview:pace.view];
 	[self.view addSubview:coach.view];
 	[self.view addSubview:nutri.view];
-	
+	[self.view addSubview:triCalc.view];
 
 
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+	int runs = 15;
+	NSString* promotion;
+	if([[NSUserDefaults standardUserDefaults]  objectForKey:@"PaceCalcRuns"])
+	{
+		runs = [[NSUserDefaults standardUserDefaults]  integerForKey:@"PaceCalcRuns"];
+		
+	}
+	
+	if(runs>0)
+	{
+		promotion = [NSString stringWithFormat:@"Promotion: %d free runs left.",runs];
+	}
+	else
+	{
+		promotion = [NSString stringWithFormat:@"Get calcuator app."];
+	}
+	
+	triCalc.DetailLabel.text = promotion;
+}
 
 /*
 // Override to allow orientations other than the default portrait orientation.
