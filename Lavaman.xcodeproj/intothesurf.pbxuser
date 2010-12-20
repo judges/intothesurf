@@ -80,7 +80,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					645,
+					596,
 					20,
 					48,
 					43,
@@ -405,6 +405,13 @@
 			6EA6BA3E12BFFD03006DDC11 /* PBXTextBookmark */ = 6EA6BA3E12BFFD03006DDC11 /* PBXTextBookmark */;
 			6EA6BA3F12BFFD03006DDC11 /* PBXTextBookmark */ = 6EA6BA3F12BFFD03006DDC11 /* PBXTextBookmark */;
 			6EA6BA4012BFFD03006DDC11 /* PBXTextBookmark */ = 6EA6BA4012BFFD03006DDC11 /* PBXTextBookmark */;
+			6EA6BA6D12BFFFFF006DDC11 /* PBXTextBookmark */ = 6EA6BA6D12BFFFFF006DDC11 /* PBXTextBookmark */;
+			6EA6BA6E12BFFFFF006DDC11 /* PBXTextBookmark */ = 6EA6BA6E12BFFFFF006DDC11 /* PBXTextBookmark */;
+			6EA6BA6F12BFFFFF006DDC11 /* PBXTextBookmark */ = 6EA6BA6F12BFFFFF006DDC11 /* PBXTextBookmark */;
+			6EA6BA7512C00041006DDC11 /* PBXTextBookmark */ = 6EA6BA7512C00041006DDC11 /* PBXTextBookmark */;
+			6EA6BA7612C00041006DDC11 /* PBXTextBookmark */ = 6EA6BA7612C00041006DDC11 /* PBXTextBookmark */;
+			6EA6BA7812C00059006DDC11 /* PBXTextBookmark */ = 6EA6BA7812C00059006DDC11 /* PBXTextBookmark */;
+			6EA6BA7912C00062006DDC11 /* PBXTextBookmark */ = 6EA6BA7912C00062006DDC11 /* PBXTextBookmark */;
 			6EF786321291C0B40089BEC6 = 6EF786321291C0B40089BEC6 /* PBXBookmark */;
 			6EF7865E1291C4290089BEC6 = 6EF7865E1291C4290089BEC6 /* PBXTextBookmark */;
 			6EF78AED12945B2D0089BEC6 = 6EF78AED12945B2D0089BEC6 /* PBXTextBookmark */;
@@ -983,7 +990,7 @@
 		ignoreCount = 0;
 		lineNumber = 135;
 		location = Lavaman;
-		modificationTime = 314570748.457318;
+		modificationTime = 314572868.058716;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
@@ -1230,9 +1237,9 @@
 	};
 	6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {838, 10686}}";
-			sepNavSelRange = "{17163, 0}";
-			sepNavVisRange = "{16756, 754}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 10543}}";
+			sepNavSelRange = "{13979, 0}";
+			sepNavVisRange = "{13860, 965}";
 		};
 	};
 	6EA6AF7A12BCF913006DDC11 /* PBXTextBookmark */ = {
@@ -1441,7 +1448,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {823, 9451}}";
 			sepNavSelRange = "{6929, 0}";
-			sepNavVisRange = "{6474, 760}";
+			sepNavVisRange = "{6474, 786}";
 		};
 	};
 	6EA6B2EC12BD5252006DDC11 /* triCalcTriathlonTime.h */ = {
@@ -1828,7 +1835,7 @@
 		fRef = 6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */;
 		name = "triCalcRootController.m: 366";
 		rLen = 0;
-		rLoc = 10336;
+		rLoc = 10432;
 		rType = 0;
 		vrLen = 947;
 		vrLoc = 7457;
@@ -1838,7 +1845,7 @@
 		fRef = 6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */;
 		name = "triCalcRootController.m: 366";
 		rLen = 0;
-		rLoc = 10336;
+		rLoc = 10432;
 		rType = 0;
 		vrLen = 456;
 		vrLoc = 6516;
@@ -1948,7 +1955,7 @@
 		fRef = 6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */;
 		name = "triCalcRootController.m: 378";
 		rLen = 0;
-		rLoc = 10036;
+		rLoc = 10132;
 		rType = 0;
 		vrLen = 1063;
 		vrLoc = 7758;
@@ -1968,7 +1975,7 @@
 		fRef = 6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */;
 		name = "triCalcRootController.m: 378";
 		rLen = 0;
-		rLoc = 10036;
+		rLoc = 10132;
 		rType = 0;
 		vrLen = 1063;
 		vrLoc = 7758;
@@ -2198,7 +2205,7 @@
 		fRef = 6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */;
 		name = "triCalcRootController.m: 427";
 		rLen = 432;
-		rLoc = 10037;
+		rLoc = 10133;
 		rType = 0;
 		vrLen = 983;
 		vrLoc = 8547;
@@ -2505,7 +2512,7 @@
 		fRef = 6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */;
 		name = "triCalcRootController.m: 450";
 		rLen = 0;
-		rLoc = 9906;
+		rLoc = 10002;
 		rType = 0;
 		vrLen = 706;
 		vrLoc = 8148;
@@ -2635,7 +2642,7 @@
 		fRef = 6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */;
 		name = "triCalcRootController.m: 770";
 		rLen = 0;
-		rLoc = 17181;
+		rLoc = 17254;
 		rType = 0;
 		vrLen = 660;
 		vrLoc = 17138;
@@ -2645,7 +2652,7 @@
 		fRef = 6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */;
 		name = "triCalcRootController.m: 759";
 		rLen = 0;
-		rLoc = 17181;
+		rLoc = 17254;
 		rType = 0;
 		vrLen = 733;
 		vrLoc = 17207;
@@ -2655,7 +2662,7 @@
 		fRef = 6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */;
 		name = "triCalcRootController.m: 759";
 		rLen = 0;
-		rLoc = 17181;
+		rLoc = 17254;
 		rType = 0;
 		vrLen = 643;
 		vrLoc = 17207;
@@ -2665,7 +2672,7 @@
 		fRef = 6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */;
 		name = "triCalcRootController.m: 774";
 		rLen = 0;
-		rLoc = 17205;
+		rLoc = 17278;
 		rType = 0;
 		vrLen = 599;
 		vrLoc = 17207;
@@ -2675,7 +2682,7 @@
 		fRef = 6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */;
 		name = "triCalcRootController.m: 790";
 		rLen = 0;
-		rLoc = 17957;
+		rLoc = 18030;
 		rType = 0;
 		vrLen = 619;
 		vrLoc = 17390;
@@ -2685,7 +2692,7 @@
 		fRef = 6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */;
 		name = "triCalcRootController.m: 790";
 		rLen = 0;
-		rLoc = 17957;
+		rLoc = 18030;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 17390;
@@ -3245,7 +3252,7 @@
 		fRef = 6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */;
 		name = "triCalcRootController.m: 764";
 		rLen = 0;
-		rLoc = 17505;
+		rLoc = 17578;
 		rType = 0;
 		vrLen = 700;
 		vrLoc = 16756;
@@ -3269,7 +3276,7 @@
 		fRef = 6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */;
 		name = "triCalcRootController.m: 750";
 		rLen = 0;
-		rLoc = 17163;
+		rLoc = 17236;
 		rType = 0;
 		vrLen = 754;
 		vrLoc = 16756;
@@ -3293,6 +3300,76 @@
 		rType = 0;
 		vrLen = 760;
 		vrLoc = 6474;
+	};
+	6EA6BA6D12BFFFFF006DDC11 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
+		name = "triCalcPickerController.m: 361";
+		rLen = 0;
+		rLoc = 6929;
+		rType = 0;
+		vrLen = 786;
+		vrLoc = 6474;
+	};
+	6EA6BA6E12BFFFFF006DDC11 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */;
+		name = "triCalcRootController.m: 750";
+		rLen = 0;
+		rLoc = 17236;
+		rType = 0;
+		vrLen = 754;
+		vrLoc = 16756;
+	};
+	6EA6BA6F12BFFFFF006DDC11 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */;
+		name = "triCalcRootController.m: 579";
+		rLen = 0;
+		rLoc = 12642;
+		rType = 0;
+		vrLen = 989;
+		vrLoc = 12299;
+	};
+	6EA6BA7512C00041006DDC11 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */;
+		name = "triCalcRootController.m: 579";
+		rLen = 0;
+		rLoc = 12642;
+		rType = 0;
+		vrLen = 1022;
+		vrLoc = 12299;
+	};
+	6EA6BA7612C00041006DDC11 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */;
+		name = "triCalcRootController.m: 639";
+		rLen = 0;
+		rLoc = 14410;
+		rType = 0;
+		vrLen = 946;
+		vrLoc = 13860;
+	};
+	6EA6BA7812C00059006DDC11 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */;
+		name = "triCalcRootController.m: 639";
+		rLen = 0;
+		rLoc = 14410;
+		rType = 0;
+		vrLen = 965;
+		vrLoc = 13860;
+	};
+	6EA6BA7912C00062006DDC11 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */;
+		name = "triCalcRootController.m: 624";
+		rLen = 0;
+		rLoc = 13979;
+		rType = 0;
+		vrLen = 965;
+		vrLoc = 13860;
 	};
 	6EB8E01A127DDB1A00469C33 /* MessageList.h */ = {
 		uiCtxt = {

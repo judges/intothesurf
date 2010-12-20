@@ -252,7 +252,7 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>694</real>
+								<real>16</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
@@ -276,13 +276,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>11</integer>
+									<integer>3</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {694, 712}}</string>
+							<string>{{0, 0}, {0, 0}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -294,19 +294,19 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {711, 730}}</string>
+						<string>{{0, 0}, {0, 730}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
-							<real>694</real>
+							<real>16</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>0 107 1600 771 0 0 1600 878 </string>
+						<string>800 107 800 771 0 0 1600 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
 					<key>Proportion</key>
-					<string>711pt</string>
+					<string>0pt</string>
 				</dict>
 				<dict>
 					<key>Dock</key>
@@ -319,7 +319,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>triCalcPickerController.m</string>
+								<string>triCalcRootController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,11 +327,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>triCalcPickerController.m</string>
+										<string>triCalcRootController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>6EA6BA4012BFFD03006DDC11</string>
+										<string>6EA6BA7912C00062006DDC11</string>
 										<key>history</key>
 										<array>
 											<string>6E4B3DB21289E82D003658B1</string>
@@ -450,9 +450,9 @@
 											<string>6EA6B9E712BFF7FB006DDC11</string>
 											<string>6EA6BA3C12BFFD03006DDC11</string>
 											<string>6EA6BA3D12BFFD03006DDC11</string>
-											<string>6EA6BA3E12BFFD03006DDC11</string>
 											<string>6EA6BA3F12BFFD03006DDC11</string>
-											<string>6EA6B9CC12BFF4C8006DDC11</string>
+											<string>6EA6BA6D12BFFFFF006DDC11</string>
+											<string>6EA6BA7512C00041006DDC11</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -464,9 +464,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {884, 476}}</string>
+								<string>{{0, 0}, {835, 476}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 107 1600 771 0 0 1600 878 </string>
+								<string>800 107 800 771 0 0 1600 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -484,9 +484,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 481}, {884, 249}}</string>
+								<string>{{0, 481}, {835, 249}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 107 1600 771 0 0 1600 878 </string>
+								<string>800 107 800 771 0 0 1600 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -495,7 +495,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>884pt</string>
+					<string>835pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -650,7 +650,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>6EA6BA4112BFFD03006DDC11</string>
 		<string>6EA6B7DC12BFC3B9006DDC11</string>
 		<string>6EA6B7DD12BFC3B9006DDC11</string>
 		<string>1C78EAAD065D492600B07095</string>
@@ -659,7 +658,7 @@
 		<string>/Users/intothesurf/Development/GitHub/Lavaman/intothesurf/Lavaman.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>0 107 1600 771 0 0 1600 878 </string>
+	<string>800 107 800 771 0 0 1600 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
