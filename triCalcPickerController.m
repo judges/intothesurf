@@ -333,11 +333,32 @@
 
 -(void)SetNone
 {
-	calculationsType = -1;
+	[widths removeAllObjects];
+	[widths addObject:[NSNumber numberWithInt:60]];
+	[widths addObject:[NSNumber numberWithInt:60]];
+	[widths addObject:[NSNumber numberWithInt:60]];
+	[widths addObject:[NSNumber numberWithInt:60]];
+	
 	[array removeAllObjects];
-	NSMutableArray*empty =[[NSMutableArray alloc]init];
-	[array addObject:empty];
-	[empty release];
+	NSMutableArray *em = [[NSMutableArray alloc]init];
+	[em addObject:@"0"];
+	[array addObject:em];
+	[em release];
+	em = [[NSMutableArray alloc]init];
+	[em addObject:@"0"];
+	[array addObject:em];
+	[em release];
+	em = [[NSMutableArray alloc]init];
+	[em addObject:@"0"];
+	[array addObject:em];
+	[em release];
+	em = [[NSMutableArray alloc]init];
+	[em addObject:@"0"];
+	[array addObject:em];
+	[em release];
+	
+	calculationsType = -1;
+
 	[picker reloadAllComponents];
 }
 -(void)SetDistanceForSwim:(BOOL)miles Current:(float)c

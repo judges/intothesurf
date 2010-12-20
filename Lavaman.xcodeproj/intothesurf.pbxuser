@@ -10,8 +10,8 @@
 	1D3623250D0F684500981E51 /* LavamanAppDelegate.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1209, 1872}}";
-			sepNavSelRange = "{561, 0}";
-			sepNavVisRange = "{263, 917}";
+			sepNavSelRange = "{563, 0}";
+			sepNavVisRange = "{243, 935}";
 			sepNavWindowFrame = "{{15, 114}, {1189, 759}}";
 		};
 	};
@@ -80,7 +80,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					941,
+					645,
 					20,
 					48,
 					43,
@@ -400,6 +400,11 @@
 			6EA6B9E712BFF7FB006DDC11 /* PBXTextBookmark */ = 6EA6B9E712BFF7FB006DDC11 /* PBXTextBookmark */;
 			6EA6B9E812BFF7FB006DDC11 /* PBXTextBookmark */ = 6EA6B9E812BFF7FB006DDC11 /* PBXTextBookmark */;
 			6EA6B9E912BFF7FB006DDC11 /* PBXTextBookmark */ = 6EA6B9E912BFF7FB006DDC11 /* PBXTextBookmark */;
+			6EA6BA3C12BFFD03006DDC11 /* PBXBookmark */ = 6EA6BA3C12BFFD03006DDC11 /* PBXBookmark */;
+			6EA6BA3D12BFFD03006DDC11 /* PBXTextBookmark */ = 6EA6BA3D12BFFD03006DDC11 /* PBXTextBookmark */;
+			6EA6BA3E12BFFD03006DDC11 /* PBXTextBookmark */ = 6EA6BA3E12BFFD03006DDC11 /* PBXTextBookmark */;
+			6EA6BA3F12BFFD03006DDC11 /* PBXTextBookmark */ = 6EA6BA3F12BFFD03006DDC11 /* PBXTextBookmark */;
+			6EA6BA4012BFFD03006DDC11 /* PBXTextBookmark */ = 6EA6BA4012BFFD03006DDC11 /* PBXTextBookmark */;
 			6EF786321291C0B40089BEC6 = 6EF786321291C0B40089BEC6 /* PBXBookmark */;
 			6EF7865E1291C4290089BEC6 = 6EF7865E1291C4290089BEC6 /* PBXTextBookmark */;
 			6EF78AED12945B2D0089BEC6 = 6EF78AED12945B2D0089BEC6 /* PBXTextBookmark */;
@@ -978,7 +983,7 @@
 		ignoreCount = 0;
 		lineNumber = 135;
 		location = Lavaman;
-		modificationTime = 314570687.94888;
+		modificationTime = 314570748.457318;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
@@ -1225,9 +1230,9 @@
 	};
 	6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1119, 10920}}";
-			sepNavSelRange = "{17505, 0}";
-			sepNavVisRange = "{16756, 700}";
+			sepNavIntBoundsRect = "{{0, 0}, {838, 10686}}";
+			sepNavSelRange = "{17163, 0}";
+			sepNavVisRange = "{16756, 754}";
 		};
 	};
 	6EA6AF7A12BCF913006DDC11 /* PBXTextBookmark */ = {
@@ -1434,14 +1439,14 @@
 	};
 	6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1080, 9542}}";
-			sepNavSelRange = "{10614, 0}";
-			sepNavVisRange = "{10259, 765}";
+			sepNavIntBoundsRect = "{{0, 0}, {823, 9451}}";
+			sepNavSelRange = "{6929, 0}";
+			sepNavVisRange = "{6474, 760}";
 		};
 	};
 	6EA6B2EC12BD5252006DDC11 /* triCalcTriathlonTime.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1071, 452}}";
+			sepNavIntBoundsRect = "{{0, 0}, {823, 444}}";
 			sepNavSelRange = "{363, 15}";
 			sepNavVisRange = "{0, 463}";
 		};
@@ -1653,7 +1658,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 352";
 		rLen = 0;
-		rLoc = 13520;
+		rLoc = 14052;
 		rType = 0;
 		vrLen = 1000;
 		vrLoc = 6371;
@@ -1743,7 +1748,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 324";
 		rLen = 16;
-		rLoc = 12287;
+		rLoc = 12819;
 		rType = 0;
 		vrLen = 997;
 		vrLoc = 6371;
@@ -1753,7 +1758,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 324";
 		rLen = 16;
-		rLoc = 12287;
+		rLoc = 12819;
 		rType = 0;
 		vrLen = 765;
 		vrLoc = 6665;
@@ -1763,7 +1768,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 352";
 		rLen = 0;
-		rLoc = 13507;
+		rLoc = 14039;
 		rType = 0;
 		vrLen = 860;
 		vrLoc = 6525;
@@ -1773,7 +1778,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 352";
 		rLen = 0;
-		rLoc = 13507;
+		rLoc = 14039;
 		rType = 0;
 		vrLen = 860;
 		vrLoc = 6525;
@@ -1843,7 +1848,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 369";
 		rLen = 0;
-		rLoc = 13802;
+		rLoc = 14334;
 		rType = 0;
 		vrLen = 761;
 		vrLoc = 7028;
@@ -1893,7 +1898,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 332";
 		rLen = 16;
-		rLoc = 12287;
+		rLoc = 12819;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 6819;
@@ -1903,7 +1908,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 332";
 		rLen = 16;
-		rLoc = 12287;
+		rLoc = 12819;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 6819;
@@ -1913,7 +1918,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 369";
 		rLen = 0;
-		rLoc = 13776;
+		rLoc = 14308;
 		rType = 0;
 		vrLen = 756;
 		vrLoc = 7028;
@@ -1923,7 +1928,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 369";
 		rLen = 0;
-		rLoc = 13776;
+		rLoc = 14308;
 		rType = 0;
 		vrLen = 756;
 		vrLoc = 7028;
@@ -1933,7 +1938,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 270";
 		rLen = 5;
-		rLoc = 10284;
+		rLoc = 10816;
 		rType = 0;
 		vrLen = 655;
 		vrLoc = 4995;
@@ -2003,7 +2008,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 270";
 		rLen = 5;
-		rLoc = 10284;
+		rLoc = 10816;
 		rType = 0;
 		vrLen = 622;
 		vrLoc = 4995;
@@ -2013,7 +2018,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 384";
 		rLen = 0;
-		rLoc = 12548;
+		rLoc = 13080;
 		rType = 0;
 		vrLen = 1026;
 		vrLoc = 7242;
@@ -2023,7 +2028,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 384";
 		rLen = 0;
-		rLoc = 12548;
+		rLoc = 13080;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 7242;
@@ -2063,7 +2068,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 385";
 		rLen = 96;
-		rLoc = 12580;
+		rLoc = 13112;
 		rType = 0;
 		vrLen = 971;
 		vrLoc = 7238;
@@ -2263,7 +2268,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 343";
 		rLen = 0;
-		rLoc = 10487;
+		rLoc = 11019;
 		rType = 0;
 		vrLen = 529;
 		vrLoc = 6451;
@@ -2273,7 +2278,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 380";
 		rLen = 0;
-		rLoc = 11310;
+		rLoc = 11842;
 		rType = 0;
 		vrLen = 680;
 		vrLoc = 6504;
@@ -2283,7 +2288,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 380";
 		rLen = 0;
-		rLoc = 11310;
+		rLoc = 11842;
 		rType = 0;
 		vrLen = 680;
 		vrLoc = 6504;
@@ -2320,7 +2325,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 380";
 		rLen = 0;
-		rLoc = 11310;
+		rLoc = 11842;
 		rType = 0;
 		vrLen = 684;
 		vrLoc = 6502;
@@ -2380,7 +2385,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 247";
 		rLen = 54;
-		rLoc = 6431;
+		rLoc = 6963;
 		rType = 0;
 		vrLen = 672;
 		vrLoc = 3920;
@@ -2390,7 +2395,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 371";
 		rLen = 0;
-		rLoc = 10074;
+		rLoc = 10606;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 6598;
@@ -2400,7 +2405,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 476";
 		rLen = 0;
-		rLoc = 13166;
+		rLoc = 13698;
 		rType = 0;
 		vrLen = 1008;
 		vrLoc = 8378;
@@ -2410,7 +2415,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 455";
 		rLen = 0;
-		rLoc = 12447;
+		rLoc = 12979;
 		rType = 0;
 		vrLen = 1008;
 		vrLoc = 8378;
@@ -2530,7 +2535,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 455";
 		rLen = 0;
-		rLoc = 12447;
+		rLoc = 12979;
 		rType = 0;
 		vrLen = 1025;
 		vrLoc = 8376;
@@ -2540,7 +2545,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 400";
 		rLen = 0;
-		rLoc = 10831;
+		rLoc = 11363;
 		rType = 0;
 		vrLen = 851;
 		vrLoc = 7501;
@@ -2720,7 +2725,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 320";
 		rLen = 0;
-		rLoc = 7332;
+		rLoc = 7864;
 		rType = 0;
 		vrLen = 631;
 		vrLoc = 5299;
@@ -2730,7 +2735,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 374";
 		rLen = 0;
-		rLoc = 8791;
+		rLoc = 9323;
 		rType = 0;
 		vrLen = 819;
 		vrLoc = 6383;
@@ -2800,7 +2805,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 437";
 		rLen = 0;
-		rLoc = 10018;
+		rLoc = 10550;
 		rType = 0;
 		vrLen = 557;
 		vrLoc = 8112;
@@ -2830,7 +2835,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 437";
 		rLen = 0;
-		rLoc = 10018;
+		rLoc = 10550;
 		rType = 0;
 		vrLen = 562;
 		vrLoc = 8112;
@@ -2840,7 +2845,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 438";
 		rLen = 0;
-		rLoc = 9963;
+		rLoc = 10495;
 		rType = 0;
 		vrLen = 598;
 		vrLoc = 8012;
@@ -2850,7 +2855,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 430";
 		rLen = 0;
-		rLoc = 9813;
+		rLoc = 10345;
 		rType = 0;
 		vrLen = 545;
 		vrLoc = 7814;
@@ -2860,7 +2865,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 540";
 		rLen = 0;
-		rLoc = 12286;
+		rLoc = 12818;
 		rType = 0;
 		vrLen = 924;
 		vrLoc = 9557;
@@ -2890,7 +2895,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 540";
 		rLen = 0;
-		rLoc = 12286;
+		rLoc = 12818;
 		rType = 0;
 		vrLen = 1023;
 		vrLoc = 9557;
@@ -2910,7 +2915,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 559";
 		rLen = 0;
-		rLoc = 12280;
+		rLoc = 12812;
 		rType = 0;
 		vrLen = 767;
 		vrLoc = 9974;
@@ -2950,7 +2955,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 539";
 		rLen = 0;
-		rLoc = 11656;
+		rLoc = 12188;
 		rType = 0;
 		vrLen = 777;
 		vrLoc = 9974;
@@ -2960,7 +2965,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 569";
 		rLen = 0;
-		rLoc = 12267;
+		rLoc = 12799;
 		rType = 0;
 		vrLen = 674;
 		vrLoc = 10207;
@@ -2970,7 +2975,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 561";
 		rLen = 87;
-		rLoc = 12083;
+		rLoc = 12615;
 		rType = 0;
 		vrLen = 702;
 		vrLoc = 10109;
@@ -2980,7 +2985,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 561";
 		rLen = 87;
-		rLoc = 12083;
+		rLoc = 12615;
 		rType = 0;
 		vrLen = 702;
 		vrLoc = 10109;
@@ -3100,7 +3105,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 407";
 		rLen = 0;
-		rLoc = 7888;
+		rLoc = 8420;
 		rType = 0;
 		vrLen = 812;
 		vrLoc = 7405;
@@ -3110,7 +3115,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 351";
 		rLen = 0;
-		rLoc = 6695;
+		rLoc = 7227;
 		rType = 0;
 		vrLen = 710;
 		vrLoc = 7327;
@@ -3120,7 +3125,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 469";
 		rLen = 0;
-		rLoc = 9398;
+		rLoc = 9930;
 		rType = 0;
 		vrLen = 708;
 		vrLoc = 9225;
@@ -3130,7 +3135,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 522";
 		rLen = 0;
-		rLoc = 10484;
+		rLoc = 11016;
 		rType = 0;
 		vrLen = 695;
 		vrLoc = 10259;
@@ -3140,7 +3145,7 @@
 		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
 		name = "triCalcPickerController.m: 530";
 		rLen = 0;
-		rLoc = 10614;
+		rLoc = 11146;
 		rType = 0;
 		vrLen = 765;
 		vrLoc = 10259;
@@ -3244,6 +3249,50 @@
 		rType = 0;
 		vrLen = 700;
 		vrLoc = 16756;
+	};
+	6EA6BA3C12BFFD03006DDC11 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 6A2BBA6712AEC79200EECC62 /* water.jpg */;
+	};
+	6EA6BA3D12BFFD03006DDC11 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* LavamanAppDelegate.m */;
+		name = "LavamanAppDelegate.m: 32";
+		rLen = 0;
+		rLoc = 563;
+		rType = 0;
+		vrLen = 935;
+		vrLoc = 243;
+	};
+	6EA6BA3E12BFFD03006DDC11 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6EA6AF7012BCF87B006DDC11 /* triCalcRootController.m */;
+		name = "triCalcRootController.m: 750";
+		rLen = 0;
+		rLoc = 17163;
+		rType = 0;
+		vrLen = 754;
+		vrLoc = 16756;
+	};
+	6EA6BA3F12BFFD03006DDC11 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6EA6B2EC12BD5252006DDC11 /* triCalcTriathlonTime.h */;
+		name = "triCalcTriathlonTime.h: 22";
+		rLen = 15;
+		rLoc = 363;
+		rType = 0;
+		vrLen = 463;
+		vrLoc = 0;
+	};
+	6EA6BA4012BFFD03006DDC11 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6EA6B27F12BD473F006DDC11 /* triCalcPickerController.m */;
+		name = "triCalcPickerController.m: 361";
+		rLen = 0;
+		rLoc = 6929;
+		rType = 0;
+		vrLen = 760;
+		vrLoc = 6474;
 	};
 	6EB8E01A127DDB1A00469C33 /* MessageList.h */ = {
 		uiCtxt = {
