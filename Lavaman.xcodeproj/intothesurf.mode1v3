@@ -276,7 +276,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
+									<integer>11</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -319,7 +319,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>triCalcRootController.m</string>
+								<string>triCalcPickerController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,11 +327,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>triCalcRootController.m</string>
+										<string>triCalcPickerController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>6EA6BA7912C00062006DDC11</string>
+										<string>6EA6BAB912C00233006DDC11</string>
 										<key>history</key>
 										<array>
 											<string>6E4B3DB21289E82D003658B1</string>
@@ -451,8 +451,8 @@
 											<string>6EA6BA3C12BFFD03006DDC11</string>
 											<string>6EA6BA3D12BFFD03006DDC11</string>
 											<string>6EA6BA3F12BFFD03006DDC11</string>
-											<string>6EA6BA6D12BFFFFF006DDC11</string>
-											<string>6EA6BA7512C00041006DDC11</string>
+											<string>6EA6BA9812C00182006DDC11</string>
+											<string>6EA6BA9912C00182006DDC11</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -464,14 +464,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {835, 476}}</string>
+								<string>{{0, 0}, {871, 474}}</string>
 								<key>RubberWindowFrame</key>
 								<string>800 107 800 771 0 0 1600 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>476pt</string>
+							<string>474pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -484,18 +484,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 481}, {835, 249}}</string>
+								<string>{{0, 479}, {871, 251}}</string>
 								<key>RubberWindowFrame</key>
 								<string>800 107 800 771 0 0 1600 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>249pt</string>
+							<string>251pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>835pt</string>
+					<string>871pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
