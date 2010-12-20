@@ -167,14 +167,14 @@
 		return;	
 	}
 	
-	float value;
-	if(currentScreen == 3)
-	{
-		value = [pickerController GetValue:3];
-	}
-	else {
-		value = [pickerController GetValue:currentEdit];
-	}
+	float value = [pickerController GetValue];
+	//if(currentScreen == 3)
+	//{
+	//	value = [pickerController GetValue:3];
+	//}
+	//else {
+	//	value = [pickerController GetValue:currentEdit];
+	//}
 
 	[triathlonTime updateValue:value InEdit:currentEdit InScreen:currentScreen InMode:currentMode];
 	[self updateScreen];
@@ -197,16 +197,39 @@
 		if(currentMode!=1)
 		{
 			float val = [triathlonTime GetValueInEdit:1 InScreen:currentScreen];
-			[pickerController SetDistance:triathlonTime.useMile Current:val];
+			switch (currentScreen) 
+			{
+				case 0: // swim;
+					[pickerController SetDistanceForSwim:triathlonTime.useMile Current:val];
+					break;
+				case 1: // bike
+				case 2: // run
+					[pickerController SetDistance:triathlonTime.useMile Current:val];
+					break;
+			}
 			currentEdit = 1;
 		}
+		
+		
+		
 		
 	}else if(sender == Paste)
 	{
 		if(currentMode !=2)
 		{
 			float val = [triathlonTime GetValueInEdit:2 InScreen:currentScreen];
-			[pickerController SetPace:triathlonTime.useMile Current:val];
+			
+			switch (currentScreen) {
+				case 0: //swim
+					[pickerController SetSwimPace:triathlonTime.useMile Current:val];
+					break;
+				case 1: //bike
+					[pickerController SetAvgSpeed:triathlonTime.useMile Current:val];
+					break;
+				case 2: //run
+					[pickerController SetRunPace:triathlonTime.useMile Current:val];
+					break;
+			}
 			currentEdit= 2;
 		}
 	}else if(sender == T1)
@@ -275,19 +298,72 @@
 	
 }
 
--(NSString*)FormatPace:(float)v
+-(NSString*)FormatSwimPace:(float)v
+{
+	float val;
+	if(v==0)
+	{
+		val =0;
+	}
+	else
+	{
+		val = 60/v;
+	}
+	val = val*60;
+	
+	val = val/10; //per 100 meters.
+	
+	int minutes = val / 60;
+	int seconds = floor(val);
+	seconds = seconds % 60;
+	
+	
+	return [NSString stringWithFormat:@"%d:%02d",minutes,seconds];
+}
+-(NSString*)FormatRunPace:(float)v
+{
+	float val;
+	if(v==0)
+	{
+		val =0;
+	}
+	else
+	{
+		val = 60/v;
+	}
+	val = val*60;
+	
+	int minutes = val / 60;
+	int seconds = floor(val);
+	seconds = seconds % 60;
+	
+		
+	return [NSString stringWithFormat:@"%d:%02d",minutes,seconds];
+}
+
+-(NSString*)FormatAvgSpeed:(float)v
 {
 	int decimal = floor(v);
 	int frac = floor(v*100);
 	frac = frac % 100;
 	
 	return [NSString stringWithFormat:@"%d.%02d",decimal,frac];
+	
+}
+
+-(NSString*)SwimFormatDistance:(float)v
+{
+	int decimal = (v*1000);
+	return [NSString stringWithFormat:@"%d",decimal];
 }
 
 -(NSString*)FormatDistance:(float)v
 {
-	int decimal = (v*1000);
-	return [NSString stringWithFormat:@"%d",decimal];
+	int decimal = floor(v);
+	int fractal = floor(v*100);
+	fractal = fractal % 100;
+	
+	return [NSString stringWithFormat:@"%d.%02d",decimal,fractal];
 }
 
 -(void)updateScreen
@@ -295,9 +371,26 @@
 	if(currentScreen !=3)
 	{
 		Time.TextField.text = [self FormatTime:[triathlonTime GetValueInEdit:0 InScreen:currentScreen]];
+		if(currentScreen==0)
+		{
+			Distance.TextField.text =[self SwimFormatDistance: [triathlonTime GetValueInEdit:1 InScreen:currentScreen]];
+		}
+		else 
+		{
+			Distance.TextField.text =[self FormatDistance: [triathlonTime GetValueInEdit:1 InScreen:currentScreen]];
+		}
 
-		Distance.TextField.text =[self FormatDistance: [triathlonTime GetValueInEdit:1 InScreen:currentScreen]];
-		Paste.TextField.text = [self FormatPace: [triathlonTime GetValueInEdit:2 InScreen:currentScreen]];
+		switch (currentScreen) {
+			case 0:
+				Paste.TextField.text = [self FormatSwimPace:[triathlonTime GetValueInEdit:2 InScreen:currentScreen]];
+				break;
+			case 1:
+				Paste.TextField.text = [self FormatAvgSpeed: [triathlonTime GetValueInEdit:2 InScreen:currentScreen]];
+				break;
+			case 2: //run
+				Paste.TextField.text = [self FormatRunPace: [triathlonTime GetValueInEdit:2 InScreen:currentScreen]];	
+				break;
+		}
 	}
 	else
 	{
@@ -316,82 +409,75 @@
 	T1.view.backgroundColor = [UIColor whiteColor];
 	T2.view.backgroundColor = [UIColor whiteColor];
 	
-	if(currentEdit == -1)
-	{
-		Time.view.backgroundColor = [UIColor whiteColor];
-		Distance.view.backgroundColor = [UIColor whiteColor];
-		Paste.view.backgroundColor = [UIColor whiteColor];
-		if(currentMode == 0)
-		{
+	
+	switch (currentEdit) {
+		case -1:
+			Time.view.backgroundColor = [UIColor whiteColor];
+			Distance.view.backgroundColor = [UIColor whiteColor];
+			Paste.view.backgroundColor = [UIColor whiteColor];
+			if(currentMode == 0)
+			{
 				Time.view.backgroundColor = [UIColor lightGrayColor];
-		}
-		if(currentMode==1)
-		{
-			Distance.view.backgroundColor = [UIColor lightGrayColor];
-		}
-		if(currentMode==2)
-		{
-			Paste.view.backgroundColor = [UIColor lightGrayColor];
-		}
-	}
-	
-	if(currentEdit == 0)
-	{
-		Time.view.backgroundColor = [UIColor blueColor];
-		if(currentMode == 1) //distance mode
-		{
-			Distance.view.backgroundColor = [UIColor lightGrayColor];
-			Paste.view.backgroundColor = [UIColor whiteColor];
-		}
-		else 
-		{
-			Paste.view.backgroundColor = [UIColor lightGrayColor];
-			Distance.view.backgroundColor = [UIColor whiteColor];
-		}
-		
-		if(currentScreen==3)
-		{
-			T1.view.backgroundColor = [UIColor blueColor];
-	
-		}
-	}
-	
-	if(currentEdit == 1)
-	{
-		Distance.view.backgroundColor = [UIColor blueColor];
-		if(currentMode == 0) //time mode
-		{
-			Time.view.backgroundColor = [UIColor lightGrayColor];
-			Paste.view.backgroundColor = [UIColor whiteColor];
-		}
-		else
-		{
-			Paste.view.backgroundColor = [UIColor lightGrayColor];
-			Time.view.backgroundColor = [UIColor whiteColor];
-		}
-		
-		if(currentScreen==3)
-		{
-			T2.view.backgroundColor = [UIColor blueColor];
+			}
+			if(currentMode==1)
+			{
+				Distance.view.backgroundColor = [UIColor lightGrayColor];
+			}
+			if(currentMode==2)
+			{
+				Paste.view.backgroundColor = [UIColor lightGrayColor];
+			}
+			break;
+		case 0:
+			Time.view.backgroundColor = [UIColor blueColor];
+			if(currentMode == 1) //distance mode
+			{
+				Distance.view.backgroundColor = [UIColor lightGrayColor];
+				Paste.view.backgroundColor = [UIColor whiteColor];
+			}
+			else 
+			{
+				Paste.view.backgroundColor = [UIColor lightGrayColor];
+				Distance.view.backgroundColor = [UIColor whiteColor];
+			}
 			
-		}
-
-		
-	}
-	
-	if(currentEdit ==2 )
-	{
-		Paste.view.backgroundColor = [UIColor blueColor];
-		if(currentMode == 0) //time mode
-		{
-			Time.view.backgroundColor = [UIColor lightGrayColor];
-			Distance.view.backgroundColor = [UIColor whiteColor];
-		}
-		else
-		{
-			Distance.view.backgroundColor = [UIColor lightGrayColor];
-			Time.view.backgroundColor = [UIColor whiteColor];
-		}		
+			if(currentScreen==3)
+			{
+				T1.view.backgroundColor = [UIColor blueColor];
+				
+			}
+			break;
+		case 1:
+			Distance.view.backgroundColor = [UIColor blueColor];
+			if(currentMode == 0) //time mode
+			{
+				Time.view.backgroundColor = [UIColor lightGrayColor];
+				Paste.view.backgroundColor = [UIColor whiteColor];
+			}
+			else
+			{
+				Paste.view.backgroundColor = [UIColor lightGrayColor];
+				Time.view.backgroundColor = [UIColor whiteColor];
+			}
+			if(currentScreen==3)
+			{
+				T2.view.backgroundColor = [UIColor blueColor];
+				
+			}
+			break;
+		case 2:
+			Paste.view.backgroundColor = [UIColor blueColor];
+			if(currentMode == 0) //time mode
+			{
+				Time.view.backgroundColor = [UIColor lightGrayColor];
+				Distance.view.backgroundColor = [UIColor whiteColor];
+			}
+			else
+			{
+				Distance.view.backgroundColor = [UIColor lightGrayColor];
+				Time.view.backgroundColor = [UIColor whiteColor];
+			}				
+			break;
 	}
 }
 

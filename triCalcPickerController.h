@@ -13,14 +13,21 @@
 	UIPickerView *picker;
 	
 	NSMutableArray* array;
+	
+	
+	int calculationsType;
 }
 
 -(void)setPicker:(UIPickerView*)p;
 
 -(void)SetTime:(BOOL)miles Current:(float)c;
--(void)SetPace:(BOOL)miles Current:(float)c;
+-(void)SetAvgSpeed:(BOOL)miles Current:(float)c;
+-(void)SetRunPace:(BOOL)miles Current:(float)c;
+-(void)SetSwimPace:(BOOL)miles Current:(float)c;
 -(void)SetDistance:(BOOL)miles Current:(float)c;
+-(void)SetDistanceForSwim:(BOOL)miles Current:(float)c;
 -(void)SetNone;
 
--(float)GetValue:(int)e;
+
+-(float)GetValue;
 @end
