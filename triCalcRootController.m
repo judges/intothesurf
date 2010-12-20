@@ -27,7 +27,7 @@
 	
 	if(self)
 	{
-	
+	MILEFACTOR = 0.621371192;
 	settings = s;
 	[s retain];
 		Time =[[triCalcDataSelect alloc] initWithTitle:@"Time" Value:@"0:00:00" Metrics:@"" ButtonVisible:NO];
@@ -118,6 +118,22 @@
 			[triathlonTime updateUseMile:YES];
 			break;
 	}
+	
+	if(currentScreen!=3)
+	{
+		switch (currentEdit) {
+			case 0:
+				[self edit:Time];
+				break;
+			case 1:
+				[self edit:Distance];
+				break;
+			case 2:
+				[self edit:Paste];
+				break;
+		}
+	}
+	
 	[self updateScreen];
 }
 
@@ -203,8 +219,10 @@
 					[pickerController SetDistanceForSwim:triathlonTime.useMile Current:val];
 					break;
 				case 1: // bike
-				case 2: // run
 					[pickerController SetDistance:triathlonTime.useMile Current:val];
+					break;
+				case 2: // run
+					[pickerController SetDistanceForRun:triathlonTime.useMile Current:val];
 					break;
 			}
 			currentEdit = 1;
@@ -237,7 +255,7 @@
 		if(currentEdit!=0)
 		{
 			float val = [triathlonTime GetValueInEdit:0 InScreen:currentScreen];
-			[pickerController SetTime:triathlonTime.useMile Current:val];
+			[pickerController SetTransit:triathlonTime.useMile Current:val];
 			currentEdit= 0;
 		}
 	}else if(sender == T2)
@@ -245,7 +263,7 @@
 		if(currentEdit!=1)
 		{
 			float val = [triathlonTime GetValueInEdit:1 InScreen:currentScreen];
-			[pickerController SetTime:triathlonTime.useMile Current:val];
+			[pickerController SetTransit:triathlonTime.useMile Current:val];
 			currentEdit= 1;
 		}
 	}
@@ -322,14 +340,20 @@
 }
 -(NSString*)FormatRunPace:(float)v
 {
-	float val;
-	if(v==0)
+	float val=v;
+	
+	if(triathlonTime.useMile)
+	{
+		val = val * MILEFACTOR;
+	}
+	
+	if(val==0)
 	{
 		val =0;
 	}
 	else
 	{
-		val = 60/v;
+		val = 60/val;
 	}
 	val = val*60;
 	
@@ -343,45 +367,129 @@
 
 -(NSString*)FormatAvgSpeed:(float)v
 {
-	int decimal = floor(v);
-	int frac = floor(v*100);
+	float val=v;
+	if(triathlonTime.useMile)
+	{
+		val= v * MILEFACTOR;
+	}
+	 
+	
+	int decimal = floor(val);
+	int frac = floor(val*100);
 	frac = frac % 100;
 	
 	return [NSString stringWithFormat:@"%d.%02d",decimal,frac];
 	
 }
 
--(NSString*)SwimFormatDistance:(float)v
+-(NSString*)FormatSwimDistance:(float)v
+{
+	if(triathlonTime.useMile)
+	{
+		float val = v * MILEFACTOR;
+		
+		int decimal = floor(val);
+		int fract = floor(val*100);
+		fract = fract%100;
+		
+		return [NSString stringWithFormat:@"%d.%02d",decimal,fract];
+		
+	}
+	else 
+	{
+		int decimal = (v*1000);
+		return [NSString stringWithFormat:@"%d",decimal];
+	}
+
+
+}
+
+-(NSString*)FormatRunDistance:(float)v
 {
 	int decimal = (v*1000);
 	return [NSString stringWithFormat:@"%d",decimal];
 }
 
--(NSString*)FormatDistance:(float)v
+-(NSString*)FormatBikeDistance:(float)v
 {
-	int decimal = floor(v);
-	int fractal = floor(v*100);
+	float val = v;
+	if(triathlonTime.useMile)
+	{
+		val = val * MILEFACTOR;
+	}
+	int decimal = floor(val);
+	int fractal = floor(val*100);
 	fractal = fractal % 100;
 	
 	return [NSString stringWithFormat:@"%d.%02d",decimal,fractal];
 }
 
+
+-(void)updateLabels
+{
+	if(triathlonTime.useMile)
+	{
+		switch (currentScreen) {
+			case 0:
+				Distance.MetricsLabel.text =@"miles";
+				Paste.MetricsLabel.text = @"per 100m";
+				break;
+			case 1:
+				Distance.MetricsLabel.text =@"miles";
+				Paste.MetricsLabel.text = @"mph";
+				break;
+			case 2:
+				Distance.MetricsLabel.text =@"meters";
+				Paste.MetricsLabel.text=@"per mile";
+				break;
+		}
+		
+	
+	}
+	else
+	{
+		switch (currentScreen) {
+			case 0:
+				Distance.MetricsLabel.text =@"meters";
+				Paste.MetricsLabel.text = @"per 100m";
+				break;
+			case 1:
+				Distance.MetricsLabel.text =@"km";
+				Paste.MetricsLabel.text = @"kph";
+				break;
+			case 2:
+				Distance.MetricsLabel.text =@"meters";
+				Paste.MetricsLabel.text=@"per km";
+				break;
+		}
+	}
+}
+
 -(void)updateScreen
 {
+	
+	[self updateLabels];
+	
 	if(currentScreen !=3)
 	{
 		Time.TextField.text = [self FormatTime:[triathlonTime GetValueInEdit:0 InScreen:currentScreen]];
-		if(currentScreen==0)
-		{
-			Distance.TextField.text =[self SwimFormatDistance: [triathlonTime GetValueInEdit:1 InScreen:currentScreen]];
+		
+		switch (currentScreen) {
+			case 0:
+				Distance.TextField.text =[self FormatSwimDistance: [triathlonTime GetValueInEdit:1 InScreen:currentScreen]];
+				break;
+			case 1:
+				Distance.TextField.text =[self FormatBikeDistance: [triathlonTime GetValueInEdit:1 InScreen:currentScreen]];
+				break;
+			case 2:
+				Distance.TextField.text =[self FormatRunDistance: [triathlonTime GetValueInEdit:1 InScreen:currentScreen]];
+				break;
 		}
-		else 
-		{
-			Distance.TextField.text =[self FormatDistance: [triathlonTime GetValueInEdit:1 InScreen:currentScreen]];
-		}
+		
 
 		switch (currentScreen) {
 			case 0:
+				
 				Paste.TextField.text = [self FormatSwimPace:[triathlonTime GetValueInEdit:2 InScreen:currentScreen]];
 				break;
 			case 1:
@@ -642,11 +750,18 @@
 	{
 		return ;
 	}
+	
+	
+	
 	currentEdit = 1;
+	
+	
+	
 	triCalcTemplateDistance * tmp = [[triCalcTemplateDistance alloc] initWithBackground:self.view.backgroundColor 
 																				  owner:self 
 																			   selector:@selector(distanceSelected:)
-																				 Screen:currentScreen];
+																				 Screen:currentScreen
+																				UseMile:triathlonTime.useMile];
 	
 	[self.navigationController pushViewController:tmp animated:YES];
 	[tmp release];
@@ -655,8 +770,26 @@
 -(void)distanceSelected:(NSNumber*)newDistance
 {
 	
-	[pickerController SetDistance:triathlonTime.useMile Current:[newDistance floatValue]];
 	[triathlonTime updateValue:[newDistance floatValue] InEdit:currentEdit InScreen:currentScreen InMode:currentMode];
+	
+	if(currentScreen!=3)
+	{
+		switch (currentEdit) {
+			case 0:
+				[self edit:Time];
+				break;
+			case 1:
+				[self edit:Distance];
+				break;
+			case 2:
+				[self edit:Paste];
+				break;
+		}
+	}
+	
+	
+	
+	
 
 	[self updateScreen];
 }

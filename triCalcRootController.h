@@ -12,6 +12,8 @@
 @class triCalcPickerController;
 @class triCalcTriathlonTime;
 
+
+
 @interface triCalcRootController : UIViewController {
 
 	
@@ -41,6 +43,7 @@
 	int currentScreen;
 	int currentEdit;
 	
+	float MILEFACTOR; 
 	
 	triCalcPickerController * pickerController;
 	

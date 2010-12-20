@@ -18,6 +18,6 @@
 	
 	UIColor *color;
 }
--(id)initWithBackground:(UIColor*)bgColor owner:(id)o selector:(SEL)s Screen:(int)scr;
+-(id)initWithBackground:(UIColor*)bgColor owner:(id)o selector:(SEL)s Screen:(int)scr UseMile:(BOOL)useMile;
 
 @end

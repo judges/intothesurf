@@ -15,7 +15,7 @@
 #pragma mark -
 #pragma mark View lifecycle
 
--(id)initWithBackground:(UIColor*)bgColor owner:(id)o selector:(SEL)s Screen:(int)scr
+-(id)initWithBackground:(UIColor*)bgColor owner:(id)o selector:(SEL)s Screen:(int)scr UseMile:(BOOL)useMile
 {
 	self = [super initWithStyle:UITableViewStyleGrouped];
 	if(self)
@@ -29,53 +29,97 @@
 		
 		switch (scr) {
 			case 0: //Swim
-				self.navigationItem.title =@"Swim";
-				
-				[titles addObject:@"500 meters"];
-				[values addObject:[NSNumber numberWithFloat:0.5]];
-				[titles addObject:@"1000 meters"];
-				[values addObject:[NSNumber numberWithFloat:1]];
-				[titles addObject:@"1500 meters"];
+				self.navigationItem.title =@"Swim";	
+				[values addObject:[NSNumber numberWithFloat:0.4]];
+				[values addObject:[NSNumber numberWithFloat:0.75]];
 				[values addObject:[NSNumber numberWithFloat:1.5]];
-				[titles addObject:@"2000 meters"];
-				[values addObject:[NSNumber numberWithFloat:2.0]];
-				[titles addObject:@"Olympic"];
-				[values addObject:[NSNumber numberWithFloat:1.5]];
-				[titles addObject:@"Half ironman"];
+				[values addObject:[NSNumber numberWithFloat:3.0]];
+				[values addObject:[NSNumber numberWithFloat:4.0]];
 				[values addObject:[NSNumber numberWithFloat:1.93]];
-				[titles addObject:@"Ironman"];
 				[values addObject:[NSNumber numberWithFloat:3.86]];
+				if(useMile)
+				{
+					[titles addObject:@"Super Sprint (0.25 mile)"];
+					[titles addObject:@"Sprint (0.47 mile)"];
+					[titles addObject:@"Olympic (0.93 mile)"];
+					[titles addObject:@"Double Olympic (1.86 mile)"];
+					[titles addObject:@"Triple Olympic (2.49 mile)"];
+					[titles addObject:@"Half-Ironman (1.2 mile)"];
+					[titles addObject:@"Ironman Triathlon (2.4 mile)"];
+				}
+				else 
+				{
+					[titles addObject:@"Super Sprint (0.4 km)"];
+					[titles addObject:@"Sprint (0.75 km)"];
+					[titles addObject:@"Olympic (1.5 km)"];
+					[titles addObject:@"Double Olympic (3.0 km)"];
+					[titles addObject:@"Triple Olympic (4.00 km)"];
+					[titles addObject:@"Ironman Triathlon (1.93 km)"];
+					[titles addObject:@"Ironman Triathlon (3.86 km)"];
+				}
+
 				break;
 			case 1: //Bike
 				self.navigationItem.title =@"Bike";
-				 [titles addObject:@"5 km"];
-				 [values addObject:[NSNumber numberWithFloat:5]];
-				 [titles addObject:@"10 km"];
-				 [values addObject:[NSNumber numberWithFloat:10]];
-				 [titles addObject:@"20 km"];
-				 [values addObject:[NSNumber numberWithFloat:20]];
-				 [titles addObject:@"Olympic"];
-				 [values addObject:[NSNumber numberWithFloat:40]];
-				 [titles addObject:@"Half ironman"];
-				 [values addObject:[NSNumber numberWithFloat:90]];
-				 [titles addObject:@"Ironman"];
-				 [values addObject:[NSNumber numberWithFloat:180]];
+				
+				[values addObject:[NSNumber numberWithFloat:10]];
+				[values addObject:[NSNumber numberWithFloat:20]];
+				[values addObject:[NSNumber numberWithFloat:40]];
+				[values addObject:[NSNumber numberWithFloat:80]];
+				[values addObject:[NSNumber numberWithFloat:120]];
+				[values addObject:[NSNumber numberWithFloat:90]];
+				[values addObject:[NSNumber numberWithFloat:180]];
+				if(useMile)
+				{
+					[titles addObject:@"Super Sprint (6.2 mile)"];
+					[titles addObject:@"Sprint (12.4 mile)"];
+					[titles addObject:@"Olympic (24.8 mile)"];
+					[titles addObject:@"Double Olympic (49.6 mile)"];
+					[titles addObject:@"Triple Olympic (74.6 mile)"];
+					[titles addObject:@"Half-Ironman (56 mile)"];
+					[titles addObject:@"Ironman Triathlon (112 mile)"];
+				}
+				else 
+				{
+					[titles addObject:@"Super Sprint (10 km)"];
+					[titles addObject:@"Sprint (20 km)"];
+					[titles addObject:@"Olympic (40 km)"];
+					[titles addObject:@"Double Olympic (80 km)"];
+					[titles addObject:@"Triple Olympic (120 km)"];
+					[titles addObject:@"Ironman Triathlon (90 km)"];
+					[titles addObject:@"Ironman Triathlon (180 km)"];
+				}
+				
 				break;
 			case 2:  //Run
 				self.navigationItem.title =@"Run";
-				  [titles addObject:@"1 km"];
-				  [values addObject:[NSNumber numberWithFloat:1]];
-				  [titles addObject:@"3 km"];
-				  [values addObject:[NSNumber numberWithFloat:3]];
-				  [titles addObject:@"5 km"];
-				  [values addObject:[NSNumber numberWithFloat:5]];
-				  [titles addObject:@"Olympic"];
-				  [values addObject:[NSNumber numberWithFloat:10]];
-				  [titles addObject:@"Half ironman"];
-				  [values addObject:[NSNumber numberWithFloat:21.09]];
-				  [titles addObject:@"Ironman"];
-				  [values addObject:[NSNumber numberWithFloat:42.2]];
-				break;
+				[values addObject:[NSNumber numberWithFloat:2.5]];
+				[values addObject:[NSNumber numberWithFloat:5]];
+				[values addObject:[NSNumber numberWithFloat:10]];
+				[values addObject:[NSNumber numberWithFloat:20]];
+				[values addObject:[NSNumber numberWithFloat:30]];
+				[values addObject:[NSNumber numberWithFloat:21.09]];
+				[values addObject:[NSNumber numberWithFloat:42.2]];
+				if(useMile)
+				{
+					[titles addObject:@"Super Sprint (1.5 mile)"];
+					[titles addObject:@"Sprint (3.1 mile)"];
+					[titles addObject:@"Olympic (6.2 mile)"];
+					[titles addObject:@"Double Olympic (12.4 mile)"];
+					[titles addObject:@"Triple Olympic (18.6 mile)"];
+					[titles addObject:@"Half-Ironman (13.1 mile)"];
+					[titles addObject:@"Ironman Triathlon (26.2 mile)"];
+				}
+				else 
+				{
+					[titles addObject:@"Super Sprint (2.5 km)"];
+					[titles addObject:@"Sprint (5 km)"];
+					[titles addObject:@"Olympic (10 km)"];
+					[titles addObject:@"Double Olympic (20 km)"];
+					[titles addObject:@"Triple Olympic (30 km)"];
+					[titles addObject:@"Ironman Triathlon (21.09 km)"];
+					[titles addObject:@"Ironman Triathlon (42.2 km)"];
+				}				break;
 			
 		}
 		
