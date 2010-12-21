@@ -65,7 +65,7 @@
        
 		CustomButtonData *cbd = [[CustomButtonData alloc] 
 								 initWithTitle:@"Pace Calculator" 
-								 SmallText:@"created by: Intothesurf.com" 
+								 SmallText:@"created by: intothesurf.com" 
 								 BigText:@"Promotion: free" 
 								 ImageName:@"calc.png"];
 		
@@ -79,9 +79,9 @@
 			
 		cbd = [[CustomButtonData alloc] 
 			   initWithTitle:@"Triathlon Calculator" 
-			   SmallText:@"created by: Intothesurf.com" 
-			   BigText:@""
-			   ImageName:@"calc.png"];
+			   SmallText:@"created by: intothesurf.com" 
+			   BigText:@"Promotion: 5 Credits"
+			   ImageName:@"triathlon-50x50.png"];
 		triCalc =[[CustomButtonViewController alloc]initWithOwner:self Selector:@selector(TriCalcTouchUp) ButtonData:cbd];
 		[cbd release];
 		s = triCalc.view.frame.size;

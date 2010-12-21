@@ -31,7 +31,7 @@
 		cbd = [[CustomButtonData alloc]
 			   initWithTitle:@"Photos" 
 			   SmallText:@"Check yourself and your friends out here" 
-			   BigText:@"Promotion: 10% off" 
+			   BigText:@"Promotion: " 
 			   ImageName:@"hawaiiphotoman.jpg"];
 		
 		photo =[[CustomButtonViewController alloc]initWithOwner:self Selector:@selector(photosTouchUpInside:)ButtonData:cbd ];
