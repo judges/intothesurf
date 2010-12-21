@@ -470,6 +470,8 @@
 	
 	[self updateLabels];
 	
+	UIColor* selectionColor = [UIColor colorWithRed:0 green:0xB1/255.0 blue:0xE6/255.0 alpha:1];
+	
 	if(currentScreen !=3)
 	{
 		Time.TextField.text = [self FormatTime:[triathlonTime GetValueInEdit:0 InScreen:currentScreen]];
@@ -537,7 +539,7 @@
 			}
 			break;
 		case 0:
-			Time.view.backgroundColor = [UIColor blueColor];
+			Time.view.backgroundColor = selectionColor;
 			if(currentMode == 1) //distance mode
 			{
 				Distance.view.backgroundColor = [UIColor lightGrayColor];
@@ -551,12 +553,12 @@
 			
 			if(currentScreen==3)
 			{
-				T1.view.backgroundColor = [UIColor blueColor];
+				T1.view.backgroundColor = selectionColor;
 				
 			}
 			break;
 		case 1:
-			Distance.view.backgroundColor = [UIColor blueColor];
+			Distance.view.backgroundColor = selectionColor;
 			if(currentMode == 0) //time mode
 			{
 				Time.view.backgroundColor = [UIColor lightGrayColor];
@@ -569,12 +571,12 @@
 			}
 			if(currentScreen==3)
 			{
-				T2.view.backgroundColor = [UIColor blueColor];
+				T2.view.backgroundColor = selectionColor;
 				
 			}
 			break;
 		case 2:
-			Paste.view.backgroundColor = [UIColor blueColor];
+			Paste.view.backgroundColor = selectionColor;
 			if(currentMode == 0) //time mode
 			{
 				Time.view.backgroundColor = [UIColor lightGrayColor];
@@ -633,6 +635,7 @@
 	currentMode = 0;
 	currentScreen = 0;
 	[pickerController SetNone];
+	
 	self.view.backgroundColor= settings.BackgroundColor;
 	
 	
