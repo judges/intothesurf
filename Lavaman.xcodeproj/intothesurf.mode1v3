@@ -273,13 +273,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>12</integer>
+									<integer>3</integer>
 									<integer>2</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 85}, {343, 580}}</string>
+							<string>{{0, 0}, {343, 580}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -316,7 +316,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>triCalcPickerController.m</string>
+								<string>triCalcRootController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,11 +324,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>triCalcPickerController.m</string>
+										<string>triCalcRootController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>6EB2F17E12C3B533004B0864</string>
+										<string>6EB2F2B712C3CB47004B0864</string>
 										<key>history</key>
 										<array>
 											<string>6E4B3DB21289E82D003658B1</string>
@@ -438,7 +438,6 @@
 											<string>6EA6BB6012C148EF006DDC11</string>
 											<string>6EB2F02112C38785004B0864</string>
 											<string>6EB2F0A012C38E0F004B0864</string>
-											<string>6EB2F0A112C38E0F004B0864</string>
 											<string>6EB2F0A212C38E0F004B0864</string>
 											<string>6EB2F0A312C38E0F004B0864</string>
 											<string>6EB2F0A412C38E0F004B0864</string>
@@ -453,7 +452,8 @@
 											<string>6EB2F15D12C3B453004B0864</string>
 											<string>6EB2F15E12C3B453004B0864</string>
 											<string>6EB2F15F12C3B453004B0864</string>
-											<string>6EB2F17312C3B476004B0864</string>
+											<string>6EB2F2B612C3CB47004B0864</string>
+											<string>6EB2F0A112C38E0F004B0864</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

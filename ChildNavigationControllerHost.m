@@ -28,7 +28,7 @@
 		
 		childNavigationController = [[UINavigationController alloc]initWithRootViewController:rootController];
 	
-		[self.navigationItem setTitle:@"TriCalc"];
+		[self.navigationItem setTitle:@"Triathlon"];
 		
 		childNavigationController.view.frame = CGRectMake(0, 0, 320, 460);
 		[rootController release];
