@@ -66,6 +66,8 @@
 -(IBAction) metricChanged:(id)sender;
 -(IBAction) screenChanged:(id)sender;
 
+-(IBAction) share:(id)sender;
+
 -(void)updateScreen;
 
 -(void)toTransition;

@@ -12,6 +12,7 @@
 #import "triCalcPickerController.h"
 #import "triCalcTriathlonTime.h"
 #import "triCalcTemplateDistance.h"
+#import "SHK.h"
 
 @implementation triCalcRootController
 @synthesize toolBar;
@@ -431,7 +432,7 @@
 	{
 		switch (currentScreen) {
 			case 0:
-				Distance.MetricsLabel.text =@"miles";
+				Distance.MetricsLabel.text =@"mile";
 				Paste.MetricsLabel.text = @"per 100m";
 				break;
 			case 1:
@@ -689,6 +690,41 @@
 	[UIView commitAnimations];
 }
 
+-(IBAction) share:(id)sender
+{
+	
+	NSString *myGoals=
+	[NSString stringWithFormat:@"My goal:\nSwim: %@ %@ in %@\nBike: %@ %@ in %@\nRun: %@ %@ in %@\nT1: %@ T2: %@\nTotal: %@"
+								,[self FormatSwimDistance: [triathlonTime GetValueInEdit:1 InScreen:0]]
+								,triathlonTime.useMile? @"mile":@"meters"
+								,[self FormatTime:[triathlonTime GetValueInEdit:0 InScreen:0]]
+								//,[self FormatSwimPace:[triathlonTime GetValueInEdit:2 InScreen:0]]
+								//,@"per 100m"
+								,[self FormatBikeDistance:[triathlonTime GetValueInEdit:1 InScreen:1]]
+								,triathlonTime.useMile? @"mile":@"km"
+								,[self FormatTime:[triathlonTime GetValueInEdit:0 InScreen:1]]
+								//,[self FormatAvgSpeed:[triathlonTime GetValueInEdit:2 InScreen:1]]
+								//,triathlonTime.useMile? @"mph":@"kph"
+								,[self FormatRunDistance:[triathlonTime GetValueInEdit:1 InScreen:2]]
+								,@"meters"
+								,[self FormatTime:[triathlonTime GetValueInEdit:0 InScreen:2]]
+								//,[self FormatRunPace:[triathlonTime GetValueInEdit:2 InScreen:2]]
+								//,triathlonTime.useMile? @"per mile":@"per km" 
+								,[self FormatTime:[triathlonTime GetValueInEdit:0 InScreen:3]]
+								,[self FormatTime:[triathlonTime GetValueInEdit:1 InScreen:3]]
+								,[self FormatTime: [triathlonTime GetValueInEdit:0 InScreen:0]
+								  +[triathlonTime GetValueInEdit:0 InScreen:1]
+								  +[triathlonTime GetValueInEdit:0 InScreen:2]
+								  +[triathlonTime GetValueInEdit:0 InScreen:3]
+								  +[triathlonTime GetValueInEdit:1 InScreen:3]]
+	];
+	
+	SHKItem *item = [SHKItem text:myGoals];
+	SHKActionSheet *actionSheet = [SHKActionSheet actionSheetForItem:item];
+	
+	[actionSheet showInView:self.view];
+	
+}
 
 -(void)animatePace
 {

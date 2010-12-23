@@ -30,13 +30,13 @@
 		switch (scr) {
 			case 0: //Swim
 				self.navigationItem.title =@"Swim";	
-				[values addObject:[NSNumber numberWithFloat:0.4]];
-				[values addObject:[NSNumber numberWithFloat:0.75]];
-				[values addObject:[NSNumber numberWithFloat:1.5]];
-				[values addObject:[NSNumber numberWithFloat:3.0]];
-				[values addObject:[NSNumber numberWithFloat:4.0]];
-				[values addObject:[NSNumber numberWithFloat:1.93]];
-				[values addObject:[NSNumber numberWithFloat:3.86]];
+				[values addObject:[NSNumber numberWithFloat:(useMile? 0.403:0.4)]];
+				[values addObject:[NSNumber numberWithFloat:(useMile? 0.757:0.75)]];
+				[values addObject:[NSNumber numberWithFloat:(useMile? 1.5:1.5)]];
+				[values addObject:[NSNumber numberWithFloat:(useMile? 3.0:3.0)]];
+				[values addObject:[NSNumber numberWithFloat:(useMile? 4.008:4.0)]];
+				[values addObject:[NSNumber numberWithFloat:(useMile? 1.932:1.93)]];
+				[values addObject:[NSNumber numberWithFloat:(useMile? 3.863:3.86)]];
 				if(useMile)
 				{
 					[titles addObject:@"Super Sprint (0.25 mile)"];
@@ -62,13 +62,13 @@
 			case 1: //Bike
 				self.navigationItem.title =@"Bike";
 				
-				[values addObject:[NSNumber numberWithFloat:10]];
-				[values addObject:[NSNumber numberWithFloat:20]];
-				[values addObject:[NSNumber numberWithFloat:40]];
-				[values addObject:[NSNumber numberWithFloat:80]];
-				[values addObject:[NSNumber numberWithFloat:120]];
-				[values addObject:[NSNumber numberWithFloat:90]];
-				[values addObject:[NSNumber numberWithFloat:180]];
+				[values addObject:[NSNumber numberWithFloat:(useMile? 9.978:10)]];
+				[values addObject:[NSNumber numberWithFloat:(useMile? 19.956:20)]];
+				[values addObject:[NSNumber numberWithFloat:(useMile? 39.912:40)]];
+				[values addObject:[NSNumber numberWithFloat:(useMile? 79.824:80)]];
+				[values addObject:[NSNumber numberWithFloat:(useMile? 120.058:120)]];
+				[values addObject:[NSNumber numberWithFloat:(useMile? 90.124:90)]];
+				[values addObject:[NSNumber numberWithFloat:(useMile? 180.247:180)]];
 				if(useMile)
 				{
 					[titles addObject:@"Super Sprint (6.2 mile)"];
@@ -93,13 +93,13 @@
 				break;
 			case 2:  //Run
 				self.navigationItem.title =@"Run";
-				[values addObject:[NSNumber numberWithFloat:2.5]];
-				[values addObject:[NSNumber numberWithFloat:5]];
-				[values addObject:[NSNumber numberWithFloat:10]];
-				[values addObject:[NSNumber numberWithFloat:20]];
-				[values addObject:[NSNumber numberWithFloat:30]];
-				[values addObject:[NSNumber numberWithFloat:21.09]];
-				[values addObject:[NSNumber numberWithFloat:42.2]];
+				[values addObject:[NSNumber numberWithFloat:(useMile? 2.42:2.5)]];
+				[values addObject:[NSNumber numberWithFloat:(useMile? 5:5)]];
+				[values addObject:[NSNumber numberWithFloat:(useMile? 10:10)]];
+				[values addObject:[NSNumber numberWithFloat:(useMile? 20:20)]];
+				[values addObject:[NSNumber numberWithFloat:(useMile? 30:30)]];
+				[values addObject:[NSNumber numberWithFloat:(useMile? 21.09:21.09)]];
+				[values addObject:[NSNumber numberWithFloat:(useMile? 42.2:42.2)]];
 				if(useMile)
 				{
 					[titles addObject:@"Super Sprint (1.5 mile)"];

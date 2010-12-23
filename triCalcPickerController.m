@@ -32,6 +32,7 @@
 
 -(void)SetTransit:(BOOL)miles Current:(float)c
 {
+	[self SetNone];
 	[widths removeAllObjects];
 	[widths addObject:[NSNumber numberWithInt:100]];
 	[widths addObject:[NSNumber numberWithInt:100]];
@@ -74,6 +75,7 @@
 
 -(void)SetTime:(BOOL)miles Current:(float)c
 {
+	[self SetNone];
 	[widths removeAllObjects];
 	[widths addObject:[NSNumber numberWithInt:100]];
 	[widths addObject:[NSNumber numberWithInt:100]];
@@ -125,6 +127,7 @@
 
 -(void)SetAvgSpeed:(BOOL)miles Current:(float)c
 {
+	[self SetNone];
 	[widths removeAllObjects];
 	[widths addObject:[NSNumber numberWithInt:50]];
 	[widths addObject:[NSNumber numberWithInt:50]];
@@ -195,6 +198,7 @@
 
 -(void)SetRunPace:(BOOL)miles Current:(float)c
 {
+	[self SetNone];
 	[widths removeAllObjects];
 	[widths addObject:[NSNumber numberWithInt:50]];
 	[widths addObject:[NSNumber numberWithInt:50]];
@@ -272,6 +276,7 @@
 
 -(void)SetSwimPace:(BOOL)miles Current:(float)c
 {
+	[self SetNone];
 	[widths removeAllObjects];
 	[widths addObject:[NSNumber numberWithInt:90]];
 	[widths addObject:[NSNumber numberWithInt:90]];
@@ -338,22 +343,26 @@
 	[widths addObject:[NSNumber numberWithInt:60]];
 	[widths addObject:[NSNumber numberWithInt:60]];
 	[widths addObject:[NSNumber numberWithInt:60]];
+	[widths addObject:[NSNumber numberWithInt:60]];
 	
 	[array removeAllObjects];
 	NSMutableArray *em = [[NSMutableArray alloc]init];
-	[em addObject:@"0"];
+	[em addObject:@"-"];
 	[array addObject:em];
 	[em release];
 	em = [[NSMutableArray alloc]init];
-	[em addObject:@"0"];
+	[em addObject:@"-"];
 	[array addObject:em];
 	[em release];
 	em = [[NSMutableArray alloc]init];
-	[em addObject:@"0"];
+	[em addObject:@"-"];
 	[array addObject:em];
 	[em release];
 	em = [[NSMutableArray alloc]init];
-	[em addObject:@"0"];
+	[em addObject:@"-"];
+	[array addObject:em];
+	em = [[NSMutableArray alloc]init];
+	[em addObject:@"-"];
 	[array addObject:em];
 	[em release];
 	
@@ -363,6 +372,7 @@
 }
 -(void)SetDistanceForSwim:(BOOL)miles Current:(float)c
 {
+	[self SetNone];
 	useMile = miles;
 	if(miles)
 	{
@@ -484,6 +494,7 @@
 }
 -(void)SetDistanceForRun:(BOOL)miles Current:(float)c
 {
+	[self SetNone];
 	[widths removeAllObjects];
 	[widths addObject:[NSNumber numberWithInt:60]];
 	[widths addObject:[NSNumber numberWithInt:60]];
@@ -537,6 +548,7 @@
 
 -(void)SetDistance:(BOOL)miles Current:(float)c
 {
+	[self SetNone];
 	[widths removeAllObjects];
 	[widths addObject:[NSNumber numberWithInt:60]];
 	[widths addObject:[NSNumber numberWithInt:60]];

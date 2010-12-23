@@ -36,7 +36,7 @@
 
 -(void) TriCalcTouchUp
 {
-	int runs = 15;
+	int runs = 5;
 	if([[NSUserDefaults standardUserDefaults]  objectForKey:@"PaceCalcRuns"])
 	{
 		runs = [[NSUserDefaults standardUserDefaults]  integerForKey:@"PaceCalcRuns"];
@@ -111,7 +111,7 @@
 
 -(void)viewWillAppear:(BOOL)animated
 {
-	int runs = 15;
+	int runs = 5;
 	NSString* promotion;
 	if([[NSUserDefaults standardUserDefaults]  objectForKey:@"PaceCalcRuns"])
 	{
@@ -121,7 +121,7 @@
 	
 	if(runs>0)
 	{
-		promotion = [NSString stringWithFormat:@"Promotion: %d free runs left.",runs];
+		promotion = [NSString stringWithFormat:@"Promotion: %d Credits left.",runs];
 	}
 	else
 	{
