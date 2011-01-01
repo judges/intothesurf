@@ -256,7 +256,6 @@
 		6E0871F712CD01C5006AD162 /* wgtBasicUserDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wgtBasicUserDataViewController.h; sourceTree = "<group>"; };
 		6E0871F812CD01C5006AD162 /* wgtBasicUserDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wgtBasicUserDataViewController.m; sourceTree = "<group>"; };
 		6E0871F912CD01C5006AD162 /* wgtBasicUserDataViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = wgtBasicUserDataViewController.xib; sourceTree = "<group>"; };
-		6E08739C12CFB23C006AD162 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		6E0873A012CFB64D006AD162 /* SponsorDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SponsorDetailsViewController.h; sourceTree = "<group>"; };
 		6E0873A112CFB64D006AD162 /* SponsorDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SponsorDetailsViewController.m; sourceTree = "<group>"; };
 		6E0873A212CFB64D006AD162 /* SponsorDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SponsorDetailsViewController.xib; sourceTree = "<group>"; };
@@ -549,7 +548,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				6E08739C12CFB23C006AD162 /* Entitlements.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";

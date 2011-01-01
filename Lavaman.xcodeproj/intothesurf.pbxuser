@@ -578,6 +578,14 @@
 		vrLen = 1104;
 		vrLoc = 760;
 	};
+	6E08739C12CFB23C006AD162 /* Entitlements.plist */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = text.plist.xml;
+		name = Entitlements.plist;
+		path = /Users/intothesurf/Development/GitHub/Lavaman/intothesurf/Entitlements.plist;
+		sourceTree = "<absolute>";
+	};
 	6E0873A012CFB64D006AD162 /* SponsorDetailsViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1132, 390}}";
@@ -2056,9 +2064,9 @@
 	};
 	6E4B421D128C23D4003658B1 /* PasteCalculatorViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1132, 3952}}";
-			sepNavSelRange = "{5156, 0}";
-			sepNavVisRange = "{4662, 638}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 3770}}";
+			sepNavSelRange = "{320, 0}";
+			sepNavVisRange = "{194, 465}";
 		};
 	};
 	6E507EA21281D7FE004D3212 /* SponsorsCreator.h */ = {
@@ -2084,9 +2092,9 @@
 	};
 	6E507EB71281D9DE004D3212 /* TrainingToolsViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 2197}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 2184}}";
 			sepNavSelRange = "{1106, 0}";
-			sepNavVisRange = "{760, 1104}";
+			sepNavVisRange = "{0, 642}";
 		};
 	};
 	6E67B67512A7878600704F98 /* PBXBookmark */ = {
@@ -2329,7 +2337,7 @@
 		ignoreCount = 0;
 		lineNumber = 135;
 		location = Lavaman;
-		modificationTime = 315611358.742166;
+		modificationTime = 315611422.767649;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
@@ -3575,8 +3583,8 @@
 	6EB8E4691281C23300469C33 /* RaceInformationViewController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1132, 5161}}";
-			sepNavSelRange = "{10295, 0}";
-			sepNavVisRange = "{10159, 534}";
+			sepNavSelRange = "{10415, 0}";
+			sepNavVisRange = "{10159, 576}";
 			sepNavWindowFrame = "{{15, 114}, {1189, 759}}";
 		};
 	};
