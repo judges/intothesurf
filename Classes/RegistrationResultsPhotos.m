@@ -30,8 +30,8 @@
 		
 		cbd = [[CustomButtonData alloc]
 			   initWithTitle:@"Photos" 
-			   SmallText:@"Check yourself and your friends out here" 
-			   BigText:@"Promotion: " 
+			   SmallText:@"See Your Event Photos" 
+			   BigText:@"" 
 			   ImageName:@"hawaiiphotoman.jpg"];
 		
 		photo =[[CustomButtonViewController alloc]initWithOwner:self Selector:@selector(photosTouchUpInside:)ButtonData:cbd ];
@@ -41,7 +41,7 @@
 		
 		cbd = [[CustomButtonData alloc]
 			   initWithTitle:@"Results " 
-			   SmallText:@"View all results for the current and past events" 
+			   SmallText:@"View results for current and past events" 
 			   BigText:@"Racer's Hub Results" 
 			   ImageName:@"results.png"];
 		

@@ -218,6 +218,7 @@
 		6A258A4812B80F44009FD9B6 /* jackiereys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jackiereys.jpg; sourceTree = "<group>"; };
 		6A258A4912B80F44009FD9B6 /* queens.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = queens.jpg; sourceTree = "<group>"; };
 		6A2BBA6712AEC79200EECC62 /* water.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = water.jpg; sourceTree = "<group>"; };
+		6A7BD5F812C3D84A0090C8E4 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		6A9B11D512BAE92100C09E0C /* clarkrealty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clarkrealty.jpg; sourceTree = "<group>"; };
 		6A9B11D612BAE92100C09E0C /* eric.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eric.png; sourceTree = "<group>"; };
 		6A9B11D712BAE92100C09E0C /* ironman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ironman.jpg; sourceTree = "<group>"; };
@@ -548,6 +549,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				6A7BD5F812C3D84A0090C8E4 /* Entitlements.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -1543,13 +1545,13 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jakub Dlugosz (2UM4RGYX3B)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: intothesurf llc.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jakub Dlugosz (2UM4RGYX3B)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "6D983ADD-04BD-4E6B-B1CE-063CCFE6AA6F";
+				PROVISIONING_PROFILE = "073851F3-F28F-4C7E-9BB8-606D801A98CA";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6D983ADD-04BD-4E6B-B1CE-063CCFE6AA6F";
 				SDKROOT = iphoneos4.0;
 			};
@@ -1559,15 +1561,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: intothesurf llc.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: intothesurf llc.";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "073851F3-F28F-4C7E-9BB8-606D801A98CA";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "073851F3-F28F-4C7E-9BB8-606D801A98CA";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos4.0;
 			};
 			name = Release;
