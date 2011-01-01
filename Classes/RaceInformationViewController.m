@@ -189,7 +189,7 @@
 	lbl.text = ri.Title;
 	lbl.font = [UIFont fontWithName:@"Arial-BoldMT" size:s];
 	lbl.backgroundColor = [UIColor colorWithRed:1 green:1 blue:1 alpha:0];
-	[self.view addSubview:lbl];
+	[scrollView addSubview:lbl];
 	[lbl release];
 }
 
@@ -200,7 +200,7 @@
 	lbl.text = [NSString stringWithFormat:@"%@ - %@",[dateFormatter stringFromDate:rd.Date],rd.Title ];
 	lbl.font = [UIFont fontWithName:@"Arial-BoldMT" size:s];
 	lbl.backgroundColor = [UIColor colorWithRed:1 green:1 blue:1 alpha:0];
-	[self.view addSubview:lbl];
+	[scrollView addSubview:lbl];
 	[lbl release];
 }
 
@@ -219,7 +219,7 @@
 	}
 	lbl.font = [UIFont fontWithName:@"Arial-BoldMT" size:s];
 	lbl.backgroundColor = [UIColor colorWithRed:1 green:1 blue:1 alpha:0];
-	[self.view addSubview:lbl];
+	[scrollView addSubview:lbl];
 	[lbl release];
 	
 	
@@ -229,7 +229,7 @@
 	lbl.text = re.Title;
 	lbl.font = [UIFont fontWithName:@"Arial-BoldMT" size:s];
 	lbl.backgroundColor =[UIColor colorWithRed:1 green:1 blue:1 alpha:0];
-	[self.view addSubview:lbl];
+	[scrollView addSubview:lbl];
 	[lbl release];
 	
 	
@@ -238,7 +238,7 @@
 	lbl.textColor =[UIColor lightGrayColor];
 	lbl.font = [UIFont fontWithName:@"Arial" size:s-2];
 	lbl.backgroundColor =[UIColor colorWithRed:1 green:1 blue:1 alpha:0];
-	[self.view addSubview:lbl];
+	[scrollView addSubview:lbl];
 	[lbl release];
 	
 	
@@ -303,7 +303,7 @@
 	self.navigationItem.rightBarButtonItem = self.barButton;
 	
 	
-	UIScrollView* scrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, 320, 440)];
+	scrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, 320, 440)];
 	
 	scrollView.indicatorStyle = UIScrollViewIndicatorStyleWhite;
 	scrollView.clipsToBounds = YES;        // default is NO, we want to restrict drawing within our scrollview
@@ -311,13 +311,13 @@
 	scrollView.canCancelContentTouches = YES;
 	
 		
-	
-	self.view =scrollView;
+	[self.view addSubview:scrollView];
+	//self.view =scrollView;
 
 	[scrollView release];
 	//self.view = [[ alloc] ]
 	
-	[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]]];
+	[scrollView setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]]];
 	int offset= 10;
 	
 	for (int i=0; i < [raceInfoArray count]; i++) 
@@ -347,22 +347,22 @@
 			
 			
 			
-			[self.view addSubview:v];
+			[scrollView addSubview:v];
 			[v release];
 			for (int k=0; k<[raceDay.Events count]; k++) 
 			{
 				RaceEventViewController*revc =[tmpArray2 objectAtIndex:k];
 				
 				revc.view.frame = CGRectMake(10, offset, 290, 20);
-				[self.view addSubview:revc.view];
+				[scrollView addSubview:revc.view];
 
 				offset+=21;
 			}
 			offset+=8;
 		}
 	}
-	[scrollView setContentSize: CGSizeMake(320, offset)];
-	
+	[scrollView setContentSize: CGSizeMake(320, offset+21)];
+
 }
 
 

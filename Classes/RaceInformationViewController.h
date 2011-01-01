@@ -20,6 +20,7 @@
 	
 	RaceEventDetailsViewController* currentDetails;
 	
+	UIScrollView*scrollView;
 	
 	UIView *greyView;
 	

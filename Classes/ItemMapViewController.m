@@ -19,6 +19,7 @@
 @synthesize imageView;
 @synthesize barButton;
 @synthesize link;
+@synthesize details;
 
 -(id)initWithItem:(Item*)i
 {
@@ -74,6 +75,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 		[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]]];
+	
+	
+	if(!mItem.Details)
+	{
+		details.hidden = YES;
+	}
+	else {
+		details.hidden =NO;
+	}
+
 	
 	self.navigationItem.rightBarButtonItem = barButton;
 	[mapView.layer setMasksToBounds:YES];
@@ -131,6 +142,49 @@
 	return annView;
 }
 
+-(IBAction) showDetails
+{
+	sponsorDetails = [[SponsorDetailsViewController alloc] initWithItem:mItem Owner:self Selector:@selector(closeDetails)];
+	greyOutView = [[UIView alloc] initWithFrame:self.view.frame];
+	greyOutView.backgroundColor =[UIColor blackColor];
+	greyOutView.alpha = 0.6;
+	[self.view addSubview:greyOutView];
+	[greyOutView release];
+	
+	
+	
+	int width = sponsorDetails.view.frame.size.width;
+	int height = sponsorDetails.view.frame.size.height;
+	
+	sponsorDetails.view.frame = CGRectMake(self.view.center.x -(50/2),self.view.center.y -(50/2)  , 50, 50);
+	[self.view addSubview:sponsorDetails.view];
+	
+	[UIView beginAnimations:@"anim" context:nil];
+	[UIView setAnimationDuration:.25];
+	
+	sponsorDetails.view.frame = CGRectMake(self.view.center.x -(width/2),self.view.center.y -(height/2)  , width, height);
+	
+	
+	
+	
+	[UIView commitAnimations];
+	
+	
+}
+-(void) closeDetails
+{
+	[greyOutView removeFromSuperview];
+	
+	
+	[UIView beginAnimations:@"" context:nil];
+	[sponsorDetails.view removeFromSuperview];
+	[UIView commitAnimations];
+	[sponsorDetails release];
+	sponsorDetails = nil;
+	
+}
+
+
 -(IBAction) link:(id)sender
 {
 	if(mItem.AddressLink)
@@ -170,10 +224,23 @@
     // e.g. self.myOutlet = nil;
 }
 
+-(void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+{
+	UITouch *t = [touches anyObject];
+	if(t.view == greyOutView)
+	{
+		[self closeDetails];
+	}
+}
 
 - (void)dealloc {
+	if(sponsorDetails)
+	{
+		[sponsorDetails release];
+	}
     [super dealloc];
 }
+
 
 
 @end

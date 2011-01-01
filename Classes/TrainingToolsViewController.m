@@ -12,6 +12,8 @@
 #import "CustomButtonData.h"
 #import "triCalcRootController.h"
 #import "ChildNavigationControllerHost.h"
+
+#import "wgtTrackerContainer.h"
 @implementation TrainingToolsViewController
 
 
@@ -36,26 +38,29 @@
 
 -(void) TriCalcTouchUp
 {
-	//int runs = 5;
-	//if([[NSUserDefaults standardUserDefaults]  objectForKey:@"PaceCalcRuns"])
-	//{
-	//	runs = [[NSUserDefaults standardUserDefaults]  integerForKey:@"PaceCalcRuns"];
-	//}
+	int runs = 5;
+	if([[NSUserDefaults standardUserDefaults]  objectForKey:@"PaceCalcRuns"])
+	{
+		runs = [[NSUserDefaults standardUserDefaults]  integerForKey:@"PaceCalcRuns"];
+	}
 	
-	//if(runs>0)
-	//{
+	if(runs>0)
+	{
+		//wgtTrackerContainer * childHost = [[wgtTrackerContainer alloc]init];
+	
 		ChildNavigationControllerHost * childHost = [[ChildNavigationControllerHost alloc]init];
 	
 		[self.navigationController pushViewController:childHost animated:YES];
 		[childHost release];	
-		//runs--;
-		//[[NSUserDefaults standardUserDefaults] setInteger:runs forKey:@"PaceCalcRuns"];
-	//}
-	//else
-	//{
-	//	UIAlertView *tmp = [[UIAlertView alloc] initWithTitle:@"temp" message:@"redirection here" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil];
-	//	[tmp show];
-	//}
+		runs--;
+		[[NSUserDefaults standardUserDefaults] setInteger:runs forKey:@"PaceCalcRuns"];
+	}
+	else
+	{
+		[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://itunes.apple.com/us/app/triathlon/id411489734?mt=8"]];
+		//UIAlertView *tmp = [[UIAlertView alloc] initWithTitle:@"temp" message:@"redirection here" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil];
+		//[tmp show];
+	}
 	
 }
 
@@ -111,24 +116,24 @@
 
 -(void)viewWillAppear:(BOOL)animated
 {
-	//int runs = 5;
-	//NSString* promotion;
-	//if([[NSUserDefaults standardUserDefaults]  objectForKey:@"PaceCalcRuns"])
-	//{
-	//	runs = [[NSUserDefaults standardUserDefaults]  integerForKey:@"PaceCalcRuns"];
+	int runs = 5;
+	NSString* promotion;
+	if([[NSUserDefaults standardUserDefaults]  objectForKey:@"PaceCalcRuns"])
+	{
+		runs = [[NSUserDefaults standardUserDefaults]  integerForKey:@"PaceCalcRuns"];
 		
-	//}
+	}
 	
-	//if(runs>0)
-	//{
-	//	promotion = [NSString stringWithFormat:@"Promotion: %d Credits left.",runs];
-	//}
-	//else
-	//{
-	//	promotion = [NSString stringWithFormat:@"Get calcuator app."];
-	//}
+	if(runs>0)
+	{
+		promotion = [NSString stringWithFormat:@"Promotion: %d Credits left.",runs];
+	}
+	else
+	{
+		promotion = [NSString stringWithFormat:@"Get calcuator app."];
+	}
 	
-	//triCalc.DetailLabel.text = promotion;
+	triCalc.DetailLabel.text = promotion;
 }
 
 /*

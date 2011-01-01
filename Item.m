@@ -17,6 +17,7 @@
 @synthesize AddressLink;
 @synthesize Ll1;
 @synthesize Ll2;
+@synthesize Details;
 
 +(id)initWithTitle:(NSString*)title Image:(NSString*)img Address:(NSString*)adr Info:(NSString*)inf Link:(NSString*)link
 {
@@ -49,9 +50,28 @@
 	return itm;
 }
 
++(id)initWithTitle:(NSString*)title Image:(NSString*)img Address:(NSString*)adr Info:(NSString*)inf Link:(NSString*)link ll1:(float)ll1 ll2:(float)ll2 Details:(NSString*)det
+{
+	Item *itm = [[Item alloc]init];
+	itm.Title =title;
+	itm.Address=adr;
+	itm.Info = inf;
+	itm.Image = img;
+	itm.AddressLink =link;
+	itm.Ll1 = ll1;
+	itm.Ll2= ll2;
+	itm.Details = det;
+	[itm autorelease];
+	
+	return itm;
+	
+	
+}
+
 
 -(void) dealloc
 {
+	self.Details = nil;
 	[Title release];
 	[Image release];
 	[AddressLink release];

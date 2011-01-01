@@ -15,6 +15,7 @@
 	NSString* AddressLink;
 	NSString* Address;
 	NSString* Info;
+	NSString* Details;
 	
 	float Ll1;
 	float Ll2;
@@ -25,10 +26,12 @@
 @property(nonatomic,retain)  NSString* AddressLink;
 @property(nonatomic,retain)  NSString* Address;
 @property(nonatomic,retain)  NSString* Info;
+@property(nonatomic,retain)  NSString* Details;
 @property float Ll1;
 @property float Ll2;
 
 
 +(id)initWithTitle:(NSString*)title Image:(NSString*)img Address:(NSString*)adr Info:(NSString*)inf Link:(NSString*)link;
 +(id)initWithTitle:(NSString*)title Image:(NSString*)img Address:(NSString*)adr Info:(NSString*)inf Link:(NSString*)link ll1:(float)ll1 ll2:(float)ll2;
++(id)initWithTitle:(NSString*)title Image:(NSString*)img Address:(NSString*)adr Info:(NSString*)inf Link:(NSString*)link ll1:(float)ll1 ll2:(float)ll2 Details:(NSString*)det;
 @end

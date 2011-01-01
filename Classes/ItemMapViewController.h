@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 #import "AddressAnnotation.h"
+#include "SponsorDetailsViewController.h"
 @class Item;
 
 @interface ItemMapViewController : UIViewController<MKMapViewDelegate> {
@@ -22,7 +23,13 @@
 	
 	IBOutlet UIButton  *link;
 	
+	UIButton *details;
+	UIView *greyOutView;
+	SponsorDetailsViewController* sponsorDetails;
+	
 }
+@property(nonatomic,retain) IBOutlet UIButton* details;
+
 @property(nonatomic,retain)	IBOutlet MKMapView* mapView;
 @property(nonatomic,retain) IBOutlet UILabel *titleLabel;
 @property(nonatomic,retain) IBOutlet UIView* backgroundView;
@@ -33,4 +40,6 @@
 
 -(IBAction) linkPressed:(id)sender;
 -(IBAction) link:(id)sender;
+-(IBAction) showDetails;
+-(void) closeDetails;
 @end
