@@ -164,6 +164,14 @@
 		6EB2F42112C4DCD4004B0864 /* wgtTrackerContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB2F42012C4DCD4004B0864 /* wgtTrackerContainer.m */; };
 		6EB2F54A12C62F67004B0864 /* wgtTrackerDataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 6EB2F3C212C4D0FA004B0864 /* wgtTrackerDataModel.xcdatamodel */; };
 		6EB2F55C12C631A5004B0864 /* wgtUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB2F55B12C631A5004B0864 /* wgtUser.m */; };
+		6EB812C812D0918B006B9A74 /* wgtTrackerUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB812C712D0918B006B9A74 /* wgtTrackerUserCell.m */; };
+		6EB812CA12D091A8006B9A74 /* wgtTrackerUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EB812C912D091A8006B9A74 /* wgtTrackerUserCell.xib */; };
+		6EB812D012D094DA006B9A74 /* female_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EB812CE12D094DA006B9A74 /* female_small.png */; };
+		6EB812D112D094DA006B9A74 /* male_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EB812CF12D094DA006B9A74 /* male_small.png */; };
+		6EB8132912D09AB0006B9A74 /* wgtTrackerUserWeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8132712D09AB0006B9A74 /* wgtTrackerUserWeightViewController.m */; };
+		6EB8132A12D09AB0006B9A74 /* wgtTrackerUserWeightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EB8132812D09AB0006B9A74 /* wgtTrackerUserWeightViewController.xib */; };
+		6EB8133212D09EC4006B9A74 /* wgtWeightPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8133112D09EC4006B9A74 /* wgtWeightPicker.m */; };
+		6EB8145712D0BD4C006B9A74 /* wgtWeightEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8145612D0BD4C006B9A74 /* wgtWeightEntry.m */; };
 		6EB8E01D127DDB1A00469C33 /* MessageList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8E01B127DDB1A00469C33 /* MessageList.m */; };
 		6EB8E01E127DDB1A00469C33 /* MessageList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EB8E01C127DDB1A00469C33 /* MessageList.xib */; };
 		6EB8E02D127DDBDA00469C33 /* MessageContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8E02C127DDBDA00469C33 /* MessageContainer.m */; };
@@ -185,6 +193,22 @@
 		6EB8E46B1281C23300469C33 /* RaceInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8E4691281C23300469C33 /* RaceInformationViewController.m */; };
 		6EB8E46C1281C23300469C33 /* RaceInformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EB8E46A1281C23300469C33 /* RaceInformationViewController.xib */; };
 		6EB8E46F1281C2AA00469C33 /* RaceInformationCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB8E46E1281C2AA00469C33 /* RaceInformationCreator.m */; };
+		6EBC158612D5BCD100ADEA3B /* wgtBasePlotHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC158512D5BCD100ADEA3B /* wgtBasePlotHandler.m */; };
+		6EBC159512D5BE3100ADEA3B /* wgtWeightPlotHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC159412D5BE3100ADEA3B /* wgtWeightPlotHandler.m */; };
+		6EBC17F912D5FFE700ADEA3B /* wgtBMIPlotHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC17F812D5FFE700ADEA3B /* wgtBMIPlotHandler.m */; };
+		6EBC185112D6118800ADEA3B /* wgtFatPlotHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC185012D6118800ADEA3B /* wgtFatPlotHandler.m */; };
+		6EBC185412D611B400ADEA3B /* wgtWaterPlotHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC185312D611B400ADEA3B /* wgtWaterPlotHandler.m */; };
+		6EBC18C212D6248400ADEA3B /* wgtButtonEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC18C012D6248400ADEA3B /* wgtButtonEntry.m */; };
+		6EBC18C312D6248400ADEA3B /* wgtButtonEntry.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC18C112D6248400ADEA3B /* wgtButtonEntry.xib */; };
+		6EBC18D412D626DC00ADEA3B /* wgtTrackerEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC18D312D626DC00ADEA3B /* wgtTrackerEntryCell.m */; };
+		6EBC18D612D626ED00ADEA3B /* wgtTrackerEntryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC18D512D626ED00ADEA3B /* wgtTrackerEntryCell.xib */; };
+		6EBC1A4912D63C3600ADEA3B /* wgtPercentPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC1A4812D63C3600ADEA3B /* wgtPercentPicker.m */; };
+		6EBC1BF712D65BAA00ADEA3B /* scale-57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC1BF612D65BAA00ADEA3B /* scale-57x57.png */; };
+		6EF3BD8F12D0FDF700D27E44 /* wgtTrackerWeightEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF3BD8D12D0FDF700D27E44 /* wgtTrackerWeightEntryViewController.m */; };
+		6EF3BD9012D0FDF700D27E44 /* wgtTrackerWeightEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3BD8E12D0FDF700D27E44 /* wgtTrackerWeightEntryViewController.xib */; };
+		6EF3BEA412D2227D00D27E44 /* wgtWeightGraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF3BEA212D2227D00D27E44 /* wgtWeightGraphViewController.m */; };
+		6EF3BEA512D2227D00D27E44 /* wgtWeightGraphViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3BEA312D2227D00D27E44 /* wgtWeightGraphViewController.xib */; };
+		6EF3C0AE12D2301100D27E44 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF3C0AD12D2301100D27E44 /* QuartzCore.framework */; };
 		6EF784EA1291B2910089BEC6 /* calc.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EF784E71291B2910089BEC6 /* calc.png */; };
 		6EF784EC1291B2910089BEC6 /* watch.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EF784E91291B2910089BEC6 /* watch.png */; };
 		6EF784FE1291B3B70089BEC6 /* CustomButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF784FC1291B3B70089BEC6 /* CustomButtonViewController.m */; };
@@ -449,6 +473,18 @@
 		6EB2F42012C4DCD4004B0864 /* wgtTrackerContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wgtTrackerContainer.m; sourceTree = "<group>"; };
 		6EB2F55A12C631A5004B0864 /* wgtUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wgtUser.h; sourceTree = "<group>"; };
 		6EB2F55B12C631A5004B0864 /* wgtUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wgtUser.m; sourceTree = "<group>"; };
+		6EB812C612D0918B006B9A74 /* wgtTrackerUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wgtTrackerUserCell.h; sourceTree = "<group>"; };
+		6EB812C712D0918B006B9A74 /* wgtTrackerUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wgtTrackerUserCell.m; sourceTree = "<group>"; };
+		6EB812C912D091A8006B9A74 /* wgtTrackerUserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = wgtTrackerUserCell.xib; sourceTree = "<group>"; };
+		6EB812CE12D094DA006B9A74 /* female_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = female_small.png; sourceTree = "<group>"; };
+		6EB812CF12D094DA006B9A74 /* male_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = male_small.png; sourceTree = "<group>"; };
+		6EB8132612D09AB0006B9A74 /* wgtTrackerUserWeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wgtTrackerUserWeightViewController.h; sourceTree = "<group>"; };
+		6EB8132712D09AB0006B9A74 /* wgtTrackerUserWeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wgtTrackerUserWeightViewController.m; sourceTree = "<group>"; };
+		6EB8132812D09AB0006B9A74 /* wgtTrackerUserWeightViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = wgtTrackerUserWeightViewController.xib; sourceTree = "<group>"; };
+		6EB8133012D09EC4006B9A74 /* wgtWeightPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wgtWeightPicker.h; sourceTree = "<group>"; };
+		6EB8133112D09EC4006B9A74 /* wgtWeightPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wgtWeightPicker.m; sourceTree = "<group>"; };
+		6EB8145512D0BD4C006B9A74 /* wgtWeightEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wgtWeightEntry.h; sourceTree = "<group>"; };
+		6EB8145612D0BD4C006B9A74 /* wgtWeightEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wgtWeightEntry.m; sourceTree = "<group>"; };
 		6EB8E01A127DDB1A00469C33 /* MessageList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageList.h; path = Classes/MessageList.h; sourceTree = "<group>"; };
 		6EB8E01B127DDB1A00469C33 /* MessageList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageList.m; path = Classes/MessageList.m; sourceTree = "<group>"; };
 		6EB8E01C127DDB1A00469C33 /* MessageList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MessageList.xib; path = Classes/MessageList.xib; sourceTree = "<group>"; };
@@ -485,6 +521,32 @@
 		6EB8E46A1281C23300469C33 /* RaceInformationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RaceInformationViewController.xib; path = Classes/RaceInformationViewController.xib; sourceTree = "<group>"; };
 		6EB8E46D1281C2AA00469C33 /* RaceInformationCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaceInformationCreator.h; sourceTree = "<group>"; };
 		6EB8E46E1281C2AA00469C33 /* RaceInformationCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaceInformationCreator.m; sourceTree = "<group>"; };
+		6EBC158412D5BCD100ADEA3B /* wgtBasePlotHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wgtBasePlotHandler.h; sourceTree = "<group>"; };
+		6EBC158512D5BCD100ADEA3B /* wgtBasePlotHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wgtBasePlotHandler.m; sourceTree = "<group>"; };
+		6EBC159312D5BE3100ADEA3B /* wgtWeightPlotHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wgtWeightPlotHandler.h; sourceTree = "<group>"; };
+		6EBC159412D5BE3100ADEA3B /* wgtWeightPlotHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wgtWeightPlotHandler.m; sourceTree = "<group>"; };
+		6EBC17F712D5FFE700ADEA3B /* wgtBMIPlotHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wgtBMIPlotHandler.h; sourceTree = "<group>"; };
+		6EBC17F812D5FFE700ADEA3B /* wgtBMIPlotHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wgtBMIPlotHandler.m; sourceTree = "<group>"; };
+		6EBC184F12D6118800ADEA3B /* wgtFatPlotHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wgtFatPlotHandler.h; sourceTree = "<group>"; };
+		6EBC185012D6118800ADEA3B /* wgtFatPlotHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wgtFatPlotHandler.m; sourceTree = "<group>"; };
+		6EBC185212D611B400ADEA3B /* wgtWaterPlotHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wgtWaterPlotHandler.h; sourceTree = "<group>"; };
+		6EBC185312D611B400ADEA3B /* wgtWaterPlotHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wgtWaterPlotHandler.m; sourceTree = "<group>"; };
+		6EBC18BF12D6248400ADEA3B /* wgtButtonEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wgtButtonEntry.h; sourceTree = "<group>"; };
+		6EBC18C012D6248400ADEA3B /* wgtButtonEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wgtButtonEntry.m; sourceTree = "<group>"; };
+		6EBC18C112D6248400ADEA3B /* wgtButtonEntry.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = wgtButtonEntry.xib; sourceTree = "<group>"; };
+		6EBC18D212D626DC00ADEA3B /* wgtTrackerEntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wgtTrackerEntryCell.h; sourceTree = "<group>"; };
+		6EBC18D312D626DC00ADEA3B /* wgtTrackerEntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wgtTrackerEntryCell.m; sourceTree = "<group>"; };
+		6EBC18D512D626ED00ADEA3B /* wgtTrackerEntryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = wgtTrackerEntryCell.xib; sourceTree = "<group>"; };
+		6EBC1A4712D63C3600ADEA3B /* wgtPercentPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wgtPercentPicker.h; sourceTree = "<group>"; };
+		6EBC1A4812D63C3600ADEA3B /* wgtPercentPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wgtPercentPicker.m; sourceTree = "<group>"; };
+		6EBC1BF612D65BAA00ADEA3B /* scale-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "scale-57x57.png"; path = "images/scale-57x57.png"; sourceTree = "<group>"; };
+		6EF3BD8C12D0FDF700D27E44 /* wgtTrackerWeightEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wgtTrackerWeightEntryViewController.h; sourceTree = "<group>"; };
+		6EF3BD8D12D0FDF700D27E44 /* wgtTrackerWeightEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wgtTrackerWeightEntryViewController.m; sourceTree = "<group>"; };
+		6EF3BD8E12D0FDF700D27E44 /* wgtTrackerWeightEntryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = wgtTrackerWeightEntryViewController.xib; sourceTree = "<group>"; };
+		6EF3BEA112D2227D00D27E44 /* wgtWeightGraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wgtWeightGraphViewController.h; sourceTree = "<group>"; };
+		6EF3BEA212D2227D00D27E44 /* wgtWeightGraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wgtWeightGraphViewController.m; sourceTree = "<group>"; };
+		6EF3BEA312D2227D00D27E44 /* wgtWeightGraphViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = wgtWeightGraphViewController.xib; sourceTree = "<group>"; };
+		6EF3C0AD12D2301100D27E44 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		6EF784E71291B2910089BEC6 /* calc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calc.png; path = images/calc.png; sourceTree = "<group>"; };
 		6EF784E91291B2910089BEC6 /* watch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = watch.png; path = images/watch.png; sourceTree = "<group>"; };
 		6EF784FB1291B3B70089BEC6 /* CustomButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomButtonViewController.h; path = Classes/CustomButtonViewController.h; sourceTree = "<group>"; };
@@ -524,6 +586,7 @@
 				6EB2F05912C3897A004B0864 /* Security.framework in Frameworks */,
 				6EB2F09112C389C7004B0864 /* MessageUI.framework in Frameworks */,
 				6EB2F3EA12C4D747004B0864 /* CoreData.framework in Frameworks */,
+				6EF3C0AE12D2301100D27E44 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +660,7 @@
 				6EB2F05812C3897A004B0864 /* Security.framework */,
 				6EB2F09012C389C7004B0864 /* MessageUI.framework */,
 				6EB2F3E912C4D747004B0864 /* CoreData.framework */,
+				6EF3C0AD12D2301100D27E44 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1032,6 +1096,7 @@
 		6EB2F3BC12C4D0FA004B0864 /* wgtTracker */ = {
 			isa = PBXGroup;
 			children = (
+				6EB812C512D0916D006B9A74 /* Components */,
 				6EB2F3BD12C4D0FA004B0864 /* Controllers */,
 				6EB2F3C112C4D0FA004B0864 /* Data */,
 				6EB2F3C312C4D0FA004B0864 /* wgtTracker.h */,
@@ -1048,6 +1113,15 @@
 				6E0871F712CD01C5006AD162 /* wgtBasicUserDataViewController.h */,
 				6E0871F812CD01C5006AD162 /* wgtBasicUserDataViewController.m */,
 				6E0871F912CD01C5006AD162 /* wgtBasicUserDataViewController.xib */,
+				6EB8132612D09AB0006B9A74 /* wgtTrackerUserWeightViewController.h */,
+				6EB8132712D09AB0006B9A74 /* wgtTrackerUserWeightViewController.m */,
+				6EB8132812D09AB0006B9A74 /* wgtTrackerUserWeightViewController.xib */,
+				6EF3BD8C12D0FDF700D27E44 /* wgtTrackerWeightEntryViewController.h */,
+				6EF3BD8D12D0FDF700D27E44 /* wgtTrackerWeightEntryViewController.m */,
+				6EF3BD8E12D0FDF700D27E44 /* wgtTrackerWeightEntryViewController.xib */,
+				6EF3BEA112D2227D00D27E44 /* wgtWeightGraphViewController.h */,
+				6EF3BEA212D2227D00D27E44 /* wgtWeightGraphViewController.m */,
+				6EF3BEA312D2227D00D27E44 /* wgtWeightGraphViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -1055,16 +1129,51 @@
 		6EB2F3C112C4D0FA004B0864 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				6EB812CE12D094DA006B9A74 /* female_small.png */,
+				6EB812CF12D094DA006B9A74 /* male_small.png */,
 				6EB2F3C212C4D0FA004B0864 /* wgtTrackerDataModel.xcdatamodel */,
 				6EB2F55A12C631A5004B0864 /* wgtUser.h */,
 				6EB2F55B12C631A5004B0864 /* wgtUser.m */,
+				6EB8145512D0BD4C006B9A74 /* wgtWeightEntry.h */,
+				6EB8145612D0BD4C006B9A74 /* wgtWeightEntry.m */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		6EB812C512D0916D006B9A74 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6EB812C612D0918B006B9A74 /* wgtTrackerUserCell.h */,
+				6EB812C712D0918B006B9A74 /* wgtTrackerUserCell.m */,
+				6EB812C912D091A8006B9A74 /* wgtTrackerUserCell.xib */,
+				6EBC18D212D626DC00ADEA3B /* wgtTrackerEntryCell.h */,
+				6EBC18D312D626DC00ADEA3B /* wgtTrackerEntryCell.m */,
+				6EBC18D512D626ED00ADEA3B /* wgtTrackerEntryCell.xib */,
+				6EB8133012D09EC4006B9A74 /* wgtWeightPicker.h */,
+				6EB8133112D09EC4006B9A74 /* wgtWeightPicker.m */,
+				6EBC1A4712D63C3600ADEA3B /* wgtPercentPicker.h */,
+				6EBC1A4812D63C3600ADEA3B /* wgtPercentPicker.m */,
+				6EBC158412D5BCD100ADEA3B /* wgtBasePlotHandler.h */,
+				6EBC158512D5BCD100ADEA3B /* wgtBasePlotHandler.m */,
+				6EBC159312D5BE3100ADEA3B /* wgtWeightPlotHandler.h */,
+				6EBC159412D5BE3100ADEA3B /* wgtWeightPlotHandler.m */,
+				6EBC17F712D5FFE700ADEA3B /* wgtBMIPlotHandler.h */,
+				6EBC17F812D5FFE700ADEA3B /* wgtBMIPlotHandler.m */,
+				6EBC184F12D6118800ADEA3B /* wgtFatPlotHandler.h */,
+				6EBC185012D6118800ADEA3B /* wgtFatPlotHandler.m */,
+				6EBC185212D611B400ADEA3B /* wgtWaterPlotHandler.h */,
+				6EBC185312D611B400ADEA3B /* wgtWaterPlotHandler.m */,
+				6EBC18BF12D6248400ADEA3B /* wgtButtonEntry.h */,
+				6EBC18C012D6248400ADEA3B /* wgtButtonEntry.m */,
+				6EBC18C112D6248400ADEA3B /* wgtButtonEntry.xib */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		6EB8E32012807AA300469C33 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6EBC1BF612D65BAA00ADEA3B /* scale-57x57.png */,
 				6EB2F03712C388EA004B0864 /* FilledStar.png */,
 				6AE4F01912A8333900997657 /* bike.png */,
 				6AE4F01A12A8333900997657 /* camera.png */,
@@ -1349,6 +1458,15 @@
 				6EB2F3FB12C4DAB3004B0864 /* wgtTrackerRootViewController.xib in Resources */,
 				6E0871FB12CD01C5006AD162 /* wgtBasicUserDataViewController.xib in Resources */,
 				6E0873A412CFB64D006AD162 /* SponsorDetailsViewController.xib in Resources */,
+				6EB812CA12D091A8006B9A74 /* wgtTrackerUserCell.xib in Resources */,
+				6EB812D012D094DA006B9A74 /* female_small.png in Resources */,
+				6EB812D112D094DA006B9A74 /* male_small.png in Resources */,
+				6EB8132A12D09AB0006B9A74 /* wgtTrackerUserWeightViewController.xib in Resources */,
+				6EF3BD9012D0FDF700D27E44 /* wgtTrackerWeightEntryViewController.xib in Resources */,
+				6EF3BEA512D2227D00D27E44 /* wgtWeightGraphViewController.xib in Resources */,
+				6EBC18C312D6248400ADEA3B /* wgtButtonEntry.xib in Resources */,
+				6EBC18D612D626ED00ADEA3B /* wgtTrackerEntryCell.xib in Resources */,
+				6EBC1BF712D65BAA00ADEA3B /* scale-57x57.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1462,6 +1580,20 @@
 				6EB2F55C12C631A5004B0864 /* wgtUser.m in Sources */,
 				6E0871FA12CD01C5006AD162 /* wgtBasicUserDataViewController.m in Sources */,
 				6E0873A312CFB64D006AD162 /* SponsorDetailsViewController.m in Sources */,
+				6EB812C812D0918B006B9A74 /* wgtTrackerUserCell.m in Sources */,
+				6EB8132912D09AB0006B9A74 /* wgtTrackerUserWeightViewController.m in Sources */,
+				6EB8133212D09EC4006B9A74 /* wgtWeightPicker.m in Sources */,
+				6EB8145712D0BD4C006B9A74 /* wgtWeightEntry.m in Sources */,
+				6EF3BD8F12D0FDF700D27E44 /* wgtTrackerWeightEntryViewController.m in Sources */,
+				6EF3BEA412D2227D00D27E44 /* wgtWeightGraphViewController.m in Sources */,
+				6EBC158612D5BCD100ADEA3B /* wgtBasePlotHandler.m in Sources */,
+				6EBC159512D5BE3100ADEA3B /* wgtWeightPlotHandler.m in Sources */,
+				6EBC17F912D5FFE700ADEA3B /* wgtBMIPlotHandler.m in Sources */,
+				6EBC185112D6118800ADEA3B /* wgtFatPlotHandler.m in Sources */,
+				6EBC185412D611B400ADEA3B /* wgtWaterPlotHandler.m in Sources */,
+				6EBC18C212D6248400ADEA3B /* wgtButtonEntry.m in Sources */,
+				6EBC18D412D626DC00ADEA3B /* wgtTrackerEntryCell.m in Sources */,
+				6EBC1A4912D63C3600ADEA3B /* wgtPercentPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1491,6 +1623,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Lavaman_Prefix.pch;
 				INFOPLIST_FILE = "Lavaman-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lCorePlot",
+				);
 				PRODUCT_NAME = Lavaman;
 			};
 			name = Debug;
@@ -1504,6 +1641,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Lavaman_Prefix.pch;
 				INFOPLIST_FILE = "Lavaman-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lCorePlot",
+				);
 				PRODUCT_NAME = Lavaman;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1512,13 +1654,20 @@
 		6AB8B44212B9B6AA00B87E0D /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ADDITIONAL_SDKS = "/Library/SDKs/CorePlotSDK/${PLATFORM_NAME}.sdk";
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: intothesurf llc.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: intothesurf llc.";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = 4.2;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lCorePlot",
+				);
 				PREBINDING = NO;
 				PROVISIONING_PROFILE = "073851F3-F28F-4C7E-9BB8-606D801A98CA";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "073851F3-F28F-4C7E-9BB8-606D801A98CA";
@@ -1535,6 +1684,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Lavaman_Prefix.pch;
 				INFOPLIST_FILE = "Lavaman-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lCorePlot",
+				);
 				PRODUCT_NAME = Lavaman;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1543,13 +1697,21 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ADDITIONAL_SDKS = "/Library/SDKs/CorePlotSDK/${PLATFORM_NAME}.sdk";
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: intothesurf llc.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jakub Dlugosz (2UM4RGYX3B)";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = 4.2;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lCorePlot",
+				);
 				PREBINDING = NO;
 				PROVISIONING_PROFILE = "073851F3-F28F-4C7E-9BB8-606D801A98CA";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6D983ADD-04BD-4E6B-B1CE-063CCFE6AA6F";
@@ -1560,13 +1722,20 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ADDITIONAL_SDKS = "/Library/SDKs/CorePlotSDK/${PLATFORM_NAME}.sdk";
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = 4.2;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lCorePlot",
+				);
 				PREBINDING = NO;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";

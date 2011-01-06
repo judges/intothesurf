@@ -23,6 +23,7 @@
 	
 	int counter;
 	BOOL isNewUser;
+	int selectedToEdit;
 }
 
 

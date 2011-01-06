@@ -27,9 +27,12 @@
 
 }
 
--(void) nutritioninstTouchUp
+-(void) weightTouchUp
 {
+	wgtTrackerContainer * childHost = [[wgtTrackerContainer alloc]init];
 	
+	[self.navigationController pushViewController:childHost animated:YES];
+	[childHost release];	
 }
 -(void) TriathlonCoachTouchUp
 {
@@ -46,8 +49,6 @@
 	
 	if(runs>0)
 	{
-		//wgtTrackerContainer * childHost = [[wgtTrackerContainer alloc]init];
-	
 		ChildNavigationControllerHost * childHost = [[ChildNavigationControllerHost alloc]init];
 	
 		[self.navigationController pushViewController:childHost animated:YES];
@@ -58,8 +59,8 @@
 	else
 	{
 		[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://itunes.apple.com/us/app/triathlon/id411489734?mt=8"]];
-		//UIAlertView *tmp = [[UIAlertView alloc] initWithTitle:@"temp" message:@"redirection here" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil];
-		//[tmp show];
+		UIAlertView *tmp = [[UIAlertView alloc] initWithTitle:@"temp" message:@"redirection here" delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil];
+		[tmp show];
 	}
 	
 }
@@ -92,6 +93,16 @@
 		s = triCalc.view.frame.size;
 		triCalc.view.frame = CGRectMake(10, 140, s.width, s.height);
 		
+		cbd = [[CustomButtonData alloc] 
+			   initWithTitle:@"Weight Calculator" 
+			   SmallText:@"created by: intothesurf.com" 
+			   BigText:@"Promotion: free"
+			   ImageName:@"scale-57x57.png"];
+		weight =[[CustomButtonViewController alloc]initWithOwner:self Selector:@selector(weightTouchUp) ButtonData:cbd];
+		[cbd release];
+		s = weight.view.frame.size;
+		weight.view.frame = CGRectMake(10, 240, s.width, s.height);
+		
 			
     }
     return self;
@@ -107,8 +118,7 @@
 	self.title = @"Training Tools";
 	
 	[self.view addSubview:pace.view];
-	[self.view addSubview:coach.view];
-	[self.view addSubview:nutri.view];
+	[self.view addSubview:weight.view];
 	[self.view addSubview:triCalc.view];
 
 
@@ -160,8 +170,7 @@
 
 - (void)dealloc {
 	[pace release];
-	[nutri release];
-	[coach release];
+	[weight release];
 	
     [super dealloc];
 }

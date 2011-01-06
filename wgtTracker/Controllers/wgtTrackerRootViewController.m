@@ -8,6 +8,8 @@
 
 #import "wgtTrackerRootViewController.h"
 #import "wgtBasicUserDataViewController.h"
+#import "wgtTrackerUserCell.h"
+#import "wgtTrackerUserWeightViewController.h"
 
 @implementation wgtTrackerRootViewController
 @synthesize addButton;
@@ -16,7 +18,7 @@
 {	
 	isNewUser = YES;
 	wgtBasicUserDataViewController *userEdit = [[wgtBasicUserDataViewController alloc]initWithParentViewController:self];
-	[self.navigationController presentModalViewController:userEdit animated:YES];	
+	[self.navigationController.view addSubview:userEdit.view];
 }
 
 #pragma mark -
@@ -55,9 +57,14 @@
 
  // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
  - (void)viewDidLoad {
+	 
+	 self.navigationController.navigationBar.tintColor =[UIColor orangeColor];
+	 //self.view.backgroundColor =  [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]];
+	 
+	 
 	 counter= 0;
 	  self.navigationItem.rightBarButtonItem = addButton;
-	   self.navigationItem.leftBarButtonItem = self.editButtonItem;
+	 self.navigationItem.leftBarButtonItem = self.editButtonItem;
 	 self.navigationItem.title = @"Users";
 	 self.tableView.allowsSelectionDuringEditing= YES;
 	
@@ -109,23 +116,30 @@
 
 -(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+	NSManagedObject* managedObject  =[[self GetUsers] objectAtIndex:indexPath.row];
+	
 	if(tableView.editing)
 	{
-		NSManagedObject* managedObject  =[[self GetUsers] objectAtIndex:indexPath.row];
+		isNewUser = NO;
+		selectedToEdit = indexPath.row;
+	
 
 		wgtUser* usr = [wgtUser UserFromObject:managedObject];
 		
-		wgtBasicUserDataViewController *userEdit = [[wgtBasicUserDataViewController alloc]initWithUser:usr];
+		wgtBasicUserDataViewController *userEdit = [[wgtBasicUserDataViewController alloc]initWithParentViewController:self	AndUser:usr];
 		
 		
-		[self presentModalViewController:userEdit animated:YES];
-		
-		
-	//	[self.navigationController presentModalViewController:userEdit animated:YES];
-
-		
-		
+		[self.navigationController.view addSubview:userEdit.view];
 	}
+	else
+	{
+		wgtTrackerUserWeightViewController* tmp = 
+		[[wgtTrackerUserWeightViewController alloc] initWithManagedObject:managedObject andConext:self.managedObjectContext];
+
+		[self.navigationController pushViewController:tmp animated:YES];
+		[tmp release];
+	}
+
 
 }
 
@@ -148,24 +162,23 @@
 	}
 	else
 	{
+		NSManagedObject* obj = [[self GetUsers] objectAtIndex:selectedToEdit];
+		[wgtUser EditUser:[c getUser] ToObject:obj];
+		
+		NSError* error;
+		[self.managedObjectContext save:&error];
+		NSIndexPath *p =[NSIndexPath indexPathForRow:selectedToEdit inSection:0];
+		[self.tableView reloadRowsAtIndexPaths:[NSArray arrayWithObject:p] withRowAnimation:UITableViewRowAnimationLeft];
 		
 		
 	}
 
-	
-	//[self.navigationController setNavigationBarHidden:NO animated:YES];
-	[self.navigationController dismissModalViewControllerAnimated:YES];
-	
-	self.view.frame = CGRectMake(0, 50, 320, 480);
+	[c.view removeFromSuperview];
 	[c release];
 }
 -(void)CancelUserEdit:(wgtBasicUserDataViewController*)c
 {
-	
-	
-	[self.navigationController dismissModalViewControllerAnimated:YES];
-
-	self.navigationController.parentViewController.view.frame =CGRectMake(0, 44, 320, 336);
+	[c.view removeFromSuperview];
 	[c release];
 }
 
@@ -217,12 +230,20 @@
     	
 	static NSString *CellIdentifier = @"cell";
     
-    UITableViewCell *cell = (UITableViewCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+	wgtTrackerUserCell *cell = (wgtTrackerUserCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
 	
 	if (cell == nil) {
-		cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-
+		NSArray *nibObjects = [[NSBundle mainBundle]loadNibNamed:@"wgtTrackerUserCell" owner:nil options:nil];
+		for(id currentObject in nibObjects)
+		{
+			if([currentObject isKindOfClass:[wgtTrackerUserCell class]])
+			{
+				cell = (wgtTrackerUserCell *)currentObject;
+			}
+		}
     }
+	
+	
 	
 	NSArray * arr = [self GetUsers];
 
@@ -230,7 +251,16 @@
 
 	wgtUser * usr = [wgtUser UserFromObject:obj];
 	
-	cell.textLabel.text = usr.Name;
+	cell.Name.text = usr.Name;
+	if(usr.IsMale)
+	{
+		cell.Gender.image =[UIImage imageNamed:@"male_small.png"];
+	}
+	else
+	{
+		cell.Gender.image =[UIImage imageNamed:@"female_small.png"];
+	}
+	cell.Height.text =[usr FormatHeight];
 	
 	return cell;
 }

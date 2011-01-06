@@ -11,12 +11,11 @@
 
 @interface TrainingToolsViewController : UIViewController {                    
 	CustomButtonViewController* pace;
-	CustomButtonViewController* nutri;
-	CustomButtonViewController* coach;
+	CustomButtonViewController* weight;
 	CustomButtonViewController* triCalc;
 }
 
 -(void) paceCalculatorTouchUp;
--(void) nutritioninstTouchUp;
+-(void) weightTouchUp;
 -(void) TriathlonCoachTouchUp;
 @end

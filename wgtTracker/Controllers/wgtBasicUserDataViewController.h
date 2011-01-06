@@ -10,20 +10,38 @@
 #import "wgtUser.h"
 #import "wgtTrackerRootViewController.h"
 
-@interface wgtBasicUserDataViewController : UIViewController {
+@interface wgtBasicUserDataViewController : UIViewController<UIPickerViewDelegate,UIPickerViewDataSource> {
 
 	wgtUser* localUser;
 	wgtTrackerRootViewController* parent;
 	
 	UITextField* nameTextField;
-	UITextField* heighTextField;
+	UIButton* heightButton;
 	UISegmentedControl* segmentControl;
+	UISegmentedControl* unitSegment;
+	UIPickerView* pickerView;
 	
+	NSMutableArray* imperialData;
+	
+	NSMutableArray* metricData;
+	
+	NSMutableArray* currentSource;
+	
+	bool pickerIsUp;
+	
+	UIToolbar*toolBar;
+	UIBarButtonItem*cancelButton;
+	UIBarButtonItem*doneButton;
 }
 @property(nonatomic,retain) IBOutlet UITextField* nameTextField;
-@property(nonatomic,retain) IBOutlet UITextField* heighTextField;
+@property(nonatomic,retain) IBOutlet UIButton* heightButton;
 @property(nonatomic,retain) IBOutlet UISegmentedControl* segmentControl;
-
+@property(nonatomic,retain) IBOutlet UISegmentedControl* unitSegment;
+@property(nonatomic,retain) IBOutlet UIPickerView* pickerView;
+@property(nonatomic,retain) IBOutlet UIToolbar*toolBar;
+@property(nonatomic,retain) IBOutlet UIBarButtonItem*cancelButton;
+@property(nonatomic,retain) IBOutlet UIBarButtonItem*doneButton;
+-(void)initPicker;
 -(id)initWithParentViewController:(wgtTrackerRootViewController*)p;
 -(id)initWithParentViewController:(wgtTrackerRootViewController*)p AndUser:(wgtUser*)usr;
 
@@ -32,6 +50,12 @@
 
 -(IBAction) Done;
 -(IBAction) Cancel;
+-(IBAction) HeightEdit;
+-(IBAction) NameEdit;
+-(IBAction) MetricChanged;
+
+-(void)UpdateView;
+-(void)SetPicker;
 
 
 @end
