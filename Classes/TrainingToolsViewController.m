@@ -23,8 +23,6 @@
 	PasteCalculatorViewController *pcvc = [[PasteCalculatorViewController alloc]init];
 	[self.navigationController pushViewController:pcvc animated:YES];
 	[pcvc release];
-	
-
 }
 
 -(void) weightTouchUp

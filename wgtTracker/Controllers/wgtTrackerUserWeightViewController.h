@@ -13,7 +13,7 @@
 #import "wgtTrackerWeightEntryViewController.h"
 #import "wgtButtonEntry.h"
 
-@interface wgtTrackerUserWeightViewController : UIViewController<UITableViewDelegate,UITableViewDataSource> {
+@interface wgtTrackerUserWeightViewController : UIViewController<UITableViewDelegate,UITableViewDataSource, UIActionSheetDelegate> {
 	UIPickerView* weightPicker;
 	UIView* greyOutView;
 	
@@ -32,6 +32,7 @@
 	wgtTrackerWeightEntryViewController* modalWindow;
 	BOOL IsNew;
 	int editedIndex;
+	int indexToDelete;
 	//NSMutableArray* currentArray;
 	
 	

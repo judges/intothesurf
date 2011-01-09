@@ -13,6 +13,9 @@
 #import "wgtBMIPlotHandler.h"
 #import "wgtFatPlotHandler.h"
 #import "wgtWaterPlotHandler.h"
+#import "wgtTextEntryViewController.h"
+#import <QuartzCore/QuartzCore.h>
+#import "SHK.h"
 
 @implementation wgtWeightGraphViewController
 @synthesize graphHost;
@@ -101,23 +104,55 @@
 
 -(IBAction)weightAction
 {
+	self.navigationItem.title = @"Weight";
 	currentPlotType=0;
 	[self prepareGraph];
 }
 -(IBAction)fatAction
 {
+	self.navigationItem.title = @"Fat";
 	currentPlotType=2;
 	[self prepareGraph];
 }
 -(IBAction)waterAction
 {
+	self.navigationItem.title = @"Water";
 	currentPlotType=3;
 	[self prepareGraph];
 }
 -(IBAction)bmiAction
 {
+	self.navigationItem.title = @"BMI";
 	currentPlotType=1;	
 	[self prepareGraph];
+}
+-(IBAction)textAction
+{
+	wgtTextEntryViewController* vc = [[wgtTextEntryViewController alloc] init];
+	[self.navigationController pushViewController:vc animated:YES];
+	[vc release];
+}
+
+
+-(IBAction)shareAction
+{
+	
+	UIGraphicsBeginImageContext(CGSizeMake(self.view.bounds.size.width,self.view.bounds.size.height-44));
+	
+	CGContextRef ctx = UIGraphicsGetCurrentContext();
+	CGContextTranslateCTM(ctx, 0.0, self.view.bounds.size.height-44);
+	CGContextScaleCTM(ctx, 1, -1);
+	[self.view.layer renderInContext:ctx];
+	
+	UIImage *viewImage = UIGraphicsGetImageFromCurrentImageContext();
+	UIGraphicsEndImageContext();
+	
+	SHKItem *item = [SHKItem image:viewImage title:[[NSUserDefaults standardUserDefaults] stringForKey:@"wgtTextEntry"]];
+	SHKActionSheet *actionSheet = [SHKActionSheet actionSheetForItem:item];
+	
+	[actionSheet showInView:self.view];
+	
+	
 }
 
 -(NSUInteger) numberOfRecordsForPlot:(CPPlot *)plot
@@ -150,6 +185,25 @@
 	if(plot == currentPlot)
 	{
 		return [plotHandler LabelForRecordIndex:index];
+	} else if(plot == targerWeightPlot)
+	{
+		if(index == [dataArray count]-1)
+		{
+		
+		
+			NSString* str = 	[wgtUser FormatWeight:user.TargetWeight UseImp:user.UseImperial];
+			
+			CPTextStyle* textStyle = [[CPTextStyle alloc]init];
+			textStyle.color= [CPColor lightGrayColor];
+			CPTextLayer* test = [[CPTextLayer alloc] initWithText:str style:textStyle];
+			[test setPaddingLeft:10];
+			return test;
+		}
+		else
+		{
+			return nil;
+		}
+		
 	}
 	return nil;
 }
@@ -336,6 +390,15 @@
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
+	
+	if(!user.UseImperial)
+	{
+		[weightButton setTitle:@"kg"];
+		
+	}
+	
+	self.navigationItem.title = @"Weight";
+	
 	[super viewDidLoad];
 	[self prepareGraph];
 	

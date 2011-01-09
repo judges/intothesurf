@@ -44,7 +44,9 @@
 -(IBAction)fatAction;
 -(IBAction)waterAction;
 -(IBAction)bmiAction;
+-(IBAction)textAction;
 
+-(IBAction)shareAction;
 
 
 -(id)initWithDataArray:(NSArray*)arr User:(wgtUser*)usr;

@@ -265,7 +265,12 @@
 -(IBAction)AddMeasure
 {
 	wgtWeightEntry* newEntry = [[wgtWeightEntry alloc]init];
-	modalWindow = [[wgtTrackerWeightEntryViewController alloc] initWithOwner:self Entry:newEntry User:currentUser];
+
+	if([[self GetArray]count]>0)
+	{
+	newEntry.Weight =[wgtWeightEntry EntryFromObject:[[self GetArray ] objectAtIndex:0]].Weight;
+	}
+		modalWindow = [[wgtTrackerWeightEntryViewController alloc] initWithOwner:self Entry:newEntry User:currentUser];
 	[newEntry release];
 	IsNew = YES;
 	
@@ -289,36 +294,163 @@
 	}
 }
 
+-(void) actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+	if(buttonIndex==0)
+	{
+		wgtWeightEntry* editedEntry = [modalWindow getCurrentEntry];
+		if(IsNew)
+		{
+			NSIndexPath*p =[NSIndexPath indexPathForRow:editedIndex inSection:0];
+			
+			id obj = [[self GetArray] objectAtIndex: editedIndex];
+			
+			[wgtWeightEntry EditEntry:editedEntry ToObject:obj];
+			
+			
+					
+			NSError *error = nil;
+			if (![currentContext save:&error]) {
+				/*
+				 Replace this implementation with code to handle the error appropriately.
+				 
+				 abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development. If it is not possible to recover from the error, display an alert panel that instructs the user to quit the application by pressing the Home button.
+				 */
+				NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+				abort();
+			}
+			
+			
+			[mTableView beginUpdates];
+			[mTableView reloadRowsAtIndexPaths:[NSArray arrayWithObject:p] withRowAnimation:UITableViewRowAnimationLeft];
+			[mTableView endUpdates];
+			
+		
+			
+			
+		}
+		else
+		{
+			NSIndexPath*p =[NSIndexPath indexPathForRow:editedIndex inSection:0];
+			
+			NSIndexPath*p1 = [NSIndexPath indexPathForRow:indexToDelete inSection:0];
+			id obj = [[self GetArray] objectAtIndex: editedIndex];
+			[wgtWeightEntry EditEntry:editedEntry ToObject:obj];
+			
+			[wgtWeightEntry DeleteEntry:[[self GetArray] objectAtIndex:indexToDelete] FromObject:currentObject FromContext:currentContext];
+			
+
+			
+			NSError* error;
+			[currentContext save:&error];
+			
+			
+			
+			
+			[mTableView beginUpdates];
+			[mTableView reloadRowsAtIndexPaths:[NSArray arrayWithObject:p] withRowAnimation:UITableViewRowAnimationLeft];
+			[mTableView deleteRowsAtIndexPaths:[NSArray arrayWithObject: p1] withRowAnimation:UITableViewRowAnimationFade];
+			
+			[mTableView endUpdates];
+			
+
+			//wgtWeightEntry*editedEntry = [modalWindow getCurrentEntry];
+					
+		}
+		
+		[modalWindow.view removeFromSuperview];
+		[modalWindow release];		
+	}
+}
+
 -(void)EditDone
 {
 	if(IsNew)
 	{
 		wgtWeightEntry* newEntry = [modalWindow getCurrentEntry];
-		[wgtWeightEntry AddEntry:newEntry ToContext:currentContext ToObject:currentObject];
+		NSArray* arr = [self GetArray];
+		BOOL correct = YES;
+		for(int i=0;i<[arr count];i++)
+		{
+			wgtWeightEntry* compareToEnty = [wgtWeightEntry EntryFromObject:[arr objectAtIndex:i]];
+			if ([compareToEnty.Date isEqualToDate:newEntry.Date]   )
+			{
+				UIActionSheet* actionSheet = [[UIActionSheet alloc]
+											 initWithTitle:@"Entry with given date already extist. Do You want to overwrite it ?" 
+											 delegate:self 
+											 cancelButtonTitle:@"No" 
+											 destructiveButtonTitle:nil 
+											 otherButtonTitles:@"Yes",nil];
+				
+				[actionSheet showInView:modalWindow.view];
+				[actionSheet release];
+				editedIndex = i;
+				correct = NO;
+				break;
+			}
+
+		}
 		
-		
-		NSError* error;
-		[currentContext save:&error];
-		
-		[mTableView reloadData];
+		if(correct)
+		{
+			[wgtWeightEntry AddEntry:newEntry ToContext:currentContext ToObject:currentObject];
+			NSError* error;
+			[currentContext save:&error];
+			
+			[mTableView reloadData];
+			
+			[modalWindow.view removeFromSuperview];
+			[modalWindow release];		
+
+		}
 	}
 	else
 	{
-		wgtWeightEntry*editedEntry = [modalWindow getCurrentEntry];
-		NSIndexPath*p =[NSIndexPath indexPathForRow:editedIndex inSection:0];
-		
-		id obj = [[self GetArray] objectAtIndex: editedIndex];
-		[wgtWeightEntry EditEntry:editedEntry ToObject:obj];
-		
-		NSError* error;
-		[currentContext save:&error];
-		
-		[mTableView reloadRowsAtIndexPaths:[NSArray arrayWithObject:p] withRowAnimation:UITableViewRowAnimationLeft];
-		
+		wgtWeightEntry* editedEntry = [modalWindow getCurrentEntry];
+		NSArray* arr = [self GetArray];
+		BOOL correct = YES;
+		for(int i=0;i<[arr count];i++)
+		{
+			wgtWeightEntry* compareToEnty = [wgtWeightEntry EntryFromObject:[arr objectAtIndex:i]];
+			if ([compareToEnty.Date isEqualToDate:editedEntry.Date] && i!=editedIndex  )
+			{
+				UIActionSheet* actionSheet = [[UIActionSheet alloc]
+											  initWithTitle:@"Entry with given date already extist. Do You want to overwrite it ?" 
+											  delegate:self 
+											  cancelButtonTitle:@"No" 
+											  destructiveButtonTitle:nil 
+											  otherButtonTitles:@"Yes",nil];
+				
+				[actionSheet showInView:modalWindow.view];
+				[actionSheet release];
+				correct = NO;
+				indexToDelete = editedIndex;
+				editedIndex= i;
+				break;				
+			}
+		}
+		if(correct)
+		{
+			NSIndexPath*p =[NSIndexPath indexPathForRow:editedIndex inSection:0];
+			
+			id obj = [[self GetArray] objectAtIndex: editedIndex];
+			[wgtWeightEntry EditEntry:editedEntry ToObject:obj];
+			
+			NSError* error;
+			[currentContext save:&error];
+			
+			[mTableView reloadRowsAtIndexPaths:[NSArray arrayWithObject:p] withRowAnimation:UITableViewRowAnimationLeft];
+			
+			[modalWindow.view removeFromSuperview];
+			[modalWindow release];		
+
+			
+		}
 	}
-	[modalWindow.view removeFromSuperview];
-	[modalWindow release];
 	
+	
+	
+		
 	
 }
 -(void)EditCancel

@@ -49,7 +49,7 @@
 	plot.areaBaseValue = CPDecimalFromString(@"1.75");
 	CPPlotSymbol *blueCirclePlotSymbol = [CPPlotSymbol ellipsePlotSymbol];
 	blueCirclePlotSymbol.fill = [CPFill fillWithColor:[CPColor blueColor]];
-	blueCirclePlotSymbol.size = CGSizeMake(12.0, 12.0);
+	blueCirclePlotSymbol.size = CGSizeMake(6.0, 6.0);
 	plot.plotSymbol = blueCirclePlotSymbol;
 }
 

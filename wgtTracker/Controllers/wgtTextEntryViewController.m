@@ -1,52 +1,33 @@
-    //
-//  wgtTrackerContainer.m
+//
+//  wgtTextEntryViewController.m
 //  Lavaman
 //
-//  Created by Todd Wanke on 10-12-24.
-//  Copyright 2010 IntoTheSurf LLC. All rights reserved.
+//  Created by Todd Wanke on 11-01-09.
+//  Copyright 2011 IntoTheSurf LLC. All rights reserved.
 //
 
-#import "wgtTrackerContainer.h"
-#import "wgtTracker.h"
-#import "wgtSettings.h"
-
-@implementation wgtTrackerContainer
+#import "wgtTextEntryViewController.h"
 
 
+@implementation wgtTextEntryViewController
+@synthesize textView,btn;
 
 
+-(IBAction)doneAction
+{
+	[[NSUserDefaults standardUserDefaults] setValue:textView.text forKey:@"wgtTextEntry"];
+	[self.view removeFromSuperview];
+	
+}
+/*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-        // Custom initialization
-		
-		wgtSettings*settings = [[wgtSettings alloc] init];
-		settings.TintColor = [UIColor blackColor];
-		settings.BackgroundColor =[UIColor blackColor];
-								settings.TintColor =[UIColor orangeColor];
-								settings.BackgroundColor =  [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]];
-
-		wgtTrackerRootViewController * rootController=		[[wgtTrackerRootViewController alloc]initWithSettings:settings];
-		
-
-		[settings release];
-		
-		childNavigationController = [[UINavigationController alloc]initWithRootViewController:rootController];
-		
-		[self.navigationItem setTitle:@"Weight tracker"];
-		
-		childNavigationController.view.frame = CGRectMake(0, 0, 320, 460);
-		[rootController release];
 		
 		
+		// Custom initialization
     }
     return self;
-}
-
-
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView {
 }
 */
 
@@ -54,7 +35,12 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	[self.view addSubview:childNavigationController.view];
+	self.navigationItem.title = @"Message";
+	[textView becomeFirstResponder];
+	
+	NSString*string = [[NSUserDefaults standardUserDefaults] stringForKey:@"wgtTextEntry"];
+
+	textView.text =string;
 }
 
 
@@ -81,7 +67,9 @@
 
 
 - (void)dealloc {
-		[childNavigationController release];
+	[[NSUserDefaults standardUserDefaults]setValue:textView.text forKey:@"wgtTextEntry"];
+	[btn release];
+	[textView release];
     [super dealloc];
 }
 

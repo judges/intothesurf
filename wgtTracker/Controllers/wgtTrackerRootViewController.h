@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 #import "wgtUser.h"
+#import "wgtSettings.h"
 @class wgtBasicUserDataViewController;
 
 @interface wgtTrackerRootViewController : UITableViewController {
@@ -20,12 +21,14 @@
     NSManagedObjectContext *managedObjectContext_;
     NSManagedObjectModel *managedObjectModel_;
     NSPersistentStoreCoordinator *persistentStoreCoordinator_;
+	wgtSettings* _settings;
 	
 	int counter;
 	BOOL isNewUser;
 	int selectedToEdit;
 }
 
+-(id)initWithSettings:(wgtSettings*)s;
 
 @property(nonatomic,retain) IBOutlet UIBarButtonItem *addButton;
 -(IBAction) addUser;

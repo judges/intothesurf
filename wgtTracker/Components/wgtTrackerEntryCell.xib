@@ -150,14 +150,14 @@
 							<object class="IBUILabel" id="456949071">
 								<reference key="NSNextResponder" ref="188135411"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{105, 32}, {42, 21}}</string>
+								<string key="NSFrame">{{105, 32}, {50, 21}}</string>
 								<reference key="NSSuperview" ref="188135411"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
 								<int key="IBUIContentMode">7</int>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-								<string key="IBUIText">231 lbs</string>
+								<string key="IBUIText">123 lbs</string>
 								<object class="NSFont" key="IBUIFont" id="680636643">
 									<string key="NSName">Helvetica</string>
 									<double key="NSSize">12</double>
@@ -166,7 +166,7 @@
 								<reference key="IBUITextColor" ref="830556138"/>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
-								<float key="IBUIMinimumFontSize">12</float>
+								<float key="IBUIMinimumFontSize">9</float>
 								<int key="IBUITextAlignment">1</int>
 							</object>
 							<object class="IBUILabel" id="990646417">
@@ -339,10 +339,10 @@
 							<reference ref="381981041"/>
 							<reference ref="136368560"/>
 							<reference ref="627127354"/>
-							<reference ref="990646417"/>
 							<reference ref="776122298"/>
 							<reference ref="928029619"/>
 							<reference ref="456949071"/>
+							<reference ref="990646417"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -424,7 +424,7 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>wgtTrackerEntryCell</string>
-					<string>{{669, 502}, {317, 57}}</string>
+					<string>{{434, 502}, {317, 57}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>

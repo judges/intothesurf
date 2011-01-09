@@ -67,4 +67,6 @@
 -(IBAction)pickersChanged;
 -(void)updateView;
 
+-(NSDate*)ClearDate:(NSDate*)d;
+
 @end

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "wgtUser.h"
 #import "wgtTrackerRootViewController.h"
-
+#import "wgtSettings.h"
 @interface wgtBasicUserDataViewController : UIViewController<UIPickerViewDelegate,UIPickerViewDataSource> {
 
 	wgtUser* localUser;
@@ -32,6 +32,9 @@
 	UIToolbar*toolBar;
 	UIBarButtonItem*cancelButton;
 	UIBarButtonItem*doneButton;
+	wgtSettings* _settings;
+	
+	UIToolbar* toolbar;
 }
 @property(nonatomic,retain) IBOutlet UITextField* nameTextField;
 @property(nonatomic,retain) IBOutlet UIButton* heightButton;
@@ -41,10 +44,11 @@
 @property(nonatomic,retain) IBOutlet UIToolbar*toolBar;
 @property(nonatomic,retain) IBOutlet UIBarButtonItem*cancelButton;
 @property(nonatomic,retain) IBOutlet UIBarButtonItem*doneButton;
+@property(nonatomic,retain) IBOutlet UIToolbar* toolbar;
 -(void)initPicker;
 -(id)initWithParentViewController:(wgtTrackerRootViewController*)p;
 -(id)initWithParentViewController:(wgtTrackerRootViewController*)p AndUser:(wgtUser*)usr;
-
+-(void)setSettings:(wgtSettings*)s;
 -(wgtUser*)getUser;
 
 

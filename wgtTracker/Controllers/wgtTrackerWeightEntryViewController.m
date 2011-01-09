@@ -113,7 +113,7 @@
 -(IBAction)pickersChanged
 {
 	currentEntry.Weight = [pickerController GetWeight];
-	currentEntry.Date = datePicker.date;
+	currentEntry.Date = [self ClearDate:datePicker.date];
 	currentEntry.Fat = [fatPickerController GetPercent];
 	currentEntry.Water =[waterPickerController GetPercent];
 	[self updateView];
@@ -173,6 +173,19 @@
 	[owner EditDone];
 }
 
+-(NSDate*)ClearDate:(NSDate*)d
+{
+	
+	unsigned int flags = NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit;
+	NSCalendar* calendar = [NSCalendar currentCalendar];
+	
+	NSDateComponents* components = [calendar components:flags fromDate:d];
+	
+	NSDate* dateOnly = [calendar dateFromComponents:components];
+	
+	return dateOnly;
+}
+
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -211,9 +224,12 @@
 	{
 		[datePicker setDate:currentEntry.Date];
 	}
-	
-	
-	
+	else
+	{
+		currentEntry.Date = [self ClearDate:[NSDate date]];
+		[datePicker setDate:currentEntry.Date];
+	}
+
 	
 	currentPicker = datePicker;
 	dateButton.highlighted=YES;

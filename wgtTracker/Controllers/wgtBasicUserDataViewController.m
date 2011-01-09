@@ -7,10 +7,10 @@
 //
 
 #import "wgtBasicUserDataViewController.h"
-
+#import "wgtSettings.h"
 
 @implementation wgtBasicUserDataViewController
-@synthesize nameTextField,heightButton,segmentControl,pickerView,unitSegment,toolBar,cancelButton,doneButton;
+@synthesize nameTextField,heightButton,segmentControl,pickerView,unitSegment,toolBar,cancelButton,doneButton, toolbar;
 
 -(void)initPicker
 {
@@ -53,6 +53,12 @@
 	[cm release];
 	
 	currentSource = imperialData;
+}
+
+-(void)setSettings:(wgtSettings *)s
+{
+	_settings = s;
+	[_settings retain];
 }
 -(id)initWithParentViewController:(wgtTrackerRootViewController*)p
 {
@@ -235,8 +241,10 @@
 	
 	//segmentControl.tintColor =[UIColor orangeColor];
 	//unitSegment.tintColor =[UIColor orangeColor];
-	self.view.backgroundColor =  [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]];
-    
+	self.view.backgroundColor = _settings.BackgroundColor; // [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]];
+    toolBar.tintColor = _settings.TintColor;
+	
+	
 	[super viewDidLoad];
 	
 	[self UpdateView];
@@ -268,6 +276,18 @@
 
 
 - (void)dealloc {
+	
+	[nameTextField release];
+	[heightButton release];
+	[segmentControl release];
+	[unitSegment release];
+	[pickerView release];
+	
+	[cancelButton release];
+	[doneButton release];
+	
+	[toolbar release];
+	[_settings release];
 	[imperialData release];
 	[metricData release];
 	[localUser release];

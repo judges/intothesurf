@@ -40,7 +40,7 @@
 	[plot setLabelOffset:3];
 	plot.identifier = @"bmi";
 	plot.dataLineStyle.lineWidth = 3.0f;
-	plot.dataLineStyle.lineColor = [CPColor whiteColor];
+	plot.dataLineStyle.lineColor = [CPColor blueColor];
 	CPColor *areaColor = [CPColor colorWithComponentRed:0.3 green:1.0 blue:0.3 alpha:0.3];
 	CPGradient *areaGradient = [CPGradient gradientWithBeginningColor:areaColor endingColor:[CPColor clearColor]];
 	areaGradient.angle=-90.0f;
@@ -48,8 +48,8 @@
 	plot.areaFill  =areaGradientFill;
 	plot.areaBaseValue = CPDecimalFromString(@"1.75");
 	CPPlotSymbol *blueCirclePlotSymbol = [CPPlotSymbol ellipsePlotSymbol];
-	blueCirclePlotSymbol.fill = [CPFill fillWithColor:[CPColor blueColor]];
-	blueCirclePlotSymbol.size = CGSizeMake(12.0, 12.0);
+	blueCirclePlotSymbol.fill = [CPFill fillWithColor:[CPColor whiteColor]];
+	blueCirclePlotSymbol.size = CGSizeMake(6.0, 6.0);
 	plot.plotSymbol = blueCirclePlotSymbol;
 }
 

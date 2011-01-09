@@ -14,10 +14,25 @@
 @implementation wgtTrackerRootViewController
 @synthesize addButton;
 
+
+-(id)initWithSettings:(wgtSettings*)s
+{
+
+		self = [super init];
+		if (self != nil) {
+			_settings=s;
+			[_settings retain];
+		}
+		return self;
+
+
+}
+
 -(IBAction)addUser
 {	
 	isNewUser = YES;
 	wgtBasicUserDataViewController *userEdit = [[wgtBasicUserDataViewController alloc]initWithParentViewController:self];
+	[userEdit setSettings:_settings];
 	[self.navigationController.view addSubview:userEdit.view];
 }
 
@@ -37,7 +52,7 @@
 
 
 - (void)dealloc {
-	
+	[_settings release];
 	[managedObjectContext_ release];
     [managedObjectModel_ release];
     [persistentStoreCoordinator_ release];
@@ -58,7 +73,7 @@
  // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
  - (void)viewDidLoad {
 	 
-	 self.navigationController.navigationBar.tintColor =[UIColor orangeColor];
+	 self.navigationController.navigationBar.tintColor =_settings.TintColor;
 	 //self.view.backgroundColor =  [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]];
 	 
 	 
@@ -127,7 +142,7 @@
 		wgtUser* usr = [wgtUser UserFromObject:managedObject];
 		
 		wgtBasicUserDataViewController *userEdit = [[wgtBasicUserDataViewController alloc]initWithParentViewController:self	AndUser:usr];
-		
+			[userEdit setSettings:_settings];
 		
 		[self.navigationController.view addSubview:userEdit.view];
 	}

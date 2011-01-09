@@ -61,6 +61,9 @@
 		6E154358127B5B4F00C97C88 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E154356127B5B4F00C97C88 /* RootViewController.m */; };
 		6E154377127B5E6300C97C88 /* RegistrationResultsPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E154375127B5E6300C97C88 /* RegistrationResultsPhotos.m */; };
 		6E154378127B5E6300C97C88 /* RegistrationResultsPhotos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E154376127B5E6300C97C88 /* RegistrationResultsPhotos.xib */; };
+		6E3DEFA012D9FBE9008320C4 /* wgtTextEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3DEF9E12D9FBE9008320C4 /* wgtTextEntryViewController.m */; };
+		6E3DEFA112D9FBE9008320C4 /* wgtTextEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E3DEF9F12D9FBE9008320C4 /* wgtTextEntryViewController.xib */; };
+		6E3DF03C12DA09C2008320C4 /* wgtSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3DF03B12DA09C2008320C4 /* wgtSettings.m */; };
 		6E4B3BB01289A7A2003658B1 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B3BAE1289A7A2003658B1 /* background.jpg */; };
 		6E4B3D3B1289E2E2003658B1 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E4B3D3A1289E2E2003658B1 /* logo.png */; };
 		6E4B3D971289E733003658B1 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4B3D961289E733003658B1 /* EventKit.framework */; };
@@ -290,6 +293,11 @@
 		6E154374127B5E6300C97C88 /* RegistrationResultsPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegistrationResultsPhotos.h; path = Classes/RegistrationResultsPhotos.h; sourceTree = "<group>"; };
 		6E154375127B5E6300C97C88 /* RegistrationResultsPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegistrationResultsPhotos.m; path = Classes/RegistrationResultsPhotos.m; sourceTree = "<group>"; };
 		6E154376127B5E6300C97C88 /* RegistrationResultsPhotos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RegistrationResultsPhotos.xib; path = Classes/RegistrationResultsPhotos.xib; sourceTree = "<group>"; };
+		6E3DEF9D12D9FBE9008320C4 /* wgtTextEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wgtTextEntryViewController.h; sourceTree = "<group>"; };
+		6E3DEF9E12D9FBE9008320C4 /* wgtTextEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wgtTextEntryViewController.m; sourceTree = "<group>"; };
+		6E3DEF9F12D9FBE9008320C4 /* wgtTextEntryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = wgtTextEntryViewController.xib; sourceTree = "<group>"; };
+		6E3DF03A12DA09C2008320C4 /* wgtSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wgtSettings.h; sourceTree = "<group>"; };
+		6E3DF03B12DA09C2008320C4 /* wgtSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wgtSettings.m; sourceTree = "<group>"; };
 		6E4B3BAE1289A7A2003658B1 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = images/background.jpg; sourceTree = "<group>"; };
 		6E4B3D3A1289E2E2003658B1 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = images/logo.png; sourceTree = "<group>"; };
 		6E4B3D961289E733003658B1 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
@@ -1122,6 +1130,9 @@
 				6EF3BEA112D2227D00D27E44 /* wgtWeightGraphViewController.h */,
 				6EF3BEA212D2227D00D27E44 /* wgtWeightGraphViewController.m */,
 				6EF3BEA312D2227D00D27E44 /* wgtWeightGraphViewController.xib */,
+				6E3DEF9D12D9FBE9008320C4 /* wgtTextEntryViewController.h */,
+				6E3DEF9E12D9FBE9008320C4 /* wgtTextEntryViewController.m */,
+				6E3DEF9F12D9FBE9008320C4 /* wgtTextEntryViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -1166,6 +1177,8 @@
 				6EBC18BF12D6248400ADEA3B /* wgtButtonEntry.h */,
 				6EBC18C012D6248400ADEA3B /* wgtButtonEntry.m */,
 				6EBC18C112D6248400ADEA3B /* wgtButtonEntry.xib */,
+				6E3DF03A12DA09C2008320C4 /* wgtSettings.h */,
+				6E3DF03B12DA09C2008320C4 /* wgtSettings.m */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -1467,6 +1480,7 @@
 				6EBC18C312D6248400ADEA3B /* wgtButtonEntry.xib in Resources */,
 				6EBC18D612D626ED00ADEA3B /* wgtTrackerEntryCell.xib in Resources */,
 				6EBC1BF712D65BAA00ADEA3B /* scale-57x57.png in Resources */,
+				6E3DEFA112D9FBE9008320C4 /* wgtTextEntryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1594,6 +1608,8 @@
 				6EBC18C212D6248400ADEA3B /* wgtButtonEntry.m in Sources */,
 				6EBC18D412D626DC00ADEA3B /* wgtTrackerEntryCell.m in Sources */,
 				6EBC1A4912D63C3600ADEA3B /* wgtPercentPicker.m in Sources */,
+				6E3DEFA012D9FBE9008320C4 /* wgtTextEntryViewController.m in Sources */,
+				6E3DF03C12DA09C2008320C4 /* wgtSettings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
