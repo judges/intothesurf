@@ -23,7 +23,7 @@
 		
 		dataArray = [[NSMutableArray alloc]init];
 		
-		for(int i=0;i<2;i++)
+		for(int i=0;i<3;i++)
 		{
 			NSMutableArray *arr =[[NSMutableArray alloc] init];
 			for(int j=0;j<10;j++)
@@ -39,13 +39,22 @@
 				}
 				else
 				{
-					[arr addObject:[NSString stringWithFormat:@"%d",j]];
+					if(i==2)
+					{
+					[arr addObject:[NSString stringWithFormat:@".%d",j]];
+					}
+					else 
+					{
+						[arr addObject:[NSString stringWithFormat:@"%d",j]];
+					}
+
 				}				
 			}
 			[dataArray addObject:arr];
 			[arr release];
 		}
 		
+		[dataArray addObject:[NSArray arrayWithObject:@"%"]];
 		
 		
 		p.dataSource = self;
@@ -53,17 +62,25 @@
 	}
 	return self;
 }
--(int)GetPercent
+-(float)GetPercent
 {
-	return 
-	10 * ([picker selectedRowInComponent:0] +(minValue/10))
-	+ [picker selectedRowInComponent:1];
-}
--(void)SetPercent:(int)per
-{
-	[picker selectRow:per/10 - minValue/10 inComponent:0 animated:YES];
-	[picker selectRow:per%10 inComponent:1 animated:YES];
 	
+	float percent = 	10 * ([picker selectedRowInComponent:0] +(minValue/10))
+	+ [picker selectedRowInComponent:1];
+	
+	float frac = [picker selectedRowInComponent:2];
+	frac = frac/10;
+	percent +=frac;
+	return percent;
+	
+}
+-(void)SetPercent:(float)per
+{
+	
+	int decimal = floor(per*10);
+	[picker selectRow:decimal/100 - minValue/10 inComponent:0 animated:YES];
+	[picker selectRow:(decimal%100)/10 inComponent:1 animated:YES];
+	[picker selectRow:decimal%10 inComponent:1 animated:YES];
 }
 
 

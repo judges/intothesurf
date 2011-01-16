@@ -125,8 +125,8 @@
 
 	[dateButton setTitle:[formatter stringFromDate:currentEntry.Date] forState:UIControlStateNormal];
 	[weightButton setTitle:[wgtUser FormatWeight:currentEntry.Weight UseImp:currentUser.UseImperial] forState:UIControlStateNormal];
-	[fatButton	setTitle:[NSString stringWithFormat:@"%d%@", currentEntry.Fat,@"%" ] forState:UIControlStateNormal];
-	[waterButton setTitle:[NSString stringWithFormat:@"%d%@", currentEntry.Water,@"%" ] forState:UIControlStateNormal];
+	[fatButton	setTitle:[NSString stringWithFormat:@"%1.2f%@", currentEntry.Fat,@"%" ] forState:UIControlStateNormal];
+	[waterButton setTitle:[NSString stringWithFormat:@"%1.2f%@", currentEntry.Water,@"%" ] forState:UIControlStateNormal];
 	
 	[formatter release];
 		

@@ -42,8 +42,8 @@
 	
 	tmp.Weight = [[obj valueForKey:@"Weight"] floatValue];
 	tmp.Date = [obj valueForKey:@"Date"];
-	tmp.Water = [[obj valueForKey:@"Water"] intValue];
-	tmp.Fat = [[obj valueForKey:@"Fat"] intValue];
+	tmp.Water = [[obj valueForKey:@"Water"] floatValue];
+	tmp.Fat = [[obj valueForKey:@"Fat"] floatValue];
 	return tmp;
 }
 +(void) EditEntry:(wgtWeightEntry*)entry ToObject:(NSManagedObject*)obj

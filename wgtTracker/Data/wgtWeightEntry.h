@@ -12,14 +12,14 @@
 @interface wgtWeightEntry : NSObject {
 	NSDate* Date;
 	float Weight;
-	int Fat;
-	int Water;
+	float Fat;
+	float Water;
 }
 
 @property(nonatomic,retain) NSDate* Date;
 @property float Weight;
-@property int Fat;
-@property int Water;
+@property float Fat;
+@property float Water;
 
 +(void) AddEntry:(wgtWeightEntry*)usr ToContext:(NSManagedObjectContext*)context ToObject:(NSManagedObject*)userObj;
 +(wgtWeightEntry*) EntryFromObject:(NSManagedObject*)obj;

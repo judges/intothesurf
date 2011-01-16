@@ -21,6 +21,6 @@
 	
 }
 -(id)initWithPicker:(UIPickerView*)p Owner:(id)own Selector:(SEL)sel MinPercent:(int)min MaxPercent:(int)max;
--(int)GetPercent;
--(void)SetPercent:(int)per;
+-(float)GetPercent;
+-(void)SetPercent:(float)per;
 @end

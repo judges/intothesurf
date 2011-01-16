@@ -18,7 +18,7 @@
 -(id)initWithSettings:(wgtSettings*)s
 {
 
-		self = [super init];
+		self = [super initWithNibName:@"wgtTrackerRootViewController" bundle:nil];
 		if (self != nil) {
 			_settings=s;
 			[_settings retain];
@@ -39,7 +39,7 @@
 #pragma mark -
 #pragma mark View lifecycle
 
-
+/*
 -(id)init
 {
 	self=[super init];
@@ -49,7 +49,7 @@
 	}
 	return self;
 }
-
+*/
 
 - (void)dealloc {
 	[_settings release];
@@ -78,7 +78,7 @@
 	 
 	 
 	 counter= 0;
-	  self.navigationItem.rightBarButtonItem = addButton;
+	self.navigationItem.rightBarButtonItem = addButton;
 	 self.navigationItem.leftBarButtonItem = self.editButtonItem;
 	 self.navigationItem.title = @"Users";
 	 self.tableView.allowsSelectionDuringEditing= YES;

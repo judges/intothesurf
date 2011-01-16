@@ -16,9 +16,9 @@
 	{
 		wgtWeightEntry* wgtEntry = [dataArray lastObject];
 		
-		int value = wgtEntry.Fat;
+		float value = wgtEntry.Fat;
 		
-		NSString* str = [NSString stringWithFormat:@"%d%@",value,@"%"];
+		NSString* str = [NSString stringWithFormat:@"%1.2f%@",value,@"%"];
 		
 		CPTextStyle* textStyle = [[CPTextStyle alloc]init];
 		textStyle.color= [CPColor lightGrayColor];

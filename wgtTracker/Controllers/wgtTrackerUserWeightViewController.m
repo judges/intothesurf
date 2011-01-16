@@ -254,8 +254,8 @@
 
 	cell.Weight.text=[wgtUser FormatWeight:tmpWeightEntry.Weight UseImp:currentUser.UseImperial];
 	cell.Bmi.text = [NSString stringWithFormat:@"%1.2f",[wgtUser BMIforWeight:tmpWeightEntry.Weight andHeight:currentUser.Height]];
-	cell.Fat.text = [NSString stringWithFormat:@"%d %@",tmpWeightEntry.Fat,@"%"];
-	cell.Water.text = [NSString stringWithFormat:@"%d %@",tmpWeightEntry.Water,@"%"];	
+	cell.Fat.text = [NSString stringWithFormat:@"%1.2f %@",tmpWeightEntry.Fat,@"%"];
+	cell.Water.text = [NSString stringWithFormat:@"%1.2f %@",tmpWeightEntry.Water,@"%"];	
 	
 	
 	return cell;
