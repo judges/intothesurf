@@ -12,12 +12,14 @@
 @implementation wgtSettings
 @synthesize TintColor;
 @synthesize BackgroundColor;
+@synthesize AlternateBackgroundColor;
 
 
 -(void) dealloc
 {
 	self.TintColor=nil;
 	self.BackgroundColor = nil;
+	self.AlternateBackgroundColor=nil;
 	
 	[super dealloc];
 }

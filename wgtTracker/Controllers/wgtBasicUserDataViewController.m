@@ -10,7 +10,7 @@
 #import "wgtSettings.h"
 
 @implementation wgtBasicUserDataViewController
-@synthesize nameTextField,heightButton,segmentControl,pickerView,unitSegment,toolBar,cancelButton,doneButton, toolbar;
+@synthesize nameTextField,heightButton,segmentControl,pickerView,unitSegment,toolBar,cancelButton,doneButton;
 
 -(void)initPicker
 {
@@ -235,17 +235,26 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	
+	
+	segmentControl.tintColor =_settings.TintColor;
+	unitSegment.tintColor =_settings.TintColor;
+	self.view.backgroundColor = _settings.AlternateBackgroundColor; // [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]];
+    toolBar.tintColor = _settings.TintColor;
+	
+	UIBarButtonItem *splitter =[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
+	
+	[toolBar setItems:[NSArray arrayWithObjects:cancelButton,splitter,doneButton,nil]];
+	[splitter release];
+	//	[toolBar insertSubview:cancelButton atIndex:0];
+//	[toolBar addSubview:doneButton];
+	
+	[super viewDidLoad];
 	//self.toolBar.tintColor =[UIColor orangeColor];
 	
 	
-	
-	//segmentControl.tintColor =[UIColor orangeColor];
-	//unitSegment.tintColor =[UIColor orangeColor];
-	self.view.backgroundColor = _settings.BackgroundColor; // [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]];
-    toolBar.tintColor = _settings.TintColor;
+		
 	
 	
-	[super viewDidLoad];
 	
 	[self UpdateView];
 	

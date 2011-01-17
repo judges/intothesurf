@@ -19,6 +19,12 @@
 	[self.view removeFromSuperview];
 	
 }
+
+-(void)SetSettings:(wgtSettings*)s
+{
+	_settings =s;
+	[_settings retain];
+}
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -36,6 +42,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	self.navigationItem.title = @"Message";
+	
+	self.view.backgroundColor = _settings.BackgroundColor;
 	[textView becomeFirstResponder];
 	
 	NSString*string = [[NSUserDefaults standardUserDefaults] stringForKey:@"wgtTextEntry"];
@@ -67,6 +75,7 @@
 
 
 - (void)dealloc {
+	[_settings release];
 	[[NSUserDefaults standardUserDefaults]setValue:textView.text forKey:@"wgtTextEntry"];
 	[btn release];
 	[textView release];

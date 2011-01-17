@@ -19,10 +19,9 @@
 
 @implementation wgtWeightGraphViewController
 @synthesize graphHost;
-@synthesize weightButton;
 @synthesize currentPlot;
 @synthesize plotHandler;
-
+@synthesize weightButton, fatButton, waterButton, bmiButton, txtButton, shareButton, toolbar;
 
 -(void)prepareGraph
 {
@@ -107,28 +106,39 @@
 	self.navigationItem.title = @"Weight";
 	currentPlotType=0;
 	[self prepareGraph];
+	
+	[self clearButtons];
+	[weightButton setStyle:UIBarButtonItemStyleDone];
 }
 -(IBAction)fatAction
 {
 	self.navigationItem.title = @"Fat";
 	currentPlotType=2;
 	[self prepareGraph];
+	[self clearButtons];
+	[fatButton setStyle:UIBarButtonItemStyleDone];
 }
 -(IBAction)waterAction
 {
 	self.navigationItem.title = @"Water";
 	currentPlotType=3;
 	[self prepareGraph];
+	[self clearButtons];
+	[waterButton setStyle:UIBarButtonItemStyleDone];
 }
 -(IBAction)bmiAction
 {
 	self.navigationItem.title = @"BMI";
 	currentPlotType=1;	
 	[self prepareGraph];
+	[self clearButtons];
+	[bmiButton setStyle:UIBarButtonItemStyleDone];
+
 }
 -(IBAction)textAction
 {
 	wgtTextEntryViewController* vc = [[wgtTextEntryViewController alloc] init];
+	[vc SetSettings:_settings];
 	[self.navigationController pushViewController:vc animated:YES];
 	[vc release];
 }
@@ -178,6 +188,11 @@
 		int i =[horizontalPlots indexOfObject:plot];
 		return [NSNumber numberWithInt:10+ i*10];
 	}
+}
+-(void)SetSettings:(wgtSettings*)s
+{
+	_settings =s;
+	[_settings retain];
 }
 
 -(CPLayer *) dataLabelForPlot:(CPPlot *)plot recordIndex:(NSUInteger)index
@@ -391,6 +406,20 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	
+	toolbar.tintColor = _settings.TintColor;
+	
+	UIBarButtonItem*splitter = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
+	
+	
+	[toolbar setItems:[NSArray arrayWithObjects:weightButton,fatButton,waterButton,bmiButton,txtButton,splitter,shareButton,nil]];
+	
+	
+	[weightButton setStyle:UIBarButtonItemStyleDone];
+
+	
+	[splitter release];
+	
+	
 	if(!user.UseImperial)
 	{
 		[weightButton setTitle:@"kg"];
@@ -404,6 +433,13 @@
 	
 }
 
+-(void)clearButtons
+{
+	[weightButton setStyle:UIBarButtonItemStyleBordered];
+	[fatButton setStyle:UIBarButtonItemStyleBordered];
+	[waterButton setStyle:UIBarButtonItemStyleBordered];
+	[bmiButton setStyle:UIBarButtonItemStyleBordered];
+}
 
 
 - (void)didReceiveMemoryWarning {
@@ -421,6 +457,15 @@
 
 
 - (void)dealloc {
+	self.weightButton=nil;
+	self.waterButton = nil;
+	self.bmiButton=nil;
+	self.txtButton=nil;
+	self.shareButton=nil;
+	self.toolbar=nil;
+	
+	
+	[_settings release];
 	[horizontalPlots release];
 	[targerWeightPlot release];
     [super dealloc];

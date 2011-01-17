@@ -275,14 +275,14 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>22</integer>
-									<integer>2</integer>
-									<integer>1</integer>
+									<integer>97</integer>
+									<integer>60</integer>
+									<integer>58</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {359, 712}}</string>
+							<string>{{0, 1226}, {359, 712}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -319,7 +319,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>wgtWaterPlotHandler.m</string>
+								<string>wgtTrackerContainer.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,11 +327,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>wgtWaterPlotHandler.m</string>
+										<string>wgtTrackerContainer.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>6EAA01B112E36BC500D4EF51</string>
+										<string>6EAA028212E49CBB00D4EF51</string>
 										<key>history</key>
 										<array>
 											<string>6E4B3DB21289E82D003658B1</string>
@@ -478,43 +478,43 @@
 											<string>6EBC1BAB12D658AD00ADEA3B</string>
 											<string>6EBC1BFB12D65BEE00ADEA3B</string>
 											<string>6EAF386B12D71708002F9795</string>
-											<string>6E3DEF3612D9E902008320C4</string>
-											<string>6E3DEF6F12D9F5DD008320C4</string>
 											<string>6E3DEFD112DA01D8008320C4</string>
-											<string>6E3DEFDD12DA0251008320C4</string>
 											<string>6E3DEFE312DA02D6008320C4</string>
-											<string>6E3DF00B12DA0660008320C4</string>
 											<string>6E3DF01712DA06AC008320C4</string>
-											<string>6E3DF03012DA091F008320C4</string>
 											<string>6E3DF06C12DA0EBC008320C4</string>
 											<string>6E3DF06D12DA0EBC008320C4</string>
 											<string>6E3DF06E12DA0EBC008320C4</string>
 											<string>6E3DF06F12DA0EBC008320C4</string>
 											<string>6E3DF07012DA0EBC008320C4</string>
-											<string>6E3DF07112DA0EBC008320C4</string>
-											<string>6E3DF07212DA0EBC008320C4</string>
 											<string>6E3DF07312DA0EBC008320C4</string>
-											<string>6E3DF07612DA0EBC008320C4</string>
 											<string>6E793DAB12DF699400414EFA</string>
 											<string>6E793DAC12DF699400414EFA</string>
 											<string>6E793DAD12DF699400414EFA</string>
-											<string>6E793DAE12DF699400414EFA</string>
 											<string>6E793DAF12DF699400414EFA</string>
-											<string>6E793DB012DF699400414EFA</string>
-											<string>6E793DB112DF699400414EFA</string>
 											<string>6E793DB412DF699400414EFA</string>
 											<string>6E793DB712DF699400414EFA</string>
-											<string>6E793DCC12DF69F600414EFA</string>
 											<string>6EAA013612E367DE00D4EF51</string>
-											<string>6EAA013712E367DE00D4EF51</string>
-											<string>6EAA016A12E3689E00D4EF51</string>
-											<string>6EAA017F12E3690000D4EF51</string>
-											<string>6EAA019512E369CC00D4EF51</string>
 											<string>6EAA019612E369CC00D4EF51</string>
 											<string>6EAA019712E369CC00D4EF51</string>
 											<string>6EAA01A812E36B6100D4EF51</string>
 											<string>6EAA01B012E36BC500D4EF51</string>
-											<string>6E793DB612DF699400414EFA</string>
+											<string>6EAA01B712E4905A00D4EF51</string>
+											<string>6EAA01F312E493F500D4EF51</string>
+											<string>6EAA020512E4963600D4EF51</string>
+											<string>6EAA020D12E496B000D4EF51</string>
+											<string>6EAA020E12E496B000D4EF51</string>
+											<string>6EAA020F12E496B000D4EF51</string>
+											<string>6EAA021012E496B000D4EF51</string>
+											<string>6EAA021912E4971900D4EF51</string>
+											<string>6EAA021B12E4971900D4EF51</string>
+											<string>6EAA022212E4979D00D4EF51</string>
+											<string>6EAA025112E49B5900D4EF51</string>
+											<string>6EAA025312E49B5900D4EF51</string>
+											<string>6EAA025812E49B8200D4EF51</string>
+											<string>6EAA027512E49C7300D4EF51</string>
+											<string>6EAA027612E49C7300D4EF51</string>
+											<string>6EAA027C12E49C9F00D4EF51</string>
+											<string>6EAA027D12E49C9F00D4EF51</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -712,7 +712,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>6EAA01B212E36BC500D4EF51</string>
+		<string>6EAA028312E49CBB00D4EF51</string>
 		<string>6EAA014C12E3680F00D4EF51</string>
 		<string>6EAA014512E367DE00D4EF51</string>
 		<string>1C78EAAD065D492600B07095</string>
@@ -742,7 +742,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>wgtSettings.h</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -759,6 +759,8 @@
 							<string>348pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>

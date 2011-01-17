@@ -10,7 +10,7 @@
 #include "wgtTrackerUserWeightViewController.h"
 
 @implementation wgtTrackerWeightEntryViewController
-@synthesize weightPicker,datePicker, weightButton, dateButton,fatButton,waterButton,fatPicker,waterPicker;
+@synthesize weightPicker,datePicker, weightButton, dateButton,fatButton,waterButton,fatPicker,waterPicker, toolbar, cancelButton,doneButton;
 
 -(id)initWithOwner:(wgtTrackerUserWeightViewController*) own Entry:(wgtWeightEntry*)entry User:(wgtUser*)usr
 {
@@ -27,6 +27,12 @@
 	}
 	return self;
 	
+}
+
+-(void)SetSettings:(wgtSettings*)s
+{
+	_settings =s;
+	[_settings retain];
 }
 
 -(wgtWeightEntry*)getCurrentEntry
@@ -201,7 +207,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	self.view.backgroundColor =[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]];
+	
+	toolbar.tintColor =_settings.TintColor;
+	self.view.backgroundColor =_settings.AlternateBackgroundColor;
+	
+	UIBarButtonItem* split = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
+	
+	[toolbar setItems:[NSArray arrayWithObjects:cancelButton,split,doneButton,nil]];
+	[split release];
+	
+	
+	
+	
 	pickerController = [[wgtWeightPicker alloc] initWithPicker:weightPicker Owner:self Selector:@selector(pickersChanged)];
 	[weightPicker setDataSource:pickerController];
 	[weightPicker setDelegate:pickerController];
@@ -260,6 +277,10 @@
 
 
 - (void)dealloc {
+	[doneButton release];
+	[cancelButton release];
+	[toolbar release];
+	[_settings release];
 	[currentEntry release];
 	[currentUser release];
 	[dateButton release];

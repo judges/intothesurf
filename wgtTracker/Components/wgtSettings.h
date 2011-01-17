@@ -12,8 +12,10 @@
 @interface wgtSettings : NSObject {
 	UIColor* TintColor;
 	UIColor* BackgroundColor;
+	UIColor* AlternateBackgroundColor;
 }
 
 @property(nonatomic,retain)UIColor* TintColor;
 @property(nonatomic,retain)UIColor* BackgroundColor;
+@property(nonatomic,retain)UIColor* AlternateBackgroundColor;
 @end

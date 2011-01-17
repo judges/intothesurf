@@ -44,7 +44,7 @@
 @property(nonatomic,retain) IBOutlet UIToolbar*toolBar;
 @property(nonatomic,retain) IBOutlet UIBarButtonItem*cancelButton;
 @property(nonatomic,retain) IBOutlet UIBarButtonItem*doneButton;
-@property(nonatomic,retain) IBOutlet UIToolbar* toolbar;
+
 -(void)initPicker;
 -(id)initWithParentViewController:(wgtTrackerRootViewController*)p;
 -(id)initWithParentViewController:(wgtTrackerRootViewController*)p AndUser:(wgtUser*)usr;

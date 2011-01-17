@@ -21,11 +21,12 @@
         // Custom initialization
 		
 		wgtSettings*settings = [[wgtSettings alloc] init];
-		settings.TintColor = [UIColor blackColor];
-		settings.BackgroundColor =[UIColor blackColor];
+	//	settings.TintColor = [UIColor darkGrayColor];
+	//	settings.BackgroundColor =[UIColor blackColor];
+	//	settings.AlternateBackgroundColor= [UIColor whiteColor];
 								settings.TintColor =[UIColor orangeColor];
 								settings.BackgroundColor =  [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]];
-
+								settings.AlternateBackgroundColor=  [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]];
 		wgtTrackerRootViewController * rootController=		[[wgtTrackerRootViewController alloc]initWithSettings:settings];
 		
 

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "wgtBasePlotHandler.h"
-
+#include "wgtSettings.h"
 
 @interface wgtWeightGraphViewController : UIViewController<CPPlotDataSource> {
 	CPXYGraph *graph;
@@ -32,13 +32,26 @@
 	 */
 	
 	wgtUser* user;
+	wgtSettings*_settings;
 	
 	UIBarButtonItem *weightButton;
+	UIBarButtonItem *fatButton;
+	UIBarButtonItem *waterButton;
+	UIBarButtonItem *bmiButton;
+	UIBarButtonItem *txtButton;
+	UIBarButtonItem *shareButton;
+	UIToolbar *toolbar;
 }
 @property(nonatomic,retain)CPScatterPlot* currentPlot;
 @property(nonatomic,retain)wgtBasePlotHandler* plotHandler;
 
 @property(nonatomic,retain) IBOutlet UIBarButtonItem *weightButton;
+@property(nonatomic,retain) IBOutlet  UIBarButtonItem *fatButton;
+@property(nonatomic,retain) IBOutlet UIBarButtonItem *waterButton;
+@property(nonatomic,retain) IBOutlet UIBarButtonItem *bmiButton;
+@property(nonatomic,retain) IBOutlet UIBarButtonItem *txtButton;
+@property(nonatomic,retain) IBOutlet UIBarButtonItem *shareButton;
+@property(nonatomic,retain) IBOutlet UIToolbar *toolbar;
 
 -(IBAction)weightAction;
 -(IBAction)fatAction;
@@ -49,8 +62,10 @@
 -(IBAction)shareAction;
 
 
--(id)initWithDataArray:(NSArray*)arr User:(wgtUser*)usr;
+-(void)clearButtons;
 
+-(id)initWithDataArray:(NSArray*)arr User:(wgtUser*)usr;
+-(void)SetSettings:(wgtSettings*)s;
 
 -(void)prepareGraph;
 -(void)prepareXAxis:(CPXYAxis*)xAxis;

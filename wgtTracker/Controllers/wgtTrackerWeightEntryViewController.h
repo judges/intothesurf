@@ -12,6 +12,7 @@
 #include "wgtWeightEntry.h"
 #include "wgtUser.h"
 #import "wgtPercentPicker.h"
+#import "wgtSettings.h"
 
 @interface wgtTrackerWeightEntryViewController : UIViewController {
 	
@@ -38,11 +39,19 @@
 	
 	bool datePickerVisible;
 	bool weightPickerVisible;
+	
+	wgtSettings* _settings;
+	
+	UIBarButtonItem* cancelButton;
+	UIBarButtonItem* doneButton;
+	UIToolbar* toolbar;
 }
 
 -(IBAction)highlihting;
 -(void)clearHighlihting;
 -(id)initWithOwner:(wgtTrackerUserWeightViewController*)own Entry:(wgtWeightEntry*)entry User:(wgtUser*)usr;
+
+-(void)SetSettings:(wgtSettings*)s;
 
 -(wgtWeightEntry*)getCurrentEntry;
 
@@ -55,6 +64,10 @@
 @property(nonatomic,retain)IBOutlet UIButton* dateButton;
 @property(nonatomic,retain)IBOutlet UIButton* fatButton;
 @property(nonatomic,retain)IBOutlet UIButton* waterButton;
+
+@property(nonatomic,retain)IBOutlet UIBarButtonItem* cancelButton;
+@property(nonatomic,retain)IBOutlet UIBarButtonItem* doneButton;
+@property(nonatomic,retain)IBOutlet UIToolbar* toolbar;
 
 -(IBAction)Cancel;
 -(IBAction)Done;

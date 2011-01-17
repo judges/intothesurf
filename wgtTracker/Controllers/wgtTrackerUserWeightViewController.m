@@ -13,7 +13,7 @@
 #import "wgtWeightGraphViewController.h"
 
 @implementation wgtTrackerUserWeightViewController
-@synthesize weightPicker,closePickerButton,editTableButton,addTableButton,mTableView;
+@synthesize weightPicker,closePickerButton,editTableButton,addTableButton,mTableView, upperToolbar, bottomToolbar, charButton;
 
 -(id)initWithManagedObject:(NSManagedObject*)obj andConext:(NSManagedObjectContext*)context
 {
@@ -32,6 +32,15 @@
 	return self;
 }
 
+
+
+-(void)SetSettings:(wgtSettings*)s
+{mySettings = s;
+	[mySettings retain];
+	
+	
+}
+
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -46,7 +55,24 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	
-	self.view.backgroundColor =[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]];
+	
+	self.view.backgroundColor = mySettings.BackgroundColor;
+	upperToolbar.tintColor = mySettings.TintColor;
+	bottomToolbar.tintColor = mySettings.TintColor;
+	
+	UIBarButtonItem* splitter = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
+	
+	[upperToolbar setItems:[NSArray arrayWithObjects:editTableButton,splitter,addTableButton,nil]];
+	[splitter release];
+	splitter = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
+	UIBarButtonItem* splitter1 = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
+	[bottomToolbar setItems:[NSArray arrayWithObjects:splitter,charButton,splitter1,nil]];
+	
+	[splitter release];
+	[splitter1 release];
+	
+	
+	//self.view.backgroundColor =[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]];
 	
 	targetWeight = [[wgtButtonEntry alloc] initWithOwner:self andAction:@selector(EnterTargetWeight)];
 	targetWeight.view.frame = CGRectMake(40, 6, 240, 40);
@@ -129,6 +155,7 @@
 
 	
 	wgtWeightGraphViewController * sd = [[wgtWeightGraphViewController alloc]initWithDataArray:array User:currentUser];
+	[sd SetSettings:mySettings];
 	[array release];
 	[self.navigationController pushViewController:sd animated:YES];
 	[sd release];
@@ -156,6 +183,11 @@
 
 
 - (void)dealloc {
+	
+	[upperToolbar release];
+	[bottomToolbar release];
+	[charButton release];
+	[mySettings release];
 	[addTableButton release];
 	[editTableButton release];
 	[mTableView release];
@@ -192,6 +224,7 @@
 	editedIndex = indexPath.row;
 	wgtWeightEntry* entry= [wgtWeightEntry EntryFromObject:[[self GetArray] objectAtIndex:indexPath.row]];
 	modalWindow = [[wgtTrackerWeightEntryViewController alloc]initWithOwner:self Entry:entry User:currentUser];
+	[modalWindow SetSettings:mySettings];
 	IsNew = NO;
 	[self.navigationController.view addSubview:modalWindow.view];
 }
@@ -271,6 +304,7 @@
 	newEntry.Weight =[wgtWeightEntry EntryFromObject:[[self GetArray ] objectAtIndex:0]].Weight;
 	}
 		modalWindow = [[wgtTrackerWeightEntryViewController alloc] initWithOwner:self Entry:newEntry User:currentUser];
+	[modalWindow SetSettings:mySettings];
 	[newEntry release];
 	IsNew = YES;
 	

@@ -12,6 +12,7 @@
 #import "wgtUser.h"
 #import "wgtTrackerWeightEntryViewController.h"
 #import "wgtButtonEntry.h"
+#import "wgtSettings.h"
 
 @interface wgtTrackerUserWeightViewController : UIViewController<UITableViewDelegate,UITableViewDataSource, UIActionSheetDelegate> {
 	UIPickerView* weightPicker;
@@ -38,9 +39,17 @@
 	
 	wgtButtonEntry* targetWeight;
 	
+	UIToolbar* upperToolbar;
+	UIToolbar* bottomToolbar;
+	UIBarButtonItem *charButton;
+	
+	wgtSettings* mySettings;
+	
 }
 
 -(id)initWithManagedObject:(NSManagedObject*)obj andConext:(NSManagedObjectContext*)context;
+
+-(void)SetSettings:(wgtSettings*)s;
 
 -(void)WeightChanged;
 -(IBAction)EnterTargetWeight;
@@ -61,5 +70,9 @@
 @property(nonatomic,retain)IBOutlet UIBarButtonItem *editTableButton;
 @property(nonatomic,retain)IBOutlet UIBarButtonItem *addTableButton;
 @property(nonatomic,retain)IBOutlet UITableView* mTableView;
+
+@property(nonatomic,retain)IBOutlet UIToolbar* upperToolbar;
+@property(nonatomic,retain)IBOutlet UIToolbar* bottomToolbar;
+@property(nonatomic,retain)IBOutlet UIBarButtonItem *charButton;
 
 @end

@@ -151,6 +151,7 @@
 		wgtTrackerUserWeightViewController* tmp = 
 		[[wgtTrackerUserWeightViewController alloc] initWithManagedObject:managedObject andConext:self.managedObjectContext];
 
+		[tmp SetSettings:_settings];
 		[self.navigationController pushViewController:tmp animated:YES];
 		[tmp release];
 	}
