@@ -10,6 +10,9 @@
 #import "wgtTracker.h"
 #import "wgtSettings.h"
 
+#import "myPRRootViewController.h"
+#import "myPRSettings.h"
+
 @implementation wgtTrackerContainer
 
 
@@ -19,7 +22,7 @@
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
         // Custom initialization
-		
+	/*	
 		wgtSettings*settings = [[wgtSettings alloc] init];
 	//	settings.TintColor = [UIColor darkGrayColor];
 	//	settings.BackgroundColor =[UIColor blackColor];
@@ -38,7 +41,27 @@
 		
 		childNavigationController.view.frame = CGRectMake(0, 0, 320, 460);
 		[rootController release];
+		*/
 		
+		myPRSettings*settings = [[myPRSettings alloc] init];
+		//	settings.TintColor = [UIColor darkGrayColor];
+		//	settings.BackgroundColor =[UIColor blackColor];
+		//	settings.AlternateBackgroundColor= [UIColor whiteColor];
+		settings.TintColor =[UIColor orangeColor];
+		settings.BackgroundColor =  [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]];
+	//	settings.AlternateBackgroundColor=  [UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]];
+		myPRRootViewController * rootController=		[[myPRRootViewController alloc]initWithNibName:@"myPRRootViewController" bundle:nil];
+		[rootController SetSettings:settings];
+		
+		
+		[settings release];
+		
+		childNavigationController = [[UINavigationController alloc]initWithRootViewController:rootController];
+		
+		[self.navigationItem setTitle:@"Weight tracker"];
+		
+		childNavigationController.view.frame = CGRectMake(0, 0, 320, 460);
+		[rootController release];
 		
     }
     return self;

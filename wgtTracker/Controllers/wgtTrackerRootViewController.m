@@ -33,6 +33,8 @@
 	isNewUser = YES;
 	wgtBasicUserDataViewController *userEdit = [[wgtBasicUserDataViewController alloc]initWithParentViewController:self];
 	[userEdit setSettings:_settings];
+	//userEdit.view.frame = self.navigationController.view.frame;
+	
 	[self.navigationController.view addSubview:userEdit.view];
 }
 
@@ -143,7 +145,7 @@
 		
 		wgtBasicUserDataViewController *userEdit = [[wgtBasicUserDataViewController alloc]initWithParentViewController:self	AndUser:usr];
 			[userEdit setSettings:_settings];
-		
+	//	userEdit.view.frame = self.navigationController.view.frame;
 		[self.navigationController.view addSubview:userEdit.view];
 	}
 	else

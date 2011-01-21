@@ -94,6 +94,33 @@
 		6EA6B2EE12BD5252006DDC11 /* triCalcTriathlonTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA6B2ED12BD5252006DDC11 /* triCalcTriathlonTime.m */; };
 		6EA6B67012BE37D8006DDC11 /* triCalcTemplateDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA6B66E12BE37D8006DDC11 /* triCalcTemplateDistance.m */; };
 		6EA6B67112BE37D8006DDC11 /* triCalcTemplateDistance.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EA6B66F12BE37D8006DDC11 /* triCalcTemplateDistance.xib */; };
+		6EAA050012E4F2DD00D4EF51 /* myPRRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA04FE12E4F2DD00D4EF51 /* myPRRootViewController.m */; };
+		6EAA050112E4F2DD00D4EF51 /* myPRRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EAA04FF12E4F2DD00D4EF51 /* myPRRootViewController.xib */; };
+		6EAA050412E4F39900D4EF51 /* myPRSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA050312E4F39900D4EF51 /* myPRSettings.m */; };
+		6EAA051212E4F82400D4EF51 /* myPRaddRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA051012E4F82400D4EF51 /* myPRaddRecordViewController.m */; };
+		6EAA051312E4F82400D4EF51 /* myPRaddRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EAA051112E4F82400D4EF51 /* myPRaddRecordViewController.xib */; };
+		6EAA053212E618FA00D4EF51 /* myPRRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA053112E618FA00D4EF51 /* myPRRecord.m */; };
+		6EAA053C12E61AA600D4EF51 /* myPRaddRecordLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA053B12E61AA600D4EF51 /* myPRaddRecordLabelCell.m */; };
+		6EAA053E12E61AB700D4EF51 /* myPRaddRecordLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EAA053D12E61AB700D4EF51 /* myPRaddRecordLabelCell.xib */; };
+		6EAA054212E61B7600D4EF51 /* myPRaddRecordIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA054112E61B7600D4EF51 /* myPRaddRecordIconCell.m */; };
+		6EAA054412E61BC600D4EF51 /* myPRaddRecordIconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EAA054312E61BC600D4EF51 /* myPRaddRecordIconCell.xib */; };
+		6EAA054E12E627A300D4EF51 /* myPREnterName.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA054C12E627A300D4EF51 /* myPREnterName.m */; };
+		6EAA054F12E627A300D4EF51 /* myPREnterName.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EAA054D12E627A300D4EF51 /* myPREnterName.xib */; };
+		6EAA064A12E75A9F00D4EF51 /* myPRbike.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EAA064712E75A9F00D4EF51 /* myPRbike.png */; };
+		6EAA064B12E75A9F00D4EF51 /* myPRgym.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EAA064812E75A9F00D4EF51 /* myPRgym.png */; };
+		6EAA064C12E75A9F00D4EF51 /* myPRswim.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EAA064912E75A9F00D4EF51 /* myPRswim.png */; };
+		6EAA065012E75AEE00D4EF51 /* myPRSelectIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA064E12E75AEE00D4EF51 /* myPRSelectIcon.m */; };
+		6EAA06BC12E764AA00D4EF51 /* myPRUnitHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA06BB12E764AA00D4EF51 /* myPRUnitHandler.m */; };
+		6EAA06BF12E764F800D4EF51 /* myPRUnitHandlerCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA06BE12E764F800D4EF51 /* myPRUnitHandlerCreator.m */; };
+		6EAA06C212E7653D00D4EF51 /* myPRmeterUnitHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA06C112E7653D00D4EF51 /* myPRmeterUnitHandler.m */; };
+		6EAA06C512E765D300D4EF51 /* myPRkgUnitHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA06C412E765D300D4EF51 /* myPRkgUnitHandler.m */; };
+		6EAA06F512E7689700D4EF51 /* myPRSelectUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA06F412E7689700D4EF51 /* myPRSelectUnit.m */; };
+		6EAA07AB12E772A100D4EF51 /* myPRDataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA07AA12E772A100D4EF51 /* myPRDataModel.xcdatamodel */; };
+		6EAA083A12E7806E00D4EF51 /* myPRRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA083812E7806E00D4EF51 /* myPRRecordViewController.m */; };
+		6EAA083B12E7806E00D4EF51 /* myPRRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EAA083912E7806E00D4EF51 /* myPRRecordViewController.xib */; };
+		6EAA086612E7858D00D4EF51 /* myPREntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA086512E7858D00D4EF51 /* myPREntry.m */; };
+		6EAA087012E7861F00D4EF51 /* myPRaddEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA086E12E7861F00D4EF51 /* myPRaddEntryViewController.m */; };
+		6EAA087112E7861F00D4EF51 /* myPRaddEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EAA086F12E7861F00D4EF51 /* myPRaddEntryViewController.xib */; };
 		6EB2EFDF12C3854D004B0864 /* SHKOAuthSharer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB2EF4512C3854D004B0864 /* SHKOAuthSharer.m */; };
 		6EB2EFE012C3854D004B0864 /* SHKSharer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB2EF4712C3854D004B0864 /* SHKSharer.m */; };
 		6EB2EFE112C3854D004B0864 /* UIWebView+SHK.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB2EF4A12C3854D004B0864 /* UIWebView+SHK.m */; };
@@ -339,6 +366,49 @@
 		6EA6B66D12BE37D8006DDC11 /* triCalcTemplateDistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triCalcTemplateDistance.h; sourceTree = "<group>"; };
 		6EA6B66E12BE37D8006DDC11 /* triCalcTemplateDistance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = triCalcTemplateDistance.m; sourceTree = "<group>"; };
 		6EA6B66F12BE37D8006DDC11 /* triCalcTemplateDistance.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = triCalcTemplateDistance.xib; sourceTree = "<group>"; };
+		6EAA04FD12E4F2DD00D4EF51 /* myPRRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPRRootViewController.h; sourceTree = "<group>"; };
+		6EAA04FE12E4F2DD00D4EF51 /* myPRRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPRRootViewController.m; sourceTree = "<group>"; };
+		6EAA04FF12E4F2DD00D4EF51 /* myPRRootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myPRRootViewController.xib; sourceTree = "<group>"; };
+		6EAA050212E4F39900D4EF51 /* myPRSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPRSettings.h; sourceTree = "<group>"; };
+		6EAA050312E4F39900D4EF51 /* myPRSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPRSettings.m; sourceTree = "<group>"; };
+		6EAA050F12E4F82400D4EF51 /* myPRaddRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPRaddRecordViewController.h; sourceTree = "<group>"; };
+		6EAA051012E4F82400D4EF51 /* myPRaddRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPRaddRecordViewController.m; sourceTree = "<group>"; };
+		6EAA051112E4F82400D4EF51 /* myPRaddRecordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myPRaddRecordViewController.xib; sourceTree = "<group>"; };
+		6EAA053012E618FA00D4EF51 /* myPRRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPRRecord.h; sourceTree = "<group>"; };
+		6EAA053112E618FA00D4EF51 /* myPRRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPRRecord.m; sourceTree = "<group>"; };
+		6EAA053A12E61AA600D4EF51 /* myPRaddRecordLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPRaddRecordLabelCell.h; sourceTree = "<group>"; };
+		6EAA053B12E61AA600D4EF51 /* myPRaddRecordLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPRaddRecordLabelCell.m; sourceTree = "<group>"; };
+		6EAA053D12E61AB700D4EF51 /* myPRaddRecordLabelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myPRaddRecordLabelCell.xib; sourceTree = "<group>"; };
+		6EAA054012E61B7600D4EF51 /* myPRaddRecordIconCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPRaddRecordIconCell.h; sourceTree = "<group>"; };
+		6EAA054112E61B7600D4EF51 /* myPRaddRecordIconCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPRaddRecordIconCell.m; sourceTree = "<group>"; };
+		6EAA054312E61BC600D4EF51 /* myPRaddRecordIconCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myPRaddRecordIconCell.xib; sourceTree = "<group>"; };
+		6EAA054B12E627A300D4EF51 /* myPREnterName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPREnterName.h; sourceTree = "<group>"; };
+		6EAA054C12E627A300D4EF51 /* myPREnterName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPREnterName.m; sourceTree = "<group>"; };
+		6EAA054D12E627A300D4EF51 /* myPREnterName.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myPREnterName.xib; sourceTree = "<group>"; };
+		6EAA064712E75A9F00D4EF51 /* myPRbike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myPRbike.png; sourceTree = "<group>"; };
+		6EAA064812E75A9F00D4EF51 /* myPRgym.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myPRgym.png; sourceTree = "<group>"; };
+		6EAA064912E75A9F00D4EF51 /* myPRswim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myPRswim.png; sourceTree = "<group>"; };
+		6EAA064D12E75AEE00D4EF51 /* myPRSelectIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPRSelectIcon.h; sourceTree = "<group>"; };
+		6EAA064E12E75AEE00D4EF51 /* myPRSelectIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPRSelectIcon.m; sourceTree = "<group>"; };
+		6EAA06BA12E764AA00D4EF51 /* myPRUnitHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPRUnitHandler.h; sourceTree = "<group>"; };
+		6EAA06BB12E764AA00D4EF51 /* myPRUnitHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPRUnitHandler.m; sourceTree = "<group>"; };
+		6EAA06BD12E764F800D4EF51 /* myPRUnitHandlerCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPRUnitHandlerCreator.h; sourceTree = "<group>"; };
+		6EAA06BE12E764F800D4EF51 /* myPRUnitHandlerCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPRUnitHandlerCreator.m; sourceTree = "<group>"; };
+		6EAA06C012E7653D00D4EF51 /* myPRmeterUnitHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPRmeterUnitHandler.h; sourceTree = "<group>"; };
+		6EAA06C112E7653D00D4EF51 /* myPRmeterUnitHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPRmeterUnitHandler.m; sourceTree = "<group>"; };
+		6EAA06C312E765D300D4EF51 /* myPRkgUnitHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPRkgUnitHandler.h; sourceTree = "<group>"; };
+		6EAA06C412E765D300D4EF51 /* myPRkgUnitHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPRkgUnitHandler.m; sourceTree = "<group>"; };
+		6EAA06F312E7689700D4EF51 /* myPRSelectUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPRSelectUnit.h; sourceTree = "<group>"; };
+		6EAA06F412E7689700D4EF51 /* myPRSelectUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPRSelectUnit.m; sourceTree = "<group>"; };
+		6EAA07AA12E772A100D4EF51 /* myPRDataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = myPRDataModel.xcdatamodel; sourceTree = "<group>"; };
+		6EAA083712E7806E00D4EF51 /* myPRRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPRRecordViewController.h; sourceTree = "<group>"; };
+		6EAA083812E7806E00D4EF51 /* myPRRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPRRecordViewController.m; sourceTree = "<group>"; };
+		6EAA083912E7806E00D4EF51 /* myPRRecordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myPRRecordViewController.xib; sourceTree = "<group>"; };
+		6EAA086412E7858D00D4EF51 /* myPREntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPREntry.h; sourceTree = "<group>"; };
+		6EAA086512E7858D00D4EF51 /* myPREntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPREntry.m; sourceTree = "<group>"; };
+		6EAA086D12E7861F00D4EF51 /* myPRaddEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPRaddEntryViewController.h; sourceTree = "<group>"; };
+		6EAA086E12E7861F00D4EF51 /* myPRaddEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPRaddEntryViewController.m; sourceTree = "<group>"; };
+		6EAA086F12E7861F00D4EF51 /* myPRaddEntryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myPRaddEntryViewController.xib; sourceTree = "<group>"; };
 		6EB2EF4412C3854D004B0864 /* SHKOAuthSharer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKOAuthSharer.h; sourceTree = "<group>"; };
 		6EB2EF4512C3854D004B0864 /* SHKOAuthSharer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKOAuthSharer.m; sourceTree = "<group>"; };
 		6EB2EF4612C3854D004B0864 /* SHKSharer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKSharer.h; sourceTree = "<group>"; };
@@ -612,6 +682,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				6EAA04F912E4F29400D4EF51 /* myPR */,
 				6EB2F3BC12C4D0FA004B0864 /* wgtTracker */,
 				6EB2EF3C12C384CA004B0864 /* ShareKit */,
 				6EA6AF6D12BCF834006DDC11 /* triCalc */,
@@ -735,6 +806,96 @@
 				6EA6B66F12BE37D8006DDC11 /* triCalcTemplateDistance.xib */,
 			);
 			name = triCalc;
+			sourceTree = "<group>";
+		};
+		6EAA04F912E4F29400D4EF51 /* myPR */ = {
+			isa = PBXGroup;
+			children = (
+				6EAA04FA12E4F2C500D4EF51 /* Components */,
+				6EAA04FB12E4F2C500D4EF51 /* Controllers */,
+				6EAA04FC12E4F2C500D4EF51 /* Data */,
+			);
+			path = myPR;
+			sourceTree = "<group>";
+		};
+		6EAA04FA12E4F2C500D4EF51 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6EAA06B212E7648500D4EF51 /* UnitHandlers */,
+				6EAA050212E4F39900D4EF51 /* myPRSettings.h */,
+				6EAA050312E4F39900D4EF51 /* myPRSettings.m */,
+				6EAA053A12E61AA600D4EF51 /* myPRaddRecordLabelCell.h */,
+				6EAA053B12E61AA600D4EF51 /* myPRaddRecordLabelCell.m */,
+				6EAA053D12E61AB700D4EF51 /* myPRaddRecordLabelCell.xib */,
+				6EAA054012E61B7600D4EF51 /* myPRaddRecordIconCell.h */,
+				6EAA054112E61B7600D4EF51 /* myPRaddRecordIconCell.m */,
+				6EAA054312E61BC600D4EF51 /* myPRaddRecordIconCell.xib */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6EAA04FB12E4F2C500D4EF51 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6EAA04FD12E4F2DD00D4EF51 /* myPRRootViewController.h */,
+				6EAA04FE12E4F2DD00D4EF51 /* myPRRootViewController.m */,
+				6EAA04FF12E4F2DD00D4EF51 /* myPRRootViewController.xib */,
+				6EAA050F12E4F82400D4EF51 /* myPRaddRecordViewController.h */,
+				6EAA051012E4F82400D4EF51 /* myPRaddRecordViewController.m */,
+				6EAA051112E4F82400D4EF51 /* myPRaddRecordViewController.xib */,
+				6EAA054B12E627A300D4EF51 /* myPREnterName.h */,
+				6EAA054C12E627A300D4EF51 /* myPREnterName.m */,
+				6EAA054D12E627A300D4EF51 /* myPREnterName.xib */,
+				6EAA064D12E75AEE00D4EF51 /* myPRSelectIcon.h */,
+				6EAA064E12E75AEE00D4EF51 /* myPRSelectIcon.m */,
+				6EAA06F312E7689700D4EF51 /* myPRSelectUnit.h */,
+				6EAA06F412E7689700D4EF51 /* myPRSelectUnit.m */,
+				6EAA083712E7806E00D4EF51 /* myPRRecordViewController.h */,
+				6EAA083812E7806E00D4EF51 /* myPRRecordViewController.m */,
+				6EAA083912E7806E00D4EF51 /* myPRRecordViewController.xib */,
+				6EAA086D12E7861F00D4EF51 /* myPRaddEntryViewController.h */,
+				6EAA086E12E7861F00D4EF51 /* myPRaddEntryViewController.m */,
+				6EAA086F12E7861F00D4EF51 /* myPRaddEntryViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6EAA04FC12E4F2C500D4EF51 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6EAA064612E75A9700D4EF51 /* Icons */,
+				6EAA053012E618FA00D4EF51 /* myPRRecord.h */,
+				6EAA053112E618FA00D4EF51 /* myPRRecord.m */,
+				6EAA07AA12E772A100D4EF51 /* myPRDataModel.xcdatamodel */,
+				6EAA086412E7858D00D4EF51 /* myPREntry.h */,
+				6EAA086512E7858D00D4EF51 /* myPREntry.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6EAA064612E75A9700D4EF51 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				6EAA064712E75A9F00D4EF51 /* myPRbike.png */,
+				6EAA064812E75A9F00D4EF51 /* myPRgym.png */,
+				6EAA064912E75A9F00D4EF51 /* myPRswim.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		6EAA06B212E7648500D4EF51 /* UnitHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				6EAA06BA12E764AA00D4EF51 /* myPRUnitHandler.h */,
+				6EAA06BB12E764AA00D4EF51 /* myPRUnitHandler.m */,
+				6EAA06BD12E764F800D4EF51 /* myPRUnitHandlerCreator.h */,
+				6EAA06BE12E764F800D4EF51 /* myPRUnitHandlerCreator.m */,
+				6EAA06C012E7653D00D4EF51 /* myPRmeterUnitHandler.h */,
+				6EAA06C112E7653D00D4EF51 /* myPRmeterUnitHandler.m */,
+				6EAA06C312E765D300D4EF51 /* myPRkgUnitHandler.h */,
+				6EAA06C412E765D300D4EF51 /* myPRkgUnitHandler.m */,
+			);
+			path = UnitHandlers;
 			sourceTree = "<group>";
 		};
 		6EB2EF3C12C384CA004B0864 /* ShareKit */ = {
@@ -1481,6 +1642,16 @@
 				6EBC18D612D626ED00ADEA3B /* wgtTrackerEntryCell.xib in Resources */,
 				6EBC1BF712D65BAA00ADEA3B /* scale-57x57.png in Resources */,
 				6E3DEFA112D9FBE9008320C4 /* wgtTextEntryViewController.xib in Resources */,
+				6EAA050112E4F2DD00D4EF51 /* myPRRootViewController.xib in Resources */,
+				6EAA051312E4F82400D4EF51 /* myPRaddRecordViewController.xib in Resources */,
+				6EAA053E12E61AB700D4EF51 /* myPRaddRecordLabelCell.xib in Resources */,
+				6EAA054412E61BC600D4EF51 /* myPRaddRecordIconCell.xib in Resources */,
+				6EAA054F12E627A300D4EF51 /* myPREnterName.xib in Resources */,
+				6EAA064A12E75A9F00D4EF51 /* myPRbike.png in Resources */,
+				6EAA064B12E75A9F00D4EF51 /* myPRgym.png in Resources */,
+				6EAA064C12E75A9F00D4EF51 /* myPRswim.png in Resources */,
+				6EAA083B12E7806E00D4EF51 /* myPRRecordViewController.xib in Resources */,
+				6EAA087112E7861F00D4EF51 /* myPRaddEntryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1610,6 +1781,23 @@
 				6EBC1A4912D63C3600ADEA3B /* wgtPercentPicker.m in Sources */,
 				6E3DEFA012D9FBE9008320C4 /* wgtTextEntryViewController.m in Sources */,
 				6E3DF03C12DA09C2008320C4 /* wgtSettings.m in Sources */,
+				6EAA050012E4F2DD00D4EF51 /* myPRRootViewController.m in Sources */,
+				6EAA050412E4F39900D4EF51 /* myPRSettings.m in Sources */,
+				6EAA051212E4F82400D4EF51 /* myPRaddRecordViewController.m in Sources */,
+				6EAA053212E618FA00D4EF51 /* myPRRecord.m in Sources */,
+				6EAA053C12E61AA600D4EF51 /* myPRaddRecordLabelCell.m in Sources */,
+				6EAA054212E61B7600D4EF51 /* myPRaddRecordIconCell.m in Sources */,
+				6EAA054E12E627A300D4EF51 /* myPREnterName.m in Sources */,
+				6EAA065012E75AEE00D4EF51 /* myPRSelectIcon.m in Sources */,
+				6EAA06BC12E764AA00D4EF51 /* myPRUnitHandler.m in Sources */,
+				6EAA06BF12E764F800D4EF51 /* myPRUnitHandlerCreator.m in Sources */,
+				6EAA06C212E7653D00D4EF51 /* myPRmeterUnitHandler.m in Sources */,
+				6EAA06C512E765D300D4EF51 /* myPRkgUnitHandler.m in Sources */,
+				6EAA06F512E7689700D4EF51 /* myPRSelectUnit.m in Sources */,
+				6EAA07AB12E772A100D4EF51 /* myPRDataModel.xcdatamodel in Sources */,
+				6EAA083A12E7806E00D4EF51 /* myPRRecordViewController.m in Sources */,
+				6EAA086612E7858D00D4EF51 /* myPREntry.m in Sources */,
+				6EAA087012E7861F00D4EF51 /* myPRaddEntryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
