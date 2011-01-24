@@ -52,4 +52,5 @@
 -(IBAction)AddAction;
 -(IBAction)EditAction;
 -(NSArray*)GetArray;
+-(IBAction)ShowGraph;
 @end

@@ -9,7 +9,7 @@
 #import "myPRRecordViewController.h"
 #import "myPRUnitHandlerCreator.h"
 #import "myPREntry.h"
-
+#import "myPRchartViewController.h"
 @implementation myPRRecordViewController
 @synthesize AddButton, ImageView,Label,Toolbar, TableView, EditButton;
 
@@ -32,8 +32,19 @@
 }
 -(IBAction)AddAction
 {
+	
+	
+	
 	myPREntry* entry = [[myPREntry alloc]init];
 	entry.Date=[NSDate date];
+	
+	NSArray* tmpArray = [self GetArray];
+	if([tmpArray count]>0)
+	{
+		myPREntry* previousEntry= [myPREntry EntryFromObject:[[self GetArray] objectAtIndex:0]];
+		entry.Value = previousEntry.Value;
+	}
+	
 	_currentEntryEdit =[[myPRaddEntryViewController alloc] initWithRecord:_record Entry:entry andHandler:_unitHandler];
 	[_currentEntryEdit setOwner:self Selector:@selector(EndEdit)];
 	_currentEntryEdit.isEdit=NO;
@@ -244,6 +255,11 @@
 	Label.text = _record.Name;
 	TableView.allowsSelectionDuringEditing= YES;
 	TableView.allowsSelection=NO;
+	
+	UIBarButtonItem* rightButton = [[UIBarButtonItem alloc] initWithTitle:@"Graph" style:UIBarButtonItemStyleBordered target:self action:@selector(ShowGraph)];
+	rightButton.title=@"Chart";
+	self.navigationItem.rightBarButtonItem = rightButton;
+	[rightButton release];
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
@@ -301,7 +317,7 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier] autorelease];
     }
     
 	NSArray* array=[self GetArray];
@@ -314,6 +330,10 @@
 	
 	cell.textLabel.text = [formatter stringFromDate:entry.Date];
 	
+	[formatter release];
+	
+	
+	cell.detailTextLabel.text = [_unitHandler StringFromValue:entry.Value];
 	
 	
     
@@ -322,7 +342,22 @@
     return cell;
 }
 
-
+-(IBAction)ShowGraph
+{
+	
+	NSMutableArray*tmpArray =[[NSMutableArray alloc]init];
+	NSArray* oldArray =[self GetArray];
+	for (int i=0; i<[oldArray count]; i++)
+	{
+		NSManagedObject* entr = [oldArray objectAtIndex:[oldArray count]-i-1 ];
+		[tmpArray addObject: [myPREntry EntryFromObject:entr]];
+	}
+	
+	myPRchartViewController* tmp = [[myPRchartViewController alloc]initWithDataArray:tmpArray Handler:_unitHandler];
+	[tmpArray release];
+	[self.navigationController pushViewController:tmp animated:YES];
+	[tmp release];
+}
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {

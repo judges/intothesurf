@@ -80,6 +80,11 @@
 		6E507EB91281D9DE004D3212 /* TrainingToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E507EB71281D9DE004D3212 /* TrainingToolsViewController.m */; };
 		6E507EBA1281D9DE004D3212 /* TrainingToolsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E507EB81281D9DE004D3212 /* TrainingToolsViewController.xib */; };
 		6E507F081281DECD004D3212 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E507F071281DECD004D3212 /* mail.png */; };
+		6E9396FE12EDE2D60079F7FB /* myPREntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9396FD12EDE2D60079F7FB /* myPREntryCell.m */; };
+		6E93970012EDE2E60079F7FB /* myPREntryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E9396FF12EDE2E60079F7FB /* myPREntryCell.xib */; };
+		6E93971E12EDE4850079F7FB /* myPRchartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E93971C12EDE4850079F7FB /* myPRchartViewController.m */; };
+		6E93971F12EDE4850079F7FB /* myPRchartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E93971D12EDE4850079F7FB /* myPRchartViewController.xib */; };
+		6E93974E12EDEB5E0079F7FB /* myPRPlotHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E93974D12EDEB5E0079F7FB /* myPRPlotHandler.m */; };
 		6E9A98411299116400E3BB4B /* white_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E9A98401299116400E3BB4B /* white_button.png */; };
 		6E9A98A512993EEC00E3BB4B /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9A98A412993EEC00E3BB4B /* iAd.framework */; };
 		6EA6AF5512BCF6F9006DDC11 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E154357127B5B4F00C97C88 /* RootViewController.xib */; };
@@ -346,6 +351,14 @@
 		6E507EB71281D9DE004D3212 /* TrainingToolsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrainingToolsViewController.m; path = Classes/TrainingToolsViewController.m; sourceTree = "<group>"; };
 		6E507EB81281D9DE004D3212 /* TrainingToolsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TrainingToolsViewController.xib; path = Classes/TrainingToolsViewController.xib; sourceTree = "<group>"; };
 		6E507F071281DECD004D3212 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mail.png; path = images/mail.png; sourceTree = "<group>"; };
+		6E9396FC12EDE2D60079F7FB /* myPREntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPREntryCell.h; sourceTree = "<group>"; };
+		6E9396FD12EDE2D60079F7FB /* myPREntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPREntryCell.m; sourceTree = "<group>"; };
+		6E9396FF12EDE2E60079F7FB /* myPREntryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myPREntryCell.xib; sourceTree = "<group>"; };
+		6E93971B12EDE4850079F7FB /* myPRchartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPRchartViewController.h; sourceTree = "<group>"; };
+		6E93971C12EDE4850079F7FB /* myPRchartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPRchartViewController.m; sourceTree = "<group>"; };
+		6E93971D12EDE4850079F7FB /* myPRchartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myPRchartViewController.xib; sourceTree = "<group>"; };
+		6E93974C12EDEB5E0079F7FB /* myPRPlotHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPRPlotHandler.h; sourceTree = "<group>"; };
+		6E93974D12EDEB5E0079F7FB /* myPRPlotHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPRPlotHandler.m; sourceTree = "<group>"; };
 		6E9A98401299116400E3BB4B /* white_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_button.png; path = ../images/white_button.png; sourceTree = "<group>"; };
 		6E9A98A412993EEC00E3BB4B /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		6EA6AF6F12BCF87B006DDC11 /* triCalcRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triCalcRootController.h; sourceTree = "<group>"; };
@@ -830,6 +843,11 @@
 				6EAA054012E61B7600D4EF51 /* myPRaddRecordIconCell.h */,
 				6EAA054112E61B7600D4EF51 /* myPRaddRecordIconCell.m */,
 				6EAA054312E61BC600D4EF51 /* myPRaddRecordIconCell.xib */,
+				6E9396FC12EDE2D60079F7FB /* myPREntryCell.h */,
+				6E9396FD12EDE2D60079F7FB /* myPREntryCell.m */,
+				6E9396FF12EDE2E60079F7FB /* myPREntryCell.xib */,
+				6E93974C12EDEB5E0079F7FB /* myPRPlotHandler.h */,
+				6E93974D12EDEB5E0079F7FB /* myPRPlotHandler.m */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -856,6 +874,9 @@
 				6EAA086D12E7861F00D4EF51 /* myPRaddEntryViewController.h */,
 				6EAA086E12E7861F00D4EF51 /* myPRaddEntryViewController.m */,
 				6EAA086F12E7861F00D4EF51 /* myPRaddEntryViewController.xib */,
+				6E93971B12EDE4850079F7FB /* myPRchartViewController.h */,
+				6E93971C12EDE4850079F7FB /* myPRchartViewController.m */,
+				6E93971D12EDE4850079F7FB /* myPRchartViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -1652,6 +1673,8 @@
 				6EAA064C12E75A9F00D4EF51 /* myPRswim.png in Resources */,
 				6EAA083B12E7806E00D4EF51 /* myPRRecordViewController.xib in Resources */,
 				6EAA087112E7861F00D4EF51 /* myPRaddEntryViewController.xib in Resources */,
+				6E93970012EDE2E60079F7FB /* myPREntryCell.xib in Resources */,
+				6E93971F12EDE4850079F7FB /* myPRchartViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1798,6 +1821,9 @@
 				6EAA083A12E7806E00D4EF51 /* myPRRecordViewController.m in Sources */,
 				6EAA086612E7858D00D4EF51 /* myPREntry.m in Sources */,
 				6EAA087012E7861F00D4EF51 /* myPRaddEntryViewController.m in Sources */,
+				6E9396FE12EDE2D60079F7FB /* myPREntryCell.m in Sources */,
+				6E93971E12EDE4850079F7FB /* myPRchartViewController.m in Sources */,
+				6E93974E12EDEB5E0079F7FB /* myPRPlotHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
