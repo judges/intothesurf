@@ -85,6 +85,8 @@
 		6E93971E12EDE4850079F7FB /* myPRchartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E93971C12EDE4850079F7FB /* myPRchartViewController.m */; };
 		6E93971F12EDE4850079F7FB /* myPRchartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E93971D12EDE4850079F7FB /* myPRchartViewController.xib */; };
 		6E93974E12EDEB5E0079F7FB /* myPRPlotHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E93974D12EDEB5E0079F7FB /* myPRPlotHandler.m */; };
+		6E93987912F593B40079F7FB /* myPRTextEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E93987712F593B40079F7FB /* myPRTextEntryViewController.m */; };
+		6E93987A12F593B40079F7FB /* myPRTextEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E93987812F593B40079F7FB /* myPRTextEntryViewController.xib */; };
 		6E9A98411299116400E3BB4B /* white_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E9A98401299116400E3BB4B /* white_button.png */; };
 		6E9A98A512993EEC00E3BB4B /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9A98A412993EEC00E3BB4B /* iAd.framework */; };
 		6EA6AF5512BCF6F9006DDC11 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E154357127B5B4F00C97C88 /* RootViewController.xib */; };
@@ -359,6 +361,9 @@
 		6E93971D12EDE4850079F7FB /* myPRchartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myPRchartViewController.xib; sourceTree = "<group>"; };
 		6E93974C12EDEB5E0079F7FB /* myPRPlotHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPRPlotHandler.h; sourceTree = "<group>"; };
 		6E93974D12EDEB5E0079F7FB /* myPRPlotHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPRPlotHandler.m; sourceTree = "<group>"; };
+		6E93987612F593B40079F7FB /* myPRTextEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPRTextEntryViewController.h; sourceTree = "<group>"; };
+		6E93987712F593B40079F7FB /* myPRTextEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPRTextEntryViewController.m; sourceTree = "<group>"; };
+		6E93987812F593B40079F7FB /* myPRTextEntryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myPRTextEntryViewController.xib; sourceTree = "<group>"; };
 		6E9A98401299116400E3BB4B /* white_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_button.png; path = ../images/white_button.png; sourceTree = "<group>"; };
 		6E9A98A412993EEC00E3BB4B /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		6EA6AF6F12BCF87B006DDC11 /* triCalcRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = triCalcRootController.h; sourceTree = "<group>"; };
@@ -855,6 +860,9 @@
 		6EAA04FB12E4F2C500D4EF51 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6E93987612F593B40079F7FB /* myPRTextEntryViewController.h */,
+				6E93987712F593B40079F7FB /* myPRTextEntryViewController.m */,
+				6E93987812F593B40079F7FB /* myPRTextEntryViewController.xib */,
 				6EAA04FD12E4F2DD00D4EF51 /* myPRRootViewController.h */,
 				6EAA04FE12E4F2DD00D4EF51 /* myPRRootViewController.m */,
 				6EAA04FF12E4F2DD00D4EF51 /* myPRRootViewController.xib */,
@@ -1675,6 +1683,7 @@
 				6EAA087112E7861F00D4EF51 /* myPRaddEntryViewController.xib in Resources */,
 				6E93970012EDE2E60079F7FB /* myPREntryCell.xib in Resources */,
 				6E93971F12EDE4850079F7FB /* myPRchartViewController.xib in Resources */,
+				6E93987A12F593B40079F7FB /* myPRTextEntryViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1824,6 +1833,7 @@
 				6E9396FE12EDE2D60079F7FB /* myPREntryCell.m in Sources */,
 				6E93971E12EDE4850079F7FB /* myPRchartViewController.m in Sources */,
 				6E93974E12EDEB5E0079F7FB /* myPRPlotHandler.m in Sources */,
+				6E93987912F593B40079F7FB /* myPRTextEntryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1886,8 +1896,8 @@
 			buildSettings = {
 				ADDITIONAL_SDKS = "/Library/SDKs/CorePlotSDK/${PLATFORM_NAME}.sdk";
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: intothesurf llc.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: intothesurf llc.";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jakub Dlugosz (2UM4RGYX3B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos4.0]" = "iPhone Developer: Jakub Dlugosz (2UM4RGYX3B)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_VERSION = 4.2;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -1899,8 +1909,8 @@
 					"-lCorePlot",
 				);
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "073851F3-F28F-4C7E-9BB8-606D801A98CA";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "073851F3-F28F-4C7E-9BB8-606D801A98CA";
+				PROVISIONING_PROFILE = "34DA18B4-E48A-4121-ABF7-FBCD69B571CF";
+				"PROVISIONING_PROFILE[sdk=iphoneos4.0]" = "34DA18B4-E48A-4121-ABF7-FBCD69B571CF";
 				SDKROOT = iphoneos4.0;
 			};
 			name = Distribution;
@@ -1930,8 +1940,8 @@
 				ADDITIONAL_SDKS = "/Library/SDKs/CorePlotSDK/${PLATFORM_NAME}.sdk";
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: intothesurf llc.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jakub Dlugosz (2UM4RGYX3B)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jakub Dlugosz (2UM4RGYX3B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos4.0]" = "iPhone Developer: Jakub Dlugosz (2UM4RGYX3B)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_VERSION = 4.2;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -1943,8 +1953,8 @@
 					"-lCorePlot",
 				);
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "073851F3-F28F-4C7E-9BB8-606D801A98CA";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6D983ADD-04BD-4E6B-B1CE-063CCFE6AA6F";
+				PROVISIONING_PROFILE = "34DA18B4-E48A-4121-ABF7-FBCD69B571CF";
+				"PROVISIONING_PROFILE[sdk=iphoneos4.0]" = "34DA18B4-E48A-4121-ABF7-FBCD69B571CF";
 				SDKROOT = iphoneos4.0;
 			};
 			name = Debug;
@@ -1954,8 +1964,8 @@
 			buildSettings = {
 				ADDITIONAL_SDKS = "/Library/SDKs/CorePlotSDK/${PLATFORM_NAME}.sdk";
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jakub Dlugosz (2UM4RGYX3B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos4.0]" = "iPhone Developer: Jakub Dlugosz (2UM4RGYX3B)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_VERSION = 4.2;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -1967,8 +1977,8 @@
 					"-lCorePlot",
 				);
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "34DA18B4-E48A-4121-ABF7-FBCD69B571CF";
+				"PROVISIONING_PROFILE[sdk=iphoneos4.0]" = "34DA18B4-E48A-4121-ABF7-FBCD69B571CF";
 				SDKROOT = iphoneos4.0;
 			};
 			name = Release;

@@ -8,9 +8,11 @@
 
 #import "myPRchartViewController.h"
 #import "myPREntry.h"
+#import "myPRTextEntryViewController.h"
+#import "SHK.h"
 
 @implementation myPRchartViewController
-@synthesize GraphHost;
+@synthesize GraphHost, Toolbar,ShareButton,TxtButton;
 
 -(id)initWithDataArray:(NSArray*)arr Handler:(myPRUnitHandler*) unitHandler
 {
@@ -209,8 +211,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	[self prepareGraph];
+	
+	
+	self.navigationItem.title = _str;
+	Toolbar.tintColor=_settings.TintColor;
+	
+	UIBarButtonItem *split = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
+	
+	[Toolbar setItems:[NSArray arrayWithObjects:TxtButton,split,ShareButton,nil]];
+	[split release];
 }
 
+-(void)SetRecordName:(NSString*)str
+{
+	_str = str;
+	[_str retain];
+}
 
 /*
 // Override to allow orientations other than the default portrait orientation.
@@ -295,9 +311,41 @@
 	return nil;
 }
 
+-(IBAction) txtAction
+{
+	myPRTextEntryViewController* vc = [[myPRTextEntryViewController alloc] init];
+	[vc SetSettings:_settings];
+	[self.navigationController pushViewController:vc animated:YES];
+	[vc release];
+	
+}
+-(IBAction) shareAcition
+{
+	
+	UIGraphicsBeginImageContext(CGSizeMake(self.view.bounds.size.width,self.view.bounds.size.height-44));
+	
+	CGContextRef ctx = UIGraphicsGetCurrentContext();
+	CGContextTranslateCTM(ctx, 0.0, self.view.bounds.size.height-44);
+	CGContextScaleCTM(ctx, 1, -1);
+	[self.view.layer renderInContext:ctx];
+	
+	UIImage *viewImage = UIGraphicsGetImageFromCurrentImageContext();
+	UIGraphicsEndImageContext();
+	
+	SHKItem *item = [SHKItem image:viewImage title:[[NSUserDefaults standardUserDefaults] stringForKey:@"myPRTextEntry"]];
+	SHKActionSheet *actionSheet = [SHKActionSheet actionSheetForItem:item];
+	
+	[actionSheet showInView:self.view];
+	
+	
+}
 
 
 - (void)dealloc {
+	self.Toolbar=nil;
+	self.TxtButton=nil;
+	self.ShareButton=nil;
+	[_str release];
 	[_plotHandler release];
 	[_settings release];
 	[_unitHandler release];

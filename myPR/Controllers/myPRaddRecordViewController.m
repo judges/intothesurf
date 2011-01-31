@@ -135,11 +135,13 @@
 	
 	if(isEdit)
 	{
-		self.navigationItem.title=@"Edit Entry";
+		self.navigationItem.title=@"Edit Record";
 	}
 	else {
-		self.navigationItem.title=@"New Entry";
+		self.navigationItem.title=@"New Record";
 	}
+	
+	self.view.backgroundColor = _settings.BackgroundColor;
 
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
@@ -302,9 +304,12 @@
 		}
 		case 2:
 		{
-			myPRSelectUnit * detail = [[myPRSelectUnit alloc]initWithRecord:_record];
-			[self.navigationController pushViewController:detail animated:YES];
-			[detail release];
+			if(!isEdit)
+			{
+				myPRSelectUnit * detail = [[myPRSelectUnit alloc]initWithRecord:_record];
+				[self.navigationController pushViewController:detail animated:YES];
+				[detail release];
+			}
 			break;
 		}
 		case 3:

@@ -245,16 +245,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-	UIBarButtonItem*split = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
-	[Toolbar setItems:[NSArray arrayWithObjects:EditButton,split,AddButton,nil]];
-	
-	[split release];
+Toolbar.tintColor = _settings.TintColor;
+	UIBarButtonItem*split1 = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
+	UIBarButtonItem*split2 = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
+	UIBarButtonItem* text = [[UIBarButtonItem alloc] initWithTitle:@"Entries" style:UIBarButtonItemStylePlain target:nil action:nil];
+	[Toolbar setItems:[NSArray arrayWithObjects:EditButton,split1,text,split2,AddButton,nil]];
+	[split1 release];
+	[text release];
+	[split2 release];
 
 	ImageView.image = [UIImage imageNamed:_record.Icon];
 	Label.text = _record.Name;
 	TableView.allowsSelectionDuringEditing= YES;
 	TableView.allowsSelection=NO;
+
+	
 	
 	UIBarButtonItem* rightButton = [[UIBarButtonItem alloc] initWithTitle:@"Graph" style:UIBarButtonItemStyleBordered target:self action:@selector(ShowGraph)];
 	rightButton.title=@"Chart";
@@ -354,6 +359,8 @@
 	}
 	
 	myPRchartViewController* tmp = [[myPRchartViewController alloc]initWithDataArray:tmpArray Handler:_unitHandler];
+	[tmp SetRecordName:_record.Name];
+	[tmp SetSettings:_settings];
 	[tmpArray release];
 	[self.navigationController pushViewController:tmp animated:YES];
 	[tmp release];
