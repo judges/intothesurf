@@ -14,9 +14,9 @@
 		);
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Distribution;
+		activeBuildConfigurationName = Release;
 		activeExecutable = 6A96906712A445FF00B93867 /* Lavaman */;
-		activeSDKPreference = iphoneos4.0;
+		activeSDKPreference = iphonesimulator4.0;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Lavaman */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* Lavaman */,
@@ -120,8 +120,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 315431770;
-			PBXWorkspaceStateSaveDate = 315431770;
+			PBXPerProjectTemplateStateSaveDate = 317368226;
+			PBXWorkspaceStateSaveDate = 317368226;
 		};
 		perUserProjectItems = {
 			6A04751A12C07B4C0018FE9E /* PBXTextBookmark */ = 6A04751A12C07B4C0018FE9E /* PBXTextBookmark */;
@@ -169,11 +169,11 @@
 			6A31C4E412BAA42F000BA01F /* PBXBookmark */ = 6A31C4E412BAA42F000BA01F /* PBXBookmark */;
 			6A31C4E512BAA42F000BA01F /* PBXBookmark */ = 6A31C4E512BAA42F000BA01F /* PBXBookmark */;
 			6A31C4E612BAA42F000BA01F /* PBXBookmark */ = 6A31C4E612BAA42F000BA01F /* PBXBookmark */;
+			6A36077812EAA88C00C78706 /* PBXTextBookmark */ = 6A36077812EAA88C00C78706 /* PBXTextBookmark */;
 			6A7BD5C912C3D6310090C8E4 /* PBXTextBookmark */ = 6A7BD5C912C3D6310090C8E4 /* PBXTextBookmark */;
 			6A7BD5CA12C3D6310090C8E4 /* PBXBookmark */ = 6A7BD5CA12C3D6310090C8E4 /* PBXBookmark */;
 			6A7BD5CB12C3D6310090C8E4 /* PBXBookmark */ = 6A7BD5CB12C3D6310090C8E4 /* PBXBookmark */;
 			6A7BD5DB12C3D8140090C8E4 /* PBXTextBookmark */ = 6A7BD5DB12C3D8140090C8E4 /* PBXTextBookmark */;
-			6A7BD5DC12C3D8140090C8E4 /* PBXTextBookmark */ = 6A7BD5DC12C3D8140090C8E4 /* PBXTextBookmark */;
 			6A7BD62A12C3DD2C0090C8E4 /* PBXTextBookmark */ = 6A7BD62A12C3DD2C0090C8E4 /* PBXTextBookmark */;
 			6A7BD62B12C3DD2C0090C8E4 /* PlistBookmark */ = 6A7BD62B12C3DD2C0090C8E4 /* PlistBookmark */;
 			6A9B120212BAEB7900C09E0C /* PlistBookmark */ = 6A9B120212BAEB7900C09E0C /* PlistBookmark */;
@@ -183,7 +183,6 @@
 			6AB03E4E12CD1B75006981C1 /* PBXBookmark */ = 6AB03E4E12CD1B75006981C1 /* PBXBookmark */;
 			6AB03E5112CD5E6C006981C1 /* PBXTextBookmark */ = 6AB03E5112CD5E6C006981C1 /* PBXTextBookmark */;
 			6AB03E5212CD5E6C006981C1 /* PBXTextBookmark */ = 6AB03E5212CD5E6C006981C1 /* PBXTextBookmark */;
-			6AB03E5712CD5E6C006981C1 /* PBXTextBookmark */ = 6AB03E5712CD5E6C006981C1 /* PBXTextBookmark */;
 			6AB62A2A12B6CDD900D94E12 /* PBXTextBookmark */ = 6AB62A2A12B6CDD900D94E12 /* PBXTextBookmark */;
 			6AB62A2C12B6CDD900D94E12 /* PBXTextBookmark */ = 6AB62A2C12B6CDD900D94E12 /* PBXTextBookmark */;
 			6AB62A2D12B6CDD900D94E12 /* PBXTextBookmark */ = 6AB62A2D12B6CDD900D94E12 /* PBXTextBookmark */;
@@ -405,6 +404,16 @@
 		isa = PBXBookmark;
 		fRef = 6E507F071281DECD004D3212 /* mail.png */;
 	};
+	6A36077812EAA88C00C78706 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6E507EA31281D7FE004D3212 /* SponsorsCreator.m */;
+		name = "SponsorsCreator.m: 33";
+		rLen = 0;
+		rLoc = 2929;
+		rType = 0;
+		vrLen = 909;
+		vrLoc = 138;
+	};
 	6A7BD5C912C3D6310090C8E4 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 6EB8E46D1281C2AA00469C33 /* RaceInformationCreator.h */;
@@ -432,16 +441,6 @@
 		rType = 0;
 		vrLen = 426;
 		vrLoc = 4128;
-	};
-	6A7BD5DC12C3D8140090C8E4 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 6E507EA31281D7FE004D3212 /* SponsorsCreator.m */;
-		name = "SponsorsCreator.m: 35";
-		rLen = 0;
-		rLoc = 2929;
-		rType = 0;
-		vrLen = 944;
-		vrLoc = 79;
 	};
 	6A7BD62A12C3DD2C0090C8E4 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -560,16 +559,6 @@
 		rType = 0;
 		vrLen = 886;
 		vrLoc = 137;
-	};
-	6AB03E5712CD5E6C006981C1 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 6E507EA31281D7FE004D3212 /* SponsorsCreator.m */;
-		name = "SponsorsCreator.m: 35";
-		rLen = 0;
-		rLoc = 2929;
-		rType = 0;
-		vrLen = 2954;
-		vrLoc = 0;
 	};
 	6AB62A2A12B6CDD900D94E12 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -719,9 +708,9 @@
 	};
 	6E507EA31281D7FE004D3212 /* SponsorsCreator.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1699, 494}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1860, 494}}";
 			sepNavSelRange = "{2929, 0}";
-			sepNavVisRange = "{137, 886}";
+			sepNavVisRange = "{138, 909}";
 			sepNavWindowFrame = "{{4, 91}, {1117, 687}}";
 		};
 	};
