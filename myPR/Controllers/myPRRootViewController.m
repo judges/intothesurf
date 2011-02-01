@@ -66,6 +66,7 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
 	self.navigationController.navigationBar.tintColor = _settings.TintColor;
 	self.navigationItem.leftBarButtonItem = self.editButtonItem;
+	self.navigationItem.title=@"Records";
 	self.navigationItem.rightBarButtonItem =  addButton;
 	self.tableView.allowsSelectionDuringEditing= YES;
 	_currentViewController=nil;
@@ -255,6 +256,7 @@
 		
 		myPRRecordViewController*tmp = [[myPRRecordViewController alloc] initWithRecord:rec];
 		[tmp setManagedObject:managedObject andConext:self.managedObjectContext];
+		[tmp SetSettings:_settings];
 		[self.navigationController pushViewController:tmp animated:YES];
 		
 	}

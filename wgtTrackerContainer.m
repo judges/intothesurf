@@ -22,7 +22,7 @@
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
         // Custom initialization
-	/*	
+		
 		wgtSettings*settings = [[wgtSettings alloc] init];
 	//	settings.TintColor = [UIColor darkGrayColor];
 	//	settings.BackgroundColor =[UIColor blackColor];
@@ -41,7 +41,7 @@
 		
 		childNavigationController.view.frame = CGRectMake(0, 0, 320, 460);
 		[rootController release];
-		*/
+		/*
 		
 		myPRSettings*settings = [[myPRSettings alloc] init];
 		//	settings.TintColor = [UIColor darkGrayColor];
@@ -62,6 +62,7 @@
 		
 		childNavigationController.view.frame = CGRectMake(0, 0, 320, 460);
 		[rootController release];
+		 */
 		
     }
     return self;
