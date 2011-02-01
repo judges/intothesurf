@@ -1897,8 +1897,13 @@
 				ADDITIONAL_SDKS = "/Library/SDKs/CorePlotSDK/${PLATFORM_NAME}.sdk";
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 <<<<<<< HEAD
+<<<<<<< HEAD
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+=======
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jakub Dlugosz (2UM4RGYX3B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos4.0]" = "iPhone Developer: Jakub Dlugosz (2UM4RGYX3B)";
+>>>>>>> d6613b6b0062801476528a35e9f8cad15839a2a0
 =======
 				CODE_SIGN_IDENTITY = "iPhone Developer: Jakub Dlugosz (2UM4RGYX3B)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos4.0]" = "iPhone Developer: Jakub Dlugosz (2UM4RGYX3B)";
@@ -1915,8 +1920,13 @@
 				);
 				PREBINDING = NO;
 <<<<<<< HEAD
+<<<<<<< HEAD
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+=======
+				PROVISIONING_PROFILE = "34DA18B4-E48A-4121-ABF7-FBCD69B571CF";
+				"PROVISIONING_PROFILE[sdk=iphoneos4.0]" = "34DA18B4-E48A-4121-ABF7-FBCD69B571CF";
+>>>>>>> d6613b6b0062801476528a35e9f8cad15839a2a0
 =======
 				PROVISIONING_PROFILE = "34DA18B4-E48A-4121-ABF7-FBCD69B571CF";
 				"PROVISIONING_PROFILE[sdk=iphoneos4.0]" = "34DA18B4-E48A-4121-ABF7-FBCD69B571CF";
