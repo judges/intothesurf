@@ -1912,7 +1912,7 @@
 				PREBINDING = NO;
 				PROVISIONING_PROFILE = "34DA18B4-E48A-4121-ABF7-FBCD69B571CF";
 				"PROVISIONING_PROFILE[sdk=iphoneos4.0]" = "34DA18B4-E48A-4121-ABF7-FBCD69B571CF";
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos4.2;
 			};
 			name = Distribution;
 		};
@@ -1956,7 +1956,7 @@
 				PREBINDING = NO;
 				PROVISIONING_PROFILE = "34DA18B4-E48A-4121-ABF7-FBCD69B571CF";
 				"PROVISIONING_PROFILE[sdk=iphoneos4.0]" = "34DA18B4-E48A-4121-ABF7-FBCD69B571CF";
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos4.2;
 			};
 			name = Debug;
 		};
@@ -1980,7 +1980,7 @@
 				PREBINDING = NO;
 				PROVISIONING_PROFILE = "34DA18B4-E48A-4121-ABF7-FBCD69B571CF";
 				"PROVISIONING_PROFILE[sdk=iphoneos4.0]" = "34DA18B4-E48A-4121-ABF7-FBCD69B571CF";
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos4.2;
 			};
 			name = Release;
 		};
