@@ -29,20 +29,15 @@
 	dayArray =[[[NSMutableArray alloc]init] autorelease];
 	
 	eventArray=[[[NSMutableArray alloc]init] autorelease];
-	[eventArray addObject:[RaceEvent RaceEventWithTitle:@"Lavaman 75% Refund - last day to request refund." Location:@"Lavaman" TimeFrom:[dateFormatter dateFromString:nil] TimeTo:nil]];	
-	[dayArray addObject:[RaceDay RaceDayWithTitle:@"Saturday" Date:[dateFormatter dateFromString:@"2011-01-01 0:00:00"]  Events:eventArray]];
-	
-	eventArray=[[[NSMutableArray alloc]init] autorelease];
-	[eventArray addObject:[RaceEvent RaceEventWithTitle:@"Lavaman 50% Refund - last day to request refund." Location:@"Lavaman" TimeFrom:[dateFormatter dateFromString:nil] TimeTo:nil]];	
-	[dayArray addObject:[RaceDay RaceDayWithTitle:@"Monday" Date:[dateFormatter dateFromString:@"2011-02-28 0:00:00"]  Events:eventArray]];
-	
-	eventArray=[[[NSMutableArray alloc]init] autorelease];
-	[eventArray addObject:[RaceEvent RaceEventWithTitle:@"5k Fun Run"       Location:@"Anaehoomalu Bay"    TimeFrom:[dateFormatter dateFromString:@"2011-04-02 8:00:00"] TimeTo:nil]];	
-	[eventArray addObject:[RaceEvent RaceEventWithTitle:@"Concert"          Location:@"Queens Marketplace" TimeFrom:[dateFormatter dateFromString:@"2011-04-02 17:00:00"] TimeTo:nil]];	
+	[eventArray addObject:[RaceEvent RaceEventWithTitle:@"Ticket Office Opens for Concert"       Location:@"Anaehoomalu Bay"    TimeFrom:[dateFormatter dateFromString:@"2011-04-02 14:00:00"] TimeTo:nil]];	
+	[eventArray addObject:[RaceEvent RaceEventWithTitle:@"Registration for 5k opens"       Location:@"Anaehoomalu Bay"    TimeFrom:[dateFormatter dateFromString:@"2011-04-02 15:00:00"] TimeTo:nil]];	
+	[eventArray addObject:[RaceEvent RaceEventWithTitle:@"5k Fun Run"       Location:@"Anaehoomalu Bay"    TimeFrom:[dateFormatter dateFromString:@"2011-04-02 17:00:00"] TimeTo:nil]];	
+	[eventArray addObject:[RaceEvent RaceEventWithTitle:@"Concert"          Location:@"Queens Marketplace" TimeFrom:[dateFormatter dateFromString:@"2011-04-02 19:00:00"] TimeTo:nil]];	
 	[dayArray addObject:[RaceDay RaceDayWithTitle:@"Friday" Date:[dateFormatter dateFromString:@"2011-04-01 0:00:00"]  Events:eventArray]];
 
 	eventArray=[[[NSMutableArray alloc]init] autorelease]; 
-	[eventArray addObject:[RaceEvent RaceEventWithTitle:@"LavaKids"         Location:@"Anaehoomalu Bay" TimeFrom:[dateFormatter dateFromString:@"2011-04-02 8:00:00"] TimeTo:[dateFormatter dateFromString:@"2011-04-02 9:00:00"]]];	
+	[eventArray addObject:[RaceEvent RaceEventWithTitle:@"LavaKids Registration"         Location:@"Anaehoomalu Bay" TimeFrom:[dateFormatter dateFromString:@"2011-04-02 7:30:00"] TimeTo:[dateFormatter dateFromString:@"2011-04-02 9:00:00"]]];	
+	[eventArray addObject:[RaceEvent RaceEventWithTitle:@"LavaKids"         Location:@"Anaehoomalu Bay" TimeFrom:[dateFormatter dateFromString:@"2011-04-02 9:00:00"] TimeTo:[dateFormatter dateFromString:@"2011-04-02 9:00:00"]]];	
 	[eventArray addObject:[RaceEvent RaceEventWithTitle:@"Packet Pickup"    Location:@"Hilton Waikoloa" TimeFrom:[dateFormatter dateFromString:@"2011-04-02 13:00:00"] TimeTo:nil]];	
 	[eventArray addObject:[RaceEvent RaceEventWithTitle:@"Pre-Race Meeting" Location:@"Hilton Waikoloa" TimeFrom:[dateFormatter dateFromString:@"2011-04-02 16:30:00"] TimeTo:nil]];		
 	[dayArray addObject:[RaceDay RaceDayWithTitle:@"Saturday" Date:[dateFormatter dateFromString:@"2011-04-02 0:00:00"]  Events:eventArray]];
