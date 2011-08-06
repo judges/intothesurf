@@ -18,6 +18,10 @@
 @synthesize Ll1;
 @synthesize Ll2;
 @synthesize Details;
+@synthesize CouponText;
+@synthesize CouponImage;
+
+
 
 +(id)initWithTitle:(NSString*)title Image:(NSString*)img Address:(NSString*)adr Info:(NSString*)inf Link:(NSString*)link
 {
@@ -32,6 +36,23 @@
 	[itm autorelease];
 	
 
+	return itm;
+}
++(id)initWithTitle:(NSString*)title Image:(NSString*)img Address:(NSString*)adr Info:(NSString*)inf Link:(NSString*)link coupontext:(NSString*)ct couponimage:(NSString*)ci
+{
+	Item *itm = [[Item alloc]init];
+	itm.Title =title;
+	itm.Address=adr;
+	itm.Info = inf;
+	itm.Image = img;
+	itm.AddressLink =link;
+	itm.Ll1 = -1;
+	itm.Ll2=-1;
+    itm.CouponImage=ci;
+    itm.CouponText=ct;
+	[itm autorelease];
+	
+    
 	return itm;
 }
 
@@ -50,7 +71,25 @@
 	return itm;
 }
 
-+(id)initWithTitle:(NSString*)title Image:(NSString*)img Address:(NSString*)adr Info:(NSString*)inf Link:(NSString*)link ll1:(float)ll1 ll2:(float)ll2 Details:(NSString*)det
++(id)initWithTitle:(NSString*)title Image:(NSString*)img Address:(NSString*)adr Info:(NSString*)inf Link:(NSString*)link ll1:(float)ll1 ll2:(float)ll2 coupontext:(NSString*)ct couponimage:(NSString*)ci
+{
+	Item *itm = [[Item alloc]init];
+	itm.Title =title;
+	itm.Address=adr;
+	itm.Info = inf;
+	itm.Image = img;
+	itm.AddressLink =link;
+	itm.Ll1 = ll1;
+	itm.Ll2= ll2;
+    itm.CouponImage=ci;
+    itm.CouponText=ct;
+	[itm autorelease];
+	
+	return itm;
+}
+
+
++(id)initWithTitle:(NSString*)title Image:(NSString*)img Address:(NSString*)adr Info:(NSString*)inf Link:(NSString*)link ll1:(float)ll1 ll2:(float)ll2 Details:(NSString*)det 
 {
 	Item *itm = [[Item alloc]init];
 	itm.Title =title;
@@ -67,6 +106,26 @@
 	
 	
 }
++(id)initWithTitle:(NSString*)title Image:(NSString*)img Address:(NSString*)adr Info:(NSString*)inf Link:(NSString*)link ll1:(float)ll1 ll2:(float)ll2 Details:(NSString*)det coupontext:(NSString*)ct couponimage:(NSString*)ci
+{
+	Item *itm = [[Item alloc]init];
+	itm.Title =title;
+	itm.Address=adr;
+	itm.Info = inf;
+	itm.Image = img;
+	itm.AddressLink =link;
+	itm.Ll1 = ll1;
+	itm.Ll2= ll2;
+	itm.Details = det;
+    itm.CouponImage=ci;
+    itm.CouponText=ct;
+	[itm autorelease];
+	
+	return itm;
+	
+	
+}
+
 
 
 -(void) dealloc
@@ -77,7 +136,9 @@
 	[AddressLink release];
 	[Address release];
 	[Info release];
-	
+	self.Details=nil;
+    self.CouponText=nil;
+    self.CouponImage=nil;
 	[super dealloc];
 }
 

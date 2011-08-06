@@ -21,11 +21,13 @@
 	
 	UIButton *detailsBtn;
 	UIColor*tmpALternativeColor;
-
+UIButton *couponButton;
 }
 
 -(id)initWithItem:(Item*)cat Navigation:(UINavigationController*)nav;
 -(void)btnPressed:(id)sender;
+
+-(IBAction)couponPressed;
 
 @property(nonatomic,retain)  Item* item;
 
@@ -35,4 +37,5 @@
 @property(nonatomic,retain) IBOutlet UILabel *infoLbl;
 
 @property(nonatomic,retain) IBOutlet UIButton *detailsBtn;
+@property(nonatomic,retain) IBOutlet UIButton *couponButton;
 @end

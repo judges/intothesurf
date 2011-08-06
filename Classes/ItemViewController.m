@@ -10,7 +10,7 @@
 #include "Item.h"
 #import <QuartzCore/QuartzCore.h>
 #include "ItemMapViewController.h"
-
+#include "CouponPage.h"
 @implementation ItemViewController
 @synthesize item;
 @synthesize imgView;
@@ -18,6 +18,7 @@
 @synthesize addressLbl;
 @synthesize infoLbl;
 @synthesize detailsBtn;
+@synthesize couponButton;
 
 //init as a list element.
 -(id)initWithItem:(Item*)cat Navigation:(UINavigationController*)nav
@@ -70,8 +71,20 @@
 	[self.view.layer setCornerRadius:10];
 	[self.view.layer setBorderColor:[[UIColor lightGrayColor] CGColor]];
 	[self.view.layer setBorderWidth:1];
+    
+    if(!item.CouponText && !item.CouponImage)
+    {
+        self.couponButton.hidden=YES;
+        
+    }
 }
 
+-(IBAction)couponPressed
+{
+    CouponPage* cp = [[CouponPage alloc]initWithItem:item];
+    cp.navigationItem.title = item.Title;
+    [navControl pushViewController:cp animated:YES];
+}
 
 -(void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
@@ -130,6 +143,7 @@
 	[addressLbl release];
 	[infoLbl release];
 	[detailsBtn release];
+    self.couponButton=nil;
 	
     [super dealloc];
 }

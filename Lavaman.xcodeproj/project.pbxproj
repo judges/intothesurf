@@ -80,6 +80,10 @@
 		6E507EB91281D9DE004D3212 /* TrainingToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E507EB71281D9DE004D3212 /* TrainingToolsViewController.m */; };
 		6E507EBA1281D9DE004D3212 /* TrainingToolsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E507EB81281D9DE004D3212 /* TrainingToolsViewController.xib */; };
 		6E507F081281DECD004D3212 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E507F071281DECD004D3212 /* mail.png */; };
+		6E861BE513ED1C3F00A721EE /* CouponViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E861BE313ED1C3E00A721EE /* CouponViewController.m */; };
+		6E861BE613ED1C3F00A721EE /* CouponViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E861BE413ED1C3E00A721EE /* CouponViewController.xib */; };
+		6E861BEA13ED22CC00A721EE /* CouponPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E861BE813ED22CB00A721EE /* CouponPage.m */; };
+		6E861BEB13ED22CC00A721EE /* CouponPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E861BE913ED22CB00A721EE /* CouponPage.xib */; };
 		6E9396FE12EDE2D60079F7FB /* myPREntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9396FD12EDE2D60079F7FB /* myPREntryCell.m */; };
 		6E93970012EDE2E60079F7FB /* myPREntryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E9396FF12EDE2E60079F7FB /* myPREntryCell.xib */; };
 		6E93971E12EDE4850079F7FB /* myPRchartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E93971C12EDE4850079F7FB /* myPRchartViewController.m */; };
@@ -353,6 +357,12 @@
 		6E507EB71281D9DE004D3212 /* TrainingToolsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrainingToolsViewController.m; path = Classes/TrainingToolsViewController.m; sourceTree = "<group>"; };
 		6E507EB81281D9DE004D3212 /* TrainingToolsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TrainingToolsViewController.xib; path = Classes/TrainingToolsViewController.xib; sourceTree = "<group>"; };
 		6E507F071281DECD004D3212 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mail.png; path = images/mail.png; sourceTree = "<group>"; };
+		6E861BE213ED1C3E00A721EE /* CouponViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponViewController.h; sourceTree = "<group>"; };
+		6E861BE313ED1C3E00A721EE /* CouponViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponViewController.m; sourceTree = "<group>"; };
+		6E861BE413ED1C3E00A721EE /* CouponViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CouponViewController.xib; sourceTree = "<group>"; };
+		6E861BE713ED22CB00A721EE /* CouponPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponPage.h; sourceTree = "<group>"; };
+		6E861BE813ED22CB00A721EE /* CouponPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponPage.m; sourceTree = "<group>"; };
+		6E861BE913ED22CB00A721EE /* CouponPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CouponPage.xib; sourceTree = "<group>"; };
 		6E9396FC12EDE2D60079F7FB /* myPREntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPREntryCell.h; sourceTree = "<group>"; };
 		6E9396FD12EDE2D60079F7FB /* myPREntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPREntryCell.m; sourceTree = "<group>"; };
 		6E9396FF12EDE2E60079F7FB /* myPREntryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myPREntryCell.xib; sourceTree = "<group>"; };
@@ -1493,6 +1503,9 @@
 				6EA6AF9612BCFB2C006DDC11 /* ChildNavigationControllerHost.xib */,
 				6EB2F41F12C4DCD4004B0864 /* wgtTrackerContainer.h */,
 				6EB2F42012C4DCD4004B0864 /* wgtTrackerContainer.m */,
+				6E861BE713ED22CB00A721EE /* CouponPage.h */,
+				6E861BE813ED22CB00A721EE /* CouponPage.m */,
+				6E861BE913ED22CB00A721EE /* CouponPage.xib */,
 			);
 			name = Pages;
 			sourceTree = "<group>";
@@ -1523,6 +1536,9 @@
 				6E0873A012CFB64D006AD162 /* SponsorDetailsViewController.h */,
 				6E0873A112CFB64D006AD162 /* SponsorDetailsViewController.m */,
 				6E0873A212CFB64D006AD162 /* SponsorDetailsViewController.xib */,
+				6E861BE213ED1C3E00A721EE /* CouponViewController.h */,
+				6E861BE313ED1C3E00A721EE /* CouponViewController.m */,
+				6E861BE413ED1C3E00A721EE /* CouponViewController.xib */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -1685,6 +1701,8 @@
 				6E93970012EDE2E60079F7FB /* myPREntryCell.xib in Resources */,
 				6E93971F12EDE4850079F7FB /* myPRchartViewController.xib in Resources */,
 				6E93987A12F593B40079F7FB /* myPRTextEntryViewController.xib in Resources */,
+				6E861BE613ED1C3F00A721EE /* CouponViewController.xib in Resources */,
+				6E861BEB13ED22CC00A721EE /* CouponPage.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1835,6 +1853,8 @@
 				6E93971E12EDE4850079F7FB /* myPRchartViewController.m in Sources */,
 				6E93974E12EDEB5E0079F7FB /* myPRPlotHandler.m in Sources */,
 				6E93987912F593B40079F7FB /* myPRTextEntryViewController.m in Sources */,
+				6E861BE513ED1C3F00A721EE /* CouponViewController.m in Sources */,
+				6E861BEA13ED22CC00A721EE /* CouponPage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1864,12 +1884,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Lavaman_Prefix.pch;
 				INFOPLIST_FILE = "Lavaman-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
 					"-lCorePlot",
 				);
 				PRODUCT_NAME = Lavaman;
+				SDKROOT = iphoneos4.3;
 			};
 			name = Debug;
 		};
@@ -1882,12 +1904,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Lavaman_Prefix.pch;
 				INFOPLIST_FILE = "Lavaman-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
 					"-lCorePlot",
 				);
 				PRODUCT_NAME = Lavaman;
+				SDKROOT = iphoneos4.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1913,6 +1937,7 @@
 				PROVISIONING_PROFILE = "34DA18B4-E48A-4121-ABF7-FBCD69B571CF";
 				"PROVISIONING_PROFILE[sdk=iphoneos4.0]" = "34DA18B4-E48A-4121-ABF7-FBCD69B571CF";
 				SDKROOT = iphoneos4.2;
+				USER_HEADER_SEARCH_PATHS = "${BUILT_PRODUCTS_DIR}/**";
 			};
 			name = Distribution;
 		};
@@ -1925,12 +1950,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Lavaman_Prefix.pch;
 				INFOPLIST_FILE = "Lavaman-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
 					"-lCorePlot",
 				);
 				PRODUCT_NAME = Lavaman;
+				SDKROOT = iphoneos4.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Distribution;
@@ -1957,6 +1984,7 @@
 				PROVISIONING_PROFILE = "34DA18B4-E48A-4121-ABF7-FBCD69B571CF";
 				"PROVISIONING_PROFILE[sdk=iphoneos4.0]" = "34DA18B4-E48A-4121-ABF7-FBCD69B571CF";
 				SDKROOT = iphoneos4.2;
+				USER_HEADER_SEARCH_PATHS = "${BUILT_PRODUCTS_DIR}/**";
 			};
 			name = Debug;
 		};
@@ -1981,6 +2009,7 @@
 				PROVISIONING_PROFILE = "34DA18B4-E48A-4121-ABF7-FBCD69B571CF";
 				"PROVISIONING_PROFILE[sdk=iphoneos4.0]" = "34DA18B4-E48A-4121-ABF7-FBCD69B571CF";
 				SDKROOT = iphoneos4.2;
+				USER_HEADER_SEARCH_PATHS = "${BUILT_PRODUCTS_DIR}/**";
 			};
 			name = Release;
 		};

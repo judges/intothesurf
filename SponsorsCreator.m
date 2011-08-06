@@ -17,7 +17,7 @@
 	NSMutableArray* itemArray = [[NSMutableArray alloc]init];
 	
 	[itemArray addObject:[Item initWithTitle:@"Hilton Waikoloa"    Image:@"hilton.jpg"         Address:@"425 Waikoloa Beach Dr, Waikoloa, HI"                    Info:@"" Link:@"www.hiltonwaikoloavillage.com" ll1:19.92353  ll2:-155.88728  Details:@"Lorem ipsum"]];	
-	[itemArray addObject:[Item initWithTitle:@"Queens MarketPlace" Image:@"queens.jpg"         Address:@"201 Waikoloa Beach Dr, Waikoloa, HI"                    Info:@"" Link:@"www.queensmarketplace.net"     ll1:19.91360  ll2:-155.87997]]; 
+	[itemArray addObject:[Item initWithTitle:@"Queens MarketPlace" Image:@"queens.jpg"         Address:@"201 Waikoloa Beach Dr, Waikoloa, HI"                    Info:@"" Link:@"www.queensmarketplace.net"     ll1:19.91360  ll2:-155.87997 coupontext:@"Lorem ipsum dolor" couponimage:@"queens.jpg"]]; 
 
 	[itemArray addObject:[Item initWithTitle:@"Bike Works"         Image:@"bikeworks.jpg"      Address:@"201 Waikoloa Beach Dr, Waikoloa, HI"                    Info:@"" Link:@"www.bikeworkskona.com"         ll1:19.91360  ll2:-155.87997]];
 	[itemArray addObject:[Item initWithTitle:@"XTerra Wetsuits"    Image:@"xterra.jpg"         Address:@"www.xterrawetsuits.com"                                 Info:@"" Link:@"www.xterrawetsuits.com"        ll1:32.88040  ll2:-117.18359]]; 

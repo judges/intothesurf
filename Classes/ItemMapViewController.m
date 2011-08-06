@@ -20,7 +20,7 @@
 @synthesize barButton;
 @synthesize link;
 @synthesize details;
-
+@synthesize couponButton;
 -(id)initWithItem:(Item*)i
 {
 	self =[super init];
@@ -85,6 +85,14 @@
 		details.hidden =NO;
 	}
 
+    if(!mItem.CouponImage && !mItem.CouponText)
+    {
+        self.couponButton.hidden=YES;
+    }
+    else
+    {
+        self.couponButton.hidden=NO;
+    }
 	
 	self.navigationItem.rightBarButtonItem = barButton;
 	[mapView.layer setMasksToBounds:YES];
@@ -144,7 +152,7 @@
 
 -(IBAction) showDetails
 {
-	sponsorDetails = [[SponsorDetailsViewController alloc] initWithItem:mItem Owner:self Selector:@selector(closeDetails)];
+	modalController = [[SponsorDetailsViewController alloc] initWithItem:mItem Owner:self Selector:@selector(closeDetails)];
 	greyOutView = [[UIView alloc] initWithFrame:self.view.frame];
 	greyOutView.backgroundColor =[UIColor blackColor];
 	greyOutView.alpha = 0.6;
@@ -153,16 +161,16 @@
 	
 	
 	
-	int width = sponsorDetails.view.frame.size.width;
-	int height = sponsorDetails.view.frame.size.height;
+	int width = modalController.view.frame.size.width;
+	int height = modalController.view.frame.size.height;
 	
-	sponsorDetails.view.frame = CGRectMake(self.view.center.x -(50/2),self.view.center.y -(50/2)  , 50, 50);
-	[self.view addSubview:sponsorDetails.view];
+	modalController.view.frame = CGRectMake(self.view.center.x -(50/2),self.view.center.y -(50/2)  , 50, 50);
+	[self.view addSubview:modalController.view];
 	
 	[UIView beginAnimations:@"anim" context:nil];
 	[UIView setAnimationDuration:.25];
 	
-	sponsorDetails.view.frame = CGRectMake(self.view.center.x -(width/2),self.view.center.y -(height/2)  , width, height);
+	modalController.view.frame = CGRectMake(self.view.center.x -(width/2),self.view.center.y -(height/2)  , width, height);
 	
 	
 	
@@ -171,16 +179,46 @@
 	
 	
 }
+-(IBAction) couponAction
+{
+    
+    modalController = [[CouponViewController alloc] initWithItem:mItem Owner:self Selector:@selector(closeDetails)];
+	greyOutView = [[UIView alloc] initWithFrame:self.view.frame];
+	greyOutView.backgroundColor =[UIColor blackColor];
+	greyOutView.alpha = 0.6;
+	[self.view addSubview:greyOutView];
+	[greyOutView release];
+	
+	
+	
+	int width = modalController.view.frame.size.width;
+	int height = modalController.view.frame.size.height;
+	
+	modalController.view.frame = CGRectMake(self.view.center.x -(50/2),self.view.center.y -(50/2)  , 50, 50);
+	[self.view addSubview:modalController.view];
+	
+	[UIView beginAnimations:@"anim" context:nil];
+	[UIView setAnimationDuration:.25];
+	
+	modalController.view.frame = CGRectMake(self.view.center.x -(width/2),self.view.center.y -(height/2)  , width, height);
+	
+	
+	
+	
+	[UIView commitAnimations];
+    
+}
+
 -(void) closeDetails
 {
 	[greyOutView removeFromSuperview];
 	
 	
 	[UIView beginAnimations:@"" context:nil];
-	[sponsorDetails.view removeFromSuperview];
+	[modalController.view removeFromSuperview];
 	[UIView commitAnimations];
-	[sponsorDetails release];
-	sponsorDetails = nil;
+	[modalController release];
+	modalController = nil;
 	
 }
 
@@ -234,10 +272,11 @@
 }
 
 - (void)dealloc {
-	if(sponsorDetails)
+	if(modalController)
 	{
-		[sponsorDetails release];
+		[modalController release];
 	}
+    self.couponButton=nil;
     [super dealloc];
 }
 
